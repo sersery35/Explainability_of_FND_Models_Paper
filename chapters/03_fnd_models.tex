@@ -1,0 +1,39 @@
+% !TeX root = ../main.tex
+% Add the above to each chapter to make compiling the PDF easier in some editors.
+
+\chapter{Fake News Detection Models}\label{chapter:fnd_models}
+
+\section{Content Based Models}
+
+\subsection{Definitons}
+Talk about text based models, tf-idf, bag of words(BoW), how BERT is used in these tasks, (in the end) just assert that only text based models are not sufficient.
+
+\subsection{Dataset}
+Used the Kaggle competition dataset.
+-> Talk about the general analysis of the dataset. (How many instances, real/fake instances, )
+
+\subsection{Tokenizer}
+Used DistilRoBERTa tokenizer. (check the tokenizer of the model and talk about it)
+
+\subsection{Model}
+Used the model in transformers repository. The model from GonzaloA was used since it also provided its dataset and their train/val/test splits.
+
+\subsection{Explainability and Explanation}
+The model seems to have memorized some basic patterns and rely on that.
+Talk about the properties of explanation techniques. (Localization, )
+Define explainability. Define explanation.
+Input perturbation
+Explain a novel news (use test data)
+
+
+
+\section{Content and Social Feature Based Models}
+-> Talk about models that incorporate social context, spatiotemporal information and other context with text data. Can be any kind of model.
+
+\subsection{Definitions}
+-> Talk about Graph Neural Networks
+
+\subsection{Dataset}
+FakeNewsNet, explain the dataset, no of edges/nodes. Which models use this dataset,
+
+\subsection{Model}

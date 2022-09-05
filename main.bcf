@@ -2791,8 +2791,22 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">latex</bcf:citekey>
-    <bcf:citekey order="2">latex</bcf:citekey>
+    <bcf:citekey order="1">ReutersInstituteDigitalNewsReport</bcf:citekey>
+    <bcf:citekey order="2">TheScienceOfFakeNews_Lazer</bcf:citekey>
+    <bcf:citekey order="3">USPresidentialElection2016</bcf:citekey>
+    <bcf:citekey order="4">FakeNewsDetectionOnSocialMedia_Shu</bcf:citekey>
+    <bcf:citekey order="4">FakeNewsNet_Shu</bcf:citekey>
+    <bcf:citekey order="4">LiarLiarPantsOnFire</bcf:citekey>
+    <bcf:citekey order="4">FakeNewsDetectionUsingGeometricDeepLearning</bcf:citekey>
+    <bcf:citekey order="4">SupervisedLearningForFakeNewsDetection</bcf:citekey>
+    <bcf:citekey order="5">ReutersInstituteDigitalNewsReport</bcf:citekey>
+    <bcf:citekey order="6">TheScienceOfFakeNews_Lazer</bcf:citekey>
+    <bcf:citekey order="7">USPresidentialElection2016</bcf:citekey>
+    <bcf:citekey order="8">FakeNewsDetectionOnSocialMedia_Shu</bcf:citekey>
+    <bcf:citekey order="9">FakeNewsNet_Shu</bcf:citekey>
+    <bcf:citekey order="10">LiarLiarPantsOnFire</bcf:citekey>
+    <bcf:citekey order="11">FakeNewsDetectionUsingGeometricDeepLearning</bcf:citekey>
+    <bcf:citekey order="12">SupervisedLearningForFakeNewsDetection</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

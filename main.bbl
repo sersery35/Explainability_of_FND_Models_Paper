@@ -19,24 +19,139 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
-    \entry{latex}{book}{}
+    \entry{USPresidentialElection2016}{inbook}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5d77435450d10a850a5b58577b9a456b}{%
-           family={Lamport},
-           familyi={L\bibinitperiod},
-           given={Leslie},
-           giveni={L\bibinitperiod},
+        {{un=0,uniquepart=base,hash=32e7d974428cd6e3778c8e9e8387aaa8}{%
+           family={Beckwith},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima C},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {Addison-Wesley Professional}%
+      \strng{namehash}{32e7d974428cd6e3778c8e9e8387aaa8}
+      \strng{fullhash}{32e7d974428cd6e3778c8e9e8387aaa8}
+      \strng{bibnamehash}{32e7d974428cd6e3778c8e9e8387aaa8}
+      \strng{authorbibnamehash}{32e7d974428cd6e3778c8e9e8387aaa8}
+      \strng{authornamehash}{32e7d974428cd6e3778c8e9e8387aaa8}
+      \strng{authorfullhash}{32e7d974428cd6e3778c8e9e8387aaa8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{United States Presidential Election of 2016, American presidential election held on November 8, 2016, in which Republican Donald Trump lost the popular vote to Democrat Hillary Clinton by more than 2.8 million votes but won 30 states and the decisive electoral college with 304 electoral votes to Clinton's 227 and thus became the 45th president of the United States. The tumultuous, abrasive 2016 campaign defied established political norms. Clinton's campaign featured superior organization and fund-raising---and almost every election-eve poll pointed to a comfortable victory for her---but Trump's anti-Washington appeal to white working-class voters outside major cities in pivotal manufacturing states}
+      \field{booktitle}{Encyclopedia Britannica}
+      \field{month}{10}
+      \field{title}{United States Presidential Election of 2016}
+      \field{year}{2021}
+    \endentry
+    \entry{TheScienceOfFakeNews_Lazer}{article}{}
+      \name{author}{16}{}{%
+        {{un=0,uniquepart=base,hash=237effc4004e7d9f3e5a0b19f1e1ae44}{%
+           family={Lazer},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelimb M.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32bc35c5444a6e2bdd5b9320e1e94ce8}{%
+           family={Baum},
+           familyi={B\bibinitperiod},
+           given={Matthew\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ccd91bfaf6de87d2510a58724009b53}{%
+           family={Benkler},
+           familyi={B\bibinitperiod},
+           given={Yochai},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abff43c547820881e66248439eaa0b33}{%
+           family={Berinsky},
+           familyi={B\bibinitperiod},
+           given={Adam\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9788b14e126637a67fdef1e85841646f}{%
+           family={Greenhill},
+           familyi={G\bibinitperiod},
+           given={Kelly\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e3991fca812b39b0448729fca507968}{%
+           family={Menczer},
+           familyi={M\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29d8b38481cf361be83022d450e37f50}{%
+           family={Metzger},
+           familyi={M\bibinitperiod},
+           given={Miriam\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ef5bca6f403168706ad93d11351ed60}{%
+           family={Nyhan},
+           familyi={N\bibinitperiod},
+           given={Brendan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14ca11670fbe0c75690f2537879ddb4d}{%
+           family={Pennycook},
+           familyi={P\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=795d5f288e25d76e93208ba0af5b04e7}{%
+           family={Rothschild},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=161d56c26b46d73f0f46b97711be9190}{%
+           family={Schudson},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f6604efac4741d290cc9a5a3ad0c844}{%
+           family={Sloman},
+           familyi={S\bibinitperiod},
+           given={Steven\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7db9319b9972b60d9670001d1e4afa7d}{%
+           family={Sunstein},
+           familyi={S\bibinitperiod},
+           given={Cass\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ceaf7b7326e35b4877a6f678f1067ba}{%
+           family={Thorson},
+           familyi={T\bibinitperiod},
+           given={Emily\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8749174d8ea73cb9cc7eda222618b353}{%
+           family={Watts},
+           familyi={W\bibinitperiod},
+           given={Duncan\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=12c0bc1a69796ac1f720541e15a6c92a}{%
+           family={Zittrain},
+           familyi={Z\bibinitperiod},
+           given={Jonathan\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{fullhash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{bibnamehash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{authorbibnamehash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{authornamehash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{authorfullhash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{namehash}{15834c38293fea6a28199ad750a8d591}
+      \strng{fullhash}{2ac7a9492fdc4007a02ffe2a620ecbeb}
+      \strng{bibnamehash}{2ac7a9492fdc4007a02ffe2a620ecbeb}
+      \strng{authorbibnamehash}{2ac7a9492fdc4007a02ffe2a620ecbeb}
+      \strng{authornamehash}{15834c38293fea6a28199ad750a8d591}
+      \strng{authorfullhash}{2ac7a9492fdc4007a02ffe2a620ecbeb}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -44,8 +159,375 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{LaTeX : A Documentation Preparation System User's Guide and Reference Manual}
-      \field{year}{1994}
+      \field{abstract}{Addressing fake news requires a multidisciplinary effort The rise of fake news highlights the erosion of long-standing institutional bulwarks against misinformation in the internet age. Concern over the problem is global. However, much remains unknown regarding the vulnerabilities of individuals, institutions, and society to manipulations by malicious actors. A new system of safeguards is needed. Below, we discuss extant social and computer science research regarding belief in fake news and the mechanisms by which it spreads. Fake news has a long history, but we focus on unanswered scientific questions raised by the proliferation of its most recent, politically oriented incarnation. Beyond selected references in the text, suggested further reading can be found in the supplementary materials.}
+      \field{journaltitle}{Science}
+      \field{number}{6380}
+      \field{title}{The science of fake news}
+      \field{volume}{359}
+      \field{year}{2018}
+      \field{pages}{1094\bibrangedash 1096}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1126/science.aao2998
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.aao2998
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.aao2998
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.aao2998
+      \endverb
+    \endentry
+    \entry{FakeNewsDetectionUsingGeometricDeepLearning}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8f0d23e8869cd90a91c7a2d49ae85c0e}{%
+           family={Monti},
+           familyi={M\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7769b0a2def8a3963a661fa44ace465f}{%
+           family={Frasca},
+           familyi={F\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8c9711fb41b0bd3bd500b57b9c3a808}{%
+           family={Eynard},
+           familyi={E\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d0b8a123bfc2a238e7807aa71e882f4}{%
+           family={Mannion},
+           familyi={M\bibinitperiod},
+           given={Damon},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0c6e9e0629d03c0bfec15575c55c598}{%
+           family={Bronstein},
+           familyi={B\bibinitperiod},
+           given={Michael\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{29778db5f87409c92bd5a8cccc656925}
+      \strng{fullhash}{895e6e0a5e9322ae585aaa0e7b7027c6}
+      \strng{bibnamehash}{895e6e0a5e9322ae585aaa0e7b7027c6}
+      \strng{authorbibnamehash}{895e6e0a5e9322ae585aaa0e7b7027c6}
+      \strng{authornamehash}{29778db5f87409c92bd5a8cccc656925}
+      \strng{authorfullhash}{895e6e0a5e9322ae585aaa0e7b7027c6}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Fake News Detection on Social Media using Geometric Deep Learning}
+      \field{volume}{abs/1902.06673}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1902.06673
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1902.06673
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1902.06673
+      \endverb
+    \endentry
+    \entry{ReutersInstituteDigitalNewsReport}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=f6832af7f3f4accde57753595f365cf9}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={Nic},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5eca8a5df49309ac5d0a01722cc5dc88}{%
+           family={Fletcher},
+           familyi={F\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4903002d201d416fa4b164a2c10211fb}{%
+           family={Robertson},
+           familyi={R\bibinitperiod},
+           given={Craig\bibnamedelima T.},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20b38b736d18b8f7f196bd8e8d9a6414}{%
+           family={Eddy},
+           familyi={E\bibinitperiod},
+           given={Kirsten},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=951cbbdd6268654c37479fbbd3044ea0}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Rasmus\bibnamedelima Kleis},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Reuters Institute for the Study of Journalism}%
+      }
+      \strng{namehash}{48db9aa07339dad9b06629d4d826d214}
+      \strng{fullhash}{d6b6c984dc00683d5952e2fcd4198271}
+      \strng{bibnamehash}{d6b6c984dc00683d5952e2fcd4198271}
+      \strng{authorbibnamehash}{d6b6c984dc00683d5952e2fcd4198271}
+      \strng{authornamehash}{48db9aa07339dad9b06629d4d826d214}
+      \strng{authorfullhash}{d6b6c984dc00683d5952e2fcd4198271}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Digital News Report 2022}
+      \field{month}{6}
+      \field{title}{Reuters Institute Digital News Report 2022}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://reutersinstitute.politics.ox.ac.uk/sites/default/files/2022-06/Digital_News-Report_2022.pdf
+      \endverb
+      \verb{url}
+      \verb https://reutersinstitute.politics.ox.ac.uk/sites/default/files/2022-06/Digital_News-Report_2022.pdf
+      \endverb
+    \endentry
+    \entry{SupervisedLearningForFakeNewsDetection}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=e939e97922c319155e628b657d51587f}{%
+           family={Reis},
+           familyi={R\bibinitperiod},
+           given={Julio\bibnamedelimb C.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3d8a56fb1e2d1f30a7b6f3c269ab9d1}{%
+           family={Correia},
+           familyi={C\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0d00c8fd2b686662422777885c6c41c}{%
+           family={Murai},
+           familyi={M\bibinitperiod},
+           given={Fabrício},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=889e830561e2b6d53c8650bfb2906c3a}{%
+           family={Veloso},
+           familyi={V\bibinitperiod},
+           given={Adriano},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79129e077274d6510f125e13ddb8a4c5}{%
+           family={Benevenuto},
+           familyi={B\bibinitperiod},
+           given={Fabrício},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca340226588d497773f2fa1e64afe7d9}
+      \strng{fullhash}{67cd2844be0726b86998b06d2d879f5f}
+      \strng{bibnamehash}{67cd2844be0726b86998b06d2d879f5f}
+      \strng{authorbibnamehash}{67cd2844be0726b86998b06d2d879f5f}
+      \strng{authornamehash}{ca340226588d497773f2fa1e64afe7d9}
+      \strng{authorfullhash}{67cd2844be0726b86998b06d2d879f5f}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Intelligent Systems}
+      \field{number}{2}
+      \field{title}{Supervised Learning for Fake News Detection}
+      \field{volume}{34}
+      \field{year}{2019}
+      \field{pages}{76\bibrangedash 81}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/MIS.2019.2899143
+      \endverb
+    \endentry
+    \entry{FakeNewsNet_Shu}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b7e59a821f2474127e14134fb2309373}{%
+           family={Shu},
+           familyi={S\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3729c46d01c62bf60ed6fc097ba342b0}{%
+           family={Mahudeswaran},
+           familyi={M\bibinitperiod},
+           given={Deepak},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=d51786a0dffbd8ee68a63e5263f05e7f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Suhang},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=c84757c1672068fbe2a0e04853509954}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Dongwon},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a83f8cd28a9f36e43dd5d017cd7fc8f4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Huan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{a3c209f2d6c58f5112a62be4c54d42a0}
+      \strng{fullhash}{08a29dd0de3a4a2aaa552c446648f26e}
+      \strng{bibnamehash}{08a29dd0de3a4a2aaa552c446648f26e}
+      \strng{authorbibnamehash}{08a29dd0de3a4a2aaa552c446648f26e}
+      \strng{authornamehash}{a3c209f2d6c58f5112a62be4c54d42a0}
+      \strng{authorfullhash}{08a29dd0de3a4a2aaa552c446648f26e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FakeNewsNet: A Data Repository with News Content, Social Context and Spatialtemporal Information for Studying Fake News on Social Media}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1809.01286
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1809.01286
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1809.01286
+      \endverb
+      \keyw{Social and Information Networks (cs.SI),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{FakeNewsDetectionOnSocialMedia_Shu}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b7e59a821f2474127e14134fb2309373}{%
+           family={Shu},
+           familyi={S\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77c4e54b966442a2859a568c5f242606}{%
+           family={Sliva},
+           familyi={S\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=d51786a0dffbd8ee68a63e5263f05e7f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Suhang},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=854278958e1021c53ca312cc8316e2a6}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Jiliang},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a83f8cd28a9f36e43dd5d017cd7fc8f4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Huan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{5faf80327595eb96059175d00d733f0f}
+      \strng{fullhash}{7dbdf39f436866a636999f9d856a5534}
+      \strng{bibnamehash}{7dbdf39f436866a636999f9d856a5534}
+      \strng{authorbibnamehash}{7dbdf39f436866a636999f9d856a5534}
+      \strng{authornamehash}{5faf80327595eb96059175d00d733f0f}
+      \strng{authorfullhash}{7dbdf39f436866a636999f9d856a5534}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Social media for news consumption is a double-edged sword. On the one hand, its low cost, easy access, and rapid dissemination of information lead people to seek out and consume news from social media. On the other hand, it enables the wide spread of fake news", i.e., low quality news with intentionally false information. The extensive spread of fake news has the potential for extremely negative impacts on individuals and society. Therefore, fake news detection on social media has recently become an emerging research that is attracting tremendous attention. Fake news detection on social media presents unique characteristics and challenges that make existing detection algorithms from traditional news media ine ective or not applicable. First, fake news is intentionally written to mislead readers to believe false information, which makes it difficult and nontrivial to detect based on news content; therefore, we need to include auxiliary information, such as user social engagements on social media, to help make a determination. Second, exploiting this auxiliary information is challenging in and of itself as users' social engagements with fake news produce data that is big, incomplete, unstructured, and noisy. Because the issue of fake news detection on social media is both challenging and relevant, we conducted this survey to further facilitate research on the problem. In this survey, we present a comprehensive review of detecting fake news on social media, including fake news characterizations on psychology and social theories, existing algorithms from a data mining perspective, evaluation metrics and representative datasets. We also discuss related research areas, open problems, and future research directions for fake news detection on social media.}
+      \field{issn}{1931-0145}
+      \field{journaltitle}{SIGKDD Explor. Newsl.}
+      \field{month}{9}
+      \field{number}{1}
+      \field{title}{Fake News Detection on Social Media: A Data Mining Perspective}
+      \field{volume}{19}
+      \field{year}{2017}
+      \field{pages}{22\bibrangedash 36}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1145/3137597.3137600
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3137597.3137600
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3137597.3137600
+      \endverb
+    \endentry
+    \entry{LiarLiarPantsOnFire}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=3b9b2f81da3e41fbc72b81f1b7f2e722}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={William\bibnamedelima Yang},
+           giveni={W\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{3b9b2f81da3e41fbc72b81f1b7f2e722}
+      \strng{fullhash}{3b9b2f81da3e41fbc72b81f1b7f2e722}
+      \strng{bibnamehash}{3b9b2f81da3e41fbc72b81f1b7f2e722}
+      \strng{authorbibnamehash}{3b9b2f81da3e41fbc72b81f1b7f2e722}
+      \strng{authornamehash}{3b9b2f81da3e41fbc72b81f1b7f2e722}
+      \strng{authorfullhash}{3b9b2f81da3e41fbc72b81f1b7f2e722}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{"Liar, Liar Pants on Fire": {A} New Benchmark Dataset for Fake News Detection}
+      \field{volume}{abs/1705.00648}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1705.00648
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1705.00648
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1705.00648
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

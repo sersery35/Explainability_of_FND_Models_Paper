@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/sersery/Desktop/TUM Informatik/SS22/Thesis/Explainability_of_FND_Models_Paper'
+latexmk -interaction=nonstopmode -outdir=build -pdf -halt-on-error main
+make: Leaving directory '/home/sersery/Desktop/TUM Informatik/SS22/Thesis/Explainability_of_FND_Models_Paper'
+ 

@@ -1,15 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[37] biber:340> INFO - === So Aug 21, 2022, 17:14:37
-[45] Biber.pm:418> INFO - Reading 'main.bcf'
-[83] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
-[90] Biber.pm:4383> INFO - Processing section 0
-[96] Biber.pm:4574> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[96] bibtex.pm:1713> INFO - LaTeX decoding ...
-[97] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
-[118] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[118] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[118] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[118] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[119] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[120] bbl.pm:757> INFO - Output to main.bbl
+[40] biber:340> INFO - === So Sep  4, 2022, 18:03:02
+[50] Biber.pm:418> INFO - Reading 'main.bcf'
+[88] Biber.pm:972> INFO - Found 8 citekeys in bib section 0
+[95] Biber.pm:4383> INFO - Processing section 0
+[102] Biber.pm:4574> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[103] bibtex.pm:1713> INFO - LaTeX decoding ...
+[110] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
+[174] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[174] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[174] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[174] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[183] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[191] bbl.pm:757> INFO - Output to main.bbl
+[191] Biber.pm:130> WARN - legacy month field 'Jun' in entry 'ReutersInstituteDigitalNewsReport' is not an integer - this will probably not sort properly.
+[192] Biber.pm:130> WARN - legacy month field 'sep' in entry 'FakeNewsDetectionOnSocialMedia_Shu' is not an integer - this will probably not sort properly.
+[192] Biber.pm:132> INFO - WARNINGS: 2
