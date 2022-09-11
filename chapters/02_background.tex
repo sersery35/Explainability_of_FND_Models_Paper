@@ -2,25 +2,46 @@
 % Add the above to each chapter to make compiling the PDF easier in some editors.
 
 \chapter{Background and Related Work}\label{chapter:background}
+We explain two research fields that create the bedrock of this thesis, namely, fake news detection and explainable artificial intelligence. Both areas provide the foundation of tools that were used in this work. The first provides the mechanisms and approaches to detect fake news, and the second offers a suite of techniques to interpret these mechanisms and approaches.\\
+Initially, in \ref{sec:fakeNewsDetection}, we discuss societal challenges, the characteristics, and the history of fake news. Then we talk about the detection methods that were developed over the years. After showing the challenges of creating FND models, we conclude the first section with SOTA FND models.\\
+After fake news detection, in \ref{sec:explainableArtificialIntelligence}, we first examine when XAI is necessary and its importance. Then, we define the suite of explainable artificial intelligence and the goals of XAI, and finally, we determine the suite that aims to satisfy these goals.
 
 \section{Fake News Detection}
+\label{sec:fakeNewsDetection}
+In the past decade, social media has become a place where anyone can share information. Although fast, free, and easy to access, obtaining
+real news from social media can be difficult, and one should do so at their own risk. For instance, a study in Digital News Report
+2022~\parencite{ReutersInstituteDigitalNewsReport} reports in its key findings that trust in the news is 42\% globally, the highest (69\%)
+in Finland, and the lowest (26\%) in the U.S.A. Consequently, the same study shows that in early 2022, in the week of the survey, between 45\%
+and 55\% of the surveyed social media consumers worldwide witnessed false or misleading information about COVID-19. \\
+In \ref{subsec:fakeNewsDetection_Overview}, we briefly present the history of fake news and look at studies that display the impact of fake news on society. In this section, we also define the terms fake news, disinformation, and misinformation. \\
+In \ref{subsec:fakeNewsDetection_Challenges}, we talk about the challenges when detecting fake news, both from human and computer perspectives. We make an excursion into human psychology, delivering insights into why humans fall for fake news. Then we talk about the difficulties when creating a fake news detection model.
 
 \subsection{Overview}
-
-\subsection{Datasets}
+\label{subsec:fakeNewsDetection_Overview}
+The term fake news has existed for over a century~\parencite{TheScienceOfFakeNews_Lazer}. Throughout history, various forms of widespread fake n
+ews have been recorded. For instance, in 1835, The Sun newspaper of New York published articles about a real-life astronomer and a made-up
+colleague who had observed life on the moon. It turns out that these fictionalized articles brought them new customers and almost no backlash
+after the newspaper admitted that the articles mentioned earlier were a hoax \footnote{https://www.politico.com/magazine/story/2016/12/fake-news-history-long-violent-214535/}$^,$\footnote{https://www.history.com/this-day-in-history/the-great-moon-hoax}. It rose to prominence
+with the 2016 U.S. Presidential Election~\parencite{USPresidentialElection2016}. It is clear that fake news has an effect not only on individuals
+but also on countries. Nowadays, fake news is still at large because it is challenging to detect for humans and computers ~\parencite{ReutersInstituteDigitalNewsReport}. \\
 
 \subsection{Challenges}
+\label{subsec:fakeNewsDetection_Challenges}
 
-\subsection{Evolution of Fake News Detection Models}
+\subsection{Datasets}
+\label{subsec:fakeNewsDetection_Datasets}
 
-\subsection{Current Approaches}
+\subsection{Evolution and Current State of Fake News Detection Models}
+\label{subsec:fakeNewsDetection_Evolution}
 
 \section{Explainable Artificial Intelligence}
+\label{sec:explainableArtificialIntelligence}
 
 \subsection{Importance of Explainable Artificial Intelligence}
 
 \subsection{A Good Explanation}
 
 \subsection{Overview of Explainable Artificial Intelligence}
+only include what you use.
 
-
+\section{Explainable AI for FND}
