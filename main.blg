@@ -1,19 +1,32 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[38] biber:340> INFO - === So Sep 11, 2022, 23:23:21
-[46] Biber.pm:418> INFO - Reading 'main.bcf'
-[85] Biber.pm:972> INFO - Found 22 citekeys in bib section 0
-[92] Biber.pm:4383> INFO - Processing section 0
-[97] Biber.pm:4574> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[99] bibtex.pm:1713> INFO - LaTeX decoding ...
-[116] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
-[228] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[229] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[229] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[229] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[243] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[258] bbl.pm:757> INFO - Output to main.bbl
-[258] Biber.pm:130> WARN - legacy month field 'Sep' in entry 'NewsConsumptionAcrossSocialMedia_pewresearch' is not an integer - this will probably not sort properly.
-[258] Biber.pm:130> WARN - legacy month field 'sep' in entry 'FakeNewsDetectionOnSocialMediaADataMiningPerspective_Shu' is not an integer - this will probably not sort properly.
-[258] Biber.pm:130> WARN - legacy month field 'Jun.' in entry 'XAI_Gunning' is not an integer - this will probably not sort properly.
-[258] Biber.pm:132> INFO - WARNINGS: 3
+[43] biber:340> INFO - === So Sep 18, 2022, 20:20:01
+[51] Biber.pm:418> INFO - Reading 'main.bcf'
+[97] Biber.pm:972> INFO - Found 55 citekeys in bib section 0
+[104] Biber.pm:4383> INFO - Processing section 0
+[110] Biber.pm:4574> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[114] bibtex.pm:1713> INFO - LaTeX decoding ...
+[149] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
+[371] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[371] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[371] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[371] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[412] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[444] bbl.pm:757> INFO - Output to main.bbl
+[445] Biber.pm:130> WARN - legacy month field 'Sep' in entry 'NewsConsumptionAcrossSocialMedia_pewresearch' is not an integer - this will probably not sort properly.
+[445] Biber.pm:130> WARN - legacy month field 'Aug' in entry 'StatistaUsageOfSocialMedia_Watson' is not an integer - this will probably not sort properly.
+[445] Biber.pm:130> WARN - legacy month field 'May' in entry 'SocialMediaAndFakeNewsIn2016Election_Allcott' is not an integer - this will probably not sort properly.
+[445] Biber.pm:130> WARN - legacy month field 'sep' in entry 'FakeNewsDetectionOnSocialMediaADataMiningPerspective_Shu' is not an integer - this will probably not sort properly.
+[445] Biber.pm:130> WARN - legacy month field 'Jun.' in entry 'XAI_Gunning' is not an integer - this will probably not sort properly.
+[445] Biber.pm:130> WARN - legacy month field 'Mar.' in entry 'NewsVerificationByExploitingConflictingSocialViewpoints_Jin' is not an integer - this will probably not sort properly.
+[445] Biber.pm:130> WARN - legacy month field 'Apr' in entry 'MarketQuaversAfterFakeAPTweet_ElBoghdady' is not an integer - this will probably not sort properly.
+[445] Biber.pm:130> WARN - legacy month field 'Dec' in entry 'Pizzagate_Fisher' is not an integer - this will probably not sort properly.
+[445] Biber.pm:130> WARN - legacy month field 'Nov' in entry 'TrumpWonBecauseOfFacebook_Read' is not an integer - this will probably not sort properly.
+[445] Biber.pm:130> WARN - legacy month field 'Nov' in entry 'Buzzfeed_FakeNewsOutperformRealNews_Silverman' is not an integer - this will probably not sort properly.
+[445] Biber.pm:130> WARN - legacy month field 'Jun' in entry 'WhenCorrectionsFail_Nyhan' is not an integer - this will probably not sort properly.
+[445] Biber.pm:130> WARN - legacy month field 'May' in entry 'TheEffectOfPeopleRecommenderOnEchoChambers_Cinus' is not an integer - this will probably not sort properly.
+[445] Biber.pm:130> WARN - legacy month field 'jun' in entry 'TheRiseOfSocialBots_Ferrara' is not an integer - this will probably not sort properly.
+[445] Biber.pm:130> WARN - legacy month field 'Nov' in entry 'SocialBotsDistortThe2016USPresidentialElection_Bessi' is not an integer - this will probably not sort properly.
+[445] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_9cEW/f4d088b3f9f145b5c3058da33afd57d4_411639.utf8, line 666, warning: 3 characters of junk seen at toplevel
+[445] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_9cEW/f4d088b3f9f145b5c3058da33afd57d4_411639.utf8, line 749, warning: 49 characters of junk seen at toplevel
+[445] Biber.pm:132> INFO - WARNINGS: 16

@@ -3,37 +3,36 @@
 
 \chapter{Introduction}\label{chapter:introduction}
 
-With the rapid development of communication technologies, social media has become one of the most frequently used news sources. In contrast
-to its advantages of convenience and speed, social media can spread any kind of information since no regulatory authority checks the news.
+With the rapid development of communication technologies, social media has become one of the most frequently used news sources since
+it is easier, faster, and offers interaction with people.
 For example, a study from Pew Research Center ~\parencite{NewsConsumptionAcrossSocialMedia_pewresearch}
 reports that in 2021, 48\% of U.S. adults get their news from social media "often" or “sometimes”. Furthermore, global data from 2022
-\footnote{https://www.statista.com/statistics/718019/social-media-news-source/} shows that over 70\% of adults from Kenya, Malaysia,
+~\parencite{StatistaUsageOfSocialMedia_Watson} shows that over 70\% of adults from Kenya, Malaysia,
 Phillippines, Bulgaria, and Greece use social media as one of their news sources, while this share is lower than 40\% for the
 adults in the United Kingdom, The Netherlands, Germany, and Japan. These examples show that a considerable percentage of the population uses
 social media as a news source.\\
-When presented as news, false or misleading information is called “fake news”~\parencite{ThePsycologyOfFakeNews_Pennycook}. In the social media
-context, fake news is false and misleading information that is dispersed and seeks to deceive people. ~\parencite{TheScienceOfFakeNews_Lazer}. In literature, false and misleading news is also referred to as disinformation, misinformation, or fake news. We distinguish disinformation and fake
-news from misinformation since misinformation does not seek to deceive people. Rather, it is incorrect information, however unbeknownst to the user
-who shared it. We will use the term “fake news” instead of “disinformation” throughout this thesis. \\
+In contrast to its convenience, interactivity, and speed, social media can spread any kind of information since no regulatory authority
+checks the posts. As a result, a flood of false and misleading information is observed on social
+media~\parencite{SocialMediaAndFakeNewsIn2016Election_Allcott}.\\
 The research community introduced numerous approaches to counteract the uncontrolled dissemination of fake news. For instance, some studies
 focused on building datasets~\parencite{FakeNewsDetectionOnSocialMediaADataMiningPerspective_Shu, LiarLiarPantsOnFire_Wang, FakeReddit_Nakamura, SomeLikeItHoaxDataset_Tacchini, BuzzfaceDataset_Santia, UPFD_Dataset_Shu}, and some studies leveraged the power of \emph{Machine Learning} (ML) to
 automatically detect fake news~\parencite{FakeNewsDetectionUsingGeometricDeepLearning_Monti, GraphNeuralNetworksWithContinualLearningFakeNewsDetection_Han, RumorDetectionBidirectionalGraphConvolutionalNetworks_Bian, SAFEFND_Zhou}
 by learning features from the data. Due to the number of posts and the limitation of staff to check the posts, ML-based techniques can reduce manual labor when used with human supervision to counter the spreading of fake news. However, ML-based techniques with high complexity, such as \emph{Deep Neural Networks} (DNN), are harder to understand and interpret since they act like black-boxes~\parencite{CanWeOpenTheBlackBoxOfAI_Castelvecchi}.\\
 The integration of ML-based methods into human society impacts more people every day. While incredibly helpful in some aspects,
 ML-based techniques do not offer a reason for a particular prediction. Furthermore, we can not simply accept classification accuracy
-as a metric to evaluate real-world problems ~\parencite{TowardsARigorousScienceML_Velez}. Moreover, integrating ML-based methods into human society
+as a metric to evaluate real-world problems ~\parencite{TowardsARigorousScienceML_Velez}. Integrating ML-based methods into human society
 makes interpretability a requirement to increase social acceptance~\parencite{InterpretableMachineLearning_Molnar}.\\
 Consequently, a new research field called \emph{eXplainable Artificial Intelligence} (XAI) surfaced to fill this missing link between humans and
 \emph{Artificial Intelligence} (AI). XAI proposes creating a set of ML techniques that deliver more explainable models while preserving learning performance, and help humans to understand, properly trust, and effectively handle the emerging generation of artificially intelligent partners~\parencite{XAI_Gunning}. While incorporating XAI increases social acceptance, it also aims to create more privacy-aware~\parencite{SlaveToTheAlgorithm_EdwardsVeale}, fairer, and trustworthy systems~\parencite{TheMythosOfModelInterpretability_Lipton}.\\
 Like all ML techniques, \emph{Fake News Detection} (FND) models need interpretability, particularly when implementing countermeasures for fake
 news. However, the interpretability of a model is not often considered despite the large amount of research produced in the last decade.
-Incorporating social context~\parencite{FakeNewsNet_Shu}, representing the propagation networks as a graphs~\parencite{UPFD_Dataset_Shu},
-and using \emph{Graph Neural Networks} (GNN) to produce \emph{state-of-the-art} (SOTA) models~\parencite{FakeNewsDetectionUsingGeometricDeepLearning_Monti} have increased the complexity, but also the performance of FND models.
+Incorporating social context~\parencite{FakeNewsNet_Shu}, representing the propagation networks as graphs~\parencite{UPFD_Dataset_Shu},
+and using \emph{Graph Neural Networks} (GNN) to produce \emph{State Of The Art} (SOTA) models~\parencite{FakeNewsDetectionUsingGeometricDeepLearning_Monti} have increased the complexity, but also the performance of FND models.
 For instance, using social context data alone has proved to be more effective than textual data alone in recent studies~\parencite{UPFD_Dataset_Shu}. However, it is not clear which social features impact the decision process of these models.\\
 This thesis focuses on the explainability of FND models using tools from the XAI suite. Specifically, we focus on content-based models and social context-based models to elaborate on their interpretability. Thus, we define three research objectives:
 \begin{description}
     \item[\textbf{RO1}] Determine the interpretation tools for explaining FND models.
-    \item[\textbf{RO2}] Show that interpretations of FND models play an essential role in understanding the shortcomings of the SOTA FND models.
+    \item[\textbf{RO2}] Show that interpretations of FND models play an essential role in understanding the shortcomings of the FND models.
     \item[\textbf{RO3}] Determine which features impact the outcome the most.
 \end{description}
 From here on, talk about the structure of the thesis.

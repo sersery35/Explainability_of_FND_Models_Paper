@@ -89,7 +89,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>99</bcf:value>
+      <bcf:value>300</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -97,7 +97,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>99</bcf:value>
+      <bcf:value>300</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -329,7 +329,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>99</bcf:value>
+      <bcf:value>300</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -337,7 +337,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>99</bcf:value>
+      <bcf:value>300</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -549,7 +549,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>99</bcf:value>
+      <bcf:value>300</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -557,7 +557,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>99</bcf:value>
+      <bcf:value>300</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -2792,8 +2792,8 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">NewsConsumptionAcrossSocialMedia_pewresearch</bcf:citekey>
-    <bcf:citekey order="2">ThePsycologyOfFakeNews_Pennycook</bcf:citekey>
-    <bcf:citekey order="3">TheScienceOfFakeNews_Lazer</bcf:citekey>
+    <bcf:citekey order="2">StatistaUsageOfSocialMedia_Watson</bcf:citekey>
+    <bcf:citekey order="3">SocialMediaAndFakeNewsIn2016Election_Allcott</bcf:citekey>
     <bcf:citekey order="4">FakeNewsDetectionOnSocialMediaADataMiningPerspective_Shu</bcf:citekey>
     <bcf:citekey order="4">LiarLiarPantsOnFire_Wang</bcf:citekey>
     <bcf:citekey order="4">FakeReddit_Nakamura</bcf:citekey>
@@ -2814,32 +2814,109 @@
     <bcf:citekey order="13">UPFD_Dataset_Shu</bcf:citekey>
     <bcf:citekey order="14">FakeNewsDetectionUsingGeometricDeepLearning_Monti</bcf:citekey>
     <bcf:citekey order="15">UPFD_Dataset_Shu</bcf:citekey>
-    <bcf:citekey order="16">ReutersInstituteDigitalNewsReport</bcf:citekey>
-    <bcf:citekey order="17">TheScienceOfFakeNews_Lazer</bcf:citekey>
-    <bcf:citekey order="18">USPresidentialElection2016</bcf:citekey>
-    <bcf:citekey order="19">ReutersInstituteDigitalNewsReport</bcf:citekey>
-    <bcf:citekey order="20">NewsConsumptionAcrossSocialMedia_pewresearch</bcf:citekey>
-    <bcf:citekey order="21">ThePsycologyOfFakeNews_Pennycook</bcf:citekey>
-    <bcf:citekey order="22">TheScienceOfFakeNews_Lazer</bcf:citekey>
-    <bcf:citekey order="23">FakeNewsDetectionOnSocialMediaADataMiningPerspective_Shu</bcf:citekey>
-    <bcf:citekey order="24">LiarLiarPantsOnFire_Wang</bcf:citekey>
-    <bcf:citekey order="25">FakeReddit_Nakamura</bcf:citekey>
-    <bcf:citekey order="26">SomeLikeItHoaxDataset_Tacchini</bcf:citekey>
-    <bcf:citekey order="27">BuzzfaceDataset_Santia</bcf:citekey>
-    <bcf:citekey order="28">UPFD_Dataset_Shu</bcf:citekey>
-    <bcf:citekey order="29">FakeNewsDetectionUsingGeometricDeepLearning_Monti</bcf:citekey>
-    <bcf:citekey order="30">GraphNeuralNetworksWithContinualLearningFakeNewsDetection_Han</bcf:citekey>
-    <bcf:citekey order="31">RumorDetectionBidirectionalGraphConvolutionalNetworks_Bian</bcf:citekey>
-    <bcf:citekey order="32">SAFEFND_Zhou</bcf:citekey>
-    <bcf:citekey order="33">CanWeOpenTheBlackBoxOfAI_Castelvecchi</bcf:citekey>
-    <bcf:citekey order="34">TowardsARigorousScienceML_Velez</bcf:citekey>
-    <bcf:citekey order="35">InterpretableMachineLearning_Molnar</bcf:citekey>
-    <bcf:citekey order="36">XAI_Gunning</bcf:citekey>
-    <bcf:citekey order="37">SlaveToTheAlgorithm_EdwardsVeale</bcf:citekey>
-    <bcf:citekey order="38">TheMythosOfModelInterpretability_Lipton</bcf:citekey>
-    <bcf:citekey order="39">FakeNewsNet_Shu</bcf:citekey>
-    <bcf:citekey order="40">ReutersInstituteDigitalNewsReport</bcf:citekey>
-    <bcf:citekey order="41">USPresidentialElection2016</bcf:citekey>
+    <bcf:citekey order="16">SocialMediaAndFakeNewsIn2016Election_Allcott</bcf:citekey>
+    <bcf:citekey order="16">TheScienceOfFakeNews_Lazer</bcf:citekey>
+    <bcf:citekey order="17">HistorysGreatestLies_Weir</bcf:citekey>
+    <bcf:citekey order="18">TheGreatMoonHoax_Foster</bcf:citekey>
+    <bcf:citekey order="19">ThePsycologyOfFakeNews_Pennycook</bcf:citekey>
+    <bcf:citekey order="20">SocialMediaAndFakeNewsIn2016Election_Allcott</bcf:citekey>
+    <bcf:citekey order="21">FakeNewsDetectionOnSocialMediaADataMiningPerspective_Shu</bcf:citekey>
+    <bcf:citekey order="22">AutomaticDeceptionDetection_Conroy</bcf:citekey>
+    <bcf:citekey order="22">TheFakeNewsSpreadingPlague_Mustafaraj</bcf:citekey>
+    <bcf:citekey order="22">FakeNewsDetectionOnSocialMediaADataMiningPerspective_Shu</bcf:citekey>
+    <bcf:citekey order="23">TheScienceOfFakeNews_Lazer</bcf:citekey>
+    <bcf:citekey order="23">ThePsycologyOfFakeNews_Pennycook</bcf:citekey>
+    <bcf:citekey order="24">WhenFakeNewsBecomesReal_Balmas</bcf:citekey>
+    <bcf:citekey order="24">TheImpactOfRealNewsAboutFakeNews_Brewer</bcf:citekey>
+    <bcf:citekey order="24">NewsVerificationByExploitingConflictingSocialViewpoints_Jin</bcf:citekey>
+    <bcf:citekey order="24">FakeNewsOrTruthUsingSatiricalCues_Rubin</bcf:citekey>
+    <bcf:citekey order="25">DeceptionDetectionForFakeNews3TypesOfFakeNews_Rubin</bcf:citekey>
+    <bcf:citekey order="26">ConspiracyTheories_Sunstein</bcf:citekey>
+    <bcf:citekey order="27">Superstition_Lindeman</bcf:citekey>
+    <bcf:citekey order="28">RumorsAndHealthCareReform_Berinsky</bcf:citekey>
+    <bcf:citekey order="29">SocialMediaAndFakeNewsIn2016Election_Allcott</bcf:citekey>
+    <bcf:citekey order="30">MarketQuaversAfterFakeAPTweet_ElBoghdady</bcf:citekey>
+    <bcf:citekey order="31">MarketQuaversAfterFakeAPTweet_ElBoghdady</bcf:citekey>
+    <bcf:citekey order="32">MarketQuaversAfterFakeAPTweet_ElBoghdady</bcf:citekey>
+    <bcf:citekey order="33">USPresidentialElection2016</bcf:citekey>
+    <bcf:citekey order="34">Pizzagate_Fisher</bcf:citekey>
+    <bcf:citekey order="35">SocialMediaAndFakeNewsIn2016Election_Allcott</bcf:citekey>
+    <bcf:citekey order="35">TrumpWonBecauseOfFacebook_Read</bcf:citekey>
+    <bcf:citekey order="36">Buzzfeed_FakeNewsOutperformRealNews_Silverman</bcf:citekey>
+    <bcf:citekey order="37">ReutersInstituteDigitalNewsReport</bcf:citekey>
+    <bcf:citekey order="38">StatistaUsageOfSocialMedia_Watson</bcf:citekey>
+    <bcf:citekey order="39">Buzzfeed_FakeNewsOutperformRealNews_Silverman</bcf:citekey>
+    <bcf:citekey order="40">Buzzfeed_FakeNewsOutperformRealNews_Silverman</bcf:citekey>
+    <bcf:citekey order="41">NaiveRealism_Reed</bcf:citekey>
+    <bcf:citekey order="42">ConfirmationBias_Nickerson</bcf:citekey>
+    <bcf:citekey order="43">WhenCorrectionsFail_Nyhan</bcf:citekey>
+    <bcf:citekey order="44">ProspectTheory_Kahneman</bcf:citekey>
+    <bcf:citekey order="44">AdvancesInProspectTheory_Kahneman</bcf:citekey>
+    <bcf:citekey order="45">SocialIdentityTheory_Ashforth</bcf:citekey>
+    <bcf:citekey order="46">NormativeSocialInfluence_Asch</bcf:citekey>
+    <bcf:citekey order="47">TheRussianFirehoseOfFalsehood_Paul</bcf:citekey>
+    <bcf:citekey order="48">TheFilterBubble_Pariser</bcf:citekey>
+    <bcf:citekey order="49">EchoChambers_Sunstein</bcf:citekey>
+    <bcf:citekey order="50">TheSpreadingOfMisinformationOnline_DelVicario</bcf:citekey>
+    <bcf:citekey order="51">TheEffectOfPeopleRecommenderOnEchoChambers_Cinus</bcf:citekey>
+    <bcf:citekey order="52">TheRiseOfSocialBots_Ferrara</bcf:citekey>
+    <bcf:citekey order="53">SocialBotsDistortThe2016USPresidentialElection_Bessi</bcf:citekey>
+    <bcf:citekey order="54">AnyoneCanBecomeATroll_Cheng</bcf:citekey>
+    <bcf:citekey order="55">NewsConsumptionAcrossSocialMedia_pewresearch</bcf:citekey>
+    <bcf:citekey order="56">StatistaUsageOfSocialMedia_Watson</bcf:citekey>
+    <bcf:citekey order="57">SocialMediaAndFakeNewsIn2016Election_Allcott</bcf:citekey>
+    <bcf:citekey order="58">FakeNewsDetectionOnSocialMediaADataMiningPerspective_Shu</bcf:citekey>
+    <bcf:citekey order="59">LiarLiarPantsOnFire_Wang</bcf:citekey>
+    <bcf:citekey order="60">FakeReddit_Nakamura</bcf:citekey>
+    <bcf:citekey order="61">SomeLikeItHoaxDataset_Tacchini</bcf:citekey>
+    <bcf:citekey order="62">BuzzfaceDataset_Santia</bcf:citekey>
+    <bcf:citekey order="63">UPFD_Dataset_Shu</bcf:citekey>
+    <bcf:citekey order="64">FakeNewsDetectionUsingGeometricDeepLearning_Monti</bcf:citekey>
+    <bcf:citekey order="65">GraphNeuralNetworksWithContinualLearningFakeNewsDetection_Han</bcf:citekey>
+    <bcf:citekey order="66">RumorDetectionBidirectionalGraphConvolutionalNetworks_Bian</bcf:citekey>
+    <bcf:citekey order="67">SAFEFND_Zhou</bcf:citekey>
+    <bcf:citekey order="68">CanWeOpenTheBlackBoxOfAI_Castelvecchi</bcf:citekey>
+    <bcf:citekey order="69">TowardsARigorousScienceML_Velez</bcf:citekey>
+    <bcf:citekey order="70">InterpretableMachineLearning_Molnar</bcf:citekey>
+    <bcf:citekey order="71">XAI_Gunning</bcf:citekey>
+    <bcf:citekey order="72">SlaveToTheAlgorithm_EdwardsVeale</bcf:citekey>
+    <bcf:citekey order="73">TheMythosOfModelInterpretability_Lipton</bcf:citekey>
+    <bcf:citekey order="74">FakeNewsNet_Shu</bcf:citekey>
+    <bcf:citekey order="75">TheScienceOfFakeNews_Lazer</bcf:citekey>
+    <bcf:citekey order="76">HistorysGreatestLies_Weir</bcf:citekey>
+    <bcf:citekey order="77">TheGreatMoonHoax_Foster</bcf:citekey>
+    <bcf:citekey order="78">ThePsycologyOfFakeNews_Pennycook</bcf:citekey>
+    <bcf:citekey order="79">AutomaticDeceptionDetection_Conroy</bcf:citekey>
+    <bcf:citekey order="80">TheFakeNewsSpreadingPlague_Mustafaraj</bcf:citekey>
+    <bcf:citekey order="81">WhenFakeNewsBecomesReal_Balmas</bcf:citekey>
+    <bcf:citekey order="82">TheImpactOfRealNewsAboutFakeNews_Brewer</bcf:citekey>
+    <bcf:citekey order="83">NewsVerificationByExploitingConflictingSocialViewpoints_Jin</bcf:citekey>
+    <bcf:citekey order="84">FakeNewsOrTruthUsingSatiricalCues_Rubin</bcf:citekey>
+    <bcf:citekey order="85">DeceptionDetectionForFakeNews3TypesOfFakeNews_Rubin</bcf:citekey>
+    <bcf:citekey order="86">ConspiracyTheories_Sunstein</bcf:citekey>
+    <bcf:citekey order="87">Superstition_Lindeman</bcf:citekey>
+    <bcf:citekey order="88">RumorsAndHealthCareReform_Berinsky</bcf:citekey>
+    <bcf:citekey order="89">MarketQuaversAfterFakeAPTweet_ElBoghdady</bcf:citekey>
+    <bcf:citekey order="90">USPresidentialElection2016</bcf:citekey>
+    <bcf:citekey order="91">Pizzagate_Fisher</bcf:citekey>
+    <bcf:citekey order="92">TrumpWonBecauseOfFacebook_Read</bcf:citekey>
+    <bcf:citekey order="93">Buzzfeed_FakeNewsOutperformRealNews_Silverman</bcf:citekey>
+    <bcf:citekey order="94">ReutersInstituteDigitalNewsReport</bcf:citekey>
+    <bcf:citekey order="95">NaiveRealism_Reed</bcf:citekey>
+    <bcf:citekey order="96">ConfirmationBias_Nickerson</bcf:citekey>
+    <bcf:citekey order="97">WhenCorrectionsFail_Nyhan</bcf:citekey>
+    <bcf:citekey order="98">ProspectTheory_Kahneman</bcf:citekey>
+    <bcf:citekey order="99">AdvancesInProspectTheory_Kahneman</bcf:citekey>
+    <bcf:citekey order="100">SocialIdentityTheory_Ashforth</bcf:citekey>
+    <bcf:citekey order="101">NormativeSocialInfluence_Asch</bcf:citekey>
+    <bcf:citekey order="102">TheRussianFirehoseOfFalsehood_Paul</bcf:citekey>
+    <bcf:citekey order="103">TheFilterBubble_Pariser</bcf:citekey>
+    <bcf:citekey order="104">EchoChambers_Sunstein</bcf:citekey>
+    <bcf:citekey order="105">TheSpreadingOfMisinformationOnline_DelVicario</bcf:citekey>
+    <bcf:citekey order="106">TheEffectOfPeopleRecommenderOnEchoChambers_Cinus</bcf:citekey>
+    <bcf:citekey order="107">TheRiseOfSocialBots_Ferrara</bcf:citekey>
+    <bcf:citekey order="108">SocialBotsDistortThe2016USPresidentialElection_Bessi</bcf:citekey>
+    <bcf:citekey order="109">AnyoneCanBecomeATroll_Cheng</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

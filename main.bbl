@@ -19,6 +19,180 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{SocialMediaAndFakeNewsIn2016Election_Allcott}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cc99b38ced482f8ce08a3d71368c14d4}{%
+           family={Allcott},
+           familyi={A\bibinitperiod},
+           given={Hunt},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f632dc67b8bd2566eae625ec44fafd0}{%
+           family={Gentzkow},
+           familyi={G\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{829464bc3eac369767d25e05efa4239f}
+      \strng{fullhash}{829464bc3eac369767d25e05efa4239f}
+      \strng{bibnamehash}{829464bc3eac369767d25e05efa4239f}
+      \strng{authorbibnamehash}{829464bc3eac369767d25e05efa4239f}
+      \strng{authornamehash}{829464bc3eac369767d25e05efa4239f}
+      \strng{authorfullhash}{829464bc3eac369767d25e05efa4239f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Perspectives}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Social Media and Fake News in the 2016 Election}
+      \field{volume}{31}
+      \field{year}{2017}
+      \field{pages}{211\bibrangedash 36}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1257/jep.31.2.211
+      \endverb
+      \verb{urlraw}
+      \verb https://www.aeaweb.org/articles?id=10.1257/jep.31.2.211
+      \endverb
+      \verb{url}
+      \verb https://www.aeaweb.org/articles?id=10.1257/jep.31.2.211
+      \endverb
+    \endentry
+    \entry{NormativeSocialInfluence_Asch}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=477b6f203861c781d4aa79e5d066a0da}{%
+           family={Asch},
+           familyi={A\bibinitperiod},
+           given={S\bibnamedelima E},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74a6142278ba0ec61e4668d010c775fe}{%
+           family={Guetzkow},
+           familyi={G\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fb98c5586990ff8177d98023a392837a}
+      \strng{fullhash}{fb98c5586990ff8177d98023a392837a}
+      \strng{bibnamehash}{fb98c5586990ff8177d98023a392837a}
+      \strng{authorbibnamehash}{fb98c5586990ff8177d98023a392837a}
+      \strng{authornamehash}{fb98c5586990ff8177d98023a392837a}
+      \strng{authorfullhash}{fb98c5586990ff8177d98023a392837a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Groups, leadership, and men}
+      \field{title}{Effects of group pressure upon the modification and distortion of judgments.}
+      \field{year}{1951}
+      \field{pages}{222\bibrangedash 236}
+      \range{pages}{15}
+    \endentry
+    \entry{SocialIdentityTheory_Ashforth}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f18b86b2536cbc63a2959528af4433e7}{%
+           family={Ashforth},
+           familyi={A\bibinitperiod},
+           given={Blake\bibnamedelima E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=040fdeb9a7b4d2c21932eef611974a8f}{%
+           family={Mael},
+           familyi={M\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academy of Management}%
+      }
+      \strng{namehash}{f6cebbcc67add9f423719db416e7bdce}
+      \strng{fullhash}{f6cebbcc67add9f423719db416e7bdce}
+      \strng{bibnamehash}{f6cebbcc67add9f423719db416e7bdce}
+      \strng{authorbibnamehash}{f6cebbcc67add9f423719db416e7bdce}
+      \strng{authornamehash}{f6cebbcc67add9f423719db416e7bdce}
+      \strng{authorfullhash}{f6cebbcc67add9f423719db416e7bdce}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is argued that (a) social identification is a perception of oneness with a group of persons; (b) social identification stems from the categorization of individuals, the distinctiveness and prestige of the group, the salience of outgroups, and the factors that traditionally are associated with group formation; and (c) social identification leads to activities that are congruent with the identity, support for institutions that embody the identity, stereotypical perceptions of self and others, and outcomes that traditionally are associated with group formation, and it reinforces the antecedents of identification. This perspective is applied to organizational socialization, role conflict, and intergroup relations.}
+      \field{issn}{03637425}
+      \field{journaltitle}{The Academy of Management Review}
+      \field{number}{1}
+      \field{title}{Social Identity Theory and the Organization}
+      \field{urlday}{12}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{volume}{14}
+      \field{year}{1989}
+      \field{urldateera}{ce}
+      \field{pages}{20\bibrangedash 39}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/258189
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/258189
+      \endverb
+    \endentry
+    \entry{WhenFakeNewsBecomesReal_Balmas}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=71c67eb04126499b3fc92401dd5dbd08}{%
+           family={Balmas},
+           familyi={B\bibinitperiod},
+           given={Meital},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{71c67eb04126499b3fc92401dd5dbd08}
+      \strng{fullhash}{71c67eb04126499b3fc92401dd5dbd08}
+      \strng{bibnamehash}{71c67eb04126499b3fc92401dd5dbd08}
+      \strng{authorbibnamehash}{71c67eb04126499b3fc92401dd5dbd08}
+      \strng{authornamehash}{71c67eb04126499b3fc92401dd5dbd08}
+      \strng{authorfullhash}{71c67eb04126499b3fc92401dd5dbd08}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This research assesses possible associations between viewing fake news (i.e., political satire) and attitudes of inefficacy, alienation, and cynicism toward political candidates. Using survey data collected during the 2006 Israeli election campaign, the study provides evidence for an indirect positive effect of fake news viewing in fostering the feelings of inefficacy, alienation, and cynicism, through the mediator variable of perceived realism of fake news. Within this process, hard news viewing serves as a moderator of the association between viewing fake news and their perceived realism. It was also demonstrated that perceived realism of fake news is stronger among individuals with high exposure to fake news and low exposure to hard news than among those with high exposure to both fake and hard news. Overall, this study contributes to the scientific knowledge regarding the influence of the interaction between various types of media use on political effects.}
+      \field{journaltitle}{Communication Research}
+      \field{number}{3}
+      \field{title}{When Fake News Becomes Real: Combined Exposure to Multiple News Sources and Political Attitudes of Inefficacy, Alienation, and Cynicism}
+      \field{volume}{41}
+      \field{year}{2014}
+      \field{pages}{430\bibrangedash 454}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1177/0093650212453600
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1177/0093650212453600
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0093650212453600
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/0093650212453600
+      \endverb
+    \endentry
     \entry{USPresidentialElection2016}{inbook}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=32e7d974428cd6e3778c8e9e8387aaa8}{%
@@ -46,6 +220,78 @@
       \field{month}{10}
       \field{title}{United States Presidential Election of 2016}
       \field{year}{2021}
+    \endentry
+    \entry{RumorsAndHealthCareReform_Berinsky}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=abff43c547820881e66248439eaa0b33}{%
+           family={Berinsky},
+           familyi={B\bibinitperiod},
+           given={Adam\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{abff43c547820881e66248439eaa0b33}
+      \strng{fullhash}{abff43c547820881e66248439eaa0b33}
+      \strng{bibnamehash}{abff43c547820881e66248439eaa0b33}
+      \strng{authorbibnamehash}{abff43c547820881e66248439eaa0b33}
+      \strng{authornamehash}{abff43c547820881e66248439eaa0b33}
+      \strng{authorfullhash}{abff43c547820881e66248439eaa0b33}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article explores belief in political rumors surrounding the health care reforms enacted by Congress in 2010. Refuting rumors with statements from unlikely sources can, under certain circumstances, increase the willingness of citizens to reject rumors regardless of their own political predilections. Such source credibility effects, while well known in the political persuasion literature, have not been applied to the study of rumor. Though source credibility appears to be an effective tool for debunking political rumors, risks remain. Drawing upon research from psychology on â€˜fluencyâ€™ â€“ the ease of information recall â€“ this article argues that rumors acquire power through familiarity. Attempting to quash rumors through direct refutation may facilitate their diffusion by increasing fluency. The empirical results find that merely repeating a rumor increases its power.}
+      \field{journaltitle}{British Journal of Political Science}
+      \field{number}{2}
+      \field{title}{Rumors and Health Care Reform: Experiments in Political Misinformation}
+      \field{volume}{47}
+      \field{year}{2017}
+      \field{pages}{241\bibrangedash 262}
+      \range{pages}{22}
+      \verb{urlraw}
+      \verb https://EconPapers.repec.org/RePEc:cup:bjposi:v:47:y:2017:i:02:p:241-262_00
+      \endverb
+      \verb{url}
+      \verb https://EconPapers.repec.org/RePEc:cup:bjposi:v:47:y:2017:i:02:p:241-262_00
+      \endverb
+    \endentry
+    \entry{SocialBotsDistortThe2016USPresidentialElection_Bessi}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=66a45d7fac5152a2ad43fea8f8b28512}{%
+           family={Bessi},
+           familyi={B\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ff088972e751f036f6d04e4c835050d}{%
+           family={Ferrara},
+           familyi={F\bibinitperiod},
+           given={Emilio},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d13c323bca6b4a84b1144cf0670b91b4}
+      \strng{fullhash}{d13c323bca6b4a84b1144cf0670b91b4}
+      \strng{bibnamehash}{d13c323bca6b4a84b1144cf0670b91b4}
+      \strng{authorbibnamehash}{d13c323bca6b4a84b1144cf0670b91b4}
+      \strng{authornamehash}{d13c323bca6b4a84b1144cf0670b91b4}
+      \strng{authorfullhash}{d13c323bca6b4a84b1144cf0670b91b4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{First Monday}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Social Bots Distort the 2016 US Presidential Election Online Discussion}
+      \field{volume}{21}
+      \field{year}{2016}
     \endentry
     \entry{RumorDetectionBidirectionalGraphConvolutionalNetworks_Bian}{misc}{}
       \name{author}{7}{}{%
@@ -121,6 +367,63 @@
       \endverb
       \keyw{Social and Information Networks (cs.SI),Machine Learning (cs.LG),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
+    \entry{TheImpactOfRealNewsAboutFakeNews_Brewer}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b4c25583525bc2d25981f2bee2050c27}{%
+           family={Brewer},
+           familyi={B\bibinitperiod},
+           given={Paul\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c598c851bd67ac62e93882d536a98d80}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Dannagal\bibnamedelima Goldthwaite},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=599102d4a751b72121cdd814fa2072e6}{%
+           family={Morreale},
+           familyi={M\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d1258619673998910fb51b907ae8d04c}
+      \strng{fullhash}{d1258619673998910fb51b907ae8d04c}
+      \strng{bibnamehash}{d1258619673998910fb51b907ae8d04c}
+      \strng{authorbibnamehash}{d1258619673998910fb51b907ae8d04c}
+      \strng{authornamehash}{d1258619673998910fb51b907ae8d04c}
+      \strng{authorfullhash}{d1258619673998910fb51b907ae8d04c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{This study builds on research about political humor, press metacoverage, and intertextuality to examine the effects of news coverage about political satire on audience members. The analysis uses experimental data to test whether news coverage of Stephen Colbert’s Super PAC influenced knowledge and opinion regarding Citizens United, as well as political trust and internal political efficacy. It also tests whether such effects depended on previous exposure to The Colbert Report (Colbert’s satirical television show) and traditional news. Results indicate that exposure to news coverage of satire can influence knowledge, opinion, and political trust. Additionally, regular satire viewers may experience stronger effects on opinion, as well as increased internal efficacy, when consuming news coverage about issues previously highlighted in satire programming.}}
+      \field{issn}{0954-2892}
+      \field{journaltitle}{International Journal of Public Opinion Research}
+      \field{month}{09}
+      \field{number}{3}
+      \field{title}{{The Impact of Real News about “Fake News”: Intertextual Processes and Political Satire}}
+      \field{volume}{25}
+      \field{year}{2013}
+      \field{pages}{323\bibrangedash 343}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1093/ijpor/edt015
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/ijpor/article-pdf/25/3/323/2358632/edt015.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/ijpor/edt015
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/ijpor/edt015
+      \endverb
+    \endentry
     \entry{CanWeOpenTheBlackBoxOfAI_Castelvecchi}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=dfd36356908a0aa24260ffef20f09b06}{%
@@ -153,6 +456,182 @@
       \verb{doi}
       \verb 10.1038/538020a
       \endverb
+    \endentry
+    \entry{AnyoneCanBecomeATroll_Cheng}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fcf7e2cc0011128155bbb648cb2fc647}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c5821708eb9cc9bc6c92c66ada53892}{%
+           family={Bernstein},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=803627d78ac3640f8c905c014a7e100e}{%
+           family={Danescu-Niculescu-Mizil},
+           familyi={D\bibinithyphendelim N\bibinithyphendelim M\bibinitperiod},
+           given={Cristian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=900d107125ff0ca84698cb909e4f6c51}{%
+           family={Leskovec},
+           familyi={L\bibinitperiod},
+           given={Jure},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Portland, Oregon, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{afe54da8e272824a3cc8969b72e0dbec}
+      \strng{fullhash}{afe54da8e272824a3cc8969b72e0dbec}
+      \strng{bibnamehash}{afe54da8e272824a3cc8969b72e0dbec}
+      \strng{authorbibnamehash}{afe54da8e272824a3cc8969b72e0dbec}
+      \strng{authornamehash}{afe54da8e272824a3cc8969b72e0dbec}
+      \strng{authorfullhash}{afe54da8e272824a3cc8969b72e0dbec}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In online communities, antisocial behavior such as trolling disrupts constructive discussion. While prior work suggests that trolling behavior is confined to a vocal and antisocial minority, we demonstrate that ordinary people can engage in such behavior as well. We propose two primary trigger mechanisms: the individual's mood, and the surrounding context of a discussion (e.g., exposure to prior trolling behavior). Through an experiment simulating an online discussion, we find that both negative mood and seeing troll posts by others significantly increases the probability of a user trolling, and together double this probability. To support and extend these results, we study how these same mechanisms play out in the wild via a data-driven, longitudinal analysis of a large online news discussion community. This analysis exposes temporal mood effects, and explores long range patterns of repeated exposure to trolling. A predictive model of trolling behavior reveals that mood and discussion context together can explain trolling behavior better than an individual's history of trolling. These results combine to suggest that ordinary people can, under the right circumstances, behave like trolls.}
+      \field{isbn}{9781450343350}
+      \field{journaltitle}{Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing}
+      \field{series}{CSCW '17}
+      \field{title}{Anyone Can Become a Troll: Causes of Trolling Behavior in Online Discussions}
+      \field{year}{2017}
+      \field{pages}{1217\bibrangedash 1230}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1145/2998181.2998213
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2998181.2998213
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2998181.2998213
+      \endverb
+      \keyw{online communities,antisocial behavior,trolling}
+    \endentry
+    \entry{TheEffectOfPeopleRecommenderOnEchoChambers_Cinus}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=964f6aec223678a7f37c9adf853e8a9f}{%
+           family={Cinus},
+           familyi={C\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1526205842d4e3cfb7da62f92d35362d}{%
+           family={Minici},
+           familyi={M\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=990b9ebfb889949bd154585f72728f1c}{%
+           family={Monti},
+           familyi={M\bibinitperiod},
+           given={Corrado},
+           giveni={C\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e5f96000b50965c4c5a75005644d7e29}{%
+           family={Bonchi},
+           familyi={B\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2634ca7cd1729ee0df311f10d9efc7a9}
+      \strng{fullhash}{2634ca7cd1729ee0df311f10d9efc7a9}
+      \strng{bibnamehash}{2634ca7cd1729ee0df311f10d9efc7a9}
+      \strng{authorbibnamehash}{2634ca7cd1729ee0df311f10d9efc7a9}
+      \strng{authornamehash}{2634ca7cd1729ee0df311f10d9efc7a9}
+      \strng{authorfullhash}{2634ca7cd1729ee0df311f10d9efc7a9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the International AAAI Conference on Web and Social Media}
+      \field{month}{5}
+      \field{number}{1}
+      \field{title}{The Effect of People Recommenders on Echo Chambers and Polarization}
+      \field{volume}{16}
+      \field{year}{2022}
+      \field{pages}{90\bibrangedash 101}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb https://ojs.aaai.org/index.php/ICWSM/article/view/19275
+      \endverb
+      \verb{url}
+      \verb https://ojs.aaai.org/index.php/ICWSM/article/view/19275
+      \endverb
+    \endentry
+    \entry{AutomaticDeceptionDetection_Conroy}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=ab29e63440722e5259da1d11d6ac833f}{%
+           family={Conroy},
+           familyi={C\bibinitperiod},
+           given={Nadia\bibnamedelima K.},
+           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=c3276753f0d39e130510d4dbaa71582f}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Victoria\bibnamedelima L.},
+           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=0927c843a3da6bc94ede85e4bcba90f9}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yimin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{37bc396d5f821e0b50333a53ebd9ffc4}
+      \strng{fullhash}{37bc396d5f821e0b50333a53ebd9ffc4}
+      \strng{bibnamehash}{37bc396d5f821e0b50333a53ebd9ffc4}
+      \strng{authorbibnamehash}{37bc396d5f821e0b50333a53ebd9ffc4}
+      \strng{authornamehash}{37bc396d5f821e0b50333a53ebd9ffc4}
+      \strng{authorfullhash}{37bc396d5f821e0b50333a53ebd9ffc4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{ABSTRACT This research surveys the current state-of-the-art technologies that are instrumental in the adoption and development of fake news detection. “Fake news detection” is defined as the task of categorizing news along a continuum of veracity, with an associated measure of certainty. Veracity is compromised by the occurrence of intentional deceptions. The nature of online news publication has changed, such that traditional fact checking and vetting from potential deception is impossible against the flood arising from content generators, as well as various formats and genres. The paper provides a typology of several varieties of veracity assessment methods emerging from two major categories – linguistic cue approaches (with machine learning), and network analysis approaches. We see promise in an innovative hybrid approach that combines linguistic cue and machine learning, with network-based behavioral data. Although designing a fake news detector is not a straightforward problem, we propose operational guidelines for a feasible fake news detecting system.}
+      \field{journaltitle}{Proceedings of the Association for Information Science and Technology}
+      \field{number}{1}
+      \field{title}{Automatic deception detection: Methods for finding fake news}
+      \field{volume}{52}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb https://doi.org/10.1002/pra2.2015.145052010082
+      \endverb
+      \verb{eprint}
+      \verb https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/pra2.2015.145052010082
+      \endverb
+      \verb{urlraw}
+      \verb https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/pra2.2015.145052010082
+      \endverb
+      \verb{url}
+      \verb https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/pra2.2015.145052010082
+      \endverb
+      \keyw{Deception detection,fake news detection,veracity assessment,news verification,methods,automation,SVM,knowledge networks,predictive modelling,fraud}
     \endentry
     \entry{TowardsARigorousScienceML_Velez}{misc}{}
       \name{author}{2}{}{%
@@ -294,6 +773,207 @@
       \field{pages}{18\bibrangedash 84}
       \range{pages}{67}
     \endentry
+    \entry{MarketQuaversAfterFakeAPTweet_ElBoghdady}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=35e446a81e56ff67d19736f03dcd9152}{%
+           family={ElBoghdady},
+           familyi={E\bibinitperiod},
+           given={Dina},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {WP Company}%
+      }
+      \strng{namehash}{35e446a81e56ff67d19736f03dcd9152}
+      \strng{fullhash}{35e446a81e56ff67d19736f03dcd9152}
+      \strng{bibnamehash}{35e446a81e56ff67d19736f03dcd9152}
+      \strng{authorbibnamehash}{35e446a81e56ff67d19736f03dcd9152}
+      \strng{authornamehash}{35e446a81e56ff67d19736f03dcd9152}
+      \strng{authorfullhash}{35e446a81e56ff67d19736f03dcd9152}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Washington Post}
+      \field{month}{4}
+      \field{title}{Market quavers after fake AP tweet says Obama was hurt in White House explosions}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://www.washingtonpost.com/business/economy/market-quavers-after-fake-ap-tweet-says-obama-was-hurt-in-white-house-explosions/2013/04/23/d96d2dc6-ac4d-11e2-a8b9-2a63d75b5459_story.html
+      \endverb
+      \verb{url}
+      \verb https://www.washingtonpost.com/business/economy/market-quavers-after-fake-ap-tweet-says-obama-was-hurt-in-white-house-explosions/2013/04/23/d96d2dc6-ac4d-11e2-a8b9-2a63d75b5459_story.html
+      \endverb
+    \endentry
+    \entry{TheRiseOfSocialBots_Ferrara}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9ff088972e751f036f6d04e4c835050d}{%
+           family={Ferrara},
+           familyi={F\bibinitperiod},
+           given={Emilio},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a87d0c70e43b7e935e92f1f97c48d2e}{%
+           family={Varol},
+           familyi={V\bibinitperiod},
+           given={Onur},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28c8dc8bba38ae7878a959eec38765db}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Clayton},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e3991fca812b39b0448729fca507968}{%
+           family={Menczer},
+           familyi={M\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2596bc60fbbe46dccfc09ae3fd2522d0}{%
+           family={Flammini},
+           familyi={F\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{209fb80ae5ce2d4b9891f9d9a17da034}
+      \strng{fullhash}{1e0004963261ec094a977a8aafc62351}
+      \strng{bibnamehash}{1e0004963261ec094a977a8aafc62351}
+      \strng{authorbibnamehash}{1e0004963261ec094a977a8aafc62351}
+      \strng{authornamehash}{209fb80ae5ce2d4b9891f9d9a17da034}
+      \strng{authorfullhash}{1e0004963261ec094a977a8aafc62351}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Today's social bots are sophisticated and sometimes menacing. Indeed, their presence can endanger online ecosystems as well as our society.}
+      \field{issn}{0001-0782}
+      \field{journaltitle}{Commun. ACM}
+      \field{month}{6}
+      \field{number}{7}
+      \field{title}{The Rise of Social Bots}
+      \field{volume}{59}
+      \field{year}{2016}
+      \field{pages}{96\bibrangedash 104}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1145/2818717
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2818717
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2818717
+      \endverb
+    \endentry
+    \entry{Pizzagate_Fisher}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a6fc882429707b98f350a63a5a047f7a}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a4115d0ba6a2eec8495bc0f360cb5f4}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima Woodrow},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4c3867cfad17e2c4339f7e81aa72145}{%
+           family={Hermann},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {WP Company}%
+      }
+      \strng{namehash}{d7444f8c903d5dc434c267eb820f309c}
+      \strng{fullhash}{d7444f8c903d5dc434c267eb820f309c}
+      \strng{bibnamehash}{d7444f8c903d5dc434c267eb820f309c}
+      \strng{authorbibnamehash}{d7444f8c903d5dc434c267eb820f309c}
+      \strng{authornamehash}{d7444f8c903d5dc434c267eb820f309c}
+      \strng{authorfullhash}{d7444f8c903d5dc434c267eb820f309c}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Washington Post}
+      \field{month}{12}
+      \field{title}{Pizzagate: From rumor, to hashtag, to gunfire in D.C.}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.washingtonpost.com/local/pizzagate-from-rumor-to-hashtag-to-gunfire-in-dc/2016/12/06/4c7def50-bbd4-11e6-94ac-3d324840106c_story.html
+      \endverb
+      \verb{url}
+      \verb https://www.washingtonpost.com/local/pizzagate-from-rumor-to-hashtag-to-gunfire-in-dc/2016/12/06/4c7def50-bbd4-11e6-94ac-3d324840106c_story.html
+      \endverb
+    \endentry
+    \entry{TheGreatMoonHoax_Foster}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1db7ff90ca97ef9d4e6302aea33f3187}{%
+           family={Foster},
+           familyi={F\bibinitperiod},
+           given={Vincent\bibnamedelima S.},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{1db7ff90ca97ef9d4e6302aea33f3187}
+      \strng{fullhash}{1db7ff90ca97ef9d4e6302aea33f3187}
+      \strng{bibnamehash}{1db7ff90ca97ef9d4e6302aea33f3187}
+      \strng{authorbibnamehash}{1db7ff90ca97ef9d4e6302aea33f3187}
+      \strng{authornamehash}{1db7ff90ca97ef9d4e6302aea33f3187}
+      \strng{authorfullhash}{1db7ff90ca97ef9d4e6302aea33f3187}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Back in 1835 there was a Moon hoax that thousands of people fell for, despite the tale being complete fiction. A series of articles were published in a newspaper reporting incredible new astronomical observations of the Moon supposedly made by astronomer Sir John Herschel during an observing run at the Cape of Good Hope. Detailed descriptions of winged beings, plants, animals and a sapphire temple increased sales and subscriptions to the fledgling newspaper. The chapter offers a selection of these articles as they were published in the New York Sun.}
+      \field{booktitle}{Modern Mysteries of the Moon: What We Still Don't Know About Our Lunar Companion}
+      \field{isbn}{978-3-319-22120-5}
+      \field{title}{The Great Moon Hoax}
+      \field{year}{2016}
+      \field{pages}{11\bibrangedash 44}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1007/978-3-319-22120-5_2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-22120-5_2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-22120-5_2
+      \endverb
+    \endentry
     \entry{XAI_Gunning}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=25d2cc74dc187d8b48d08bbdae1064da}{%
@@ -389,6 +1069,97 @@
       \verb https://arxiv.org/abs/2007.03316
       \endverb
       \keyw{Social and Information Networks (cs.SI),Machine Learning (cs.LG),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{NewsVerificationByExploitingConflictingSocialViewpoints_Jin}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=db409999f9a655a7317a7bc2fecb1144}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Zhiwei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0978f0c005ad9cb1f945ec10ff68d757}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b20f786926022139bb630b378300fe36}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongdong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efa9b2a65485dcaee98452ac77378cac}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Jiebo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{07ba5915bba3422fba0444748c82dc59}
+      \strng{fullhash}{07ba5915bba3422fba0444748c82dc59}
+      \strng{bibnamehash}{07ba5915bba3422fba0444748c82dc59}
+      \strng{authorbibnamehash}{07ba5915bba3422fba0444748c82dc59}
+      \strng{authornamehash}{07ba5915bba3422fba0444748c82dc59}
+      \strng{authorfullhash}{07ba5915bba3422fba0444748c82dc59}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the AAAI Conference on Artificial Intelligence}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{News Verification by Exploiting Conflicting Social Viewpoints in Microblogs}
+      \field{volume}{30}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1609/aaai.v30i1.10382
+      \endverb
+      \verb{urlraw}
+      \verb https://ojs.aaai.org/index.php/AAAI/article/view/10382
+      \endverb
+      \verb{url}
+      \verb https://ojs.aaai.org/index.php/AAAI/article/view/10382
+      \endverb
+    \endentry
+    \entry{ProspectTheory_Kahneman}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=031d0d5f9391d970f6f089af958f701d}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{fullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{bibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorbibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authornamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorfullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{title}{Prospect theory: analysis of decision under risk}
+      \field{volume}{47}
+      \field{year}{1979}
+      \field{pages}{263\bibrangedash 291}
+      \range{pages}{29}
     \endentry
     \entry{TheScienceOfFakeNews_Lazer}{article}{}
       \name{author}{16}{}{%
@@ -523,6 +1294,54 @@
       \verb https://www.science.org/doi/abs/10.1126/science.aao2998
       \endverb
     \endentry
+    \entry{Superstition_Lindeman}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6b110d3e602d3d193620d6d6e9aea0e5}{%
+           family={Lindeman},
+           familyi={L\bibinitperiod},
+           given={Marjaana},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52f5d184dd64d4f6dd89cf4ce87ecb50}{%
+           family={Aarnio},
+           familyi={A\bibinitperiod},
+           given={Kia},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{37c29b8437e06ad5be902615a9049c7d}
+      \strng{fullhash}{37c29b8437e06ad5be902615a9049c7d}
+      \strng{bibnamehash}{37c29b8437e06ad5be902615a9049c7d}
+      \strng{authorbibnamehash}{37c29b8437e06ad5be902615a9049c7d}
+      \strng{authornamehash}{37c29b8437e06ad5be902615a9049c7d}
+      \strng{authorfullhash}{37c29b8437e06ad5be902615a9049c7d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Lack of conceptual clarity has hampered theory formation and research on superstitious, magical, and paranormal beliefs. This study offers a conceptual framework where these concepts are differentiated from other unfounded beliefs and defined identically as a confusion of core knowledge about physical, psychological, and biological phenomena. When testing this definition with questionnaire items (N=239), the results showed that superstitious individuals accepted more violations of core ontological distinctions than skeptics did and that ontological confusions discriminated believers from skeptics better than intuitive thinking, analytical thinking, or emotional instability. The findings justify the present conceptualization of superstitious, magical, and paranormal beliefs, and offer new theoretical propositions for the familiar everyday beliefs that are yet scientifically so poorly understood.}
+      \field{issn}{0092-6566}
+      \field{journaltitle}{Journal of Research in Personality}
+      \field{number}{4}
+      \field{title}{Superstitious, magical, and paranormal beliefs: An integrative model}
+      \field{volume}{41}
+      \field{year}{2007}
+      \field{pages}{731\bibrangedash 744}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jrp.2006.06.009
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0092656606000869
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0092656606000869
+      \endverb
+      \keyw{Superstition,Magical thinking,Paranormal beliefs,Intuitive thinking,Core knowledge}
+    \endentry
     \entry{TheMythosOfModelInterpretability_Lipton}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=599ae457cf41d4ce64e09433edbc964b}{%
@@ -596,12 +1415,12 @@
     \endentry
     \entry{FakeNewsDetectionUsingGeometricDeepLearning_Monti}{article}{}
       \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=8f0d23e8869cd90a91c7a2d49ae85c0e}{%
+        {{un=1,uniquepart=given,hash=8f0d23e8869cd90a91c7a2d49ae85c0e}{%
            family={Monti},
            familyi={M\bibinitperiod},
            given={Federico},
            giveni={F\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=7769b0a2def8a3963a661fa44ace465f}{%
            family={Frasca},
            familyi={F\bibinitperiod},
@@ -653,6 +1472,49 @@
       \endverb
       \verb{url}
       \verb http://arxiv.org/abs/1902.06673
+      \endverb
+    \endentry
+    \entry{TheFakeNewsSpreadingPlague_Mustafaraj}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f92806ee4a46acc555d61e0cf1371a6d}{%
+           family={Mustafaraj},
+           familyi={M\bibinitperiod},
+           given={Eni},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e41e8dbcd6050ffa3b123842e4edd33}{%
+           family={Metaxas},
+           familyi={M\bibinitperiod},
+           given={Panagiotis\bibnamedelima Takis},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2941e69d93af7050504773795b4c20d3}
+      \strng{fullhash}{2941e69d93af7050504773795b4c20d3}
+      \strng{bibnamehash}{2941e69d93af7050504773795b4c20d3}
+      \strng{authorbibnamehash}{2941e69d93af7050504773795b4c20d3}
+      \strng{authornamehash}{2941e69d93af7050504773795b4c20d3}
+      \strng{authorfullhash}{2941e69d93af7050504773795b4c20d3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{The Fake News Spreading Plague: Was it Preventable?}
+      \field{volume}{abs/1703.06988}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1703.06988
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1703.06988
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1703.06988
       \endverb
     \endentry
     \entry{FakeReddit_Nakamura}{article}{}
@@ -773,6 +1635,156 @@
       \verb https://reutersinstitute.politics.ox.ac.uk/sites/default/files/2022-06/Digital_News-Report_2022.pdf
       \endverb
     \endentry
+    \entry{ConfirmationBias_Nickerson}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e51931b7efc821d8bfd20c18c04f1b49}{%
+           family={Nickerson},
+           familyi={N\bibinitperiod},
+           given={Raymond\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{fullhash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{bibnamehash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{authorbibnamehash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{authornamehash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \strng{authorfullhash}{e51931b7efc821d8bfd20c18c04f1b49}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Confirmation bias, as the term is typically used in the psychological literature, connotes the seeking or interpreting of evidence in ways that are partial to existing beliefs, expectations, or a hypothesis in hand. The author reviews evidence of such a bias in a variety of guises and gives examples of its operation in several practical contexts. Possible explanations are considered, and the question of its utility or disutility is discussed.}
+      \field{journaltitle}{Review of General Psychology}
+      \field{number}{2}
+      \field{title}{Confirmation Bias: A Ubiquitous Phenomenon in Many Guises}
+      \field{volume}{2}
+      \field{year}{1998}
+      \field{pages}{175\bibrangedash 220}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1037/1089-2680.2.2.175
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1037/1089-2680.2.2.175
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1037/1089-2680.2.2.175
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1037/1089-2680.2.2.175
+      \endverb
+    \endentry
+    \entry{WhenCorrectionsFail_Nyhan}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8ef5bca6f403168706ad93d11351ed60}{%
+           family={Nyhan},
+           familyi={N\bibinitperiod},
+           given={Brendan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=698c775e8046e91f3e4c4717a9af1fe4}{%
+           family={Reifler},
+           familyi={R\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d21a666d934fa6f0432b913cb72d3446}
+      \strng{fullhash}{d21a666d934fa6f0432b913cb72d3446}
+      \strng{bibnamehash}{d21a666d934fa6f0432b913cb72d3446}
+      \strng{authorbibnamehash}{d21a666d934fa6f0432b913cb72d3446}
+      \strng{authornamehash}{d21a666d934fa6f0432b913cb72d3446}
+      \strng{authorfullhash}{d21a666d934fa6f0432b913cb72d3446}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An extensive literature addresses citizen ignorance, but very little research focuses on misperceptions. Can these false or unsubstantiated beliefs about politics be corrected? Previous studies have not tested the efficacy of corrections in a realistic format. We conducted four experiments in which subjects read mock news articles that included either a misleading claim from a politician, or a misleading claim and a correction. Results indicate that corrections frequently fail to reduce misperceptions among the targeted ideological group. We also document several instances of a ``backfire effect'' in which corrections actually increase misperceptions among the group in question.}
+      \field{issn}{1573-6687}
+      \field{journaltitle}{Political Behavior}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{When Corrections Fail: The Persistence of Political Misperceptions}
+      \field{volume}{32}
+      \field{year}{2010}
+      \field{pages}{303\bibrangedash 330}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1007/s11109-010-9112-2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11109-010-9112-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11109-010-9112-2
+      \endverb
+    \endentry
+    \entry{TheFilterBubble_Pariser}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=044b7cb82804417e8026861a006813eb}{%
+           family={Pariser},
+           familyi={P\bibinitperiod},
+           given={Eli},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Penguin UK}%
+      }
+      \strng{namehash}{044b7cb82804417e8026861a006813eb}
+      \strng{fullhash}{044b7cb82804417e8026861a006813eb}
+      \strng{bibnamehash}{044b7cb82804417e8026861a006813eb}
+      \strng{authorbibnamehash}{044b7cb82804417e8026861a006813eb}
+      \strng{authornamehash}{044b7cb82804417e8026861a006813eb}
+      \strng{authorfullhash}{044b7cb82804417e8026861a006813eb}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The filter bubble: What the internet is hiding from you}
+      \field{year}{2011}
+    \endentry
+    \entry{TheRussianFirehoseOfFalsehood_Paul}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3a9d3531869a45cd1025ff98c04d596a}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0f363c48bc0a86e7e83eafcda4b3406}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4669f031284a276aca38235a48ccdd59}
+      \strng{fullhash}{4669f031284a276aca38235a48ccdd59}
+      \strng{bibnamehash}{4669f031284a276aca38235a48ccdd59}
+      \strng{authorbibnamehash}{4669f031284a276aca38235a48ccdd59}
+      \strng{authornamehash}{4669f031284a276aca38235a48ccdd59}
+      \strng{authorfullhash}{4669f031284a276aca38235a48ccdd59}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Russian "Firehose of Falsehood" Propaganda Model: Why It Might Work and Options to Counter It}
+      \field{year}{2016}
+    \endentry
     \entry{ThePsycologyOfFakeNews_Pennycook}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=14ca11670fbe0c75690f2537879ddb4d}{%
@@ -820,6 +1832,195 @@
       \verb https://www.sciencedirect.com/science/article/pii/S1364661321000516
       \endverb
       \keyw{fake news,misinformation,social media,news media,motivated reasoning,dual process theory,crowdsourcing,attention,information sharing}
+    \endentry
+    \entry{TrumpWonBecauseOfFacebook_Read}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eb4f7033ad7f243671c904913d560547}{%
+           family={Read},
+           familyi={R\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Intelligencer}%
+      }
+      \strng{namehash}{eb4f7033ad7f243671c904913d560547}
+      \strng{fullhash}{eb4f7033ad7f243671c904913d560547}
+      \strng{bibnamehash}{eb4f7033ad7f243671c904913d560547}
+      \strng{authorbibnamehash}{eb4f7033ad7f243671c904913d560547}
+      \strng{authornamehash}{eb4f7033ad7f243671c904913d560547}
+      \strng{authorfullhash}{eb4f7033ad7f243671c904913d560547}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Intelligencer}
+      \field{month}{11}
+      \field{title}{Donald Trump won because of Facebook}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://nymag.com/intelligencer/2016/11/donald-trump-won-because-of-facebook.html
+      \endverb
+      \verb{url}
+      \verb https://nymag.com/intelligencer/2016/11/donald-trump-won-because-of-facebook.html
+      \endverb
+    \endentry
+    \entry{NaiveRealism_Reed}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=224312d2234ef481bec746af012e47ed}{%
+           family={Reed},
+           familyi={R\bibinitperiod},
+           given={Edward\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fbfd09c7fb06d73671dbff0b1262622}{%
+           family={Turiel},
+           familyi={T\bibinitperiod},
+           given={Elliot},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c9836f2cba22d2947f722cbcf77fb76}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Terrance},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0551d3de70bd2bc74d124a665273bcab}
+      \strng{fullhash}{0551d3de70bd2bc74d124a665273bcab}
+      \strng{bibnamehash}{0551d3de70bd2bc74d124a665273bcab}
+      \strng{authorbibnamehash}{0551d3de70bd2bc74d124a665273bcab}
+      \strng{authornamehash}{0551d3de70bd2bc74d124a665273bcab}
+      \strng{authorfullhash}{0551d3de70bd2bc74d124a665273bcab}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Naive Realism in Everyday Life: Implications for Social Conflict and Misunderstanding}
+      \field{year}{2013}
+    \endentry
+    \entry{FakeNewsOrTruthUsingSatiricalCues_Rubin}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=c4244c27917594b9f399f49b89867a8b}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Victoria},
+           giveni={V\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=2a970a6b419b689a8e1b881085e1c992}{%
+           family={Conroy},
+           familyi={C\bibinitperiod},
+           given={Niall},
+           giveni={N\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=0927c843a3da6bc94ede85e4bcba90f9}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yimin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b27383efed0c18d0d72e2ed6d60521b4}{%
+           family={Cornwell},
+           familyi={C\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {San Diego, California}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{44417a9932666a1ca49e8660926cfb7e}
+      \strng{fullhash}{44417a9932666a1ca49e8660926cfb7e}
+      \strng{bibnamehash}{44417a9932666a1ca49e8660926cfb7e}
+      \strng{authorbibnamehash}{44417a9932666a1ca49e8660926cfb7e}
+      \strng{authornamehash}{44417a9932666a1ca49e8660926cfb7e}
+      \strng{authorfullhash}{44417a9932666a1ca49e8660926cfb7e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Second Workshop on Computational Approaches to Deception Detection}
+      \field{month}{6}
+      \field{title}{Fake News or Truth? Using Satirical Cues to Detect Potentially Misleading News}
+      \field{year}{2016}
+      \field{pages}{7\bibrangedash 17}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.18653/v1/W16-0802
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/W16-0802
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/W16-0802
+      \endverb
+    \endentry
+    \entry{DeceptionDetectionForFakeNews3TypesOfFakeNews_Rubin}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=c3276753f0d39e130510d4dbaa71582f}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Victoria\bibnamedelima L.},
+           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=0927c843a3da6bc94ede85e4bcba90f9}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yimin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=ab29e63440722e5259da1d11d6ac833f}{%
+           family={Conroy},
+           familyi={C\bibinitperiod},
+           given={Nadia\bibnamedelima K.},
+           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{65539806cf21a7b4dde54e96da80e483}
+      \strng{fullhash}{65539806cf21a7b4dde54e96da80e483}
+      \strng{bibnamehash}{65539806cf21a7b4dde54e96da80e483}
+      \strng{authorbibnamehash}{65539806cf21a7b4dde54e96da80e483}
+      \strng{authornamehash}{65539806cf21a7b4dde54e96da80e483}
+      \strng{authorfullhash}{65539806cf21a7b4dde54e96da80e483}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{ABSTRACT A fake news detection system aims to assist users in detecting and filtering out varieties of potentially deceptive news. The prediction of the chances that a particular news item is intentionally deceptive is based on the analysis of previously seen truthful and deceptive news. A scarcity of deceptive news, available as corpora for predictive modeling, is a major stumbling block in this field of natural language processing (NLP) and deception detection. This paper discusses three types of fake news, each in contrast to genuine serious reporting, and weighs their pros and cons as a corpus for text analytics and predictive modeling. Filtering, vetting, and verifying online information continues to be essential in library and information science (LIS), as the lines between traditional news and online information are blurring.}
+      \field{journaltitle}{Proceedings of the Association for Information Science and Technology}
+      \field{number}{1}
+      \field{title}{Deception detection for news: Three types of fakes}
+      \field{volume}{52}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb https://doi.org/10.1002/pra2.2015.145052010083
+      \endverb
+      \verb{eprint}
+      \verb https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/pra2.2015.145052010083
+      \endverb
+      \verb{urlraw}
+      \verb https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/pra2.2015.145052010083
+      \endverb
+      \verb{url}
+      \verb https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/pra2.2015.145052010083
+      \endverb
+      \keyw{news verification,deception detection,fake news detection,credibility assessment,reputable sources,fabrication,hoax,satire,natural language processing,text analytics,predictive modeling,corpus construction}
     \endentry
     \entry{BuzzfaceDataset_Santia}{paper}{}
       \name{author}{2}{}{%
@@ -994,6 +2195,118 @@
       \verb https://doi.org/10.1145/3137597.3137600
       \endverb
     \endentry
+    \entry{Buzzfeed_FakeNewsOutperformRealNews_Silverman}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8ad51d047a7487b19a60148d6a58adaa}{%
+           family={Silverman},
+           familyi={S\bibinitperiod},
+           given={Craig},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {BuzzFeed News}%
+      }
+      \strng{namehash}{8ad51d047a7487b19a60148d6a58adaa}
+      \strng{fullhash}{8ad51d047a7487b19a60148d6a58adaa}
+      \strng{bibnamehash}{8ad51d047a7487b19a60148d6a58adaa}
+      \strng{authorbibnamehash}{8ad51d047a7487b19a60148d6a58adaa}
+      \strng{authornamehash}{8ad51d047a7487b19a60148d6a58adaa}
+      \strng{authorfullhash}{8ad51d047a7487b19a60148d6a58adaa}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BuzzFeed News}
+      \field{month}{11}
+      \field{title}{This analysis shows how viral fake election news stories outperformed Real News on facebook}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.buzzfeednews.com/article/craigsilverman/viral-fake-election-news-outperformed-real-news-on-facebook
+      \endverb
+      \verb{url}
+      \verb https://www.buzzfeednews.com/article/craigsilverman/viral-fake-election-news-outperformed-real-news-on-facebook
+      \endverb
+    \endentry
+    \entry{EchoChambers_Sunstein}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7db9319b9972b60d9670001d1e4afa7d}{%
+           family={Sunstein},
+           familyi={S\bibinitperiod},
+           given={Cass\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{7db9319b9972b60d9670001d1e4afa7d}
+      \strng{fullhash}{7db9319b9972b60d9670001d1e4afa7d}
+      \strng{bibnamehash}{7db9319b9972b60d9670001d1e4afa7d}
+      \strng{authorbibnamehash}{7db9319b9972b60d9670001d1e4afa7d}
+      \strng{authornamehash}{7db9319b9972b60d9670001d1e4afa7d}
+      \strng{authorfullhash}{7db9319b9972b60d9670001d1e4afa7d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Echo chambers: Bush v. Gore, impeachment, and beyond}
+      \field{year}{2001}
+    \endentry
+    \entry{ConspiracyTheories_Sunstein}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7db9319b9972b60d9670001d1e4afa7d}{%
+           family={Sunstein},
+           familyi={S\bibinitperiod},
+           given={Cass\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f636bc67693d185346a5bc4493a34637}{%
+           family={Vermeule},
+           familyi={V\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1320945168a39798b7818421bff26bf1}
+      \strng{fullhash}{1320945168a39798b7818421bff26bf1}
+      \strng{bibnamehash}{1320945168a39798b7818421bff26bf1}
+      \strng{authorbibnamehash}{1320945168a39798b7818421bff26bf1}
+      \strng{authornamehash}{1320945168a39798b7818421bff26bf1}
+      \strng{authorfullhash}{1320945168a39798b7818421bff26bf1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Political Philosophy}
+      \field{number}{2}
+      \field{title}{Conspiracy Theories: Causes and Cures*}
+      \field{volume}{17}
+      \field{year}{2009}
+      \field{pages}{202\bibrangedash 227}
+      \range{pages}{26}
+      \verb{doi}
+      \verb https://doi.org/10.1111/j.1467-9760.2008.00325.x
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-9760.2008.00325.x
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9760.2008.00325.x
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9760.2008.00325.x
+      \endverb
+    \endentry
     \entry{SomeLikeItHoaxDataset_Tacchini}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=b1a3c59fd5bd96f75894075fb6a3d489}{%
@@ -1057,6 +2370,126 @@
       \verb https://arxiv.org/abs/1704.07506
       \endverb
       \keyw{Machine Learning (cs.LG),Human-Computer Interaction (cs.HC),Social and Information Networks (cs.SI),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{AdvancesInProspectTheory_Kahneman}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=031d0d5f9391d970f6f089af958f701d}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{fullhash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{bibnamehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{authorbibnamehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{authornamehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{authorfullhash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Risk and Uncertainty}
+      \field{title}{Advances in prospect theory: Cumulative representation of uncertainty}
+      \field{volume}{5}
+      \field{year}{1992}
+      \field{pages}{297\bibrangedash 323}
+      \range{pages}{27}
+    \endentry
+    \entry{TheSpreadingOfMisinformationOnline_DelVicario}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=a84588ef29e3b6ff25671c19b68c8ee1}{%
+           family={Vicario},
+           familyi={V\bibinitperiod},
+           given={Michela\bibnamedelima Del},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66a45d7fac5152a2ad43fea8f8b28512}{%
+           family={Bessi},
+           familyi={B\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a851f9380d2a3b135eaebd8690294b8d}{%
+           family={Zollo},
+           familyi={Z\bibinitperiod},
+           given={Fabiana},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1c32989a78998fe3c03c981d0da2dc7}{%
+           family={Petroni},
+           familyi={P\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de0cc1cf7f439916ed1a87e1f1cb7d45}{%
+           family={Scala},
+           familyi={S\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7b00e797d140adf1c921c6c2e28ace3}{%
+           family={Caldarelli},
+           familyi={C\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f5c56c0c8f34aa567709e10df5afd57}{%
+           family={Stanley},
+           familyi={S\bibinitperiod},
+           given={H.\bibnamedelimi Eugene},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e983e0a577fa17cd50abe418badad90}{%
+           family={Quattrociocchi},
+           familyi={Q\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b9e9eb15924e136842ce3051b5b60b06}
+      \strng{fullhash}{7e3e4b31221b90a81fa29737dcba736b}
+      \strng{bibnamehash}{7e3e4b31221b90a81fa29737dcba736b}
+      \strng{authorbibnamehash}{7e3e4b31221b90a81fa29737dcba736b}
+      \strng{authornamehash}{b9e9eb15924e136842ce3051b5b60b06}
+      \strng{authorfullhash}{7e3e4b31221b90a81fa29737dcba736b}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The wide availability of user-provided content in online social media facilitates the aggregation of people around common interests, worldviews, and narratives. However, the World Wide Web (WWW) also allows for the rapid dissemination of unsubstantiated rumors and conspiracy theories that often elicit rapid, large, but naive social responses such as the recent case of Jade Helm 15––where a simple military exercise turned out to be perceived as the beginning of a new civil war in the United States. In this work, we address the determinants governing misinformation spreading through a thorough quantitative analysis. In particular, we focus on how Facebook users consume information related to two distinct narratives: scientific and conspiracy news. We find that, although consumers of scientific and conspiracy stories present similar consumption patterns with respect to content, cascade dynamics differ. Selective exposure to content is the primary driver of content diffusion and generates the formation of homogeneous clusters, i.e., “echo chambers.” Indeed, homogeneity appears to be the primary driver for the diffusion of contents and each echo chamber has its own cascade dynamics. Finally, we introduce a data-driven percolation model mimicking rumor spreading and we show that homogeneity and polarization are the main determinants for predicting cascades’ size.}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{3}
+      \field{title}{The spreading of misinformation online}
+      \field{volume}{113}
+      \field{year}{2016}
+      \field{pages}{554\bibrangedash 559}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1517441113
+      \endverb
+      \verb{eprint}
+      \verb https://www.pnas.org/doi/pdf/10.1073/pnas.1517441113
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1517441113
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1517441113
+      \endverb
     \endentry
     \entry{NewsConsumptionAcrossSocialMedia_pewresearch}{misc}{}
       \name{author}{2}{}{%
@@ -1136,6 +2569,68 @@
       \verb{url}
       \verb http://arxiv.org/abs/1705.00648
       \endverb
+    \endentry
+    \entry{StatistaUsageOfSocialMedia_Watson}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7d73042fc1f20a9027f7d96a358474b3}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7d73042fc1f20a9027f7d96a358474b3}
+      \strng{fullhash}{7d73042fc1f20a9027f7d96a358474b3}
+      \strng{bibnamehash}{7d73042fc1f20a9027f7d96a358474b3}
+      \strng{authorbibnamehash}{7d73042fc1f20a9027f7d96a358474b3}
+      \strng{authornamehash}{7d73042fc1f20a9027f7d96a358474b3}
+      \strng{authorfullhash}{7d73042fc1f20a9027f7d96a358474b3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Statista}
+      \field{month}{8}
+      \field{title}{Usage of social media as a news source worldwide 2022}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.statista.com/statistics/718019/social-media-news-source/
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/statistics/718019/social-media-news-source/
+      \endverb
+    \endentry
+    \entry{HistorysGreatestLies_Weir}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2255cf4afd957160c84cfc58af91c79b}{%
+           family={Weir},
+           familyi={W\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Fair Winds Press}%
+      }
+      \strng{namehash}{2255cf4afd957160c84cfc58af91c79b}
+      \strng{fullhash}{2255cf4afd957160c84cfc58af91c79b}
+      \strng{bibnamehash}{2255cf4afd957160c84cfc58af91c79b}
+      \strng{authorbibnamehash}{2255cf4afd957160c84cfc58af91c79b}
+      \strng{authornamehash}{2255cf4afd957160c84cfc58af91c79b}
+      \strng{authorfullhash}{2255cf4afd957160c84cfc58af91c79b}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{booktitle}{History's greatest lies: The startling truths behind world events our history books got wrong}
+      \field{year}{2009}
+      \field{pages}{28\bibrangedash 41}
+      \range{pages}{14}
     \endentry
     \entry{SAFEFND_Zhou}{misc}{}
       \name{author}{3}{}{%

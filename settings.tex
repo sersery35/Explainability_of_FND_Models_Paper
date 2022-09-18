@@ -11,7 +11,7 @@
   style=apa,
   maxnames=4,
   minnames=3,
-  maxbibnames=99,
+  maxbibnames=300,
   giveninits,
   uniquename=init]{biblatex} % TODO: adapt citation style
 \usepackage{graphicx}
@@ -25,6 +25,13 @@
 \usepackage[final]{microtype}
 \usepackage{caption}
 \usepackage[hidelinks]{hyperref} % hidelinks removes colored boxes around references and links
+\usepackage{amsthm}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
 
 \bibliography{bibliography}
 % \addbibresource{bibliography.bib}

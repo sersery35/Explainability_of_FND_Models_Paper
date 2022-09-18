@@ -2,32 +2,107 @@
 % Add the above to each chapter to make compiling the PDF easier in some editors.
 
 \chapter{Background and Related Work}\label{chapter:background}
-We explain two research fields that create the bedrock of this thesis, namely, fake news detection and explainable artificial intelligence. Both areas provide the foundation of tools that were used in this work. The first provides the mechanisms and approaches to detect fake news, and the second offers a suite of techniques to interpret these mechanisms and approaches.\\
-Initially, in \ref{sec:fakeNewsDetection}, we discuss societal challenges, the characteristics, and the history of fake news. Then we talk about the detection methods that were developed over the years. After showing the challenges of creating FND models, we conclude the first section with SOTA FND models.\\
-After fake news detection, in \ref{sec:explainableArtificialIntelligence}, we first examine when XAI is necessary and its importance. Then, we define the suite of explainable artificial intelligence and the goals of XAI, and finally, we determine the suite that aims to satisfy these goals.
 
+We explain two research fields that create the bedrock of this thesis, namely, fake news detection and explainable artificial intelligence.
+Both areas provide the foundation of tools that were used in this work. The first provides the mechanisms and approaches to detect fake news,
+and the second offers a suite of techniques to interpret these mechanisms and approaches.\\
+Initially, in \ref{sec:fakeNewsDetection}, we discuss societal challenges, the characteristics, and the history of fake news. Then we talk about the detection methods that were developed over the years. After showing the challenges of creating FND models, we conclude the first section with SOTA FND models.\\
+After fake news detection, in \ref{sec:explainableArtificialIntelligence}, we first examine when XAI is necessary and its importance. Then, we define the suite of explainable artificial intelligence and the goals of XAI, and finally, we determine the suite that aims to satisfy these goals.\\
 \section{Fake News Detection}
 \label{sec:fakeNewsDetection}
 In the past decade, social media has become a place where anyone can share information. Although fast, free, and easy to access, obtaining
-real news from social media can be difficult, and one should do so at their own risk. For instance, a study in Digital News Report
-2022~\parencite{ReutersInstituteDigitalNewsReport} reports in its key findings that trust in the news is 42\% globally, the highest (69\%)
-in Finland, and the lowest (26\%) in the U.S.A. Consequently, the same study shows that in early 2022, in the week of the survey, between 45\%
-and 55\% of the surveyed social media consumers worldwide witnessed false or misleading information about COVID-19. \\
-In \ref{subsec:fakeNewsDetection_Overview}, we briefly present the history of fake news and look at studies that display the impact of fake news on society. In this section, we also define the terms fake news, disinformation, and misinformation. \\
-In \ref{subsec:fakeNewsDetection_Challenges}, we talk about the challenges when detecting fake news, both from human and computer perspectives. We make an excursion into human psychology, delivering insights into why humans fall for fake news. Then we talk about the difficulties when creating a fake news detection model.
+real news from social media can be difficult, and one should do so at their own risk and always check the
+facts~\parencite{SocialMediaAndFakeNewsIn2016Election_Allcott,TheScienceOfFakeNews_Lazer}. But the news stream never ends; thus, the need to verify the credibility of news using automated systems arises. To address this necessity, the number of studies involving \emph{Fake News} or \emph{Fake News Detection} has dramatically increased in the last decade (Fig. \ref{fig:FN_vs_FND_Publications}).
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{FN_vs_FND_Publications}
+    \caption[Fake News and Fake News Detection Publications by Year]{Total number of publications that include (1) \emph{Fake News} (blue) and (2) \emph{Fake News Detection} (orange) publications by year. Source: Scopus; Search Arguments: (1) TITLE-ABS-KEY("fake news*") PUBYEAR AFT 2014 (2) TITLE-ABS-KEY("fake news detection")}\label{fig:FN_vs_FND_Publications}
+\end{figure}\\
+In \ref{subsec:fakeNewsDetection_fakeNews}, we briefly present the history of fake news and look at studies that display the impact of fake news on society. In this section, we also define the terms fake news, disinformation, and misinformation. \\
+In \ref{subsec:fakeNewsDetection_FoundationsOfFakeNews}, we make an excursion into social sciences and human psychology, delivering insights into why humans fall for or tend to believe fake news. Furthermore, we draw some insights from the socio-technical foundations of fake news.\\
+We then list the available datasets used in FND and talk about their advantages and disadvantages in \ref{subsec:fakeNewsDetection_Datasets}. Finally, in \ref{subsec:fakeNewsDetection_Evolution}, we first talk about the evolution of detection algorithms, then we classify FND algorithms with respect to their input data type and what they focus on that data.\\
+\subsection{Fake News}
+\label{subsec:fakeNewsDetection_fakeNews}
+Throughout history, various forms of widespread fake news have been recorded. For instance, in the thirteenth century BC, Rameses the Great decorated his temples with paintings that tell stories of victory in the Battle of Kadesh. However, the treaty between the two sides reveals
+that the outcome of the battle was a stalemate~\parencite{HistorysGreatestLies_Weir}. Just after the printing press was invented in 1439,
+the circulation of fake news began. One of history's most famous examples of fake news is the
+“Great Moon Hoax”~\parencite{TheGreatMoonHoax_Foster}. In 1835, The Sun newspaper of New York published articles about a real-life astronomer and a made-up colleague who had observed life on the moon. It turns out that these fictionalized articles brought them new customersand almost no backlash after the newspaper admitted that the articles mentioned earlier
+were a hoax\footnote{https://www.politico.com/magazine/story/2016/12/fake-news-history-long-violent-214535/}.\\
+In order to highlight the difference, using the definitions from~\parencite{ThePsycologyOfFakeNews_Pennycook}, we formally define the terms disinformation and misinformation as follows,
+\begin{definition}[\emph{Disinformation}]
+    Information that is false or inaccurate and was created with a deliberate intention to mislead people.
+\end{definition}
+\begin{definition}[\emph{Misinformation}]
+    Information that is false, inaccurate, or misleading. Unlike disinformation, misinformation does not necessarily need to be created deliberately
+    to mislead.
+\end{definition}
+There is no fixed definition for fake news. Thus, we elaborate on the definitions of fake news. A limited definition is news articles that are intentionally or verifiably false~\parencite{SocialMediaAndFakeNewsIn2016Election_Allcott}. This definition stresses authenticity and intent. The inclusion of false information that can be confirmed refers to authenticity. On the other hand, intent refers to the deceitful intention to delude news consumers~\parencite{FakeNewsDetectionOnSocialMediaADataMiningPerspective_Shu}. This definition is widely used in other studies~\parencite{AutomaticDeceptionDetection_Conroy, TheFakeNewsSpreadingPlague_Mustafaraj, FakeNewsDetectionOnSocialMediaADataMiningPerspective_Shu}.
+Furthermore, recent social sciences studies~\parencite{TheScienceOfFakeNews_Lazer, ThePsycologyOfFakeNews_Pennycook} define fake news as fabricated information that mimics news media content in form but not in organizational process or intent. Similarly, this definition covers authenticity and intent; additionally, it includes the organizational process. More general definitions for fake news consider satire news as fake news due to the inclusion of false information even though satire news aim to entertain and inherently reveals its deception to the consumer~\parencite{WhenFakeNewsBecomesReal_Balmas, TheImpactOfRealNewsAboutFakeNews_Brewer, NewsVerificationByExploitingConflictingSocialViewpoints_Jin, FakeNewsOrTruthUsingSatiricalCues_Rubin}. Further definitions include hoaxes, satires, and obvious
+fabrications~\parencite{DeceptionDetectionForFakeNews3TypesOfFakeNews_Rubin}
+In this thesis, we are not interested in the organizational process and do not consider conspiracy theories~\parencite{ConspiracyTheories_Sunstein}, superstitions~\parencite{Superstition_Lindeman}, rumors~\parencite{RumorsAndHealthCareReform_Berinsky}, misinformation, satire, or hoaxes. Therefore, we use the limited definition from~\parencite{SocialMediaAndFakeNewsIn2016Election_Allcott} and formally introduce it as follows:
+\begin{definition}[\emph{Fake News}]
+    News articles that are intentionally or verifiably false.
+\end{definition}
+Fake news can lead to disastrous situations, such as crashes in stock markets, resulting in millions of dollars. For example, Dow Jones
+industrial average went down like a bullet (see Fig. \ref{fig:MarketReactionToFakeTweet}) after a tweet about an explosion injuring President Obama
+went out due to a hack~\parencite{MarketQuaversAfterFakeAPTweet_ElBoghdady}.
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.2]{MarketReactionToFakeTweet}
+    \caption[Market Reaction to Fake Tweet]{The market's reaction to the fake tweet. The sharp decline caused by a single tweet. Image obtained from~\parencite{MarketQuaversAfterFakeAPTweet_ElBoghdady}}\label{fig:MarketReactionToFakeTweet}
+\end{figure}\\
+The detrimental impacts of fake news further extend to societal issues.
+When fake news rose to prominence with the 2016 U.S. Presidential Election~\parencite{USPresidentialElection2016}, a man, convinced by what he
+read on social media about a pizzeria trafficking humans, went on a shooting spree in that pizzeria. Later named
+Pizzagate~\parencite{Pizzagate_Fisher}, this incident illustrates the deadly impact of fake news. In fact, fake news can even affect presidential elections~\parencite{SocialMediaAndFakeNewsIn2016Election_Allcott, TrumpWonBecauseOfFacebook_Read}.\\
+Recent history exhibits that some fake news spreads like wildfires through social media. Evidence shows that the most popular fake news stories
+were more widely shared than the most popular mainstream news stories~\parencite{Buzzfeed_FakeNewsOutperformRealNews_Silverman}.\\
+Digital News Report 2022~\parencite{ReutersInstituteDigitalNewsReport} reports in its key findings that trust in the news is 42\% globally,
+the highest (69\%) in Finland, and the lowest (26\%) in the U.S.A. Additionally, the same study shows that in early 2022, in the week of the
+survey, between 45\% and 55\% of the surveyed social media consumers worldwide witnessed false or misleading information about COVID-19. The
+same study also reports the appearance of fake news in politics was between 34\% and 51\%, and between 9\% and 48\% for fake news about
+celebrities, global warming, and immigration~\parencite{StatistaUsageOfSocialMedia_Watson}.
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.4]{TotalFacebookEngagementsForTop20ElectionStories}
+    \caption[Total Facebook Engagements for Top 20 Election Stories]{The rising engagement for fake news stories observed after May-July, just before Presidential Elections. Image obtained from~\parencite{Buzzfeed_FakeNewsOutperformRealNews_Silverman}}\label{fig:TotalFacebookEngagementsForTop20ElectionStories}
+\end{figure}
+\subsection{Foundations of Fake News}
+\label{subsec:fakeNewsDetection_FoundationsOfFakeNews}
+The environment for fake news has been the traditional news media for a long time. First started with newsprint, then continued with radio
+and television, and now with social media and the web, the dissemination of fake news reached its peak. Next, we discuss the psychological
+and social foundations of fake news to stress the importance of human psychology, especially when accepting fake news as genuine and sharing
+it with others. Then we focus on the technical foundations where we discuss how social media and technologiy have accelerated the diffusion of
+fake news.\\
+\textbf{Psychological Foundations.}  Understanding the difference between real and fake news is not an easy task for a human. Two psychological theories, namely, \emph{naive realism} and \emph{confirmation bias}, examine why humans fall for fake news. The first refers to a person's disposition to believe that their point of view is the mere accurate one, while people who believe otherwise are uninformed or biased~\parencite{NaiveRealism_Reed}. The second, often called selective exposure, is the proclivity to prefer information that confirms existing views~\parencite{ConfirmationBias_Nickerson}.\\
+Another reason for human fallacy in fake news is that once a misperception is formed, it becomes difficult to correct. In fact, it turns out that correcting people leads them to believe false information more, especially when given factual information that refutes their beliefs~\parencite{WhenCorrectionsFail_Nyhan}.\\
+\textbf{Social Foundations.}  The prospect theory explains the human decision-making process as a mechanism based on maximizing relative gains and minimizing losses with respect to the current state~\parencite{ProspectTheory_Kahneman, AdvancesInProspectTheory_Kahneman}. This inherent inclination to get the highest reward also applies to social cases in which a person will seek social networks that provide them with social acceptance. Consequently,  people with different views tend to form separate groups, which makes them feel safer, leading to the consumption
+and dissemination of information that agrees with their opinions. These behaviors are explained by social identity
+theory~\parencite{SocialIdentityTheory_Ashforth} and normative social influence~\parencite{NormativeSocialInfluence_Asch}.
+Two psychological factors play a crucial role here~\parencite{TheRussianFirehoseOfFalsehood_Paul}. The first, social credibility, is explained
+by a person’s tendency to recognize a source as credible when that source is deemed credible by other people. The second, called the frequency heuristic, is the acceptance of a news piece by repetitively being exposed to it. Collectively, these psychological phenomena are closely related to the well-known filter bubble~\parencite{TheFilterBubble_Pariser}, also called echo chamber, which is the formation of homogenous bubbles in which the users are people of similar ideologies and share similar ideas. Being isolated from different views, these users usually are inclined to have highly polarized opinions~\parencite{EchoChambers_Sunstein}. As a result, the main reason for misinformation dispersal turned out to be the echo
+chambers~\parencite{TheSpreadingOfMisinformationOnline_DelVicario}.\\
+\textbf{Technical Foundations.} Social media's easy-to-use and connected nature give rise to more people selecting or even creating their own news source. Naturally, this gives way to more junk information echoing in a group of people on social media. As algorithms evolve to understand user preferences, social media platforms recommend similar people or groups to those in echo chambers. A recent study~\parencite{TheEffectOfPeopleRecommenderOnEchoChambers_Cinus}  shows that these recommenders can strengthen these echo chambers. They discuss that some of these recommenders contribute to the polarization on social media. In other words, people can convince themselves that any fake news is real by staying in their echo chambers. One main reason that some fake news spreads so rapidly on social media is the existence of malicious accounts. The account user can be an actual human or a social bot since creating accounts on social media is no cost and almost no effort. While many social bots provide valuable services, some were designed to harm, mislead, exploit, and manipulate social media discourse. Formally, a social bot is a social media account governed by an algorithm to fabricate content and interact with other users~\parencite{TheRiseOfSocialBots_Ferrara}. A more recent study from the same author shows that malicious social bots were heavily used in the 2016 U.S. Presidential
+Elections~\parencite{SocialBotsDistortThe2016USPresidentialElection_Bessi}. On the other hand, malicious accounts that are not bots, such as
+online trolls who aim to trigger negative emotions and humans that provoke people on social media to get an emotional response, contribute to
+the proliferation of fake news~\parencite{AnyoneCanBecomeATroll_Cheng}.\\
+Building upon three foundations, we draw some results for fake news to be considered when building a fake news detection model:
+\begin{enumerate}
+    \item \emph{Invasive}: Fake news can appear on anyone’s feed if it spreads for a sufficient amount of time.
+    \item \emph{Hard to discern}: Fake news is fabricated in such a way that it resembles the authenticity of a real news source. This
+          indistinguishability leads to issues when working with news-content-based FND models.
+    \item \emph{The source is crucial}: The credibility of a news source is essential. We can use news from credible sources to teach the model
+          to distinguish genuine from fabricated.
+    \item \emph{Fake news has hot spots}: The echo chambers are invaluable examples when trying to understand the behaviors of fake news. We can
+          leverage this attribute and use social models, such as graphs, to successfully detect fake news.
+    \item \emph{Early detection is essential}: As discussed in psychological foundations, the volume of exposure to a piece of fake news can significantly affect one’s opinions, thus leading to more misinformed individuals.
+\end{enumerate}
+Next, we discuss general detection methods and how they have evolved. Then, we focus on fake news detection and widely used datasets offered
+by the research community.
 
-\subsection{Overview}
-\label{subsec:fakeNewsDetection_Overview}
-The term fake news has existed for over a century~\parencite{TheScienceOfFakeNews_Lazer}. Throughout history, various forms of widespread fake n
-ews have been recorded. For instance, in 1835, The Sun newspaper of New York published articles about a real-life astronomer and a made-up
-colleague who had observed life on the moon. It turns out that these fictionalized articles brought them new customers and almost no backlash
-after the newspaper admitted that the articles mentioned earlier were a hoax \footnote{https://www.politico.com/magazine/story/2016/12/fake-news-history-long-violent-214535/}$^,$\footnote{https://www.history.com/this-day-in-history/the-great-moon-hoax}. It rose to prominence
-with the 2016 U.S. Presidential Election~\parencite{USPresidentialElection2016}. It is clear that fake news has an effect not only on individuals
-but also on countries. Nowadays, fake news is still at large because it is challenging to detect for humans and computers ~\parencite{ReutersInstituteDigitalNewsReport}. \\
 
-\subsection{Challenges}
-\label{subsec:fakeNewsDetection_Challenges}
-
+% now connect the filter bubbles to progation networks and graphs
+% then talk about their analysis mildly, then jump to datasets section.
 \subsection{Datasets}
 \label{subsec:fakeNewsDetection_Datasets}
 
@@ -43,5 +118,3 @@ but also on countries. Nowadays, fake news is still at large because it is chall
 
 \subsection{Overview of Explainable Artificial Intelligence}
 only include what you use.
-
-\section{Explainable AI for FND}
