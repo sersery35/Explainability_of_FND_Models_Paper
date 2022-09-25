@@ -20,7 +20,7 @@ facts~\parencite{SocialMediaAndFakeNewsIn2016Election_Allcott,TheScienceOfFakeNe
 \end{figure}\\
 In \ref{subsec:fakeNewsDetection_fakeNews}, we briefly present the history of fake news and look at studies that display the impact of fake news on society. In this section, we also define the terms fake news, disinformation, and misinformation. \\
 In \ref{subsec:fakeNewsDetection_FoundationsOfFakeNews}, we make an excursion into social sciences and human psychology, delivering insights into why humans fall for or tend to believe fake news. Furthermore, we draw some insights from the socio-technical foundations of fake news.\\
-We then list the available datasets used in FND and talk about their advantages and disadvantages in \ref{subsec:fakeNewsDetection_Datasets}. Finally, in \ref{subsec:fakeNewsDetection_Evolution}, we first talk about the evolution of detection algorithms, then we classify FND algorithms with respect to their input data type and what they focus on that data.\\
+We then list the available datasets used in FND and talk about their advantages and disadvantages in \ref{subsec:fakeNewsDetection_Evolution}. Finally, in \ref{subsec:fakeNewsDetection_Evolution}, we first talk about the evolution of detection algorithms, then we classify FND algorithms with respect to their input data type and what they focus on that data.\\
 \subsection{Fake News}
 \label{subsec:fakeNewsDetection_fakeNews}
 Throughout history, various forms of widespread fake news have been recorded. For instance, in the thirteenth century BC, Rameses the Great decorated his temples with paintings that tell stories of victory in the Battle of Kadesh. However, the treaty between the two sides reveals
@@ -74,14 +74,17 @@ and television, and now with social media and the web, the dissemination of fake
 and social foundations of fake news to stress the importance of human psychology, especially when accepting fake news as genuine and sharing
 it with others. Then we focus on the technical foundations where we discuss how social media and technologiy have accelerated the diffusion of
 fake news.\\
+
 \textbf{Psychological Foundations.}  Understanding the difference between real and fake news is not an easy task for a human. Two psychological theories, namely, \emph{naive realism} and \emph{confirmation bias}, examine why humans fall for fake news. The first refers to a person's disposition to believe that their point of view is the mere accurate one, while people who believe otherwise are uninformed or biased~\parencite{NaiveRealism_Reed}. The second, often called selective exposure, is the proclivity to prefer information that confirms existing views~\parencite{ConfirmationBias_Nickerson}.\\
 Another reason for human fallacy in fake news is that once a misperception is formed, it becomes difficult to correct. In fact, it turns out that correcting people leads them to believe false information more, especially when given factual information that refutes their beliefs~\parencite{WhenCorrectionsFail_Nyhan}.\\
+
 \textbf{Social Foundations.}  The prospect theory explains the human decision-making process as a mechanism based on maximizing relative gains and minimizing losses with respect to the current state~\parencite{ProspectTheory_Kahneman, AdvancesInProspectTheory_Kahneman}. This inherent inclination to get the highest reward also applies to social cases in which a person will seek social networks that provide them with social acceptance. Consequently,  people with different views tend to form separate groups, which makes them feel safer, leading to the consumption
 and dissemination of information that agrees with their opinions. These behaviors are explained by social identity
 theory~\parencite{SocialIdentityTheory_Ashforth} and normative social influence~\parencite{NormativeSocialInfluence_Asch}.
 Two psychological factors play a crucial role here~\parencite{TheRussianFirehoseOfFalsehood_Paul}. The first, social credibility, is explained
 by a person’s tendency to recognize a source as credible when that source is deemed credible by other people. The second, called the frequency heuristic, is the acceptance of a news piece by repetitively being exposed to it. Collectively, these psychological phenomena are closely related to the well-known filter bubble~\parencite{TheFilterBubble_Pariser}, also called echo chamber, which is the formation of homogenous bubbles in which the users are people of similar ideologies and share similar ideas. Being isolated from different views, these users usually are inclined to have highly polarized opinions~\parencite{EchoChambers_Sunstein}. As a result, the main reason for misinformation dispersal turned out to be the echo
 chambers~\parencite{TheSpreadingOfMisinformationOnline_DelVicario}.\\
+
 \textbf{Technical Foundations.} Social media's easy-to-use and connected nature give rise to more people selecting or even creating their own news source. Naturally, this gives way to more junk information echoing in a group of people on social media. As algorithms evolve to understand user preferences, social media platforms recommend similar people or groups to those in echo chambers. A recent study~\parencite{TheEffectOfPeopleRecommenderOnEchoChambers_Cinus}  shows that these recommenders can strengthen these echo chambers. They discuss that some of these recommenders contribute to the polarization on social media. In other words, people can convince themselves that any fake news is real by staying in their echo chambers. One main reason that some fake news spreads so rapidly on social media is the existence of malicious accounts. The account user can be an actual human or a social bot since creating accounts on social media is no cost and almost no effort. While many social bots provide valuable services, some were designed to harm, mislead, exploit, and manipulate social media discourse. Formally, a social bot is a social media account governed by an algorithm to fabricate content and interact with other users~\parencite{TheRiseOfSocialBots_Ferrara}. A more recent study from the same author shows that malicious social bots were heavily used in the 2016 U.S. Presidential
 Elections~\parencite{SocialBotsDistortThe2016USPresidentialElection_Bessi}. On the other hand, malicious accounts that are not bots, such as
 online trolls who aim to trigger negative emotions and humans that provoke people on social media to get an emotional response, contribute to
@@ -97,17 +100,60 @@ Building upon three foundations, we draw some results for fake news to be consid
           leverage this attribute and use social models, such as graphs, to successfully detect fake news.
     \item \emph{Early detection is essential}: As discussed in psychological foundations, the volume of exposure to a piece of fake news can significantly affect one’s opinions, thus leading to more misinformed individuals.
 \end{enumerate}
+
+\textbf{Data-Oriented Foundations.} We define features for news content and social context to represent the news pieces in a structured manner. First, we introduce attributes for news content~\parencite{FakeNewsDetectionOnSocialMediaADataMiningPerspective_Shu}:
+\begin{itemize}
+    \item \emph{Source}: Publisher of the news piece.
+    \item \emph{Headline}: Short title text that aims to catch the readers’ attention and describes the article's main topic.
+    \item \emph{Body Text}: The main text piece that details the news story.
+    \item \emph{Image/Video}: Part of the body content supplies visual input to articulate the story.
+\end{itemize}
+Using these attributes, we extract two types of features for news content:
+\begin{description}
+    \item{\emph{Linguistic-based features}:} The news content is heavily based on textual content. Thus, the first feature that belongs to this class is lexical features which make use of character and word level frequency information which can be obtained by the utilization of
+    \emph{term frequency}-\emph{inverse term frequency} (TF-IDF)~\parencite{TF_Luhn, IDF_Jones}. The second feature is based on syntactic features which include sentence-level features that can be obtained via n-grams and bag-of-words (BoW) and punctuation and parts-of-speech (POS)~\parencite{POS_Daelemans} tagging. We can extend these features to domain-specific ones, such as external links and the number of graphs~\parencite{AStylometricInquiry_Potthast}.
+    \item{\emph{Visual-based features}:} Particularly for fake news, the visual content is a strong tool for establishing
+    belief~\parencite{VisualMisAndDisinformation_Viorela}. Hence, the features that reside in images and videos become significant. Fake images
+    and videos which brings the fake story together are commonly used(e.g.~\cite{PutinBehindBars_Harding, DeepFakeQueensSpeech_Sawer}). To counteract the effects of misleading visual input, recent studies~\parencite{ExploitingMultiDomainVisualInformation_Qi} examined visual and statistical information for fake news detection. Visual features consist of clarity score, similarity distribution histogram, diversity score, and clustering score. Statistical features are listed
+    as count, image ratio, multi-image ratio etc.~\parencite{FakeNewsDetectionOnSocialMediaADataMiningPerspective_Shu}.
+\end{description}
+
+Now, we define features for social context, which has recently drawn much attention from the research community~\parencite{BeyondNewsContents_Shu, HierarchicalPropagationNetworksForFND_Shu}. Overall, there are three aspects of social context data that we will concern, namely, user-based, post-based, and network-based features.
+\begin{description}
+    \item{\emph{User-based}:} As mentioned in the Technical Foundations part of this section, fake news has various ways of disseminating, such as via echo chambers or bots. Therefore, analyzing user-based information can prove useful. We distinguish user-based features at the group and individual levels~\parencite{FakeNewsDetectionOnSocialMediaADataMiningPerspective_Shu}. Individual levels are extracted to deduce the credibility of each user by utilizing, for example, the number of followers and followees, the number of tweets authored by a user, etc~\parencite{InformationCredibilityOnTwiter_Castillo}. On the other hand, group-level user-based features are the general characteristics of groups of users related to the news~\parencite{AutomaticDetectionOfRumor_Yang}. Parallel to the echo chambers idea, the assumption is the consumers of real and fake news tend to form different groups, which may lead to unique characteristics. Typical group-level features stem from individual-level features by obtaining the share of verified users, and the average number of followers and followees~\parencite{DetectRumorsUsingTimeSeries_Ma}.
+    \item{\emph{Post-based}:}
+    \item{\emph{Network-based}:}
+\end{description}
+
 Next, we discuss general detection methods and how they have evolved. Then, we focus on fake news detection and widely used datasets offered
 by the research community.
 
 
 % now connect the filter bubbles to progation networks and graphs
 % then talk about their analysis mildly, then jump to datasets section.
-\subsection{Datasets}
-\label{subsec:fakeNewsDetection_Datasets}
-
-\subsection{Evolution and Current State of Fake News Detection Models}
+\subsection{Evolution of Fake News Detection}
 \label{subsec:fakeNewsDetection_Evolution}
+Fake news detection is as old as fake news itself. Before social media became a hub for news consumers, fact-checkers, i.e., fake news
+detectors, were only journalists and literate people. Following the source shift of the news from printed paper to online, then social
+media, detection of fabricated news have become costly, cumbersome, and not as rewarding due to the endless stream of information and
+decreasing trust in journalism. Automatic detection for news thus became a necessity in our world~\parencite{NewsInAnOnlineWorld_Chen}.\\
+The initial approaches for automated fake news detection focus on news context and stem from deception detection in language. The first study
+of detecting deception in language ~\parencite{DieEntwicklungDerGerichtspsychologischen_Undeutsch} hypothesized that the truthfulness of
+the statement is more important than the integrity of the reporting person, and there exist definable and descriptive criteria that form a
+crucial mechanism for the determination of the truthfulness of statements. Even though this study is from experimental psychology, it stresses
+the feasibility of defining a set of rules that determine the truthfulness of a statement.\\
+An early study from criminology, Scientific Content Analysis (SCAN)~\parencite{SCAN_Sapir1987}, analyzes freely written statements.  In this process, SCAN claims to detect potential instances of deception in the text but cannot label a statement as a lie or truth. The next study
+for SCAN~\parencite{SCAN_Smith2001} is the first known study that correlates linguistic features with deceptive behavior using high-stakes data. Similar to SCAN, the consequent studies  ~\parencite{CommunicationUnderStress_Adams, LyingWords_Newman} that link linguistic features to
+deception classify the owner of the statement as truth-teller or liar according to the frequency of deception indicators in the statement.\\
+Although for automated deception detection, defining a methodology is more challenging~\parencite{TheAccuracyConfidenceRelation_DePaulo}, early studies have shown that this task is achievable. A detailed study~\parencite{AutomatingLinguisticsBasedCues_Zhou} makes a structured approach using linguistic-based cues and draws attention to further studies for automating deception detection. In this study, the authors extend linguistic-based cues with complexity, expressivity, informality, and content diversity. Instead of using humans as cue identifiers, authors use \emph{Natural Language Processing} (NLP) techniques, namely an NLP tool called iSkim~\parencite{iSkim_Zhou}, to extract cues automatically. Another study~\parencite{DetecingDeceptionThroughLA_Burgoon} also focuses on linguistic cue analysis. With a small dataset and employing the C4.5~\parencite{C45_Salzberg} algorithm, the authors reach 60.72\% accuracy using 15-fold cross-validation.\\
+Similarly, in~\parencite{VerificatoinAndImplementationofLBDeceptionIndicators_Bachenko}, the authors developed a system for automatically identifying 275 truthful or deceitful statements with the use of verbal cues using Classification and Regression Tree
+(CART)~\parencite{ClassificationRegressioniTrees_Breiman}. Additionally, the studies~\parencite{OnLyingAndBeingLiedTo_Hancock, OnDeceptionAndDeceptionDetection_Rubin} make use of a relatively small dataset and analyze linguistic-based cues. Rubin’s series of  studies~\parencite{OnDeceptionAndDeceptionDetection_Rubin, IdentificationOfTruth_Rubin, TruthAndDeception_Rubin, TowardsNewsVerification_Rubin} makes use of Rhetorical Structure Theory (RST) and Vector Space Modeling (VSM). The first captures the coherence of a story using functional relations among meaningful text units and delivers a hierarchical structure for each news story~\parencite{RST_William}. The second is the way to represent rhetorical relations in high-dimensional space. The authors used logistic regression as their classifier and reached 63\% accuracy.~\parencite{TowardsNewsVerification_Rubin}.\\
+Furthermore, a study from Afroz and colleagues~\parencite{DetectingHoaxesFraudsAndDeception_Afroz} investigates stylistic deception and uses lexical, syntactic, and content-specific features. Lexical features include both character- and word-based features. Syntactic features represent sentence-level style and include frequency of function words from LIWC~\parencite{LIWC2007_Pennebaker}, punctuation and \emph{parts-of-speech} (POS) tagging in which a text is assigned its morphosyntactic category~\parencite{POS_Daelemans}. Finally, content-specific features are keywords for a specific topic. For classification, the authors then leveraged Support Vector Machines (SVM)~\parencite{SVM_Hearst}.\\
+
+
+
+
+
 
 \section{Explainable Artificial Intelligence}
 \label{sec:explainableArtificialIntelligence}
