@@ -98,6 +98,37 @@
       \verb 10.1109/SP.2012.34
       \endverb
     \endentry
+    \entry{ClickbaitDetectionUsingDL_Agrawal}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=79190e1726177769f6978ea191a2ab02}{%
+           family={Agrawal},
+           familyi={A\bibinitperiod},
+           given={Amol},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{79190e1726177769f6978ea191a2ab02}
+      \strng{fullhash}{79190e1726177769f6978ea191a2ab02}
+      \strng{bibnamehash}{79190e1726177769f6978ea191a2ab02}
+      \strng{authorbibnamehash}{79190e1726177769f6978ea191a2ab02}
+      \strng{authornamehash}{79190e1726177769f6978ea191a2ab02}
+      \strng{authorfullhash}{79190e1726177769f6978ea191a2ab02}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2016 2nd International Conference on Next Generation Computing Technologies (NGCT)}
+      \field{title}{Clickbait detection using deep learning}
+      \field{year}{2016}
+      \field{pages}{268\bibrangedash 272}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/NGCT.2016.7877426
+      \endverb
+    \endentry
     \entry{SocialMediaAndFakeNewsIn2016Election_Allcott}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=cc99b38ced482f8ce08a3d71368c14d4}{%
@@ -142,6 +173,67 @@
       \endverb
       \verb{url}
       \verb https://www.aeaweb.org/articles?id=10.1257/jep.31.2.211
+      \endverb
+    \endentry
+    \entry{ScalingUpFactChecking_Allen}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f0490f959dc824c49cbf9d978caa6e47}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f23ab8fed8a4341740e4feaf46aceda8}{%
+           family={Arechar},
+           familyi={A\bibinitperiod},
+           given={Antonio\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14ca11670fbe0c75690f2537879ddb4d}{%
+           family={Pennycook},
+           familyi={P\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=187c24b68c32371cc8f611424ad4a73d}{%
+           family={Rand},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{366a1c0d1e3a9dcb94a27b49813a6e3f}
+      \strng{fullhash}{557f3cf1d0decb27543ac56a912ac0f0}
+      \strng{bibnamehash}{557f3cf1d0decb27543ac56a912ac0f0}
+      \strng{authorbibnamehash}{557f3cf1d0decb27543ac56a912ac0f0}
+      \strng{authornamehash}{366a1c0d1e3a9dcb94a27b49813a6e3f}
+      \strng{authorfullhash}{557f3cf1d0decb27543ac56a912ac0f0}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When rating articles’ accuracy, a small politically balanced crowd of laypeople yields high agreement with fact-checkers. Professional fact-checking, a prominent approach to combating misinformation, does not scale easily. Furthermore, some distrust fact-checkers because of alleged liberal bias. We explore a solution to these problems: using politically balanced groups of laypeople to identify misinformation at scale. Examining 207 news articles flagged for fact-checking by Facebook algorithms, we compare accuracy ratings of three professional fact-checkers who researched each article to those of 1128 Americans from Amazon Mechanical Turk who rated each article’s headline and lede. The average ratings of small, politically balanced crowds of laypeople (i) correlate with the average fact-checker ratings as well as the fact-checkers’ ratings correlate with each other and (ii) predict whether the majority of fact-checkers rated a headline as “true” with high accuracy. Furthermore, cognitive reflection, political knowledge, and Democratic Party preference are positively related to agreement with fact-checkers, and identifying each headline’s publisher leads to a small increase in agreement with fact-checkers.}
+      \field{journaltitle}{Science Advances}
+      \field{number}{36}
+      \field{title}{Scaling up fact-checking using the wisdom of crowds}
+      \field{volume}{7}
+      \field{year}{2021}
+      \field{pages}{eabf4393}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1126/sciadv.abf4393
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/sciadv.abf4393
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/sciadv.abf4393
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/sciadv.abf4393
       \endverb
     \endentry
     \entry{NormativeSocialInfluence_Asch}{article}{}
@@ -228,6 +320,73 @@
       \verb{url}
       \verb http://www.jstor.org/stable/258189
       \endverb
+    \endentry
+    \entry{DBPedia_Auer}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=74de32830575f67e1479f58f47d2111d}{%
+           family={Auer},
+           familyi={A\bibinitperiod},
+           given={Sören},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0ab52e226557a243a4a5277aec8acdc}{%
+           family={Bizer},
+           familyi={B\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bac6a69c5666c5048bbc9cad7c95fe56}{%
+           family={Kobilarov},
+           familyi={K\bibinitperiod},
+           given={Georgi},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=045d4294ee6b6936c99d278b857478b4}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff065518eacac535eec041c322c21896}{%
+           family={Cyganiak},
+           familyi={C\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c3266870a0b29bf735fa3ec4bb5739d}{%
+           family={Ives},
+           familyi={I\bibinitperiod},
+           given={Zachary},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Busan, Korea}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{91ba05e3a8053b5f3aafa47005decbda}
+      \strng{fullhash}{e4e67f5dba1ee7850645e2d08925c225}
+      \strng{bibnamehash}{e4e67f5dba1ee7850645e2d08925c225}
+      \strng{authorbibnamehash}{e4e67f5dba1ee7850645e2d08925c225}
+      \strng{authornamehash}{91ba05e3a8053b5f3aafa47005decbda}
+      \strng{authorfullhash}{e4e67f5dba1ee7850645e2d08925c225}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{DBpedia is a community effort to extract structured information from Wikipedia and to make this information available on the Web. DBpedia allows you to ask sophisticated queries against datasets derived from Wikipedia and to link other datasets on the Web to Wikipedia data. We describe the extraction of the DBpedia datasets, and how the resulting information is published on the Web for human-andmachine-consumption. We describe some emerging applications from the DBpedia community and show how website authors can facilitate DBpedia content within their sites. Finally, we present the current status of interlinking DBpedia with other open datasets on the Web and outline how DBpedia could serve as a nucleus for an emerging Web of open data.}
+      \field{isbn}{3540762973}
+      \field{journaltitle}{Proceedings of the 6th International The Semantic Web and 2nd Asian Conference on Asian Semantic Web Conference}
+      \field{series}{ISWC'07/ASWC'07}
+      \field{title}{DBpedia: A Nucleus for a Web of Open Data}
+      \field{year}{2007}
+      \field{pages}{722\bibrangedash 735}
+      \range{pages}{14}
     \endentry
     \entry{VerificatoinAndImplementationofLBDeceptionIndicators_Bachenko}{article}{}
       \name{author}{3}{}{%
@@ -324,6 +483,163 @@
       \verb{url}
       \verb https://doi.org/10.1177/0093650212453600
       \endverb
+    \endentry
+    \entry{OverviewOfCheckThat_Barroncede}{inbook}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=097ef6179aa0cbefbb91ceb4a1ac7d37}{%
+           family={Barrón-Cedeño},
+           familyi={B\bibinithyphendelim C\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b47f131ba4c82dbdff8f2b1c7194f260}{%
+           family={Elsayed},
+           familyi={E\bibinitperiod},
+           given={Tamer},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1e0f88aae37cfd1c213a370797c03b3}{%
+           family={Nakov},
+           familyi={N\bibinitperiod},
+           given={Preslav},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=124f295b5dbcda48a5f5406d67ee951e}{%
+           family={Da\bibnamedelima San\bibnamedelima Martino},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9dd7074e48103154dee10f26b003fc5}{%
+           family={Hasanain},
+           familyi={H\bibinitperiod},
+           given={Maram},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08547b91a4970a6e1febced2c858ea9a}{%
+           family={Suwaileh},
+           familyi={S\bibinitperiod},
+           given={Reem},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6205d2ed1fb995eea80f947078feadf}{%
+           family={Haouari},
+           familyi={H\bibinitperiod},
+           given={Fatima},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=215a3e3b9d23849821156d54bfc06130}{%
+           family={Babulkov},
+           familyi={B\bibinitperiod},
+           given={Nikolay},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f8e2d697cd5f82b443ac1e34f9d2102}{%
+           family={Hamdan},
+           familyi={H\bibinitperiod},
+           given={Bayan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17a9a2ac357d793054f06749438b23bb}{%
+           family={Nikolov},
+           familyi={N\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47fc66c66b8305d222d2abe15a16bc2e}{%
+           family={Shaar},
+           familyi={S\bibinitperiod},
+           given={Shaden},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2038798169d8a069518dadb73480a2d2}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Zien\bibnamedelima Sheikh},
+           giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{10}{}{%
+        {{hash=a0446b96f1db082e3cfbc3b24eb7ddef}{%
+           family={Arampatzis},
+           familyi={A\bibinitperiod},
+           given={Avi},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6317e2fbcca5843d0d9225d119643f7c}{%
+           family={Kanoulas},
+           familyi={K\bibinitperiod},
+           given={Evangelos},
+           giveni={E\bibinitperiod}}}%
+        {{hash=77f83c151e1cbcd035d23b0855ea9585}{%
+           family={Tsikrika},
+           familyi={T\bibinitperiod},
+           given={Theodora},
+           giveni={T\bibinitperiod}}}%
+        {{hash=45becfb0995da893dea48fffbc5c910b}{%
+           family={Vrochidis},
+           familyi={V\bibinitperiod},
+           given={Stefanos},
+           giveni={S\bibinitperiod}}}%
+        {{hash=718d8ad5ec901514ff0bf9f967406b67}{%
+           family={Joho},
+           familyi={J\bibinitperiod},
+           given={Hideo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=843ff5a6f38679e8f84b06a1487d4a4e}{%
+           family={Lioma},
+           familyi={L\bibinitperiod},
+           given={Christina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=58de468240e30c9310974f0474a16450}{%
+           family={Eickhoff},
+           familyi={E\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f30fe869d0450ee445dcf72124fce610}{%
+           family={Névéol},
+           familyi={N\bibinitperiod},
+           given={Aurélie},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6d20d40416623cbb07bc9aea79924864}{%
+           family={Cappellato},
+           familyi={C\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod}}}%
+        {{hash=52c462084e21b52fe75572619ed4da7b}{%
+           family={Ferro},
+           familyi={F\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{1afd1b76c3e3773262ccf87b5624ff6d}
+      \strng{fullhash}{694074019fde6476416708e16237658f}
+      \strng{bibnamehash}{694074019fde6476416708e16237658f}
+      \strng{authorbibnamehash}{694074019fde6476416708e16237658f}
+      \strng{authornamehash}{1afd1b76c3e3773262ccf87b5624ff6d}
+      \strng{authorfullhash}{694074019fde6476416708e16237658f}
+      \strng{editorbibnamehash}{6d997a1f1da3bf3d36e6d4fd21f98b84}
+      \strng{editornamehash}{c355744efc9808aacef32f5bc60c46ef}
+      \strng{editorfullhash}{6d997a1f1da3bf3d36e6d4fd21f98b84}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present an overview of the third edition of the CheckThat!  Lab at CLEF 2020. The lab featured five tasks in two different languages: English and Arabic. The first four tasks compose the full pipeline of claim verification in social media: Task 1 on check-worthiness estimation, Task 2 on retrieving previously fact-checked claims, Task 3 on evidence retrieval, and Task 4 on claim verification. The lab is completed with Task 5 on check-worthiness estimation in political debates and speeches. A total of 67 teams registered to participate in the lab (up from 47 at CLEF 2019), and 23 of them actually submitted runs (compared to 14 at CLEF 2019). Most teams used deep neural networks based on BERT, LSTMs, or CNNs, and achieved sizable improvements over the baselines on all tasks. Here we describe the tasks setup, the evaluation results, and a summary of the approaches used by the participants, and we discuss some lessons learned. Last but not least, we release to the research community all datasets from the lab as well as the evaluation scripts, which should enable further research in the important tasks of check-worthiness estimation and automatic claim verification.}
+      \field{booktitle}{Experimental IR Meets Multilinguality, Multimodality, and Interaction}
+      \field{isbn}{978-3-030-58219-7}
+      \field{title}{Overview of CheckThat! 2020: Automatic Identification and Verification of Claims in Social Media}
+      \field{year}{2020}
+      \field{pages}{215\bibrangedash 236}
+      \range{pages}{22}
     \endentry
     \entry{USPresidentialElection2016}{inbook}{}
       \name{author}{1}{}{%
@@ -499,6 +815,171 @@
       \endverb
       \keyw{Social and Information Networks (cs.SI),Machine Learning (cs.LG),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
+    \entry{LatentDirichletAllocation_Blei}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=108998f0d44d4dce8ccb93e4d78cd5c6}{%
+           family={Blei},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49e889356ff39df159461bc2895c7e16}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelima Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a36116840c7ee55901618c95fd08a58}{%
+           family={Jordan},
+           familyi={J\bibinitperiod},
+           given={Michael\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JMLR.org}%
+      }
+      \strng{namehash}{50a4a559b35564cbc2f774144099d967}
+      \strng{fullhash}{ee51b7141ddf1c81ca1f40c31a7ae6be}
+      \strng{bibnamehash}{ee51b7141ddf1c81ca1f40c31a7ae6be}
+      \strng{authorbibnamehash}{ee51b7141ddf1c81ca1f40c31a7ae6be}
+      \strng{authornamehash}{50a4a559b35564cbc2f774144099d967}
+      \strng{authorfullhash}{ee51b7141ddf1c81ca1f40c31a7ae6be}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We describe latent Dirichlet allocation (LDA), a generative probabilistic model for collections of discrete data such as text corpora. LDA is a three-level hierarchical Bayesian model, in which each item of a collection is modeled as a finite mixture over an underlying set of topics. Each topic is, in turn, modeled as an infinite mixture over an underlying set of topic probabilities. In the context of text modeling, the topic probabilities provide an explicit representation of a document. We present efficient approximate inference techniques based on variational methods and an EM algorithm for empirical Bayes parameter estimation. We report results in document modeling, text classification, and collaborative filtering, comparing to a mixture of unigrams model and the probabilistic LSI model.}
+      \field{issn}{1532-4435}
+      \field{journaltitle}{J. Mach. Learn. Res.}
+      \field{month}{3}
+      \field{number}{null}
+      \field{title}{Latent Dirichlet Allocation}
+      \field{volume}{3}
+      \field{year}{2003}
+      \field{pages}{993\bibrangedash 1022}
+      \range{pages}{30}
+    \endentry
+    \entry{EnrichingWordVectorsWithSubwordInfo_Bojanowski}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=dfd2b635b41689b48c4b81ce769b940b}{%
+           family={Bojanowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebdea2c3aa9f759075733b20dce6b873}{%
+           family={Grave},
+           familyi={G\bibinitperiod},
+           given={Edouard},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=977d047821122d1c2e7aa855c30c8cf2}{%
+           family={Joulin},
+           familyi={J\bibinitperiod},
+           given={Armand},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2d359b12ca2fadf0b40136a73f021bb}{%
+           family={Mikolov},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{061a48f7d641220ab38e71ed80b0d72d}
+      \strng{fullhash}{b789fb54505390bf0992148739eebc8d}
+      \strng{bibnamehash}{b789fb54505390bf0992148739eebc8d}
+      \strng{authorbibnamehash}{b789fb54505390bf0992148739eebc8d}
+      \strng{authornamehash}{061a48f7d641220ab38e71ed80b0d72d}
+      \strng{authorfullhash}{b789fb54505390bf0992148739eebc8d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Enriching Word Vectors with Subword Information}
+      \field{volume}{abs/1607.04606}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1607.04606
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1607.04606
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1607.04606
+      \endverb
+    \endentry
+    \entry{SemanticFakeNewsDetection_Bracsoveanu}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2e4474f31806063bfb6d200098b220af}{%
+           family={Braşoveanu},
+           familyi={B\bibinitperiod},
+           given={Adrian\bibnamedelimb M.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a56da0e6c116c9850c73b287754d07e}{%
+           family={Andonie},
+           familyi={A\bibinitperiod},
+           given={Răzvan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=97a231baaac4c66612590cb01f7e87d7}{%
+           family={Rojas},
+           familyi={R\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod}}}%
+        {{hash=f94e8ffe37956597dc9e49a994c33375}{%
+           family={Joya},
+           familyi={J\bibinitperiod},
+           given={Gonzalo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0918970cc3300a7664af2f8bda50b2e9}{%
+           family={Catala},
+           familyi={C\bibinitperiod},
+           given={Andreu},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{439090101488dcca4d10df956dc01fff}
+      \strng{fullhash}{439090101488dcca4d10df956dc01fff}
+      \strng{bibnamehash}{439090101488dcca4d10df956dc01fff}
+      \strng{authorbibnamehash}{439090101488dcca4d10df956dc01fff}
+      \strng{authornamehash}{439090101488dcca4d10df956dc01fff}
+      \strng{authorfullhash}{439090101488dcca4d10df956dc01fff}
+      \strng{editorbibnamehash}{488abd40b92ec41eefd27687a7e3144a}
+      \strng{editornamehash}{b24b092bc012e59867b1c55326806cf4}
+      \strng{editorfullhash}{488abd40b92ec41eefd27687a7e3144a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Fake news detection is a difficult problem due to the nuances of language. Understanding the reasoning behind certain fake items implies inferring a lot of details about the various actors involved. We believe that the solution to this problem should be a hybrid one, combining machine learning, semantics and natural language processing. We introduce a new semantic fake news detection method built around relational features like sentiment, entities or facts extracted directly from text. Our experiments show that by adding semantic features the accuracy of fake news classification improves significantly.}
+      \field{booktitle}{Advances in Computational Intelligence}
+      \field{isbn}{978-3-030-20521-8}
+      \field{title}{Semantic Fake News Detection: A Machine Learning Perspective}
+      \field{year}{2019}
+      \field{pages}{656\bibrangedash 667}
+      \range{pages}{12}
+    \endentry
     \entry{ClassificationRegressioniTrees_Breiman}{book}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=c4de625aef3b09e83edf76c200750fc6}{%
@@ -608,95 +1089,6 @@
       \verb{url}
       \verb https://doi.org/10.1093/ijpor/edt015
       \endverb
-    \endentry
-    \entry{DetecingDeceptionThroughLA_Burgoon}{inbook}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=f7cc9503d306aab32c992f14b3cca273}{%
-           family={Burgoon},
-           familyi={B\bibinitperiod},
-           given={Judee\bibnamedelima K.},
-           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e3821647257c8d289355a0ddfc97903d}{%
-           family={Blair},
-           familyi={B\bibinitperiod},
-           given={J.\bibnamedelimi P.},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=54d43b689df7c086d05a59112b0630fb}{%
-           family={Qin},
-           familyi={Q\bibinitperiod},
-           given={Tiantian},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7d0f87dfa28107ef5e7ba5526f801451}{%
-           family={Nunamaker},
-           familyi={N\bibinitperiod},
-           given={Jay\bibnamedelima F.},
-           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{6}{}{%
-        {{hash=2a511487aaae1f782f9d575405bc818c}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Hsinchun},
-           giveni={H\bibinitperiod}}}%
-        {{hash=d9f521dc9fac7ef20b34e409e22e2287}{%
-           family={Miranda},
-           familyi={M\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod}}}%
-        {{hash=d650562d66754c0e8525f90a60fdd6ad}{%
-           family={Zeng},
-           familyi={Z\bibinitperiod},
-           given={Daniel\bibnamedelima D.},
-           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=14a91561116343063fe05c99d40168a1}{%
-           family={Demchak},
-           familyi={D\bibinitperiod},
-           given={Chris},
-           giveni={C\bibinitperiod}}}%
-        {{hash=89a83be2277e85ad9734cb662e9c3673}{%
-           family={Schroeder},
-           familyi={S\bibinitperiod},
-           given={Jenny},
-           giveni={J\bibinitperiod}}}%
-        {{hash=bcd3e11e81087badbf1f29a0c66ad7ec}{%
-           family={Madhusudan},
-           familyi={M\bibinitperiod},
-           given={Therani},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Berlin, Heidelberg}%
-      }
-      \list{publisher}{1}{%
-        {Springer Berlin Heidelberg}%
-      }
-      \strng{namehash}{7cad011a06e8572b0ccf1497272f5ea5}
-      \strng{fullhash}{9833e525310267aeeadffb678a002894}
-      \strng{bibnamehash}{9833e525310267aeeadffb678a002894}
-      \strng{authorbibnamehash}{9833e525310267aeeadffb678a002894}
-      \strng{authornamehash}{7cad011a06e8572b0ccf1497272f5ea5}
-      \strng{authorfullhash}{9833e525310267aeeadffb678a002894}
-      \strng{editorbibnamehash}{4a51658a046ea88359f3ad3fbfca3ddc}
-      \strng{editornamehash}{08e329947df4bc4b5bd1bf24ceb9b270}
-      \strng{editorfullhash}{4a51658a046ea88359f3ad3fbfca3ddc}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Tools to detect deceit from language use pose a promising avenue for increasing the ability to distinguish truthful transmissions, transcripts, intercepted messages, informant reports and the like from deceptive ones. This investigation presents preliminary tests of 16 linguistic features that can be automated to return assessments of the likely truthful or deceptiveness of a piece of text. Results from a mock theft experiment demonstrate that deceivers do utilize language differently than truth tellers and that combinations of cues can improve the ability to predict which texts may contain deception.}
-      \field{booktitle}{Intelligence and Security Informatics}
-      \field{isbn}{978-3-540-44853-2}
-      \field{title}{Detecting Deception through Linguistic Analysis}
-      \field{year}{2003}
-      \field{pages}{91\bibrangedash 101}
-      \range{pages}{11}
     \endentry
     \entry{CanWeOpenTheBlackBoxOfAI_Castelvecchi}{article}{}
       \name{author}{1}{}{%
@@ -1231,6 +1623,61 @@
       \verb https://doi.org/10.1207/s15327957pspr0104_5
       \endverb
     \endentry
+    \entry{BERT_Devlin}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming{-}Wei},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorbibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authornamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{{BERT:} Pre-training of Deep Bidirectional Transformers for Language Understanding}
+      \field{volume}{abs/1810.04805}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1810.04805
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
+    \endentry
     \entry{TowardsARigorousScienceML_Velez}{misc}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b01a5e92cd39a5551d74ab2393c7b9fd}{%
@@ -1336,6 +1783,61 @@
       \verb https://arxiv.org/abs/2104.12259
       \endverb
     \endentry
+    \entry{StanceClassificationAttention_Du}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0122b0d012b6acfeca9d00d9d908067f}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Jiachen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92441027d6090d43e11467129e4ce9f8}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Ruifeng},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f3b78337b03e473fdd1fe07b5b127389}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Yulan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4cc71f66ccd6f55b877380a708a101e}{%
+           family={Gui},
+           familyi={G\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7117a97b456bc74d749a680f8d82a1d4}
+      \strng{fullhash}{680b624f1ce66f9fff2b26faaf40e807}
+      \strng{bibnamehash}{680b624f1ce66f9fff2b26faaf40e807}
+      \strng{authorbibnamehash}{680b624f1ce66f9fff2b26faaf40e807}
+      \strng{authornamehash}{7117a97b456bc74d749a680f8d82a1d4}
+      \strng{authorfullhash}{680b624f1ce66f9fff2b26faaf40e807}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence, {IJCAI-17}}
+      \field{title}{Stance Classification with Target-specific Neural Attention}
+      \field{year}{2017}
+      \field{pages}{3988\bibrangedash 3994}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.24963/ijcai.2017/557
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.24963/ijcai.2017/557
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.24963/ijcai.2017/557
+      \endverb
+    \endentry
     \entry{SlaveToTheAlgorithm_EdwardsVeale}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b86464290d99ac97988476696473035d}{%
@@ -1406,6 +1908,90 @@
       \verb{url}
       \verb https://www.washingtonpost.com/business/economy/market-quavers-after-fake-ap-tweet-says-obama-was-hurt-in-white-house-explosions/2013/04/23/d96d2dc6-ac4d-11e2-a8b9-2a63d75b5459_story.html
       \endverb
+    \endentry
+    \entry{UnsupervisedNamedEntityExtraction_Etzioni}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=24a50614f7ed5b3e1d70594a0e2c2a2a}{%
+           family={Etzioni},
+           familyi={E\bibinitperiod},
+           given={Oren},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f398709307e956778fb9837e01664dad}{%
+           family={Cafarella},
+           familyi={C\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa7715d3fe113b4856fbe5933ea9c7aa}{%
+           family={Downey},
+           familyi={D\bibinitperiod},
+           given={Doug},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94981878cc799b2b04a6ba511cede33e}{%
+           family={Popescu},
+           familyi={P\bibinitperiod},
+           given={Ana-Maria},
+           giveni={A\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e25f4617a4e96096278a4abcf8e61de}{%
+           family={Shaked},
+           familyi={S\bibinitperiod},
+           given={Tal},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b5e3b4afe24fd3b0f9ddf52b3070546}{%
+           family={Soderland},
+           familyi={S\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61b10d727859c1da98ec8527f1fb1bc2}{%
+           family={Weld},
+           familyi={W\bibinitperiod},
+           given={Daniel\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42180b0c3f81d73d40066152d5e274af}{%
+           family={Yates},
+           familyi={Y\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0199058f6a85c81a2fdb48516867e20e}
+      \strng{fullhash}{712c2af36501c5c67a56fe491cce24f8}
+      \strng{bibnamehash}{712c2af36501c5c67a56fe491cce24f8}
+      \strng{authorbibnamehash}{712c2af36501c5c67a56fe491cce24f8}
+      \strng{authornamehash}{0199058f6a85c81a2fdb48516867e20e}
+      \strng{authorfullhash}{712c2af36501c5c67a56fe491cce24f8}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The KnowItAll system aims to automate the tedious process of extracting large collections of facts (e.g., names of scientists or politicians) from the Web in an unsupervised, domain-independent, and scalable manner. The paper presents an overview of KnowItAll's novel architecture and design principles, emphasizing its distinctive ability to extract information without any hand-labeled training examples. In its first major run, KnowItAll extracted over 50,000 class instances, but suggested a challenge: How can we improve KnowItAll's recall and extraction rate without sacrificing precision? This paper presents three distinct ways to address this challenge and evaluates their performance. Pattern Learning learns domain-specific extraction rules, which enable additional extractions. Subclass Extraction automatically identifies sub-classes in order to boost recall (e.g., “chemist” and “biologist” are identified as sub-classes of “scientist”). List Extraction locates lists of class instances, learns a “wrapper” for each list, and extracts elements of each list. Since each method bootstraps from KnowItAll's domain-independent methods, the methods also obviate hand-labeled training examples. The paper reports on experiments, focused on building lists of named entities, that measure the relative efficacy of each method and demonstrate their synergy. In concert, our methods gave KnowItAll a 4-fold to 8-fold increase in recall at precision of 0.90, and discovered over 10,000 cities missing from the Tipster Gazetteer.}
+      \field{issn}{0004-3702}
+      \field{journaltitle}{Artificial Intelligence}
+      \field{number}{1}
+      \field{title}{Unsupervised named-entity extraction from the Web: An experimental study}
+      \field{volume}{165}
+      \field{year}{2005}
+      \field{pages}{91\bibrangedash 134}
+      \range{pages}{44}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.artint.2005.03.001
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0004370205000366
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0004370205000366
+      \endverb
+      \keyw{Information Extraction,Pointwise mutual information,Unsupervised,Question answering}
     \endentry
     \entry{TheRiseOfSocialBots_Ferrara}{article}{}
       \name{author}{5}{}{%
@@ -1572,6 +2158,36 @@
       \verb https://doi.org/10.1007/978-3-319-22120-5_2
       \endverb
     \endentry
+    \entry{WisdomOfCrowds_Galton}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=569239e4722f5a469ab151ae99aa892c}{%
+           family={Galton},
+           familyi={G\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{569239e4722f5a469ab151ae99aa892c}
+      \strng{fullhash}{569239e4722f5a469ab151ae99aa892c}
+      \strng{bibnamehash}{569239e4722f5a469ab151ae99aa892c}
+      \strng{authorbibnamehash}{569239e4722f5a469ab151ae99aa892c}
+      \strng{authornamehash}{569239e4722f5a469ab151ae99aa892c}
+      \strng{authorfullhash}{569239e4722f5a469ab151ae99aa892c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7}
+      \field{title}{Vox populi (the wisdom of crowds)}
+      \field{volume}{75}
+      \field{year}{1907}
+      \field{pages}{450\bibrangedash 451}
+      \range{pages}{2}
+    \endentry
     \entry{XAI_Gunning}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=25d2cc74dc187d8b48d08bbdae1064da}{%
@@ -1616,6 +2232,62 @@
       \endverb
       \verb{url}
       \verb https://ojs.aaai.org/index.php/aimagazine/article/view/2850
+      \endverb
+    \endentry
+    \entry{ASurveyOnAutomatedFactChecking_Guo}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=633655105cce12df155eb251cc410dca}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Zhijiang},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=653a93a6069abd943896a037bb99fda3}{%
+           family={Schlichtkrull},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e67c7cbda61759192c35b597e0ae638}{%
+           family={Vlachos},
+           familyi={V\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9438de622c9786677d22b47b3f1b0770}
+      \strng{fullhash}{18275b43c4857438a7d623effae7a2b6}
+      \strng{bibnamehash}{18275b43c4857438a7d623effae7a2b6}
+      \strng{authorbibnamehash}{18275b43c4857438a7d623effae7a2b6}
+      \strng{authornamehash}{9438de622c9786677d22b47b3f1b0770}
+      \strng{authorfullhash}{18275b43c4857438a7d623effae7a2b6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{Fact-checking has become increasingly important due to the speed with which both information and misinformation can spread in the modern media ecosystem. Therefore, researchers have been exploring how fact-checking can be automated, using techniques based on natural language processing, machine learning, knowledge representation, and databases to automatically predict the veracity of claims. In this paper, we survey automated fact-checking stemming from natural language processing, and discuss its connections to related tasks and disciplines. In this process, we present an overview of existing datasets and models, aiming to unify the various definitions given and identify common concepts. Finally, we highlight challenges for future research.}}
+      \field{issn}{2307-387X}
+      \field{journaltitle}{Transactions of the Association for Computational Linguistics}
+      \field{month}{02}
+      \field{title}{{A Survey on Automated Fact-Checking}}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{pages}{178\bibrangedash 206}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1162/tacl_a_00454
+      \endverb
+      \verb{eprint}
+      \verb https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl\_a\_00454/1987018/tacl\_a\_00454.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1162/tacl\_a\_00454
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1162/tacl%5C_a%5C_00454
       \endverb
     \endentry
     \entry{GraphNeuralNetworksWithContinualLearningFakeNewsDetection_Han}{misc}{}
@@ -1768,6 +2440,65 @@
       \verb https://www.theguardian.com/world/2012/feb/15/putin-behind-bars-spoof-video
       \endverb
     \endentry
+    \entry{DetectingCheckWorthyClaims_Hassan}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=87341dc13a322005c40d014fa7af3583}{%
+           family={Hassan},
+           familyi={H\bibinitperiod},
+           given={Naeemul},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f3645b40d0ead421d3ac081654daee49}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Chengkai},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cf41f8e4d4e5a9f512a046ef5aec439}{%
+           family={Tremayne},
+           familyi={T\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Melbourne, Australia}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{78f2954562235a7c422dd87f92e4b571}
+      \strng{fullhash}{c190e6e141eb5389665c8f3ebefa8f70}
+      \strng{bibnamehash}{c190e6e141eb5389665c8f3ebefa8f70}
+      \strng{authorbibnamehash}{c190e6e141eb5389665c8f3ebefa8f70}
+      \strng{authornamehash}{78f2954562235a7c422dd87f92e4b571}
+      \strng{authorfullhash}{c190e6e141eb5389665c8f3ebefa8f70}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Public figures such as politicians make claims about "facts" all the time. Journalists and citizens spend a good amount of time checking the veracity of such claims. Toward automatic fact checking, we developed tools to find check-worthy factual claims from natural language sentences. Specifically, we prepared a U.S. presidential debate dataset and built classification models to distinguish check-worthy factual claims from non-factual claims and unimportant factual claims. We also identified the most-effective features based on their impact on the classification models' accuracy.}
+      \field{isbn}{9781450337946}
+      \field{journaltitle}{Proceedings of the 24th ACM International on Conference on Information and Knowledge Management}
+      \field{series}{CIKM '15}
+      \field{title}{Detecting Check-Worthy Factual Claims in Presidential Debates}
+      \field{year}{2015}
+      \field{pages}{1835\bibrangedash 1838}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1145/2806416.2806652
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2806416.2806652
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2806416.2806652
+      \endverb
+      \keyw{fact checking,computational journalism,text classification}
+    \endentry
     \entry{SVM_Hearst}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=d8834a7bbebbd74c57dd101a713003ba}{%
@@ -1910,6 +2641,61 @@
       \field{pages}{11\bibrangedash 21}
       \range{pages}{11}
     \endentry
+    \entry{BagOfTricksForTextClassificatoin_Joulin}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=977d047821122d1c2e7aa855c30c8cf2}{%
+           family={Joulin},
+           familyi={J\bibinitperiod},
+           given={Armand},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebdea2c3aa9f759075733b20dce6b873}{%
+           family={Grave},
+           familyi={G\bibinitperiod},
+           given={Edouard},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfd2b635b41689b48c4b81ce769b940b}{%
+           family={Bojanowski},
+           familyi={B\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2d359b12ca2fadf0b40136a73f021bb}{%
+           family={Mikolov},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b788779104e266bb92249aaafd790ae7}
+      \strng{fullhash}{7f7e632c405feed1b5caeb0c7b305d82}
+      \strng{bibnamehash}{7f7e632c405feed1b5caeb0c7b305d82}
+      \strng{authorbibnamehash}{7f7e632c405feed1b5caeb0c7b305d82}
+      \strng{authornamehash}{b788779104e266bb92249aaafd790ae7}
+      \strng{authorfullhash}{7f7e632c405feed1b5caeb0c7b305d82}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Bag of Tricks for Efficient Text Classification}
+      \field{volume}{abs/1607.01759}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1607.01759
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1607.01759
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1607.01759
+      \endverb
+    \endentry
     \entry{ProspectTheory_Kahneman}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
@@ -1944,6 +2730,148 @@
       \field{year}{1979}
       \field{pages}{263\bibrangedash 291}
       \range{pages}{29}
+    \endentry
+    \entry{SemEvalHyperpartisanNewsDetection_Kiesel}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=d6a3b0535160347aecd60ab4a0e64beb}{%
+           family={Kiesel},
+           familyi={K\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58ff7b7b88b1b044458220c950bc59d5}{%
+           family={Mestre},
+           familyi={M\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f611293b463636bc83c90482e93ac31}{%
+           family={Shukla},
+           familyi={S\bibinitperiod},
+           given={Rishabh},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c20d285377b0667d451da42b73d2f11}{%
+           family={Vincent},
+           familyi={V\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b55ce76a27c69c63a0bd4cf5b7aca5d}{%
+           family={Adineh},
+           familyi={A\bibinitperiod},
+           given={Payam},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8237457ab11d0785b1afeea143790d8e}{%
+           family={Corney},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ead8f029ff27a7eeedb027e8c7aaeb9}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={Benno},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c239bbb9437f221987397e74fbc81634}{%
+           family={Potthast},
+           familyi={P\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis, Minnesota, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{7f55afefa6ff2165699bbce2c680c99f}
+      \strng{fullhash}{501522e6e8a859cc93c5567a29ea7051}
+      \strng{bibnamehash}{501522e6e8a859cc93c5567a29ea7051}
+      \strng{authorbibnamehash}{501522e6e8a859cc93c5567a29ea7051}
+      \strng{authornamehash}{7f55afefa6ff2165699bbce2c680c99f}
+      \strng{authorfullhash}{501522e6e8a859cc93c5567a29ea7051}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Hyperpartisan news is news that takes an extreme left-wing or right-wing standpoint. If one is able to reliably compute this meta information, news articles may be automatically tagged, this way encouraging or discouraging readers to consume the text. It is an open question how successfully hyperpartisan news detection can be automated, and the goal of this SemEval task was to shed light on the state of the art. We developed new resources for this purpose, including a manually labeled dataset with 1,273 articles, and a second dataset with 754,000 articles, labeled via distant supervision. The interest of the research community in our task exceeded all our expectations: The datasets were downloaded about 1,000 times, 322 teams registered, of which 184 configured a virtual machine on our shared task cloud service TIRA, of which in turn 42 teams submitted a valid run. The best team achieved an accuracy of 0.822 on a balanced sample (yes : no hyperpartisan) drawn from the manually tagged corpus; an ensemble of the submitted systems increased the accuracy by 0.048.}
+      \field{journaltitle}{Proceedings of the 13th International Workshop on Semantic Evaluation}
+      \field{month}{06}
+      \field{title}{{S}em{E}val-2019 Task 4: Hyperpartisan News Detection}
+      \field{year}{2019}
+      \field{pages}{829\bibrangedash 839}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.18653/v1/S19-2145
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/S19-2145
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/S19-2145
+      \endverb
+    \endentry
+    \entry{ProminentFeaturesOfRumorPropagation_Kwon}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=e908908876799b70e9bc4b95038d9451}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={Sejeong},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c87bbe534a23a97bc9332ae0742cc69}{%
+           family={Cha},
+           familyi={C\bibinitperiod},
+           given={Meeyoung},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e98cc96a6a7d87589888f99b870ea5c}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Kyomin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06debc36f6b61a405e8f0da1c7ccd6ca}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08c30dee71f11b1ea8b69ba492215bbd}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yajun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d9d66e0474a5c096f933ef5ad40ce7be}
+      \strng{fullhash}{6d59968e0c91c232bb4f451f18546829}
+      \strng{bibnamehash}{6d59968e0c91c232bb4f451f18546829}
+      \strng{authorbibnamehash}{6d59968e0c91c232bb4f451f18546829}
+      \strng{authornamehash}{d9d66e0474a5c096f933ef5ad40ce7be}
+      \strng{authorfullhash}{6d59968e0c91c232bb4f451f18546829}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2013 IEEE 13th International Conference on Data Mining}
+      \field{title}{Prominent Features of Rumor Propagation in Online Social Media}
+      \field{year}{2013}
+      \field{pages}{1103\bibrangedash 1108}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICDM.2013.61
+      \endverb
     \endentry
     \entry{TheScienceOfFakeNews_Lazer}{article}{}
       \name{author}{16}{}{%
@@ -2197,6 +3125,80 @@
       \verb 10.1147/rd.14.0309
       \endverb
     \endentry
+    \entry{DetectingRumorsFromMicroblogs_Ma}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=9c74031df681717b144d22e3c1eb68a1}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=054b420c0df050e7b7e60aeaf6c1b99c}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1830bc3848a0cda63f4a76b15fc00352}{%
+           family={Mitra},
+           familyi={M\bibinitperiod},
+           given={Prasenjit},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e908908876799b70e9bc4b95038d9451}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={Sejeong},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d36ec07c5297da708e4d92944aceaab1}{%
+           family={Jansen},
+           familyi={J\bibinitperiod},
+           given={Bernard\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f99b964f4d386da79da143fbb415b93}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Kam-Fai},
+           giveni={K\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c87bbe534a23a97bc9332ae0742cc69}{%
+           family={Cha},
+           familyi={C\bibinitperiod},
+           given={Meeyoung},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, New York, USA}%
+      }
+      \list{publisher}{1}{%
+        {AAAI Press}%
+      }
+      \strng{namehash}{ec24b8aa5e8d2850f0c4e4501ad51203}
+      \strng{fullhash}{f83b628150716869d00c48fe44d92f56}
+      \strng{bibnamehash}{f83b628150716869d00c48fe44d92f56}
+      \strng{authorbibnamehash}{f83b628150716869d00c48fe44d92f56}
+      \strng{authornamehash}{ec24b8aa5e8d2850f0c4e4501ad51203}
+      \strng{authorfullhash}{f83b628150716869d00c48fe44d92f56}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Microblogging platforms are an ideal place for spreading rumors and automatically debunking rumors is a crucial problem. To detect rumors, existing approaches have relied on hand-crafted features for employing machine learning algorithms that require daunting manual effort. Upon facing a dubious claim, people dispute its truthfulness by posting various cues over time, which generates long-distance dependencies of evidence. This paper presents a novel method that learns continuous representations of microblog events for identifying rumors. The proposed model is based on recurrent neural networks (RNN) for learning the hidden representations that capture the variation of contextual information of relevant posts over time. Experimental results on datasets from two real-world microblog platforms demonstrate that (1) the RNN method outperforms state-of-the-art rumor detection models that use hand-crafted features; (2) performance of the RNN-based algorithm is further improved via sophisticated recurrent units and extra hidden layers; (3) RNN-based method detects rumors more quickly and accurately than existing techniques, including the leading online rumor debunking services.}
+      \field{isbn}{9781577357704}
+      \field{journaltitle}{Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence}
+      \field{series}{IJCAI'16}
+      \field{title}{Detecting Rumors from Microblogs with Recurrent Neural Networks}
+      \field{year}{2016}
+      \field{pages}{3818\bibrangedash 3824}
+      \range{pages}{7}
+    \endentry
     \entry{DetectRumorsUsingTimeSeries_Ma}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=9c74031df681717b144d22e3c1eb68a1}{%
@@ -2242,6 +3244,7 @@
       \strng{authorbibnamehash}{89df11fd20b463a2f5298ebafa135a81}
       \strng{authornamehash}{ec24b8aa5e8d2850f0c4e4501ad51203}
       \strng{authorfullhash}{89df11fd20b463a2f5298ebafa135a81}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -2267,6 +3270,59 @@
       \verb https://doi.org/10.1145/2806416.2806607
       \endverb
       \keyw{temporal,rumor detection,time series,social context}
+    \endentry
+    \entry{WebBasedStatisticalFactChecking_Magdy}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d7cb4d010bb67e6d1b4bdb427fe83a9e}{%
+           family={Magdy},
+           familyi={M\bibinitperiod},
+           given={Amr},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec2df09628b66178667737f0277b305e}{%
+           family={Wanas},
+           familyi={W\bibinitperiod},
+           given={Nayer},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Toronto, ON, Canada}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{2c9bd61f9d7ded571a1b4db901858c3a}
+      \strng{fullhash}{2c9bd61f9d7ded571a1b4db901858c3a}
+      \strng{bibnamehash}{2c9bd61f9d7ded571a1b4db901858c3a}
+      \strng{authorbibnamehash}{2c9bd61f9d7ded571a1b4db901858c3a}
+      \strng{authornamehash}{2c9bd61f9d7ded571a1b4db901858c3a}
+      \strng{authorfullhash}{2c9bd61f9d7ded571a1b4db901858c3a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{User generated content has been growing tremendously in recent years. This content reflects the interests and the diversity of online users. In turn, the diversity among internet users is also reflected in the quality of the content being published online. This increases the need to develop means to gauge the support available for content posted online. In this work, we aim to make use of the web-content to calculate a statistical support score for textual documents. In the proposed algorithm, phrases representing key facts are extracted to construct basic elements of the document. Search is used thereon to validate the support available for these elements online, leading to assigning an overall score for each document. Experimental results have shown a difference between the score distribution of factual news data and false facts data. This indicates that the approach seems to be a promising seed for distinguishing different articles based on the content.}
+      \field{isbn}{9781450303866}
+      \field{journaltitle}{Proceedings of the 2nd International Workshop on Search and Mining User-Generated Contents}
+      \field{series}{SMUC '10}
+      \field{title}{Web-Based Statistical Fact Checking of Textual Documents}
+      \field{year}{2010}
+      \field{pages}{103\bibrangedash 110}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/1871985.1872002
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/1871985.1872002
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/1871985.1872002
+      \endverb
+      \keyw{content filtering,statistical fact analysis,web-based assessment}
     \endentry
     \entry{RST_William}{article}{}
       \name{author}{2}{}{%
@@ -2309,6 +3365,67 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1515/text.1.1988.8.3.243
+      \endverb
+    \endentry
+    \entry{DistributedRepresentationsOfWords_Mikolov}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=a2d359b12ca2fadf0b40136a73f021bb}{%
+           family={Mikolov},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d569d1d5b8b5a7836017a98b430f959}{%
+           family={Sutskever},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee3f7d7b96add98106db907e189d6c13}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d11e6f2a0d0a1183b2cf62996525afc}{%
+           family={Corrado},
+           familyi={C\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4aecfb0cc2e1e3b7899129fa2a94e2b8}{%
+           family={Dean},
+           familyi={D\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d4849f6d57e38d9b9846cfb360e45131}
+      \strng{fullhash}{de32714a52f717caeb5f99165092caf6}
+      \strng{bibnamehash}{de32714a52f717caeb5f99165092caf6}
+      \strng{authorbibnamehash}{de32714a52f717caeb5f99165092caf6}
+      \strng{authornamehash}{d4849f6d57e38d9b9846cfb360e45131}
+      \strng{authorfullhash}{de32714a52f717caeb5f99165092caf6}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Distributed Representations of Words and Phrases and their Compositionality}
+      \field{volume}{abs/1310.4546}
+      \field{year}{2013}
+      \verb{eprint}
+      \verb 1310.4546
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1310.4546
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1310.4546
       \endverb
     \endentry
     \entry{InterpretableMachineLearning_Molnar}{book}{}
@@ -2717,6 +3834,39 @@
       \verb https://doi.org/10.1007/s11109-010-9112-2
       \endverb
     \endentry
+    \entry{ClickbaitAndTabloidStrategies_Dolors}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b3b1ced46c0b7bf4108c79c125008521}{%
+           family={Palau-Sampio},
+           familyi={P\bibinithyphendelim S\bibinitperiod},
+           given={Dolors},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b3b1ced46c0b7bf4108c79c125008521}
+      \strng{fullhash}{b3b1ced46c0b7bf4108c79c125008521}
+      \strng{bibnamehash}{b3b1ced46c0b7bf4108c79c125008521}
+      \strng{authorbibnamehash}{b3b1ced46c0b7bf4108c79c125008521}
+      \strng{authornamehash}{b3b1ced46c0b7bf4108c79c125008521}
+      \strng{authorfullhash}{b3b1ced46c0b7bf4108c79c125008521}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communication \& Society}
+      \field{month}{4}
+      \field{title}{Reference press metamorphosis in the digital context: Clickbait and tabloid strategies in Elpais.com}
+      \field{volume}{29}
+      \field{year}{2016}
+      \field{pages}{63\bibrangedash 79}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.15581/003.29.2.63-79
+      \endverb
+    \endentry
     \entry{TheFilterBubble_Pariser}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=044b7cb82804417e8026861a006813eb}{%
@@ -2813,6 +3963,56 @@
       \field{title}{Linguistic Inquiry and Word Count (LIWC2007)}
       \field{year}{2007}
     \endentry
+    \entry{FightingMisinformationOnSocialMedia_Pennycook}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=14ca11670fbe0c75690f2537879ddb4d}{%
+           family={Pennycook},
+           familyi={P\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=187c24b68c32371cc8f611424ad4a73d}{%
+           family={Rand},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6e6aa04e7b19701eb7df94c14aabdb66}
+      \strng{fullhash}{6e6aa04e7b19701eb7df94c14aabdb66}
+      \strng{bibnamehash}{6e6aa04e7b19701eb7df94c14aabdb66}
+      \strng{authorbibnamehash}{6e6aa04e7b19701eb7df94c14aabdb66}
+      \strng{authornamehash}{6e6aa04e7b19701eb7df94c14aabdb66}
+      \strng{authorfullhash}{6e6aa04e7b19701eb7df94c14aabdb66}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Reducing the spread of misinformation, especially on social media, is a major challenge. We investigate one potential approach: having social media platform algorithms preferentially display content from news sources that users rate as trustworthy. To do so, we ask whether crowdsourced trust ratings can effectively differentiate more versus less reliable sources. We ran two preregistered experiments (n = 1,010 from Mechanical Turk and n = 970 from Lucid) where individuals rated familiarity with, and trust in, 60 news sources from three categories: (i) mainstream media outlets, (ii) hyperpartisan websites, and (iii) websites that produce blatantly false content (“fake news”). Despite substantial partisan differences, we find that laypeople across the political spectrum rated mainstream sources as far more trustworthy than either hyperpartisan or fake news sources. Although this difference was larger for Democrats than Republicans—mostly due to distrust of mainstream sources by Republicans—every mainstream source (with one exception) was rated as more trustworthy than every hyperpartisan or fake news source across both studies when equally weighting ratings of Democrats and Republicans. Furthermore, politically balanced layperson ratings were strongly correlated (r = 0.90) with ratings provided by professional fact-checkers. We also found that, particularly among liberals, individuals higher in cognitive reflection were better able to discern between low- and high-quality sources. Finally, we found that excluding ratings from participants who were not familiar with a given news source dramatically reduced the effectiveness of the crowd. Our findings indicate that having algorithms up-rank content from trusted media outlets may be a promising approach for fighting the spread of misinformation on social media.}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{7}
+      \field{title}{Fighting misinformation on social media using crowdsourced judgments of news source quality}
+      \field{volume}{116}
+      \field{year}{2019}
+      \field{pages}{2521\bibrangedash 2526}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1806781116
+      \endverb
+      \verb{eprint}
+      \verb https://www.pnas.org/doi/pdf/10.1073/pnas.1806781116
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1806781116
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1806781116
+      \endverb
+    \endentry
     \entry{ThePsycologyOfFakeNews_Pennycook}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=14ca11670fbe0c75690f2537879ddb4d}{%
@@ -2834,6 +4034,7 @@
       \strng{authorbibnamehash}{6e6aa04e7b19701eb7df94c14aabdb66}
       \strng{authornamehash}{6e6aa04e7b19701eb7df94c14aabdb66}
       \strng{authorfullhash}{6e6aa04e7b19701eb7df94c14aabdb66}
+      \field{extraname}{2}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -3055,6 +4256,64 @@
       \field{labeltitlesource}{title}
       \field{title}{Naive Realism in Everyday Life: Implications for Social Conflict and Misunderstanding}
       \field{year}{2013}
+    \endentry
+    \entry{DivingDeepIntoClickbaits_Rony}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=14350108eab8c7a2dae0c9694e6812e7}{%
+           family={Rony},
+           familyi={R\bibinitperiod},
+           given={Md\bibnamedelima Main\bibnamedelima Uddin},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87341dc13a322005c40d014fa7af3583}{%
+           family={Hassan},
+           familyi={H\bibinitperiod},
+           given={Naeemul},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d909b2c989f9a21adae7644a8f0c3ff5}{%
+           family={Yousuf},
+           familyi={Y\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Sydney, Australia}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{a13b18f119f1fbf802c95ec9b3e99d4b}
+      \strng{fullhash}{604105f125f96b91a8202b6e36d13793}
+      \strng{bibnamehash}{604105f125f96b91a8202b6e36d13793}
+      \strng{authorbibnamehash}{604105f125f96b91a8202b6e36d13793}
+      \strng{authornamehash}{a13b18f119f1fbf802c95ec9b3e99d4b}
+      \strng{authorfullhash}{604105f125f96b91a8202b6e36d13793}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The use of alluring headlines (clickbait) to tempt the readers has become a growing practice nowadays. For the sake of existence in the highly competitive media industry, most of the on-line media including the mainstream ones, have started following this practice. Although the wide-spread practice of clickbait makes the reader's reliability on media vulnerable, a large scale analysis to reveal this fact is still absent. In this paper, we analyze 1.67 million Facebook posts created by 153 media organizations to understand the extent of clickbait practice, its impact and user engagement by using our own developed clickbait detection model. The model uses distributed sub-word embeddings learned from a large corpus. The accuracy of the model is 98.3\%. Powered with this model, we further study the distribution of topics in clickbait and non-clickbait contents.}
+      \field{isbn}{9781450349932}
+      \field{journaltitle}{Proceedings of the 2017 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining 2017}
+      \field{series}{ASONAM '17}
+      \field{title}{Diving Deep into Clickbaits: Who Use Them to What Extents in Which Topics with What Effects?}
+      \field{year}{2017}
+      \field{pages}{232\bibrangedash 239}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/3110025.3110054
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3110025.3110054
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3110025.3110054
+      \endverb
     \endentry
     \entry{TowardsNewsVerification_Rubin}{article}{}
       \name{author}{3}{}{%
@@ -3804,6 +5063,55 @@
       \field{title}{Reading between the lines: An evauluation of the Scientific Content Analysis Techniques (SCAN)}
       \field{year}{2001}
     \endentry
+    \entry{TheGeneralInquirer_Stone}{book}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9c87d7e8bf6aaefe32eed07534a9923c}{%
+           family={Stone},
+           familyi={S\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcb85661198fddce6478e40905cf31db}{%
+           family={Dunphy},
+           familyi={D\bibinitperiod},
+           given={Dexter},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf140248ca169b21b46c547c87c74971}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Marshall},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2d8eaddff99c247bef0974abab88f94}{%
+           family={Ogilvie},
+           familyi={O\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b6449efc9b3e2f1e2c1cc1f2bfdc65bb}
+      \strng{fullhash}{77ca7a7eefe4c66cb8e5840845dccfa1}
+      \strng{bibnamehash}{77ca7a7eefe4c66cb8e5840845dccfa1}
+      \strng{authorbibnamehash}{77ca7a7eefe4c66cb8e5840845dccfa1}
+      \strng{authornamehash}{b6449efc9b3e2f1e2c1cc1f2bfdc65bb}
+      \strng{authorfullhash}{77ca7a7eefe4c66cb8e5840845dccfa1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Educational Research Journal - AMER EDUC RES J}
+      \field{month}{01}
+      \field{title}{The General Inquirer: A Computer Approach to Content Analysis}
+      \field{volume}{4}
+      \field{year}{1966}
+      \verb{doi}
+      \verb 10.2307/1161774
+      \endverb
+    \endentry
     \entry{EchoChambers_Sunstein}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7db9319b9972b60d9670001d1e4afa7d}{%
@@ -3943,6 +5251,112 @@
       \verb https://arxiv.org/abs/1704.07506
       \endverb
       \keyw{Machine Learning (cs.LG),Human-Computer Interaction (cs.HC),Social and Information Networks (cs.SI),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{AutomatedFactChecking_Thorne}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dd549e066aa8013fdd8fda1835236922}{%
+           family={Thorne},
+           familyi={T\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e67c7cbda61759192c35b597e0ae638}{%
+           family={Vlachos},
+           familyi={V\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5a456c929a7f3d8c7e63503f842a92c6}
+      \strng{fullhash}{5a456c929a7f3d8c7e63503f842a92c6}
+      \strng{bibnamehash}{5a456c929a7f3d8c7e63503f842a92c6}
+      \strng{authorbibnamehash}{5a456c929a7f3d8c7e63503f842a92c6}
+      \strng{authornamehash}{5a456c929a7f3d8c7e63503f842a92c6}
+      \strng{authorfullhash}{5a456c929a7f3d8c7e63503f842a92c6}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Automated Fact Checking: Task formulations, methods and future directions}
+      \field{volume}{abs/1806.07687}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1806.07687
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1806.07687
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1806.07687
+      \endverb
+    \endentry
+    \entry{FEVER_Thorne}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=dd549e066aa8013fdd8fda1835236922}{%
+           family={Thorne},
+           familyi={T\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e67c7cbda61759192c35b597e0ae638}{%
+           family={Vlachos},
+           familyi={V\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a870e7c2218dedf8fa395067da42b08f}{%
+           family={Christodoulopoulos},
+           familyi={C\bibinitperiod},
+           given={Christos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=998633ca3ae589d1feeeea9f36da6aa1}{%
+           family={Mittal},
+           familyi={M\bibinitperiod},
+           given={Arpit},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, Louisiana}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{13b1b090e67a188d4ef891f64ca8e5ea}
+      \strng{fullhash}{1722597488496b591d3215b1d622e5bf}
+      \strng{bibnamehash}{1722597488496b591d3215b1d622e5bf}
+      \strng{authorbibnamehash}{1722597488496b591d3215b1d622e5bf}
+      \strng{authornamehash}{13b1b090e67a188d4ef891f64ca8e5ea}
+      \strng{authorfullhash}{1722597488496b591d3215b1d622e5bf}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper we introduce a new publicly available dataset for verification against textual sources, FEVER: Fact Extraction and VERification. It consists of 185,445 claims generated by altering sentences extracted from Wikipedia and subsequently verified without knowledge of the sentence they were derived from. The claims are classified as Supported, Refuted or NotEnoughInfo by annotators achieving 0.6841 in Fleiss kappa. For the first two classes, the annotators also recorded the sentence(s) forming the necessary evidence for their judgment. To characterize the challenge of the dataset presented, we develop a pipeline approach and compare it to suitably designed oracles. The best accuracy we achieve on labeling a claim accompanied by the correct evidence is 31.87{\%}, while if we ignore the evidence we achieve 50.91{\%}. Thus we believe that FEVER is a challenging testbed that will help stimulate progress on claim verification against textual sources.}
+      \field{journaltitle}{Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)}
+      \field{month}{6}
+      \field{title}{{FEVER}: a Large-scale Dataset for Fact Extraction and {VER}ification}
+      \field{year}{2018}
+      \field{pages}{809\bibrangedash 819}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.18653/v1/N18-1074
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/N18-1074
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/N18-1074
+      \endverb
     \endentry
     \entry{AdvancesInProspectTheory_Kahneman}{article}{}
       \name{author}{2}{}{%
@@ -4099,6 +5513,56 @@
       \endverb
       \verb{url}
       \verb https://www.pnas.org/doi/abs/10.1073/pnas.1517441113
+      \endverb
+    \endentry
+    \entry{FactChecking_Vlachos}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7e67c7cbda61759192c35b597e0ae638}{%
+           family={Vlachos},
+           familyi={V\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cd024b217f3f2f8126e253b8c84d24d}{%
+           family={Riedel},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Baltimore, MD, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{ba7f7c68f47ba2871dfceef3338cc59f}
+      \strng{fullhash}{ba7f7c68f47ba2871dfceef3338cc59f}
+      \strng{bibnamehash}{ba7f7c68f47ba2871dfceef3338cc59f}
+      \strng{authorbibnamehash}{ba7f7c68f47ba2871dfceef3338cc59f}
+      \strng{authornamehash}{ba7f7c68f47ba2871dfceef3338cc59f}
+      \strng{authorfullhash}{ba7f7c68f47ba2871dfceef3338cc59f}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the {ACL} 2014 Workshop on Language Technologies and Computational Social Science}
+      \field{month}{6}
+      \field{title}{Fact Checking: Task definition and dataset construction}
+      \field{year}{2014}
+      \field{pages}{18\bibrangedash 22}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.3115/v1/W14-2508
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/W14-2508
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/W14-2508
       \endverb
     \endentry
     \entry{NewsConsumptionAcrossSocialMedia_pewresearch}{misc}{}

@@ -1483,6 +1483,16 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplx.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr9c.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplr9c.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplrc8r.tfm
+INPUT ./data//FakeNewsDetectionModelsClassification.png
+INPUT ./data//FakeNewsDetectionModelsClassification.png
+INPUT ./data//FakeNewsDetectionModelsClassification.png
+INPUT ./data//FakeNewsDetectionModelsClassification.png
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
 INPUT ./chapters/03_fnd_models.tex
 INPUT chapters/03_fnd_models.tex
 INPUT ./chapters/03_fnd_models.tex
