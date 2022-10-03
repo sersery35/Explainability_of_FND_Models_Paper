@@ -7,36 +7,37 @@
 \contentsline {subsection}{\numberline {2.1.1}Fake News}{5}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Foundations of Fake News}{7}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Evolution of Fake News Detection}{12}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Explainable Artificial Intelligence}{18}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Importance of Explainable Artificial Intelligence}{18}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}A Good Explanation}{18}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Overview of Explainable Artificial Intelligence}{18}{subsection.2.2.3}%
-\contentsline {chapter}{\numberline {3}Fake News Detection Models}{19}{chapter.3}%
-\contentsline {section}{\numberline {3.1}News Content Models}{19}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Definitons}{19}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Dataset}{19}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Tokenizer}{19}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Model}{19}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}Explainability and Explanation}{19}{subsection.3.1.5}%
-\contentsline {section}{\numberline {3.2}Social Context Models}{19}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Geometric Deep Learning}{20}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Dataset}{20}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Models}{20}{subsection.3.2.3}%
-\contentsline {chapter}{\numberline {4}Explainability of Fake News Detection Models}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Explanation Techiques}{21}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}SHAP, DeepSHAP}{21}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}GNNExplainer}{21}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Explainability vs. Explanation}{21}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Content Based Fake News Detection Models}{21}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Explaining Content Based Fake News Detection Models}{21}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Introducing Unseen Data}{21}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Results}{21}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Content and Social Feature Based Fake News Detection Models}{21}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Explaining Content and Social Feature Based Fake News Detection Models}{21}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Introducing Unseen Data}{21}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Results}{21}{subsection.4.3.3}%
-\contentsline {chapter}{\numberline {5}Conclusion}{22}{chapter.5}%
-\contentsline {chapter}{\nonumberline List of Figures}{23}{chapter*.7}%
-\contentsline {chapter}{\nonumberline List of Tables}{24}{chapter*.8}%
-\contentsline {chapter}{\nonumberline Bibliography}{25}{chapter*.9}%
+\contentsline {section}{\numberline {2.2}Explainable Artificial Intelligence}{20}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Foundations of Explainable Artificial Intelligence}{20}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}What Makes A Good Explanation}{24}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Overview of Techniques in Explainable Artificial Intelligence}{28}{subsection.2.2.3}%
+\contentsline {chapter}{\numberline {3}Fake News Detection Models}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}News Content Models}{31}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Definitons}{31}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Dataset}{31}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Tokenizer}{31}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Model}{31}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Explainability and Explanation}{31}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Social Context Models}{31}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Geometric Deep Learning}{32}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Dataset}{32}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Models}{32}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Early Fake News Detection and Model Aging}{32}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Explainability of Fake News Detection Models}{33}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Explanation Techiques}{33}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}SHAP, DeepSHAP}{33}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}GNNExplainer}{33}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Explainability vs. Explanation}{33}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Content Based Fake News Detection Models}{33}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Explaining Content Based Fake News Detection Models}{33}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Introducing Unseen Data}{33}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Results}{33}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Content and Social Feature Based Fake News Detection Models}{33}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Explaining Content and Social Feature Based Fake News Detection Models}{33}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Introducing Unseen Data}{33}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Results}{33}{subsection.4.3.3}%
+\contentsline {chapter}{\numberline {5}Conclusion}{34}{chapter.5}%
+\contentsline {chapter}{\nonumberline List of Figures}{35}{chapter*.7}%
+\contentsline {chapter}{\nonumberline List of Tables}{36}{chapter*.8}%
+\contentsline {chapter}{\nonumberline Bibliography}{37}{chapter*.9}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

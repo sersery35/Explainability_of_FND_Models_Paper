@@ -17,7 +17,7 @@ media~\parencite{SocialMediaAndFakeNewsIn2016Election_Allcott}.\\
 The research community introduced numerous approaches to counteract the uncontrolled dissemination of fake news. For instance, some studies
 focused on building datasets~\parencite{FakeNewsDetectionOnSocialMediaADataMiningPerspective_Shu, LiarLiarPantsOnFire_Wang, FakeReddit_Nakamura, SomeLikeItHoaxDataset_Tacchini, BuzzfaceDataset_Santia, UPFD_Dataset_Shu}, and some studies leveraged the power of \emph{Machine Learning} (ML) to
 automatically detect fake news~\parencite{FakeNewsDetectionUsingGeometricDeepLearning_Monti, GraphNeuralNetworksWithContinualLearningFakeNewsDetection_Han, RumorDetectionBidirectionalGraphConvolutionalNetworks_Bian, SAFEFND_Zhou}
-by learning features from the data. Due to the number of posts and the limitation of staff to check the posts, ML-based techniques can reduce manual labor when used with human supervision to counter the spreading of fake news. However, ML-based techniques with high complexity, such as \emph{Deep Neural Networks} (DNN), are harder to understand and interpret since they act like black-boxes~\parencite{CanWeOpenTheBlackBoxOfAI_Castelvecchi}.\\
+by learning features from the data. Due to the number of posts and the limitation of staff to check the posts, ML-based techniques can reduce manual labor when used with human supervision to counter the spreading of fake news. However, ML-based techniques with high complexity, such as \emph{Deep Neural Networks} (DNNs), are harder to understand and interpret since they act like black-boxes~\parencite{CanWeOpenTheBlackBoxOfAI_Castelvecchi}.\\
 The integration of ML-based methods into human society impacts more people every day. While incredibly helpful in some aspects,
 ML-based techniques do not offer a reason for a particular prediction. Furthermore, we can not simply accept classification accuracy
 as a metric to evaluate real-world problems ~\parencite{TowardsARigorousScienceML_Velez}. Integrating ML-based methods into human society
@@ -27,7 +27,7 @@ Consequently, a new research field called \emph{eXplainable Artificial Intellige
 Like all ML techniques, \emph{Fake News Detection} (FND) models need interpretability, particularly when implementing countermeasures for fake
 news. However, the interpretability of a model is not often considered despite the large amount of research produced in the last decade.
 Incorporating social context~\parencite{FakeNewsNet_Shu}, representing the propagation networks as graphs~\parencite{UPFD_Dataset_Shu},
-and using \emph{Graph Neural Networks} (GNN) to produce \emph{State Of The Art} (SOTA) models~\parencite{FakeNewsDetectionUsingGeometricDeepLearning_Monti} have increased the complexity, but also the performance of FND models.
+and using \emph{Graph Neural Networks} (GNNs) to produce \emph{State Of The Art} (SOTA) models~\parencite{FakeNewsDetectionUsingGeometricDeepLearning_Monti} have increased the complexity, but also the performance of FND models.
 For instance, using social context data alone has proved to be more effective than textual data alone in recent studies~\parencite{UPFD_Dataset_Shu}. However, it is not clear which social features impact the decision process of these models.\\
 This thesis focuses on the explainability of FND models using tools from the XAI suite. Specifically, we focus on content-based models and social context-based models to elaborate on their interpretability. Thus, we define three research objectives:
 \begin{description}
