@@ -2,20 +2,99 @@
 % Add the above to each chapter to make compiling the PDF easier in some editors.
 
 \chapter{Fake News Detection Models}\label{chapter:fnd_models}
+The automated detection of fake news on social media comes with its characteristic challenges. First, the fact
+that fake news are constructed to misguide its consumers makes them hard to distinguish by only using news content. Second, when we include social context into the model, the large-scale and noisy nature of social context data represents another issue~\parencite{HierarchicalPropagationNetworksForFND_Shu}. Moreover, from a broader perspective, fake news should be detected before it becomes widespread so that the amount of users affected can be minimized.\\
+In this chapter, we examine how these challenges effect the model and dataset's design. We initially take a look at news content models in section~\ref{sec:newsContentModels}. In first section, we lay out the definitions for the materials used. After we give a detailed analysis of the dataset, we talk about the tokenizer and model itself, discuss its performance on the dataset. In section~\ref{sec:socialContextModels} we investigate social context based and hybrid models. Similar to the first section, we give definitons for the used material, then talk about the dataset and model. In this section, we also examine issues such as early fake news detection and model aging.\\
 
 \section{News Content Models}
+\label{sec:newsContentModels}
+The majority of approaches for FND models utilizes news content. Models that base their predictions only on news content focus on the patterns in the text, especially words or word groups that appear frequently in other instances of the same class. As discussed in Section~\ref{sec:fakeNewsDetection}, there exist a variety of approaches available for news content models, however, due to unavailable or outdated datasets, we were unable to work with most news content models.
 
-\subsection{Definitons}
-Talk about text based models, tf-idf, bag of words(BoW), how BERT is used in these tasks, (in the end) just assert that only text based models are not sufficient.
+\subsection{Notation and Definitions}
+\label{subsec:newsContentModels_Definitions}
+Here we introduce the notation utilized in this section. Note that these notations will appear in its context, which will provide concrete examples for each symbol defined in Table~\ref{tab:newsContentModels_Notation}.\\
+\begin{table}
+    \begin{tabular}{cp{0.6\textwidth}}
+        $x_{raw}$ & Input news article.                                            \\
+        $y_{raw}$ & The label of news article.                                     \\
+        $\phi$    & Tokenizer function                                             \\
+        $\psi$    & Label mapping function                                         \\
+        $x$       & Tokenized news article                                         \\
+        $y$       & Vectorized class value.                                        \\
+        $|x|$     & The number of tokens in $x$.                                   \\
+        $X_{raw}$ & The space of $x_{raw}$                                         \\
+        $X$       & The space of $x$.                                              \\
+        $Y_{raw}$ & The space of $y_{raw}$                                         \\
+        $Y$       & The space of $y$                                               \\
+        $p$       & Position of a token in the tokenized article $x$.              \\
+        $x_p$     & A token at position $p$ of the tokenized article $x$           \\
+        $V$       & Vocabulary: A collection of tokens available to the tokenizer. \\
+        $f$       & Classifier function, i.e., FND model.                          \\
+        $y^*$     & Prediction of FND model.                                       \\
+        % loss function, activation function, layer, neurons, weights etc.
+    \end{tabular}
+    \caption{\label{tab:newsContentModels_Notation}Notation used in this section.}
+\end{table}
+Using this notation we now define some relevant concepts. First, we talk about terms and definitions for \emph{tokenization}, illustrate the mathematical insight in the tokenization process. First, to build upon a concrete foundation, let us consider a news article $x_{raw}$ fed to the tokenizer.
+\begin{definition}[Tokenizer]
+    A tokenizer $\phi:X_{raw} \mapsto X$ is a function that maps raw textual data to smaller units called tokens.
+\end{definition}
+A token can be a word, character or a subword. Therefore, we define three types of tokenization techniques:
+\begin{itemize}
+    \item \emph{Word tokenization} splits the given text into individual words based on a delimeter such as whitespace, commma, etc. This approach creates a vocabulary (V) from the inputs it was trained on. All words do not appear in the vocabulary are replaced with unknown token ([UNK]), and this concept is called being \emph{Out Of Vocabulary}(OOV). Depending on the task, the size of the vocabulary can grow quite large. The solution for exploding vocabulary sizes was introduced in subword tokenization. The commonly used examples for word tokenizers are Word2Vec~\parencite{Word2Vec_Mikolov} and GloVe~\parencite{GloVe_Pennington}.
+    \item \emph{Character tokenization} splits the text into single characters. Since the size of available characters is limited and known, the OOV problem is solved by encoding the unknown word by means of its characters. Although looks like a good solution, the length of tokens can be massive for long texts.
+    \item \emph{Subword tokenization} splits the given text into subwords, also called \emph{n-gram characters}. For instance, comparative words like harder is segmented into hard-er, or superlative words like hardest is segmented into hard-est. The most common method for subword tokenization is \emph{Byte Pair Encoding} (BPE). BPE was introduced by~\cite{ANewAlgorithmForDataCompression_Gage} but adapted to word segmentation by~\cite{NeuralMachineTranslationOfRareWords_Sennrich}. BPE iteratively merges the most frequently appearing character or character sequences. This approach allows for an efficient space usage thus smaller vocabularies~\parencite{NeuralMachineTranslationOfRareWords_Sennrich}.
+\end{itemize}
+We say that an input is \emph{tokenized} after it is fed to the tokenizer. A tokenized news article $x \in X$ is a vector of tokens in which the order of the words and characters in $x_{raw} \in X_{raw}$ are kept.
+\begin{center}
+    $\phi(x_{raw}) = x = [x_1, x_2, \dots, x_n]$, where $n = |x|$.
+\end{center}
+We denote an element of $x$ at $p$-th position as $x_p$, and the number of tokens in $x$ as $|x|$. Thus, we have the range of p, $1 \leq p \leq |x|$. The tokens
+Furthermore, we denote the space of raw label $Y_{raw} = \{"fake", "real"\}$, with
+$y_{raw} \in Y_{raw}$. We use a label mapping function $\psi: Y_{raw} \mapsto Y$ that maps raw labels to classes, where $Y \in \mathbb{R}^2$ with,
+\begin{center}
+    \[\psi(y_{raw}) = y =
+        \begin{cases}
+            0, & y_{raw} = "fake" \\
+            1, & y_{raw} = "real"
+        \end{cases}
+    \]
+\end{center}
+\begin{definition}[\emph{Classifier Function}]
+    A classifier function $f:X \mapsto Y$ is a function that outputs a predicted scores for each class $y$ for a given input $x$.
+\end{definition}
+\begin{definition}[\emph{Prediction}]
+    A prediction $y^*$ is the maximum of predicted scores of a classifier function.
+    \begin{center}
+        $y^* = argmax_{y \in Y} f(x)$
+    \end{center}
+\end{definition}
+Our classifier function is our model, which is a fine-tuned version of case-sensitive transformers model DistilRoBERTa. DistilRoBERTa is a distilled version of RoBERTa~\parencite{RoBERTa_Liu} and uses the same training procedure as DistilBERT~\parencite{DistilBERT_Sanh}. RoBERTa is a transformers model pretrained on reunion of five datasets that size up to 160 gigabytes (GB): BookCorpus~\parencite{BookCorpus_Yukun}, English Wikipedia~\parencite{EnglishWikipedia_Wiki}, CC-News~\parencite{CCNews_Nagel}, OpenWebText~\parencite{OpenWebText_Radford}, Stories~\parencite{ASimpleMethodForCommonsenseReasoning_Trinh}. DistilRoBERTa's training procedure is as follows:\\
+\begin{enumerate}
+    \item \textbf{Preprocessing}: DistilRoBERTa tokenizes texts using BPE with a vocabulary size of 50,000 and maximum sequence length (maximum number of tokens) as 512. The beginning and end of each document (news article) is marked with <s> and </s> respectively.
+    \item \textbf{Training}: RoBERTa uses an objective called \emph{Masked Language Modeling} (MLM) during training. This procedure applies the following for each sentence sampled from a document in the cumulative dataset.
+          \begin{itemize}
+              \item Mask 15\% of the tokens.
+              \item In 80\% of the cases, replace the masked tokens with [MASK].
+              \item In 10\% of the cases, replace the masked tokens with a different random token.
+              \item In the remaining 10\% of the cases, the masked tokens are left as is.
+          \end{itemize}
+          Furthermore, RoBERTa
+    \item
+\end{enumerate}
 
-\subsection{Dataset}
+
+\subsection{Dataset Analysis}
+\label{subsec:newsContentModels_Dataset}
 Used the Kaggle competition dataset.
 -> Talk about the general analysis of the dataset. (How many instances, real/fake instances, )
 
-\subsection{Tokenizer}
+\subsection{Tokenizer Analysis}
+\label{subsec:newsContentModels_Tokenizer}
 Used DistilRoBERTa tokenizer. (check the tokenizer of the model and talk about it)
 
-\subsection{Model}
+\subsection{Model Analysis}
+\label{subsec:newsContentModels_Model}
 Used the model in transformers repository. The model from GonzaloA was used since it also provided its dataset and their train/val/test splits.
 
 \subsection{Explainability and Explanation}
@@ -26,7 +105,10 @@ Input perturbation
 Explain a novel news (use test data)
 
 \section{Social Context Models}
+\label{sec:socialContextModels}
 Talk about models that incorporate social context, spatiotemporal information and other context with text data. Can be any kind of model.
+
+\subsection{Notation and Definitions}
 
 \subsection{Geometric Deep Learning}
 Talk about Graph Neural Networks

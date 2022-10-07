@@ -26,12 +26,16 @@
 \usepackage{caption}
 \usepackage[hidelinks]{hyperref} % hidelinks removes colored boxes around references and links
 \usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{etoolbox}
 
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}[section]
+\AfterEndEnvironment{definition}{\noindent\ignorespaces} % to remove idents after definitions.
+\AfterEndEnvironment{table}{\noindent\ignorespaces}
 
 \theoremstyle{remark}
-\newtheorem*{remark}{Remark}
+\newtheorem{remark}{Remark}
 
 \bibliography{bibliography}
 % \addbibresource{bibliography.bib}
