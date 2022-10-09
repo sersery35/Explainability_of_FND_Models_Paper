@@ -5,6 +5,12 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Fake News and Fake News Detection Publications by Year}}{5}{figure.caption.3}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Market Reaction to Fake Tweet}}{7}{figure.caption.4}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Total Facebook Engagements for Top 20 Election Stories}}{8}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Characterization of Fake News Detection Models}}{14}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Characterization of Fake News Detection Models}}{13}{figure.caption.6}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The preprocessing pipeline for a textual input.}}{34}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Units and layers of an FCN}}{36}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The Transformer Model Architecture}}{38}{figure.caption.10}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
