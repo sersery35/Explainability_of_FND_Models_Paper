@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.29)  10 OCT 2022 01:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.29)  10 OCT 2022 01:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1258,12 +1258,12 @@ Package pdftex.def Info: ./data//FN_vs_FND_Publications.png  used on input line 
 
 
 ] [5 <./data//FN_vs_FND_Publications.png (PNG copy)>]
-<./data//MarketReactionToFakeTweet.jpg, id=235, 747.52pt x 1043.17pt>
+<./data//MarketReactionToFakeTweet.jpg, id=236, 747.52pt x 1043.17pt>
 File: ./data//MarketReactionToFakeTweet.jpg Graphic file (type jpg)
 <use ./data//MarketReactionToFakeTweet.jpg>
 Package pdftex.def Info: ./data//MarketReactionToFakeTweet.jpg  used on input line 50.
 (pdftex.def)             Requested size: 149.50134pt x 208.6303pt.
-<./data//TotalFacebookEngagementsForTop20ElectionStories.png, id=245, 556.32843pt x 449.42906pt>
+<./data//TotalFacebookEngagementsForTop20ElectionStories.png, id=246, 556.32843pt x 449.42906pt>
 File: ./data//TotalFacebookEngagementsForTop20ElectionStories.png Graphic file (type png)
 <use ./data//TotalFacebookEngagementsForTop20ElectionStories.png>
 Package pdftex.def Info: ./data//TotalFacebookEngagementsForTop20ElectionStories.png  used on input line 66.
@@ -1273,18 +1273,13 @@ LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 1
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplx.fd
 File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
 ) [10] [11]
-<./data//FakeNewsDetectionModelsClassification.png, id=379, 722.7pt x 542.025pt>
+<./data//FakeNewsDetectionModelsClassification.png, id=380, 722.7pt x 542.025pt>
 File: ./data//FakeNewsDetectionModelsClassification.png Graphic file (type png)
 <use ./data//FakeNewsDetectionModelsClassification.png>
 Package pdftex.def Info: ./data//FakeNewsDetectionModelsClassification.png  used on input line 133.
 (pdftex.def)             Requested size: 361.3491pt x 271.01183pt.
- [12] [13 <./data//FakeNewsDetectionModelsClassification.png>] [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-  [][][]\T1/pplx/m/n/9 (+20) https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-
- []
-
-[16]
-Overfull \hbox (3.30518pt too wide) in paragraph at lines 162--166
+ [12] [13 <./data//FakeNewsDetectionModelsClassification.png>] [14] [15] [16]
+Overfull \hbox (3.30518pt too wide) in paragraph at lines 149--150
 []\T1/pplx/m/it/10.95 (-20) Computational-oriented\T1/pplx/m/n/10.95 (-20) : Heav-ily de-pen-dent on ex-ter-nal sources, computational-
  []
 
@@ -1303,13 +1298,13 @@ LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 6
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 ) [33]
-<./data//InputPreProcessPipeline.png, id=856, 963.6pt x 542.025pt>
+<./data//InputPreProcessPipeline.png, id=867, 963.6pt x 542.025pt>
 File: ./data//InputPreProcessPipeline.png Graphic file (type png)
 <use ./data//InputPreProcessPipeline.png>
 Package pdftex.def Info: ./data//InputPreProcessPipeline.png  used on input line 75.
 (pdftex.def)             Requested size: 414.33992pt x 233.0662pt.
  [34 <./data//InputPreProcessPipeline.png (PNG copy)>]
-<./data//NN_LayerRepresentation.png, id=864, 963.6pt x 542.025pt>
+<./data//NN_LayerRepresentation.png, id=875, 963.6pt x 542.025pt>
 File: ./data//NN_LayerRepresentation.png Graphic file (type png)
 <use ./data//NN_LayerRepresentation.png>
 Package pdftex.def Info: ./data//NN_LayerRepresentation.png  used on input line 99.
@@ -1320,7 +1315,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--107
  []
 
 [35]
-<./data//TransformerArchitecture.png, id=898, 287.58476pt x 347.89282pt>
+<./data//TransformerArchitecture.png, id=909, 287.58476pt x 347.89282pt>
 File: ./data//TransformerArchitecture.png Graphic file (type png)
 <use ./data//TransformerArchitecture.png>
 Package pdftex.def Info: ./data//TransformerArchitecture.png  used on input line 123.
@@ -1379,18 +1374,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51957 strings out of 480153
- 1200388 string characters out of 5892727
+ 51959 strings out of 480153
+ 1200402 string characters out of 5892727
  2310915 words of memory out of 5000000
  67957 multiletter control sequences out of 15000+600000
- 549796 words of font info for 500 fonts, out of 8000000 for 9000
+ 549921 words of font info for 501 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  115i,14n,109p,10685b,5223s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (69 pages, 778849 bytes).
+Output written on main.pdf (69 pages, 779944 bytes).
 PDF statistics:
- 1537 PDF objects out of 1728 (max. 8388607)
- 1411 compressed objects within 15 object streams
+ 1548 PDF objects out of 1728 (max. 8388607)
+ 1422 compressed objects within 15 object streams
  365 named destinations out of 1000 (max. 500000)
  104834 words of extra memory for PDF output out of 106986 (max. 10000000)
 
