@@ -185,11 +185,12 @@ DistilRoBERTa has the same general architecture as RoBERTa but the number of lay
 \emph{token-type embeddings} and the pooler are removed. Then DistilRoBERTa is initialized with layers from the teacher.
 The distillation is done with very large batches~\parencite{DistilBERT_Sanh}. Using RoBERTa as a teacher, the student DistilRoBERTa is pretrained on OpenWebTextCorpus~\parencite{OpenWebTextCorpus_Gokaslan} a reproduction of OpenWebText~\parencite{OpenWebText_Radford}.\\
 We employ a fine-tuned version of DistilRoBERTa from
-Huggingface\footnote{https://huggingface.co/GonzaloA/distilroberta-base-finetuned-fakeNews} that is trained on a dataset curated from different sources\footnote{https://huggingface.co/datasets/GonzaloA/fake_news}. Although there exist better datasets and news content models, we opted for this particular model for two reasons. First, most SOTA news content models
+Huggingface\footnote{\url{https://huggingface.co/GonzaloA/distilroberta-base-finetuned-fakeNews}}. It is trained on a dataset\footnote{\url{https://huggingface.co/datasets/GonzaloA/fake_news}} curated from different sources. Although there exist better datasets and news content models, we opted for this particular model for two reasons. First, most SOTA news content models
 do not provide their code and dataset to reproduce results. Second, since Transformers are SOTA and this particular trained model provides us with not only the dataset but also with the train/test/validation splits which allows us to analyze its explanation. Now, we analyze the dataset, convey the distribution of labels and discuss potential peculiarities. Then we
 talk about the performance of the model, and reason about it.\\
 This dataset includes
-
+%\footnote{https://huggingface.co/GonzaloA/distilroberta-base-finetuned-fakeNews}
+%\footnote{https://huggingface.co/datasets/GonzaloA/fake_news}
 
 \section{Social Context Models}
 \label{sec:socialContextModels}
