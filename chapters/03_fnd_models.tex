@@ -15,31 +15,23 @@ The majority of approaches for FND models utilizes news content. Models that bas
 Here we introduce the notation utilized in this section. Note that these notations will appear in its context, which will provide concrete examples for each symbol defined in Table~\ref{tab:newsContentModels_Notation}.\\
 \begin{table}
     \begin{tabular}{cp{0.8\textwidth}}
-        $x^{raw}$       & Input news article.                                            \\
-        $y^{raw}$       & The label of news article.                                     \\
-        $T$             & Tokenizer function                                             \\
-        $\psi$          & Label mapping function                                         \\
-        $x^{tok}$       & Tokenized news article                                         \\
-        $y$             & Vectorized class value.                                        \\
-        $|x^{tok}|$     & The number of tokens in $x^{tok}$.                             \\
-        $X^{raw}$       & The space of $x^{raw}$                                         \\
-        $X^{tok}$       & The space of $x^{tok}$.                                        \\
-        $Y^{raw}$       & The space of $y^{raw}$                                         \\
-        $Y$             & The space of $y$                                               \\
-        $p$             & Position of a token in the tokenized article $x^{tok}$.        \\
-        $x^{tok}_p$     & A token at position $p$ of the tokenized article $x^{tok}$     \\
-        $V$             & Vocabulary: A collection of tokens available to the tokenizer. \\
-        $f$             & Classifier function, i.e., FND model.                          \\
-        $y^*$           & Prediction of FND model.                                       \\
-        $x$             & Numeric vector of $x^{tok}$                                    \\
-        $X$             & Space of $x$                                                   \\
-        $f(x)_y$        & Prediction score for class $y$ given input $x$                 \\
-        $l$             & Index of a layer                                               \\
-        $l_{embedding}$ & Embedding layer                                                \\
-        $a_{i}^{(l)}$   & The value of unit $i$ in layer $l$                             \\
-        $w_{ij}^{(l)}$  & Weight between units $i$ in layer $l$ and $j$ in layer $l+1$   \\
-        $\sigma$        & Activation function                                            \\
-        $L$             & Loss function                                                  \\
+        $x^{raw} \in X^{raw}$ & Input news article.                                            \\
+        $y^{raw} \in Y^{raw}$ & The label of news article.                                     \\
+        $T$                   & Tokenizer function                                             \\
+        $\psi$                & Label mapping function                                         \\
+        $x^{tok} \in X^{tok}$ & Tokenized news article                                         \\
+        $y \in Y$             & Vectorized class value.                                        \\
+        $|x^{tok}|$           & The number of tokens in $x^{tok}$.                             \\
+        $V$                   & Vocabulary: A collection of tokens available to the tokenizer. \\
+        $f$                   & Classifier function, i.e., FND model.                          \\
+        $y^*$                 & Prediction of FND model.                                       \\
+        $x \in X$             & Numeric vector of $x^{tok}$                                    \\
+        $|x|$                 & The length of input vector                                     \\
+        $l$                   & Index of a layer                                               \\
+        $l_{embedding}$       & Embedding layer                                                \\
+        $a_{i}^{(l)}$         & The value of unit $i$ in layer $l$                             \\
+        $w_{ij}^{(l)}$        & Weight between units $i$ in layer $l$ and $j$ in layer $l+1$   \\
+        $\sigma$              & Activation function                                            \\
     \end{tabular}
     \caption[Notation]{Notation used in this section.}
     \label{tab:newsContentModels_Notation}
@@ -54,11 +46,10 @@ A token can be a word, character or a subword. Therefore, we define three types 
     \item \emph{Character tokenization} splits the text into single characters. Since the size of available characters is limited and known, the OOV problem is solved by encoding the unknown word by means of its characters. Although looks like a good solution, the length of tokens can be massive for long texts.
     \item \emph{Subword tokenization} splits the given text into subwords, also called \emph{n-gram characters}. For instance, comparative words like harder is segmented into hard-er, or superlative words like hardest is segmented into hard-est. The most common method for subword tokenization is \emph{Byte Pair Encoding} (BPE). BPE was introduced by~\cite{ANewAlgorithmForDataCompression_Gage} but adapted to word segmentation by~\cite{NeuralMachineTranslationOfRareWords_Sennrich}. BPE iteratively merges the most frequently appearing character or character sequences. This approach allows for an efficient space usage thus smaller vocabularies~\parencite{NeuralMachineTranslationOfRareWords_Sennrich}.
 \end{itemize}
-We say that an input is \emph{tokenized} after it is fed to the tokenizer. A tokenized news article $x^{tok} \in X^{tok}$ is a vector of tokens in which the order of the words and characters in $x^{raw} \in X^{raw}$ are kept.
+We say that an input is \emph{tokenized} after it is fed to the tokenizer. A tokenized news article $x^{tok}$ is a vector of tokens in which the order of the words and characters in $x^{raw} \in X^{raw}$ are kept. Furthermore, to get a fixed length output, we pad the tokenized sequence $x^{tok}$ with padding tokens ([PAD]) where the news article is not long enough. In case it is longer than the fixed length, then it is truncated.
 \begin{center}
-    $T(x^{raw}) = x = [x_1, x_2, \dots, x_n]$, where $n = |x|$.
+    $T(x^{raw}) = x^{tok} = [x_1^{tok}, \dots, x_n^{tok}]$, where $n = |x^{tok}|$.
 \end{center}
-We denote an element of $x^{tok}$ at $p$-th position as $x_p^{tok}$, and the number of tokens in $x^{tok}$ as $|x^{tok}|$. Thus, we have the range of p, $1 \leq p \leq |x^{tok}|$. The tokens
 Furthermore, we denote the space of raw label $Y^{raw} = \{"fake", "real"\}$, with
 $y^{raw} \in Y^{raw}$. We use a label mapping function $\psi: Y^{raw} \mapsto Y$ that maps raw labels to classes, where $Y \in \mathbb{R}^2$ with,
 \begin{center}
@@ -102,13 +93,14 @@ The input transformation pipeline is illustrated in~\ref{fig:InputPreProcessPipe
 \end{figure}
 Neural networks iteratively optimize the weights between layers such that the produced output is as close as to the
 expected output. This is done so using optimization methods such as \emph{Gradient Descent} (GD)~\parencite{GD_Cauchy},
-\emph{Stochastic Gradient Descent} (SGD)~\parencite{SGD_Robbins}, \emph{Adaptive Moment Estimation} (Adam)~\parencite{Adam_Kingma} to minimize the loss function $L$. While there exist many optimization methods available for nueral networks, we do not examine any of them.\\
+\emph{Stochastic Gradient Descent} (SGD)~\parencite{SGD_Robbins}, \emph{Adaptive Moment Estimation} (Adam)~\parencite{Adam_Kingma} to minimize the loss function. While there exist many optimization methods available for neural networks, we do not examine any of them.\\
 For classification problems, we adopt a layer called \emph{Softmax}~\parencite{Softmax_Bridle} outputs the predicted scores $f(x)_y$ for each class $y$ by normalizing outputs $Z_y(x)$ from the previous layer.\\
 \begin{center}
     $f(x)_y = \dfrac{exp(Z_y(x))}{\sum_{\hat{y} \in Y} exp(Z_{\hat{y}(x)})}$
 \end{center}
-The FCNs are the simplest architectures for neural networks. In an FCN, all units are connected which means there is a weight between each unit in layer $l$ and $l+1$. While very simple to construct, usage of these architectures when modeling sequences is not preferred due to the number of trained parameters such as weights and biases. Instead, when modeling sequences like sentences and documents, a common approach is RNNs which allow previous outputs to be used while having hidden states. However, RNNs are not powerful enough to represent long-term dependencies~\parencite{LearningLongTermDependenciesHard_Bengio} and suffer from vanishing/exploding gradients~\parencite{OnTheDifficultyOfTrainingRNNs_Pascanu}. Utilizing RNNs, an idea was proposed in which these shortcomings were addressed. Called \emph{Long Short-Term Memory} (LSTM)~\parencite{LSTM_Hochreiter}, the idea is to keep a cell state which is updated with previous cell's state. This cell state is conveyed to the consequent cells to form a chain that represents the document. More precisely, each cell corresponds to a token whose information will be shared with consequent tokens by the propagation of previously mentioned cell states. This approach is indeed very useful for long documents since news articles tend to be long and their sentences contextually relevant. LSTM is usually used in different variations based on the same idea. For instance, a consequent study has extended LSTMs with \emph{peephole connections} in~\parencite{LSTMPeephole_Gers}. LSTMs have been proven to deliver a good performance in NLP tasks such as \emph{speech recognitions}~\parencite{AchievingHumanParityinConvSR_Wayne}.\\
-LSTMs perform well however due to long training times and large memory requirements during training, they are being replaced with attention-based models. Having introduced all necessary notation and definitions, in ~\ref{subsec:newsContentModels_TransformerArch}, we discuss the SOTA approach the Transformer models which are based on attention mechanism.
+The FCNs are the simplest architectures for neural networks. In an FCN, all units are connected which means there is a weight between each unit in layer $l$ and $l+1$. While very simple to construct, usage of these architectures when modeling sequences is not preferred due to the number of trained parameters such as weights and biases. Instead, when modeling sequences like sentences and documents, a common approach is RNNs which allow previous outputs to be used while having hidden states. However, RNNs are not powerful enough to represent long-term dependencies~\parencite{LearningLongTermDependenciesHard_Bengio} and suffer from vanishing/exploding gradients~\parencite{OnTheDifficultyOfTrainingRNNs_Pascanu}. Utilizing RNNs, an idea was proposed in which these shortcomings were addressed. Called \emph{Long Short-Term Memory} (LSTM)~\parencite{LSTM_Hochreiter}, the idea is to keep a cell state which is updated with previous cell's state. This cell state is conveyed to the consequent cells to form a chain that represents the document. More precisely, each cell corresponds to a token whose information will be shared with consequent tokens by the propagation of previously mentioned cell states. This approach is indeed very useful for long documents since news articles tend to be long and their sentences contextually relevant. LSTM is usually used in different variations based on the same idea. For instance, a consequent study has extended LSTMs with \emph{peephole connections} in~\parencite{LSTMPeephole_Gers}. LSTMs have been proven to deliver a good performance in NLP tasks such as \emph{speech recognitions}~\parencite{AchievingHumanParityinConvSR_Wayne}. LSTMs perform well however due to long training times and large memory requirements during training, they are being replaced with attention-based models.\\
+One last thing to discuss is how the models are trained in terms of supervision. \emph{Supervised} models are trained with label data. \emph{Unsupervised} models work with unlabeled data and aims to find patterns in the data. A different setting is \emph{semi-supervised} models. These models are often provided with small amounts of labeled data and large amounts of unlabeled data for training. There are two settings for semi-supervised learning. \emph{Transductive} learning aims to predict unlabeled data whereas \emph{inductive} learning samples unlabeled data from the same distribution to
+infer~\parencite{LearningByTransduction_Gammerman}. Having introduced all necessary notation and definitions, in ~\ref{subsec:newsContentModels_TransformerArch}, we discuss the SOTA approach the Transformer models which are based on attention mechanism.
 
 \subsection{Transformer Architecture}
 \label{subsec:newsContentModels_TransformerArch}
@@ -154,7 +146,7 @@ with projection for $Q$ as $W_i^Q \in \mathbb{R}^{d_{model}xd_k}$, $K$ as $W_i^K
 as $W_i^V \in \mathbb{R}^{d_{model}xd_v}$, and lastly, $W^{O} \in \mathbb{R}^{hd_vxd_{model}}$~\parencite{AttentionIsAllYouNeed_Vaswani}.\\
 We now discuss each part of the Transformer model briefly.\\
 \begin{itemize}
-    \item \emph{Encoder}: Consists of N=6 identical layers. Each of these layers have two sub-layers the first of which uses a Multi-Head Attention and layer normalization~\parencite{LayerNorm_Ba} along with a residual connection around. The second sub-layer consists of a feed-forward layer and layer normalization as well as a residual connection~\parencite{ResidualConnection_He} around the feed-forward layer~\parencite{AttentionIsAllYouNeed_Vaswani}
+    \item \emph{Encoder}: Consists of N=6 identical layers. Each of these layers have two sub-layers the first of which uses a Multi-Head Attention and layer normalization~\parencite{LayerNorm_Ba} along with a residual connection~\parencite{ResidualConnection_He} around. The second sub-layer consists of a feed-forward layer and layer normalization as well as a residual connection around the feed-forward layer~\parencite{AttentionIsAllYouNeed_Vaswani}
     \item \emph{Decoder}: Same as the encoder, this part is also composed of N=6 layers. Additional to the previously discussed two sub-layers in encoder, decoder adopts a third sub-layer which computes the attention values over the output of encoder. As it was done for encoder, decoder also utilizes layer normalization at the end of each sub-layer as well as the residual connection~\parencite{AttentionIsAllYouNeed_Vaswani}.
 \end{itemize}
 Each of the feed forward networks in the sub-layers are position-wise, meanining that they are applied to each position separately and identically. These feed-forward networks use different parameters for each layer. The embeddings are obtained through transductive learning. Lastly, the positional encodings for input embeddings are calculated using sine and cosine functions of different frequencies~\parencite{AttentionIsAllYouNeed_Vaswani}.\\
@@ -180,27 +172,103 @@ pretrained on reunion of five datasets (three more datasets than BERT) that size
 English Wikipedia~\parencite{EnglishWikipedia_Wiki},
 CC-News~\parencite{CCNews_Nagel}, OpenWebText~\parencite{OpenWebText_Radford},
 Stories~\parencite{ASimpleMethodForCommonsenseReasoning_Trinh}.\\
-RoBERTa tokenizes texts using BPE with a vocabulary size of 50,000 and maximum sequence length (maximum number of tokens) as 512. The beginning and end of each document (news article) is marked with <s> and </s> respectively. With MLM as training objective and Adam~\parencite*{Adam_Kingma} as the optimizer, the model reaches better results than BERT. Additionally, it should be noted that since these models are further trained for downstream tasks, thus we refer to training stage as pretraining to avoid any confusion.\\
+RoBERTa tokenizes texts using BPE with a vocabulary size of 50,000 and maximum sequence length (maximum number of tokens) as 512. The beginning and end of each document (news article) is marked with <s> and </s> respectively. With MLM as training objective and Adam~\parencite*{Adam_Kingma} as the optimizer, the model reaches better results than BERT. Additionally, it should be noted that since these models are further trained for downstream tasks, thus we refer to training stage as pretraining to avoid any confusion. \\
 DistilRoBERTa has the same general architecture as RoBERTa but the number of layers are reduced by a factor of two, the
 \emph{token-type embeddings} and the pooler are removed. Then DistilRoBERTa is initialized with layers from the teacher.
 The distillation is done with very large batches~\parencite{DistilBERT_Sanh}. Using RoBERTa as a teacher, the student DistilRoBERTa is pretrained on OpenWebTextCorpus~\parencite{OpenWebTextCorpus_Gokaslan} a reproduction of OpenWebText~\parencite{OpenWebText_Radford}.\\
 We employ a fine-tuned version of DistilRoBERTa from
-Huggingface\footnote{\url{https://huggingface.co/GonzaloA/distilroberta-base-finetuned-fakeNews}}. It is trained on a dataset\footnote{\url{https://huggingface.co/datasets/GonzaloA/fake_news}} curated from different sources. Although there exist better datasets and news content models, we opted for this particular model for two reasons. First, most SOTA news content models
-do not provide their code and dataset to reproduce results. Second, since Transformers are SOTA and this particular trained model provides us with not only the dataset but also with the train/test/validation splits which allows us to analyze its explanation. Now, we analyze the dataset, convey the distribution of labels and discuss potential peculiarities. Then we
-talk about the performance of the model, and reason about it.\\
-This dataset includes
-%\footnote{https://huggingface.co/GonzaloA/distilroberta-base-finetuned-fakeNews}
-%\footnote{https://huggingface.co/datasets/GonzaloA/fake_news}
+Huggingface\footnote{\url{https://huggingface.co/GonzaloA/distilroberta-base-finetuned-fakeNews}}. It is trained on a dataset\footnote{\url{https://huggingface.co/datasets/GonzaloA/fake_news}} curated from different sources. Although there exist better datasets and news content models, we opted for this particular model for two reasons. First, most SOTA news content models do not provide their code and dataset to reproduce results. Second, since Transformers are SOTA and this particular trained model provides us with not only the dataset but also with the train/test/validation splits which allows us to analyze its explanation. Now, we analyze the dataset, convey the distribution of labels and discuss potential peculiarities. Then we talk about the performance of the model, and reason about it.\\
+\textbf{Dataset.} The news content dataset comprises of 40587 samples whose distribution of labels and train/validation/test splits are provided in Fig~\ref{fig:DatasetDistributionByLabelAndSplit}. The proportion of fake news is 46\%, which is a fair distribution between real and fake news instances. The train/validation/test split is 60\%/20\%/20\% which is common practice.
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{DatasetDistributionByLabelAndSplit}
+    \caption[News content dataset distribution by label and train/validation/test split]{News content dataset distribution by label and train/validation/test split}
+    \label{fig:DatasetDistributionByLabelAndSplit}
+\end{figure}
+We analyze 500 most frequently occurring tokens in the dataset using a WordCloud~\parencite{WordCloud_Oesper} visualization for all samples of real and fake news separately in Fig~\ref{fig:WordCloudVisualizations}. From the visualization, we can observe that samples from both datasets contain the words \emph{new}, \emph{state}, \emph{President}, \emph{Republican}. In fact, 500 most frequent tokens from fake news samples and real news samples share 63\% of tokens. Furhtermore, we observe that one of the most frequent token is \emph{Reuters} in real news instances. This might be give rise to a problem where the model learns the real news instances based on a couple tokens. This will be analyzed in detail in Section~\ref{sec:explainabilityOfNewsContentModels}.
+\pagebreak
+\begin{figure}
+    \centering
+    \subfloat[Fake news]{\includegraphics[width=0.45\textwidth]{DatasetFakeFrequentTokensWordCloud.png}\label{subfig:WordCloud_DatasetFakeFrequentTokensWordCloud}}
+    \hfill
+    \subfloat[Real news]{\includegraphics[width=0.45\textwidth]{DatasetRealFrequentTokensWordCloud.png}\label{subfig:WordCloud_DatasetRealFrequentTokensWordCloud}}
+    \caption[WordCloud visualiations for most frequently occurring 500 tokens in both classes]{WordCloud visualiations for most frequently occurring 500 tokens in samples of both classes}
+    \label{fig:WordCloudVisualizations}
+\end{figure}\\
+\textbf{Training.} DistilRoBERTa has 6 layers, 12 attention heads and  hidden size of 768 that totals up to 82M parameters (RoBERTa has 125M parameters). The vocabulary size is 50265 including special tokens. The model also uses a technique called \emph{dropout} which is a regularization technique that drops some connections between layers based on a probability value~\parencite{Dropout_Nitish}. All model parameters are defined in~\ref{tab:newsContentModelParameters}.\\
+\begin{table}
+    \centering
+    \begin{tabular}{|l|l|}
+        \hline
+        Attention dropout probability           & 0.1                             \\
+        \hline
+        Classifier dropout                      & None                            \\
+        \hline
+        Hidden layer activation function        & gelu~\parencite{GELU_Hendrycks} \\
+        \hline
+        Hidden size                             & 768                             \\
+        \hline
+        Intermediate size                       & 3072                            \\
+        \hline
+        Layer normalization factor ($\epsilon$) & 1e-05                           \\
+        \hline
+        Maximum position embeddings             & 514                             \\
+        \hline
+        Number of attention heads               & 12                              \\
+        \hline
+        Number of layers                        & 6                               \\
+        \hline
+        Vocabulary size                         & 50265                           \\
+        \hline
+    \end{tabular}
+    \caption[Parameters of news content model]{Parameters of news content model}
+    \label{tab:newsContentModelParameters}
+\end{table}
+Note that maximum position embeddings parameter also considers document start and end tokens when reporting its length. When feeding tokens $x^{tok}$ to the model, the start (<s>) and end (</s>) tokens are added by the model pipeline, so this leaves us with maximum sequence length of 512, i.e., $|x|=512$. Model is trained for 3 epochs with a batch size of 16, Adam ($\beta_1=0.9$, $\beta_2=0.999$, $\epsilon=1e-08$) as the optimizer and a linear learning rate scheduler. The performance metrics for the model is provided in Table~\ref{tab:newsContentModelPerformanceMetrics}.\\
+\begin{table}
+    \centering
+    \begin{tabular}{c | c | c | c}
+        Accuracy & Precision & Recall  & F1 score \\
+        98.85\%  & 98.82\%   & 99.03\% & 98.92\%  \\
+    \end{tabular}
+    \caption[The performance metrics for news content model.]{The performance metrics for news content model.}
+    \label{tab:newsContentModelPerformanceMetrics}
+\end{table}
+The model performs very well on the dataset. Only 4 samples out of 8117 are classified incorrectly in the test split of the dataset. We will closely work with those 4 samples when explaining our model and inspect the reasons behind this performance in Section~\ref{sec:explainabilityOfNewsContentModels}.\\
+We have laid out the foundations for the model we used, reported the characterstics, training details, and performance of the news content model in this section. Although seems powerful in this case, usually news content models are easily outdated as the structure of news changes rapidly and fake news fabricators can replicate the properties that can be seen in real news content~\parencite{HierarchicalPropagationNetworksForFND_Shu}. Thus, we consider a different approach which primarily considers social context features for FND.\\
 
 \section{Social Context Models}
 \label{sec:socialContextModels}
-Talk about models that incorporate social context, spatiotemporal information and other context with text data. Can be any kind of model.
+As discussed in Section~\ref{sec:fakeNewsDetection}, social media's interconnected nature leads to fast dissemination of
+fake news. When a news piece is shared, it cascades through social media by means of friendship networks. These networks
+can be exploited to gather information about how fake news spread. Moreover, a user's historical information can prove effective when trying to analyze whether a news piece is real or not. This assumption stems from the psychological facts we discussed in Section~\ref{sec:fakeNewsDetection}. To recap, if a user is sharing fake news most of the time, i.e., the user's tweets are marked as fake, then it is likely that the next news piece they share would be fake as well. Usually, fake news are shared most within echo chambers, which gives rise to quick spread of fake news.\\
+There exist many different approaches for social context models, however, it is a long and challenging task to create a dataset for social context models as the amount of data to be collected can grow dramatically. Thus, we selected a dataset that provides us with the social context information as well as the news content. Being a graph dataset, \emph{User Preference-aware Fake Detection} (UPFD)~\parencite{UPFD_Dataset_Shu} builds a propagation tree for the news. But in order to build a model that takes graphs as input we can no longer rely on standard deep learning approaches as the graph data has a different structure than news content data. It holds node information as well as edge information between nodes, allowing to store rich relational data~\parencite{UPFD_Dataset_Shu}.\\
+In this section, we lay out foundations for the dataset and GNNs we used. Then we talk about the social context models along with their dataset UPFD that we used in this thesis. We also give some insights from~\parencite{HierarchicalPropagationNetworksForFND_Shu} in which the authors of UPFD dataset analyze the data they later utilized to create the graph dataset UPFD.\\
 
-\subsection{Notation and Definitions}
+\subsection{Overview of Graphs}
+In this section, we introduce definitions to cover graphs and different types of GNNs. But we do not discuss each model type in detail due to GNNs' extensive background. Thus, we do not provide a notation for this section but we give mathematical definitions when required.\\
+Graphs are an example of \emph{non-euclidean} data, meaning that in contrast to \emph{euclidean} data, they can represent complex relations and entities more accurate than one or two dimensional representations. Non-euclidean data used in GDL can be grouped into grids, graphs, groups, geosedics, and gauges, which are also called the 5G's of GDL~\parencite{GeometricDeepLearning_Bronstein}. We are interested in one G only, namely graphs. Since GNNs are a realization of GDL, we first briefly discuss the general framework.
+\begin{definition}[\emph{Geometric Deep Learning (GDL)}]
+    A class of deep learning that aims to build models that can learn to predict on the non-euclidean domain.
+\end{definition}
+GDL is an extensive field covering various techniques that can be appied to non-euclidean domain. Due to its complex nature, we do not provide a rigorous background on GDL. For a detailed background on GDL, we refer the reader to an extensive study on GDL~\parencite{GeometricDeepLearning_Bronstein}. We only discuss parts related to GNNs that we utilized. First we define a graph.
+\begin{definition}[\emph{Graph}]
+    A graph is a non-euclidean type of data that represents the relations between entities.
+\end{definition}
+From the perspective of individual node connections, graphs can be categorized into two classes, \emph{directed} and \emph{undirected} graphs. Directed graphs have direction information in their edges, i.e., the information flows strictly from one node to another. On the other hand, undirected graphs do not have this limitation, the information flow is bidirectional. Since we are only interested in undirected graphs like our dataset, we give preliminaries for an undirected graph.\\
+Following common notation on graphs, we define an undirected graph as $\mathcal{G} = (\mathcal{V}, \mathcal{E})$ with $\mathcal{V}$ as the set of nodes and $\mathcal{E}$ as the set of edges in a graph $\mathcal{G}$. We say that an edge $(\mathcal{v}_i, \mathcal{v}_j)$ exists between two nodes $\mathcal{v}_i$ and $\mathcal{v}_j$. Moreover, from the perspective of a graph's connectedness, there exist two types of graphs, \emph{cyclic} or \emph{acycylic}. Simply put, cyclic graphs have cycles in them, i.e., the graphs allows for at least one node $\mathcal{v}_i$ to have a series of different edges that creates a cycle back to the node $\mathcal{v}_i$. In contrast, acyclic graphs do not contain cycles. A concrete example for undirected acyclic graphs are trees. Also the structure of our dataset, trees have strictly one edge between two nodes.\\
+When we look at graphs from node and edge type, we classify graphs as \emph{homogeneous} and \emph{heterogeneous} graphs. Homogeneous graphs have nodes and edges of the same type, whereas heterogeneous graphs have different types of nodes and edges. One example for homogeneous graphs are social networks in which the nodes are users and the edges represent the friendship between two users. If we modify this social network into a more detailed version in which we choose to represent another relationship between users, such as colleagueship, then we would have a heterogeneous graph, because there would be two types of edges in the graph.\\
+Finally, if we consider graphs from a temporal aspect, we observe two kinds of graphs, \emph{static} and \emph{dynamic}. Static graphs stay the same over time, their topology or features do not change. In contrast, dynamic graphs' features and topology vary  over time, thus making time an important factor when working with dynamic graphs.
 
-\subsection{Geometric Deep Learning}
-Talk about Graph Neural Networks
+\subsection{Graph Neural Networks}
+GNNs are neural networks that can take graphs as an input and produce predictions at three different levels:
+\emph{node-level}, \emph{edge-level}, and \emph{graph-level}. Node-level tasks include node classification, node
+regression, node clustering. Node classification aims to categorize nodes into classes. Node regression deals with
+predicting continuous value for each node. Lastly, node clustering aims to group nodes into several clusters. Edge-level tasks consist of edge classification and link prediction. Edge classification tries to categorize an edge. Link prediction aims to find whether there is an edge between two nodes. Graph-level predictions are graph classification, graph regression, and graph matching. In all these settings, the model needs to learn representations of graph~\parencite{GNNsAReview_Zhou}.\\
+In our experiments, we used two different models one of which uses a convolutional layer called GraphSAGE~\parencite{GraphSAGE_Hamilton} and the other uses an convolutional attention layer called \emph{Graph Attention} (GAT)~\parencite{GraphAttentionNetworks_Velickovic}. Here we give background for both but we do not dive into details. We first give information about general framework.\\
 
+
+\textbf{GraphSAGE}.
 \subsection{Dataset}
 FakeNewsNet, UPFD, explain the dataset, no of edges/nodes. Which models use this dataset,
 

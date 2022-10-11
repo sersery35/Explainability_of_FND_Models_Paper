@@ -8,8 +8,12 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Characterization of Fake News Detection Models}}{13}{figure.caption.6}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces The preprocessing pipeline for a textual input.}}{34}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Units and layers of an FCN}}{36}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Units and layers of an FCN}}{35}{figure.caption.9}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces The Transformer Model Architecture}}{38}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces News content dataset distribution by label and train/validation/test split}}{42}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces WordCloud visualiations for most frequently occurring 500 tokens in both classes}}{43}{figure.caption.12}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Fake news}}}{43}{subfigure.5.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Real news}}}{43}{subfigure.5.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

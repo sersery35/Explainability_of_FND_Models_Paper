@@ -1844,6 +1844,62 @@
       \verb https://proceedings.neurips.cc/paper/1989/file/0336dcbab05b9d5ad24f4333c7658a0e-Paper.pdf
       \endverb
     \endentry
+    \entry{GeometricDeepLearning_Bronstein}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a0c6e9e0629d03c0bfec15575c55c598}{%
+           family={Bronstein},
+           familyi={B\bibinitperiod},
+           given={Michael\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c83b564e32475f10dcc91be7e66d3e81}{%
+           family={Bruna},
+           familyi={B\bibinitperiod},
+           given={Joan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9073aa7e4e4e473ab8161f05ad4b05f}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Taco},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1208a71c9b067bcef8fb29c15a09b5d}{%
+           family={Veličković},
+           familyi={V\bibinitperiod},
+           given={Petar},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{05a51a90956c059ac7e527028e6aa670}
+      \strng{fullhash}{f173790f35b0ed4e4202fcc033dd717f}
+      \strng{bibnamehash}{f173790f35b0ed4e4202fcc033dd717f}
+      \strng{authorbibnamehash}{f173790f35b0ed4e4202fcc033dd717f}
+      \strng{authornamehash}{05a51a90956c059ac7e527028e6aa670}
+      \strng{authorfullhash}{f173790f35b0ed4e4202fcc033dd717f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2104.13478
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2104.13478
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2104.13478
+      \endverb
+      \keyw{Machine Learning (cs.LG),Artificial Intelligence (cs.AI),Computational Geometry (cs.CG),Computer Vision and Pattern Recognition (cs.CV),Machine Learning (stat.ML),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
     \entry{ModelCompression_Bucilua}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=a4084d95dc07aef2fba5ab2367f47350}{%
@@ -4505,6 +4561,50 @@
       \verb{doi}
       \verb 10.1109/5254.708428
       \endverb
+    \endentry
+    \entry{GELU_Hendrycks}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=86d0b4ecd6b6066d49e7aecde6e5e630}{%
+           family={Hendrycks},
+           familyi={H\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6bc70be3492f0800ecee6926d290244f}{%
+           family={Gimpel},
+           familyi={G\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{7d47b8f6df5cfe597280f14a9ffb6143}
+      \strng{fullhash}{7d47b8f6df5cfe597280f14a9ffb6143}
+      \strng{bibnamehash}{7d47b8f6df5cfe597280f14a9ffb6143}
+      \strng{authorbibnamehash}{7d47b8f6df5cfe597280f14a9ffb6143}
+      \strng{authornamehash}{7d47b8f6df5cfe597280f14a9ffb6143}
+      \strng{authorfullhash}{7d47b8f6df5cfe597280f14a9ffb6143}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gaussian Error Linear Units (GELUs)}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1606.08415
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1606.08415
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1606.08415
+      \endverb
+      \keyw{Machine Learning (cs.LG),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
     \entry{ExplainingCollaborativeFiltering_Herlocker}{article}{}
       \name{author}{3}{}{%
@@ -7340,6 +7440,57 @@
       \verb https://doi.org/10.1007/s11109-010-9112-2
       \endverb
     \endentry
+    \entry{WordCloud_Oesper}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=93b153d29d9f93538bacde574cddd4c8}{%
+           family={Oesper},
+           familyi={O\bibinitperiod},
+           given={Layla},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f923a779fd7a0c16614ce1438576c8b7}{%
+           family={Merico},
+           familyi={M\bibinitperiod},
+           given={Daniele},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d8f037bd00b3c4c89aba27c3d4fad2d}{%
+           family={Isserlin},
+           familyi={I\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c29f7b920aa1659722641ed669a03e28}{%
+           family={Bader},
+           familyi={B\bibinitperiod},
+           given={Gary\bibnamedelima D},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{fbbc322d26cec7a53581d7c1192c60e3}
+      \strng{fullhash}{defbaf9ee48b8ff64732c797659e2f96}
+      \strng{bibnamehash}{defbaf9ee48b8ff64732c797659e2f96}
+      \strng{authorbibnamehash}{defbaf9ee48b8ff64732c797659e2f96}
+      \strng{authornamehash}{fbbc322d26cec7a53581d7c1192c60e3}
+      \strng{authorfullhash}{defbaf9ee48b8ff64732c797659e2f96}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Source code for biology and medicine}
+      \field{number}{1}
+      \field{title}{WordCloud: a Cytoscape plugin to create a visual semantic summary of networks}
+      \field{volume}{6}
+      \field{year}{2011}
+      \field{pages}{7}
+      \range{pages}{1}
+    \endentry
     \entry{PMLB_Olson}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=91e236b03fbbe1eb60719060d004313c}{%
@@ -9380,6 +9531,66 @@
       \field{title}{Reading between the lines: An evauluation of the Scientific Content Analysis Techniques (SCAN)}
       \field{year}{2001}
     \endentry
+    \entry{Dropout_Nitish}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=6a147afa4569ce6cf23c0436e65d8486}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Nitish},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a8750ccdb2a4cf14d2655face1ce016}{%
+           family={Hinton},
+           familyi={H\bibinitperiod},
+           given={Geoffrey},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5e3a676e2ac1164b3afcd539c131fc9}{%
+           family={Krizhevsky},
+           familyi={K\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d569d1d5b8b5a7836017a98b430f959}{%
+           family={Sutskever},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd2be300d445e9f6db7808f9533e66cb}{%
+           family={Salakhutdinov},
+           familyi={S\bibinitperiod},
+           given={Ruslan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4d6dba595c04c09619c7c1c0038d5b6b}
+      \strng{fullhash}{2850768171a28ccacd146c300f66f57d}
+      \strng{bibnamehash}{2850768171a28ccacd146c300f66f57d}
+      \strng{authorbibnamehash}{2850768171a28ccacd146c300f66f57d}
+      \strng{authornamehash}{4d6dba595c04c09619c7c1c0038d5b6b}
+      \strng{authorfullhash}{2850768171a28ccacd146c300f66f57d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{number}{56}
+      \field{title}{Dropout: A Simple Way to Prevent Neural Networks from Overfitting}
+      \field{volume}{15}
+      \field{year}{2014}
+      \field{pages}{1929\bibrangedash 1958}
+      \range{pages}{30}
+      \verb{urlraw}
+      \verb http://jmlr.org/papers/v15/srivastava14a.html
+      \endverb
+      \verb{url}
+      \verb http://jmlr.org/papers/v15/srivastava14a.html
+      \endverb
+    \endentry
     \entry{TheGeneralInquirer_Stone}{book}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=9c87d7e8bf6aaefe32eed07534a9923c}{%
@@ -10112,6 +10323,74 @@
       \verb https://arxiv.org/abs/1706.03762
       \endverb
       \keyw{Computation and Language (cs.CL),Machine Learning (cs.LG),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{GraphAttentionNetworks_Velickovic}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=b1208a71c9b067bcef8fb29c15a09b5d}{%
+           family={Veličković},
+           familyi={V\bibinitperiod},
+           given={Petar},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c30bc5878e196747275a7ff581c6ed22}{%
+           family={Cucurull},
+           familyi={C\bibinitperiod},
+           given={Guillem},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a0765951987db22af274a31732111fa}{%
+           family={Casanova},
+           familyi={C\bibinitperiod},
+           given={Arantxa},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e0f06556535de7b7d9d04d390dc4ac3}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={Adriana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1dc447055a5e64105a2984bf8306851}{%
+           family={Liò},
+           familyi={L\bibinitperiod},
+           given={Pietro},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{a923132f6a9d7d93c40facfd855c7dc4}
+      \strng{fullhash}{e36c8bf9f36dc60726c1c2afa402755c}
+      \strng{bibnamehash}{e36c8bf9f36dc60726c1c2afa402755c}
+      \strng{authorbibnamehash}{e36c8bf9f36dc60726c1c2afa402755c}
+      \strng{authornamehash}{a923132f6a9d7d93c40facfd855c7dc4}
+      \strng{authorfullhash}{e36c8bf9f36dc60726c1c2afa402755c}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Graph Attention Networks}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1710.10903
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1710.10903
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1710.10903
+      \endverb
+      \keyw{Machine Learning (stat.ML),Artificial Intelligence (cs.AI),Machine Learning (cs.LG),Social and Information Networks (cs.SI),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
     \entry{TheSpreadingOfMisinformationOnline_DelVicario}{article}{}
       \name{author}{8}{}{%
