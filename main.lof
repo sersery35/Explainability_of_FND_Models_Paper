@@ -15,6 +15,14 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Fake news}}}{43}{subfigure.5.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Real news}}}{43}{subfigure.5.2}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces UPFD Framework}}{51}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces UPFD dataset distribution by label and split}}{53}{figure.caption.16}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gossipcop}}}{53}{subfigure.2.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Politifact}}}{53}{subfigure.2.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces UPFD classifier model pipeline}}{54}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces t-SNE visualizations for GraphSAGE}}{54}{figure.caption.18}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gossipcop}}}{54}{subfigure.4.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Politifact}}}{54}{subfigure.4.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

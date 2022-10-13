@@ -1,10 +1,10 @@
 % !TeX root = ../main.tex
 % Add the above to each chapter to make compiling the PDF easier in some editors.
 
-\chapter{Fake News Detection Models}\label{chapter:fnd_models}
-The automated detection of fake news on social media comes with its characteristic challenges. First, the fact
-that fake news are constructed to misguide its consumers makes them hard to distinguish by only using news content. Second, when we include social context into the model, the large-scale and noisy nature of social context data represents another issue~\parencite{HierarchicalPropagationNetworksForFND_Shu}. Moreover, from a broader perspective, fake news should be detected before it becomes widespread so that the amount of users affected can be minimized.\\
-In this chapter, we examine how these challenges effect the model and dataset's design. We initially take a look at news content models in section~\ref{sec:newsContentModels}. In first section, we lay out the definitions for the materials used. After we give a detailed analysis of the dataset, we talk about the tokenizer and model itself, discuss its performance on the dataset. In section~\ref{sec:socialContextModels} we investigate social context based and hybrid models. Similar to the first section, we give definitons for the used material, then talk about the dataset and model. In this section, we also examine issues such as early fake news detection and model aging.\\
+\chapter{Explaining News Content Models for Fake News Detection}\label{chapter:explainingNewsContentModels}
+The automated detection of fake news on social media comes with its characteristic challenges. The fact
+that fake news are constructed to misguide its consumers makes them hard to distinguish by only using news content.
+In this chapter, we examine how these challenges effect the model and dataset's design. We initially take a look at news content models in section~\ref{sec:newsContentModels}. In first section, we lay out the definitions for the materials used. After we give a detailed analysis of the dataset, we talk about the tokenizer and model itself, discuss its performance on the dataset. Then we apply model-agnostic explanation methods to understand the model's behavior in ~\ref{sec:SHAP}.
 
 \section{News Content Models}
 \label{sec:newsContentModels}
@@ -153,8 +153,8 @@ We now discuss each part of the Transformer model briefly.\\
 Each of the feed forward networks in the sub-layers are position-wise, meanining that they are applied to each position separately and identically. These feed-forward networks use different parameters for each layer. The embeddings are obtained through transductive learning. Lastly, the positional encodings for input embeddings are calculated using sine and cosine functions of different frequencies~\parencite{AttentionIsAllYouNeed_Vaswani}.\\
 We have summarized the Transformers architecture in order to lay foundations for the model we use, DistilRoBERTa~\parencite{DistilBERT_Sanh, RoBERTa_Liu}. Next, we initially introduce details of BERT, then RoBERTa, and lastly DistilRoBERTa which is our news content model.
 
-\subsection{Dataset }
-\label{subsec:newsContentModels_Model}
+\subsection{Dataset and Model}
+\label{subsec:newContentModel_DatasetAndModel}
 We employ a fine-tuned version of case-sensitive Transformer model DistilRoBERTa\footnote{\url{https://huggingface.co/GonzaloA/distilroberta-base-finetuned-fakeNews}} for our task of FND with news content. DistilRoBERTa is a distilled version of \emph{A Robustly Optimized BERT Pretraining Approach} (RoBERTa)~\parencite{RoBERTa_Liu}. It uses the same distillation procedure adopted for  DistilBERT~\parencite{DistilBERT_Sanh} to \emph{Bidirectional Encoder Representations from Transformers} (BERT)~\parencite{BERT_Devlin}. This distillation procedure is referred to as \emph{Knowledge Distillation} and it compresses a model~\parencite{ModelCompression_Bucilua} - the teacher - by means of training a smaller model - the student - to reproduce the same behaviour~\parencite{DistillingTheKnowledge_Hinton}. In our case, the teacher is  RoBERTa and the student is DistilRoBERTa. First, in order to examine properties of RoBERTa, we discuss BERT in detail.\\
 As the name suggests, the model architecture of BERT is a multi-layer bidirectional Transformer based on the Transformer model. BERT uses BookCorpus~\parencite{BookCorpus_Yukun} and English Wikipedia as training dataset, with two training objectives, \emph{Masked Language Modeling} (MLM) and \emph{Next Sentence Prediction} (NSP). MLM procedure applies the following for each sentence sampled from a document in the cumulative dataset.
 \begin{itemize}
@@ -181,11 +181,11 @@ Our fine-tuned DistilRoBERTa was trained on a dataset\footnote{\url{https://hugg
 \textbf{Dataset.} The news content dataset comprises of 40587 samples whose distribution of labels and train/validation/test splits are provided in Fig~\ref{fig:DatasetDistributionByLabelAndSplit}. The proportion of fake news is 46\%, which is a fair distribution between real and fake news instances. The train/validation/test split is 60\%/20\%/20\% which is common practice.
 \begin{figure}
     \centering
-    \includegraphics[scale=0.5]{DatasetDistributionByLabelAndSplit}
+    \includegraphics[scale=0.5]{DatasetDistrByLabelAndSplit.png}
     \caption[News content dataset distribution by label and train/validation/test split]{News content dataset distribution by label and train/validation/test split}
     \label{fig:DatasetDistributionByLabelAndSplit}
 \end{figure}
-We analyze 500 most frequently occurring tokens in the dataset using a WordCloud~\parencite{WordCloud_Oesper} visualization for all samples of real and fake news separately in Fig~\ref{fig:WordCloudVisualizations}. From the visualization, we can observe that samples from both datasets contain the words \emph{new}, \emph{state}, \emph{President}, \emph{Republican}. In fact, 500 most frequent tokens from fake news samples and real news samples share 63\% of tokens. Furhtermore, we observe that one of the most frequent token is \emph{Reuters} in real news instances. In fact, 95.93\% of real news samples contain the keyword \emph{(Reuters)}. This might be give rise to a problem where the model learns the real news instances based on a couple tokens like \emph{(}, \emph{Reuters}, \emph{)}. This will be analyzed in detail in Section~\ref{sec:explainabilityOfNewsContentModels}.
+We analyze 500 most frequently occurring tokens in the dataset using a WordCloud~\parencite{WordCloud_Oesper} visualization for all samples of real and fake news separately in Fig~\ref{fig:WordCloudVisualizations}. From the visualization, we can observe that samples from both datasets contain the words \emph{new}, \emph{state}, \emph{President}, \emph{Republican}. In fact, 500 most frequent tokens from fake news samples and real news samples share 63\% of tokens. Furhtermore, we observe that one of the most frequent token is \emph{Reuters} in real news instances. In fact, 95.93\% of real news samples contain the keyword \emph{(Reuters)}. This might be give rise to a problem where the model learns the real news instances based on a couple tokens like \emph{(}, \emph{Reuters}, \emph{)}. This will be analyzed in detail in the next section.
 \pagebreak
 \begin{figure}
     \centering
@@ -195,14 +195,18 @@ We analyze 500 most frequently occurring tokens in the dataset using a WordCloud
     \caption[WordCloud visualiations for most frequently occurring 500 tokens in both classes]{WordCloud visualiations for most frequently occurring 500 tokens in samples of both classes}
     \label{fig:WordCloudVisualizations}
 \end{figure}\\
-\textbf{Training.} Huggingface provides us with a \emph{TextClassificationPipeline} which allows to feed the dataset from Huggingface directly\parencite{Transformers_Wolf}. This pipeline includes the tokenization process and the embedding layer before feeding it to our classifier. Our classifier has 6 layers, 12 attention heads and  hidden size of 768 that totals up to 82M parameters (RoBERTa has 125M parameters). The vocabulary size is 50265 including special tokens. The model also uses a technique called \emph{dropout} which is a regularization technique that drops some connections between layers based on a probability value~\parencite{Dropout_Nitish}. All model parameters are defined in~\ref{tab:newsContentModelParameters}.\\
+\textbf{Training.} Huggingface provides us with a \emph{TextClassificationPipeline} which allows to feed the dataset from Huggingface directly\parencite{Transformers_Wolf}. This pipeline includes the tokenization process and the embedding layer before feeding it to our classifier. Our classifier has 6 layers, 12 attention heads and  hidden size of 768 that totals up to 82M parameters (RoBERTa has 125M parameters). The vocabulary size is 50265 including special tokens. The model also uses a technique called \emph{dropout} which is a regularization technique that drops some connections between layers based on a probability value~\parencite{Dropout_Nitish}. All model hyperparameters are defined in~\ref{tab:newsContentModelHyperparameters}.\\
 \begin{table}
     \centering
     \begin{tabular}{|l|l|}
         \hline
         Attention dropout probability           & 0.1                             \\
         \hline
+        Batch size                              & 16                              \\
+        \hline
         Classifier dropout                      & None                            \\
+        \hline
+        Epochs                                  & 3                               \\
         \hline
         Hidden layer activation function        & GELU~\parencite{GELU_Hendrycks} \\
         \hline
@@ -221,8 +225,8 @@ We analyze 500 most frequently occurring tokens in the dataset using a WordCloud
         Vocabulary size                         & 50265                           \\
         \hline
     \end{tabular}
-    \caption[Parameters of news content model]{Parameters of news content model}
-    \label{tab:newsContentModelParameters}
+    \caption[Parameters of news content model]{Hyperparameters of news content model}
+    \label{tab:newsContentModelHyperparameters}
 \end{table}
 Note that maximum position embeddings parameter also considers document start and end tokens when reporting its length. When feeding tokens $x^{tok}$ to the model, the start (<s>) and end (</s>) tokens are added by the model pipeline, so this leaves us with maximum sequence length of 512, i.e., $|x|=512$. Note that in Figure~\ref{fig:InputPreProcessPipeline} the length of $x$ is not 512 since the paddings are masked out before feeding the input $x$ to the model.   Model is trained for 3 epochs with a batch size of 16, Adam ($\beta_1=0.9$, $\beta_2=0.999$, $\epsilon=1e-08$) as the optimizer and a linear learning rate scheduler. The performance metrics for the model is provided in Table~\ref{tab:newsContentModelPerformanceMetrics}.\\
 \begin{table}
@@ -234,98 +238,8 @@ Note that maximum position embeddings parameter also considers document start an
     \caption[The performance metrics for news content model.]{The performance metrics for news content model.}
     \label{tab:newsContentModelPerformanceMetrics}
 \end{table}
-The model performs very well on the dataset. Only 4 samples out of 8117 are classified incorrectly in the test split of the dataset. We will closely work with those 4 samples when explaining our model and inspect the reasons behind this performance in Section~\ref{sec:explainabilityOfNewsContentModels}.\\
+The model performs very well on the dataset. Only 4 samples out of 8117 are classified incorrectly in the test split of the dataset. We will closely work with those 4 samples when explaining our model and inspect the reasons behind this performance in the next section.\\
 We have laid out the foundations for the model we used, reported the characterstics, training details, and performance of the news content model in this section. Although seems powerful in this case, usually news content models are easily outdated as the structure of news changes rapidly and fake news fabricators can replicate the properties that can be seen in real news content~\parencite{HierarchicalPropagationNetworksForFND_Shu}. Thus, we consider a different approach which primarily considers social context features for FND.\\
 
-\section{Social Context Models}
-\label{sec:socialContextModels}
-As discussed in Section~\ref{sec:fakeNewsDetection}, social media's interconnected nature leads to fast dissemination of
-fake news. When a news piece is shared, it cascades through social media by means of friendship networks. These networks
-can be exploited to gather information about how fake news spread. Moreover, a user's historical information can prove effective when trying to analyze whether a news piece is real or not. This assumption stems from the psychological facts we discussed in Section~\ref{sec:fakeNewsDetection}. To recap, if a user is sharing fake news most of the time, i.e., the user's tweets are marked as fake, then it is likely that the next news piece they share would be fake as well. Usually, fake news are shared most within echo chambers, which gives rise to quick spread of fake news.\\
-There exist many different approaches for social context models, however, it is a long and challenging task to create a dataset for social context models as the amount of data to be collected can grow dramatically. Thus, we selected a dataset that provides us with the social context information as well as the news content. Being a graph dataset, \emph{User Preference-aware Fake Detection} (UPFD)~\parencite{UPFD_Dataset_Shu} builds a propagation tree for the news. But in order to build a model that takes graphs as input we can no longer rely on standard deep learning approaches as the graph data has a different structure than news content data. It holds node information as well as edge information between nodes, allowing to store rich relational data~\parencite{UPFD_Dataset_Shu}.\\
-In this section, we lay out foundations for the dataset and GNNs we used. Then we talk about the social context models along with their dataset UPFD that we used in this thesis. We also give some insights from~\parencite{HierarchicalPropagationNetworksForFND_Shu} in which the authors of UPFD dataset analyze the data they later utilized to create the graph dataset UPFD.\\
-
-\subsection{Overview of Graphs}
-In this section, we introduce definitions to cover graphs and different types of GNNs. But we do not discuss each model type in detail due to GNNs' extensive background. Thus, we do not provide a notation for this section but we give mathematical definitions when required.\\
-Graphs are an example of \emph{non-euclidean} data, meaning that in contrast to \emph{euclidean} data, they can represent complex relations and entities more accurate than one or two dimensional representations. Non-euclidean data used in GDL can be grouped into grids, graphs, groups, geosedics, and gauges, which are also called the 5G's of \emph{Geometric Deep Learning} (GDL)~\parencite{GeometricDeepLearning_Bronstein}. We are interested in one G only, graphs.
-\begin{definition}[\emph{Geometric Deep Learning (GDL)}]
-    A class of deep learning that aims to build models that can learn to predict on the non-euclidean domain.
-\end{definition}
-GDL is an extensive field covering various techniques that can be appied to non-euclidean domain. Due to its complex nature, we do not provide a rigorous background on GDL. For a detailed background on GDL, we refer the reader to an extensive study on GDL~\parencite{GeometricDeepLearning_Bronstein}. We only discuss parts related to GNNs that we utilized. First we define a graph.
-\begin{definition}[\emph{Graph}]
-    A graph is a non-euclidean type of data that represents the relations between entities.
-\end{definition}
-From the perspective of individual node connections, graphs can be categorized into two classes, \emph{directed} and \emph{undirected} graphs. Directed graphs have direction information in their edges, i.e., the information flows strictly from one node to another. On the other hand, undirected graphs do not have this limitation, the information flow is bidirectional. Since we are only interested in undirected graphs like our dataset, we give preliminaries for an undirected graph.\\
-Following common notation on graphs, we define an undirected graph as $\mathcal{G} = (\mathcal{V}, \mathcal{E})$ with $\mathcal{V}$ as the set of nodes and $\mathcal{E}$ as the set of edges in a graph $\mathcal{G}$. We say that an edge $(v_i, v_j)$ exists between two nodes $v_i$ and $v_j$. Moreover, from the perspective of a graph's connectedness, there exist two types of graphs, \emph{cyclic} or \emph{acycylic}. Simply put, cyclic graphs have cycles in them, i.e., the graphs allows for at least one node $v_i$ to have a series of different edges that creates a cycle back to the node $v_i$. In contrast, acyclic graphs do not contain cycles. A concrete example for undirected acyclic graphs are trees. Also the structure of our dataset, trees have strictly one edge between two nodes.\\
-When we look at graphs from node and edge type, we classify graphs as \emph{homogeneous} and \emph{heterogeneous} graphs. Homogeneous graphs have nodes and edges of the same type, whereas heterogeneous graphs have different types of nodes and edges. One example for homogeneous graphs are social networks in which the nodes are users and the edges represent the friendship between two users. If we modify this social network into a more detailed version in which we choose to represent another relationship between users, such as colleagueship, then we would have a heterogeneous graph, because there would be two types of edges in the graph.\\
-Finally, if we consider graphs from a temporal aspect, we observe two kinds of graphs, \emph{static} and \emph{dynamic}. Static graphs stay the same over time, their topology or features do not change. In contrast, dynamic graphs' features and topology vary  over time, thus making time an important factor when working with dynamic graphs.
-
-\subsection{Graph Neural Networks}
-GNNs are neural networks that can take graphs as an input and produce predictions at three different levels:
-\emph{node-level}, \emph{edge-level}, and \emph{graph-level}. Node-level tasks include node classification, node
-regression, node clustering. Node classification aims to categorize nodes into classes. Node regression deals with
-predicting continuous value for each node. Lastly, node clustering aims to group nodes into several clusters. Edge-level tasks consist of edge classification and link prediction. Edge classification tries to categorize an edge. Link prediction aims to find whether there is an edge between two nodes. Graph-level predictions are graph classification, graph regression, and graph matching. In all these settings, the model needs to learn representations of graph~\parencite{GNNsAReview_Zhou}.\\
-In our experiments, we used two different models one of which uses a convolutional layer called GraphSAGE~\parencite{GraphSAGE_Hamilton} and the other uses a convolutional attention layer called \emph{Graph Attention} (GAT)~\parencite{GraphAttentionNetworks_Velickovic}. Here we give background for both but we do not dive into details. We first give information about general framework.\\
-\cite{GNNsAReview_Zhou} defines three modules that are involved in a generic GNN model: \emph{propagation module}, \emph{sampling module}, \emph{pooling module}. Propagation module deals with information propagation between nodes so that the aggregated information can represent features and topology of the graph. Propagation modules usually employ a \emph{convolution operator} or \emph{recurrent operator} to aggregate information from neighbors of nodes separately. These aggregated values are then used to update the representation of the nodes, edges, and graph. Additionally these modules employ a skip connection that helps collect previous representations of nodes to alleviate the over-smoothing problem. Sampling module is used when the input graph is large to handle propagation. It is used before propagation module. Lastly, pooling modules are employed when we need to extract information to represent high-level graphs.\\
-We will mostly deal with propagation module and the operations within. We do not dive into mathematical background of convolutions in detail but we introduce mathematical formulations in order to illustrate the operations our models are using. Also, we do not discuss recurrent operations on graphs as their background is extensive and out of scope of this thesis. We refer the reader to~\cite{GNNsAReview_Zhou} for an extensive mathematical baackground on convolutions and other operations on spectral domain. However, we will summarize the behavior of convolutions on graphs in order to give the sufficient knwoledge for the models we used.\\
-\textbf{Convolutions on graphs.} The idea of convolution operators is to generalize convolutions from another domain to spectral domain. In general there are two types of convolutional operations.\\
-The first, \emph{spectral approaches}, are based on graph signal processing and defines its convolutional operators in the spectral domain~\parencite{TheEmergingFieldOfSignalProcessingOnGraphs_Shuman}. Spectral methods initially transform a graph signal $x$ to the spectral domain by the graph Fourier transform $\mathcal{F}$, then the convolution operation is applied. The output from convolution is transformed back with the inverse Fourier transform $\mathcal{F}^{-1}$. Now we summarize the mathematics behind this approach in order to convey our models' characteristics. Graph Fourier and inverse graph Fourier transform are defined as,
-\begin{center}
-    $\mathcal{F}(x) = U^T x$
-\end{center}
-\begin{center}
-    $\mathcal{F}^{-1}(x) = Ux$
-\end{center}
-where $U$ is the eigenvalue matrix of normalized graph Laplacian $L = I_N - D^{\frac{-1}{2}} A D^{\frac{-1}{2}}$ with $I_N$ the identity matrix of dimension $N$, $D$ as the degree matrix and $A$ as the adjacency matrix of the graph. $L$ is a real symmetric positive semi-definite matrix which helps us with factorization $L = U \Lambda U^T$ where $\Lambda$ denotes the diagonal eigenvalue matrix~\parencite{GNNsAReview_Zhou}. Now that we can convert our graph signal $x$ to spectral domain and back, following~\cite{AWaveletTourOfSignalProcessing_Mallat} and~\cite{GNNsAReview_Zhou}, we can define the convolution operation on $x$.
-\begin{center}
-    $g \star x = \mathcal{F}^{-1}(\mathcal{F}(g) \bigodot \mathcal{F}(x))$ \\ $= U(U^T g \bigodot U^T x)$
-\end{center}
-where $\bigodot$ stands for element-wise multiplication and $U^Tg$ is the convolution filter in the spectral domain. This can be further simplified into the basis function of spectral methods:
-\begin{center}
-    $g_w \star x = U g_w U^T x$
-\end{center}
-where $g_w$ is a diagonal learnable matrix. Essentially, all spectral methods use a convolutional filter $g_w$ but their choice of design creates a variety of approaches that are built upon each other. We only discuss the ones necessary for our models. The main idea of modern convolutional operators come from approximating $g_w$ with $k$-th order Chebsyshev polynomials. GCN adopts $k=1$ to avoid overfitting. Moreover, it introduces a renormalization trick to solve the exploding/vanishing gradient problem~\parencite{GCN_Kipf}. Further works like AGCN~\parencite{AGCN_Li} have employed a similar approach. Additionally, GCN is employed to an extent in spatial approaches.\\
-The second, \emph{spatial approaches} focus on the graph structure. They define convolutions directly on graph topology. Spatial approaches can be grouped into \emph{basic}, \emph{attention-based}, and \emph{framework}. Basic spatial approaches define convolution operations on the neighborhoods of different sizes. Neighborhoods are defined based on nodes as follows $\mathcal{N}_v$ for a node $v$. There exist several basic spatial approaches such as the diffusion CNN (DCNN)~\parencite{DCNN_Atwood} which describes the neighborhhood for nodes using transition matrices, the learnable GCN (LGCN)~\parencite{LGCN_Gao} which utilizes CNNs as aggregators by applying max pooling on neighborhhood matrices.\\
-Another example, GraphSAGE uses an inductive learning approach to sample then aggregate features from a node's local neighborhhood. GraphSAGE uniformly samples a fixed-size collection of neighbors then aggregates this collection to produce embeddings for the graph~\parencite{GraphSAGE_Hamilton}. More precisely, let us assume that we have learned the parameters of $K$ aggregator functions denoted as $\textsc{AGG}_k$, and a set of weight matrices $W^k$ where $\forall k \in \{1, \dots K\}$. $k$ can be referred to as layer or search depth. Then for each $k$ we go through all nodes $v \in \mathcal{V}$ and apply an aggregation then an update. Concretely, at each $k$ and at each $v$, let $h_v^{k-1}$ denote the hidden state of a node $v$ at layer $k-1$. Following the same notation, we refer to the hidden state of a node's neighborhood $\mathcal{N}_v$ at layer $k$ as $h_{\mathcal{N}_v}^k$. GraphSAGE formalizes its aggregation and update operation at layer $k$ as:
-\begin{center}
-    $h_{\mathcal{N}_v}^{k} = \textsc{AGG}_{k}(\{h_u^{k-1}, \forall u \in \mathcal{N}_v\})$
-\end{center}
-\begin{center}
-    $h_v^k = \sigma(W^k [h_v^{k-1} || h_{\mathcal{N}_v}^k])$
-\end{center}
-where $||$ denotes concatenation of two vectors, $[h_v^{k-1} || h_{\mathcal{N}_v}^k]$ concatenated vector and $\sigma$
-a non-linear activation function. GraphSAGE employs three different aggregators: \emph{mean aggregator}, \emph{LSTM aggregator}, and \emph{pooling aggregator}. Mean aggregator collects sampled neighborhood information and takes the element-wise mean of the vector set $\{h_u^{k-1}, \forall u \in \mathcal{N}_v\}$. The inductive version also includes previous layer representation of node $v$, $h_v^{k-1}$. LSTM aggregator uses an LSTM to collect neighborhood information. LSTMs are more expressive than mean aggregators. However, since LSTMs are not permutation invariant, i.e., they process
-their inputs sequentially, they need a modification to work with unordered sets. Finally, pooling aggregator first independently feeds each neighbor's vector to a FCN, then apply a pooling operation on the output.\\
-The third, \emph{attention-based approaches}, utilizes the same attention logic introduced in~\ref{subsec:newsContentModels_TransformerArch} by following~\cite{NeuralMachineTranslationByJointlyLearning_Bahdanau}. A recent work Graph Attention Networks (GAT)~\parencite{GraphAttentionNetworks_Velickovic} proposes to integrate attention into the propagation step by computing the hidden state for node $v$ at layer $k$ as follows:
-\begin{center}
-    $h_v^{k} = \sigma(\sum_{u \in \mathcal{N}_v} a_{vu} W h_u^k)$ \\
-\end{center}
-\begin{center}
-    $\alpha_{vu} = \dfrac{exp(LeakyReLU(a^T[Wh_v || Wh_u]))}{\sum_{k \in \mathcal{N}_v}exp(LeakyReLU(a^T[W h_v || W h_k]))}$
-\end{center}
-with $W$ as the weight matrix, $a$ as the weight vector of feed forward network and the non-linear activation function LeakyReLU is defined as:
-\begin{center}
-    \[LeakyReLU(\gamma, x) =
-        \begin{cases}
-            x,          & if x \geq 0 \\
-            \gamma * x, & otherwise   \\
-        \end{cases}
-    \]
-\end{center}
-The authors in~\cite{GraphAttentionNetworks_Velickovic} also utilize Multi-Head Attention in order to stabilize the
-learning process of attention(also called self-attention or intra-attention)~\parencite{AttentionIsAllYouNeed_Vaswani}. Concretely, same as GraphSAGE defined $K$ aggregators, GAT defines $T$ independent attention heads to compute hidden states and then features of these hidden states are either concatenated,
-\begin{center}
-    $h_v^k = ||_{t=1}^T \sigma(\sum \alpha_{vu}^t W_t h_u^k)$
-\end{center}
-or averaged,
-\begin{center}
-    $h_v^k = \sigma(\frac{1}{T} \sum_{t=1}^T \sum_{u \in \mathcal{N}_v} \alpha_{vu}^t W_t h_u^k)$
-\end{center}
-to obtain the output where $\alpha_{vu}^t$ represents the normalized attention values of the attention head $t$.\\
-The last convolutional spatial approaches cover general frameworks that aims to integrate multiple different models into one framework. A mixture model MoNet was proposed by~\cite{GeometricDeepLearningOnGraphsAndManifolds_Monti} which is a spatial framework for unifying models such as GCN~\cite{GCN_Kipf}, ~\cite{GeodesicCNNsOnRiemannManifolds_Masci}, DCNN~\cite{DCNN_Atwood} and many more in non-euclidean domain.\\
-One more thing we need to investigate is graph sampling in order to cover everything that was utilized in this thesis. GNN models suffer from an issue called \emph{neighbor explosion} which stems from having massive sizes of supporting neighbors from all previous layers as the number of layers increases~\cite{GNNsAReview_Zhou}. Likewise, as graph size increases, we will encounter the same problem. Sampling is used to solve this issue and it can be done on three levels: \emph{node sampling}, \emph{layer sampling}, and \emph{subgraph sampling}. Node sampling creates a subset using the neighborhood set $\mathcal{N}_v$ of the node's $v$. As discussed previously, GraphSAGE~\parencite{GraphSAGE_Hamilton} employs node sampling. Layer sampling takes a different approach and it selects a subset of nodes for aggregation. Lastly, subgraph sampling deals with the graph as a whole. One approach is to use clustering algorithms to obtain these subgraphs~\parencite{ClusterGCN_Chiang}. Another is to sample nodes and edges from graph to create a subgraph~\parencite{GraphSAINT_Zeng}.\\
-
-\subsection{Dataset and Models}
-FakeNewsNet, UPFD, explain the dataset, no of edges/nodes. Which models use this dataset,
-
-\section{Early Fake News Detection and Model Aging}
+\section{SHAP}
+\label{sec:SHAP}
