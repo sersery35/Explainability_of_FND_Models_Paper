@@ -150,7 +150,7 @@ After this procudure, we have our hierarchical tree for each news obtained from 
 \begin{figure}
     \centering
     \includegraphics[scale=0.43]{UPFDClassifierArchitecture}
-    \caption[UPFD classifier model pipeline]{UPFD classifer model pipeline. We used an example input graph with 10 nodes. $d_{hidden_1} = 128$ stands for hidden layer dimension of FCN 1, accordingly, the hidden dimension of FCN 2 $d{hidden_2} = 256$ and $d_{feature} = 768$ for feature dimension.}
+    \caption[UPFD classifier model pipeline]{UPFD classifer model pipeline. We used an example input graph with 10 nodes. $d_{hidden_1} = 128$ stands for hidden layer dimension of FCN 1, accordingly, $d_{hidden_2} = 2 \times d_{hidden_1} = 256$ for the hidden dimension of FCN 2, and $d_{feature} = 768$ for feature dimension.}
     \label{fig:UPFDClassifierArchitecture}
 \end{figure}
 We apply t-SNE~\parencite{tSNE_vanDerMaaten} using default settings provided by scikit-learn~\parencite{ScikitLearn_Pedregosa} to see if GraphSAGE is able to distinguish fake and real news before its outputs $h_v^k$ are fed to the FCN. The visualization for this procedure is provided in Fig~\ref{fig:TSNE_GraphSAGE}.
