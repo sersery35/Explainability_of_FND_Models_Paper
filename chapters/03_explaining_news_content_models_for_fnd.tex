@@ -4,7 +4,7 @@
 \chapter{Explaining News Content Models for Fake News Detection}\label{chapter:explainingNewsContentModels}
 The automated detection of fake news on social media comes with its characteristic challenges. The fact
 that fake news are constructed to misguide its consumers makes them hard to distinguish by only using news content.
-In this chapter, we examine how these challenges effect the model and dataset's design. We initially take a look at news content models in section~\ref{sec:newsContentModels}. In first section, we lay out the definitions for the materials used. After we give a detailed analysis of the dataset, we talk about the tokenizer and model itself, discuss its performance on the dataset. Then we apply model-agnostic explanation methods to understand the model's behavior in ~\ref{sec:SHAP}.
+In this chapter, we examine how these challenges effect the model and dataset's design. We initially take a look at news content models in section~\ref{sec:newsContentModels}. In first section, we lay out the definitions for the materials used. After we give a detailed analysis of the dataset, we talk about the tokenizer and model itself, discuss its performance on the dataset. Then we apply model-agnostic explanation methods to understand the model's behavior in ~\ref{sec:DeepSHAP}.
 
 \section{News Content Models}
 \label{sec:newsContentModels}
@@ -117,11 +117,11 @@ In order to reduce sequential computation, CNNs have been adopted as building bl
     \caption[The Transformer Model Architecture]{The Transformer Model Architecture (N=6). Figure obtained from~\parencite{AttentionIsAllYouNeed_Vaswani}}
     \label{fig:transformerArchitecture}
 \end{figure}
-Initially suggested in the decoder of the model proposed in~\parencite{NeuralMachineTranslationByJointlyLearning_Bahdanau}, an attention mechanism works similar to human attention; it learns to put more importance on some words that convey the relevant information about the sentence. It does so by means of a context vector that depends on a sequence of \emph{annotations}. An annotation $h_i$ for a word (or embedding) $x_i$ contains information about the complete input sentence but with a focus on the words that are closer to the word $x_i$. The context vector $c_i$ for word $x_i$ is obtained as a weighted sum of all these annotations $h_i$:
+Initially suggested in the decoder of the model proposed in~\parencite{NeuralMachineTranslationByJointlyLearning_Bahdanau}, an attention mechanism works similar to human attention; it learns to put more importance on some words that convey the relevant information about the sentence. It does so by means of a context vector that depends on a sequence of \emph{annotations}. An annotation $h_i$ for a word (or embedding) $x_i$ contains information about the complete input sentence but with a focus on the words that are closer to the word $x_i$. The context vector $c_i$ for word $x_i$ is obtained as a weighted sum of all these annotations $h_i$~\parencite{NeuralMachineTranslationByJointlyLearning_Bahdanau}:
 \begin{center}
     $c_i = \sum_{j=1}^{|x|} \alpha_{ij} h_j$.
 \end{center}
-The weight $\alpha_{ij}$ is obtained by applying softmax to associated energy $e_{ij}$ which is an output of the alignment model $a$. The alignment model $a$ is a feed forward neural network that jointly learns with the rest of the system. More precisely, we compute these values as follows:
+The weight $\alpha_{ij}$ is obtained by applying softmax to associated energy $e_{ij}$ which is an output of the alignment model $a$. The alignment model $a$ is a feed forward neural network that jointly learns with the rest of the system. More precisely, we compute these values as follows~\parencite{NeuralMachineTranslationByJointlyLearning_Bahdanau}:
 \begin{center}
     $\alpha_{ij} = \dfrac{e_{ij}}{\sum_{k=1}^{|x|} exp(e_{ik})}$
 \end{center}
@@ -232,8 +232,9 @@ Note that maximum position embeddings parameter also considers document start an
 \begin{table}
     \centering
     \begin{tabular}{c | c | c | c}
-        Accuracy & Precision & Recall  & F1 score \\
-        98.85\%  & 98.82\%   & 99.03\% & 98.92\%  \\
+        \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} & \textbf{F1 score} \\
+        \hline
+        98.85\%           & 98.82\%            & 99.03\%         & 98.92\%           \\
     \end{tabular}
     \caption[The performance metrics for news content model.]{The performance metrics for news content model.}
     \label{tab:newsContentModelPerformanceMetrics}
@@ -241,5 +242,5 @@ Note that maximum position embeddings parameter also considers document start an
 The model performs very well on the dataset. Only 4 samples out of 8117 are classified incorrectly in the test split of the dataset. We will closely work with those 4 samples when explaining our model and inspect the reasons behind this performance in the next section.\\
 We have laid out the foundations for the model we used, reported the characterstics, training details, and performance of the news content model in this section. Although seems powerful in this case, usually news content models are easily outdated as the structure of news changes rapidly and fake news fabricators can replicate the properties that can be seen in real news content~\parencite{HierarchicalPropagationNetworksForFND_Shu}. Thus, we consider a different approach which primarily considers social context features for FND.\\
 
-\section{SHAP}
-\label{sec:SHAP}
+\section{DeepSHAP}
+\label{sec:DeepSHAP}

@@ -3189,6 +3189,80 @@
       \verb https://doi.org/10.24963/ijcai.2017/557
       \endverb
     \endentry
+    \entry{CNNsOnGraphsForLearningMolecularFingerprints_Duvenaud}{misc}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=834f50f5d5a332c21effd10f07daf79e}{%
+           family={Duvenaud},
+           familyi={D\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07e607fb522f06610feb023ecfa712e2}{%
+           family={Maclaurin},
+           familyi={M\bibinitperiod},
+           given={Dougal},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5debbaca3d1169a9867a72e085c3cefd}{%
+           family={Aguilera-Iparraguirre},
+           familyi={A\bibinithyphendelim I\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a37688f976e048ffbc85a45699635c91}{%
+           family={Gómez-Bombarelli},
+           familyi={G\bibinithyphendelim B\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f565f45e0faadc2ec7c0fbf40e550cc}{%
+           family={Hirzel},
+           familyi={H\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=083dcdd0db2687433b22fabfb2e55c17}{%
+           family={Aspuru-Guzik},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Alán},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1552be0c6aa9c6e0fd91a130a682853}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={Ryan\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{fefc8e1deb8de16e193321f2de1eda2f}
+      \strng{fullhash}{76efadea36b06eac13c72157e055b771}
+      \strng{bibnamehash}{76efadea36b06eac13c72157e055b771}
+      \strng{authorbibnamehash}{76efadea36b06eac13c72157e055b771}
+      \strng{authornamehash}{fefc8e1deb8de16e193321f2de1eda2f}
+      \strng{authorfullhash}{76efadea36b06eac13c72157e055b771}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Convolutional Networks on Graphs for Learning Molecular Fingerprints}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1509.09292
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1509.09292
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1509.09292
+      \endverb
+      \keyw{Machine Learning (cs.LG),Neural and Evolutionary Computing (cs.NE),Machine Learning (stat.ML),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
     \entry{SlaveToTheAlgorithm_EdwardsVeale}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b86464290d99ac97988476696473035d}{%
@@ -3506,6 +3580,38 @@
       \verb{url}
       \verb https://doi.org/10.1145/2818717
       \endverb
+    \endentry
+    \entry{PyTorchGeometric_Fey}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2667edba6b12b863d4fc7ec3afba0ede}{%
+           family={Fey},
+           familyi={F\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=800b76abbd2eeaa089495a24cf30cb14}{%
+           family={Lenssen},
+           familyi={L\bibinitperiod},
+           given={Jan\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4b5026928d4b187d2dfe9422a256bec9}
+      \strng{fullhash}{4b5026928d4b187d2dfe9422a256bec9}
+      \strng{bibnamehash}{4b5026928d4b187d2dfe9422a256bec9}
+      \strng{authorbibnamehash}{4b5026928d4b187d2dfe9422a256bec9}
+      \strng{authornamehash}{4b5026928d4b187d2dfe9422a256bec9}
+      \strng{authorfullhash}{4b5026928d4b187d2dfe9422a256bec9}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ICLR Workshop on Representation Learning on Graphs and Manifolds}
+      \field{title}{Fast Graph Representation Learning with {PyTorch Geometric}}
+      \field{year}{2019}
     \endentry
     \entry{Pizzagate_Fisher}{misc}{}
       \name{author}{3}{}{%
@@ -4178,6 +4284,69 @@
       \verb{url}
       \verb https://doi.org/10.1162/tacl%5C_a%5C_00454
       \endverb
+    \endentry
+    \entry{NetworkX_Hagberg}{inbook}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=94707ad079516150870c2f9a2932df46}{%
+           family={Hagberg},
+           familyi={H\bibinitperiod},
+           given={Aric\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=12f80aa3aca50b90f024775e52dde170}{%
+           family={Schult},
+           familyi={S\bibinitperiod},
+           given={Daniel\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58fb3a96810da0d56606677a3ce7e677}{%
+           family={Swart},
+           familyi={S\bibinitperiod},
+           given={Pieter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=cfa3239dded54488f9a82a5718d5b927}{%
+           family={Varoquaux},
+           familyi={V\bibinitperiod},
+           given={Gaël},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5d98f8482048dcc3052b092b91de894c}{%
+           family={Vaught},
+           familyi={V\bibinitperiod},
+           given={Travis},
+           giveni={T\bibinitperiod}}}%
+        {{hash=eca9aeefdc8563b0e153fbedf08bc1a1}{%
+           family={Millman},
+           familyi={M\bibinitperiod},
+           given={Jarrod},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Pasadena, CA USA}%
+      }
+      \strng{namehash}{4e53a9c7f8f76fc36bfb13bfc9694edc}
+      \strng{fullhash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{bibnamehash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{authorbibnamehash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{authornamehash}{4e53a9c7f8f76fc36bfb13bfc9694edc}
+      \strng{authorfullhash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{editorbibnamehash}{5c6f569244b62f16c51830f1dac15458}
+      \strng{editornamehash}{03333c7c412234b29244b2d68a2dbe08}
+      \strng{editorfullhash}{5c6f569244b62f16c51830f1dac15458}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 7th Python in Science Conference}
+      \field{title}{Exploring Network Structure, Dynamics, and Function using NetworkX}
+      \field{year}{2008}
+      \field{pages}{11\bibrangedash 15}
+      \range{pages}{5}
     \endentry
     \entry{GraphSAGE_Hamilton}{article}{}
       \name{author}{3}{}{%
@@ -8157,6 +8326,164 @@
       \endverb
       \keyw{Machine Learning (cs.LG),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
+    \entry{PyTorch_Paszke}{misc}{}
+      \name{author}{21}{}{%
+        {{un=0,uniquepart=base,hash=56bf0b340039cf8594436a624ff548a9}{%
+           family={Paszke},
+           familyi={P\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ba5062e5919c814aceec188d54c01f2}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5dfae4582081d649e3a0d5342050016}{%
+           family={Massa},
+           familyi={M\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5815e1692fa2d0c1f44eecf509bd7c4}{%
+           family={Lerer},
+           familyi={L\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b75383e6b48c8360c7a60031424c85cf}{%
+           family={Bradbury},
+           familyi={B\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f897ed422c34d95af2e22778dfc2607e}{%
+           family={Chanan},
+           familyi={C\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=046269e070246feb6f394141db80ed87}{%
+           family={Killeen},
+           familyi={K\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c40352c194e60a3ef458ee7e8685afb5}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Zeming},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e45f49ec618e619efad90c8e8a61f0c}{%
+           family={Gimelshein},
+           familyi={G\bibinitperiod},
+           given={Natalia},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f65a80959d520337ae99a0798515036c}{%
+           family={Antiga},
+           familyi={A\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=954cf7680b6ce14813973eccdca3c4bc}{%
+           family={Desmaison},
+           familyi={D\bibinitperiod},
+           given={Alban},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=048232cf7c525fbc0bc93052fe8cee03}{%
+           family={Köpf},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9e701339e56fd0b171145b08288a1b7}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42ac264897098b400e1367e5922c9b0d}{%
+           family={DeVito},
+           familyi={D\bibinitperiod},
+           given={Zach},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d814afaa50b9e22ab92cc9f8f9a9e43a}{%
+           family={Raison},
+           familyi={R\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3feeeebee8583ecc208f7fb3e0a55068}{%
+           family={Tejani},
+           familyi={T\bibinitperiod},
+           given={Alykhan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e18536d5cb7543731fbf2ca1a4908732}{%
+           family={Chilamkurthy},
+           familyi={C\bibinitperiod},
+           given={Sasank},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a0b028c6b85c46f368317d0c5bfe3a0}{%
+           family={Steiner},
+           familyi={S\bibinitperiod},
+           given={Benoit},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=998a001f16bb57c079c1d5afb1cb02c8}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Lu},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f19c633bbfb847db6a0e71d3659eacd}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Junjie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ef51a0906e47d2b4472c4e714ed598f}{%
+           family={Chintala},
+           familyi={C\bibinitperiod},
+           given={Soumith},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{724e74fc18651eb78eb82fbcd1d9dfb1}
+      \strng{fullhash}{4842db6c92a33147f588935fdde44a69}
+      \strng{bibnamehash}{4842db6c92a33147f588935fdde44a69}
+      \strng{authorbibnamehash}{4842db6c92a33147f588935fdde44a69}
+      \strng{authornamehash}{724e74fc18651eb78eb82fbcd1d9dfb1}
+      \strng{authorfullhash}{4842db6c92a33147f588935fdde44a69}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PyTorch: An Imperative Style, High-Performance Deep Learning Library}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1912.01703
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1912.01703
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1912.01703
+      \endverb
+      \keyw{Machine Learning (cs.LG),Mathematical Software (cs.MS),Machine Learning (stat.ML),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
     \entry{TheRussianFirehoseOfFalsehood_Paul}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=3a9d3531869a45cd1025ff98c04d596a}{%
@@ -10969,6 +11296,42 @@
       \field{year}{2008}
       \field{pages}{2579\bibrangedash 2605}
       \range{pages}{27}
+    \endentry
+    \entry{Python_Rossum}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f34213416cf8ddd3260699c9ee29b821}{%
+           family={Rossum},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Centrum voor Wiskunde en Informatica (CWI)}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \strng{namehash}{f34213416cf8ddd3260699c9ee29b821}
+      \strng{fullhash}{f34213416cf8ddd3260699c9ee29b821}
+      \strng{bibnamehash}{f34213416cf8ddd3260699c9ee29b821}
+      \strng{authorbibnamehash}{f34213416cf8ddd3260699c9ee29b821}
+      \strng{authornamehash}{f34213416cf8ddd3260699c9ee29b821}
+      \strng{authorfullhash}{f34213416cf8ddd3260699c9ee29b821}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{number}{CS-R9526}
+      \field{title}{Python tutorial}
+      \field{type}{techreport}
+      \field{year}{1995}
     \endentry
     \entry{AttentionIsAllYouNeed_Vaswani}{misc}{}
       \name{author}{8}{}{%
