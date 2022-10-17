@@ -1,10 +1,10 @@
 % !TeX root = ../main.tex
 % Add the above to each chapter to make compiling the PDF easier in some editors.
 
-\chapter{Explaining News Content Models for Fake News Detection}\label{chapter:explainingNewsContentModels}
+\chapter{News Content Models for Fake News Detection}\label{chapter:NewsContentModelsForFND}
 The automated detection of fake news on social media comes with its characteristic challenges. The fact
 that fake news are constructed to misguide its consumers makes them hard to distinguish by only using news content.
-In this chapter, we examine how these challenges effect the model and dataset's design. We initially take a look at news content models in section~\ref{sec:newsContentModels}. In first section, we lay out the definitions for the materials used. After we give a detailed analysis of the dataset, we talk about the tokenizer and model itself, discuss its performance on the dataset. Then we apply model-agnostic explanation methods to understand the model's behavior in ~\ref{sec:DeepSHAP}.
+In this chapter, we examine how these challenges effect the model and dataset's design. We initially take a look at news content models in Section~\ref{sec:newsContentModels}. In first section, we lay out the definitions for the materials used. After we give a detailed analysis of the dataset, we talk about the tokenizer and model itself, discuss its performance on the dataset. Then we apply model-agnostic explanation methods to understand the model's behavior in Section~\ref{sec:ExplainingNewsContentModels}.
 
 \section{News Content Models}
 \label{sec:newsContentModels}
@@ -22,7 +22,7 @@ Here we introduce the notation utilized in this section. Note that these notatio
         $x^{tok} \in X^{tok}$ & Tokenized news article                                       \\
         $y \in Y$             & Vectorized class value.                                      \\
         $|x^{tok}|$           & The number of tokens in $x^{tok}$.                           \\
-        $y^*$                 & Prediction of model.                                         \\
+        $\hat{y}$             & Prediction of model.                                         \\
         $x \in X$             & Numeric vector of $x^{tok}$                                  \\
         $|x|$                 & The length of input vector                                   \\
         $l$                   & Index of a layer                                             \\
@@ -44,7 +44,7 @@ A token can be a word, character or a subword. Therefore, we define three types 
     \item \emph{Character tokenization} splits the text into single characters. Since the size of available characters is limited and known, the OOV problem is solved by encoding the unknown word by means of its characters. Although looks like a good solution, the length of tokens can be massive for long texts.
     \item \emph{Subword tokenization} splits the given text into subwords, also called \emph{n-gram characters}. For instance, comparative words like harder is segmented into hard-er, or superlative words like hardest is segmented into hard-est. The most common method for subword tokenization is \emph{Byte Pair Encoding} (BPE). BPE was introduced by~\cite{ANewAlgorithmForDataCompression_Gage} but adapted to word segmentation by~\cite{NeuralMachineTranslationOfRareWords_Sennrich}. BPE iteratively merges the most frequently appearing character or character sequences. This approach allows for an efficient space usage thus smaller vocabularies~\parencite{NeuralMachineTranslationOfRareWords_Sennrich}.
 \end{itemize}
-We say that an input is \emph{tokenized} after it is fed to the tokenizer. A tokenized news article $x^{tok}$ is a vector of tokens in which the order of the words and characters in $x^{raw} \in X^{raw}$ are kept. Furthermore, to get a fixed length output, we pad the tokenized sequence $x^{tok}$ with padding tokens ([PAD]) where the news article is not long enough. In case it is longer than the fixed length, then it is truncated. In case the sequence is padded, some tokenizer implementations in Huggingface use masks to mask out the pads so that they are not included in the computation. These are called masked transformers~\parencite{Transformers_Wolf}. In fact, our classifier has the same behavior which can be observed in~\ref{fig:InputPreProcessPipeline}.
+We say that an input is \emph{tokenized} after it is fed to the tokenizer. A tokenized news article $x^{tok}$ is a vector of tokens in which the order of the words and characters in $x^{raw} \in X^{raw}$ are kept. Furthermore, to get a fixed length output, we pad the tokenized sequence $x^{tok}$ with padding tokens ([PAD]) where the news article is not long enough. In case it is longer than the fixed length, then it is truncated. In case the sequence is padded, some tokenizer implementations in Huggingface use masks to mask out the pads so that they are not included in the computation. These are called masked transformers~\parencite{Transformers_Wolf}. In fact, our news content classifier has the same behavior which can be observed in~\ref{fig:InputPreProcessPipeline}.
 \begin{center}
     $T(x^{raw}) = x^{tok} = [x_1^{tok}, \dots, x_n^{tok}]$, where $n = |x^{tok}|$.
 \end{center}
@@ -70,9 +70,9 @@ The input transformation pipeline is illustrated in~\ref{fig:InputPreProcessPipe
 \end{definition}
 Our news content model is our classifier. It will predict whether a news piece is real or fake via assigning each label a probability.
 \begin{definition}[\emph{Prediction}]
-    A prediction $y^*$ is the maximum of predicted scores $f(x)_y$ of an FND classifier.
+    A prediction $\hat{y}$ is the maximum of predicted scores $f(x)_y$ of a classifier.
     \begin{center}
-        $y^* = argmax_{y \in Y} f(x)_y$
+        $\hat{y} = argmax_{y \in Y} f(x)_y$
     \end{center}
 \end{definition}
 We use a model that consists of several layers and a sophisticated architecture. Our model is able to work with big vocabularies and can classify news pieces based on various features.
@@ -82,7 +82,7 @@ We use a model that consists of several layers and a sophisticated architecture.
     $l+1$ have a weight value $w_{ij}^{(l)}$ that connects them. Along with a non-linear activation function $\sigma$, we
     can define the value of the $j$-th unit $a_j^{(l+1)}$ in terms of weights and unit values from previous layer for an FCN, with $N$ is the number of units in layer $l$.
     \begin{center}
-        $a_j^{(l+1)} = \sigma(\sum_{i=1}^{N} a_i^{(l)} w_{ij}^{(l)})$
+        $a_j^{(l+1)} = \sigma(\sum\limits_{i=1}^{N} a_i^{(l)} w_{ij}^{(l)})$
     \end{center}
 \end{definition}
 Neural networks are very powerful models. They can train millions of parameters using matrix multiplications, gradient-based optimization methods and a fruitful set of other techniques, some of which will be discussed later.
@@ -97,7 +97,7 @@ expected output. This is done so using optimization methods such as \emph{Gradie
 \emph{Stochastic Gradient Descent} (SGD)~\parencite{SGD_Robbins}, \emph{Adaptive Moment Estimation} (Adam)~\parencite{Adam_Kingma} to minimize the loss function. While there exist many optimization methods available for neural networks, we do not examine any of them.\\
 For classification problems, we adopt a layer called \emph{Softmax}~\parencite{Softmax_Bridle} outputs the predicted scores $f(x)_y$ for each class $y$ by normalizing outputs $Z_y(x)$ from the previous layer.\\
 \begin{center}
-    $f(x)_y = \dfrac{exp(Z_y(x))}{\sum_{\hat{y} \in Y} exp(Z_{\hat{y}(x)})}$
+    $f(x)_y = \dfrac{exp(Z_y(x))}{\sum\limits_{{y'} \in Y} exp(Z_{y'}(x))}$
 \end{center}
 The FCNs are the simplest architectures for neural networks. In an FCN, all units are connected which means there is a weight between each unit in layer $l$ and $l+1$. While very simple to construct, usage of these architectures when modeling sequences is not preferred due to the number of trained parameters such as weights and biases. Instead, when modeling sequences like sentences and documents, a common approach is RNNs which allow previous outputs to be used while having hidden states. However, RNNs are not powerful enough to represent long-term dependencies~\parencite{LearningLongTermDependenciesHard_Bengio} and suffer from vanishing/exploding gradients~\parencite{OnTheDifficultyOfTrainingRNNs_Pascanu}. Utilizing RNNs, an idea was proposed in which these shortcomings were addressed. Called \emph{Long Short-Term Memory} (LSTM)~\parencite{LSTM_Hochreiter}, the idea is to keep a cell state which is updated with previous cell's state. This cell state is conveyed to the consequent cells to form a chain that represents the document. More precisely, each cell corresponds to a token whose information will be shared with consequent tokens by the propagation of previously mentioned cell states. This approach is indeed very useful for long documents since news articles tend to be long and their sentences contextually relevant. LSTM is usually used in different variations based on the same idea. For instance, a consequent study has extended LSTMs with \emph{peephole connections} in~\parencite{LSTMPeephole_Gers}. LSTMs have been proven to deliver a good performance in NLP tasks such as \emph{speech recognitions}~\parencite{AchievingHumanParityinConvSR_Wayne}. LSTMs perform well however due to long training times and large memory requirements during training, they are being replaced with attention-based models.\\
 One last thing to discuss is how the models are trained in terms of supervision. \emph{Supervised} models are trained with label data. \emph{Unsupervised} models work with unlabeled data and aims to find patterns in the data. A different setting is \emph{semi-supervised} models. These models are often provided with small amounts of labeled data and large amounts of unlabeled data for training. There are two settings for semi-supervised learning. \emph{Transductive} learning aims to predict unlabeled data whereas \emph{inductive} learning samples unlabeled data from the same distribution to
@@ -119,11 +119,11 @@ In order to reduce sequential computation, CNNs have been adopted as building bl
 \end{figure}
 Initially suggested in the decoder of the model proposed in~\parencite{NeuralMachineTranslationByJointlyLearning_Bahdanau}, an attention mechanism works similar to human attention; it learns to put more importance on some words that convey the relevant information about the sentence. It does so by means of a context vector that depends on a sequence of \emph{annotations}. An annotation $h_i$ for a word (or embedding) $x_i$ contains information about the complete input sentence but with a focus on the words that are closer to the word $x_i$. The context vector $c_i$ for word $x_i$ is obtained as a weighted sum of all these annotations $h_i$~\parencite{NeuralMachineTranslationByJointlyLearning_Bahdanau}:
 \begin{center}
-    $c_i = \sum_{j=1}^{|x|} \alpha_{ij} h_j$.
+    $c_i = \sum\limits_{j=1}^{|x|} \alpha_{ij} h_j$.
 \end{center}
 The weight $\alpha_{ij}$ is obtained by applying softmax to associated energy $e_{ij}$ which is an output of the alignment model $a$. The alignment model $a$ is a feed forward neural network that jointly learns with the rest of the system. More precisely, we compute these values as follows~\parencite{NeuralMachineTranslationByJointlyLearning_Bahdanau}:
 \begin{center}
-    $\alpha_{ij} = \dfrac{e_{ij}}{\sum_{k=1}^{|x|} exp(e_{ik})}$
+    $\alpha_{ij} = \dfrac{e_{ij}}{\sum\limits_{k=1}^{|x|} exp(e_{ik})}$
 \end{center}
 where
 \begin{center}
@@ -195,7 +195,7 @@ We analyze 500 most frequently occurring tokens in the dataset using a WordCloud
     \caption[WordCloud visualiations for most frequently occurring 500 tokens in both classes]{WordCloud visualiations for most frequently occurring 500 tokens in samples of both classes}
     \label{fig:WordCloudVisualizations}
 \end{figure}\\
-\textbf{Training.} Huggingface provides us with a \emph{TextClassificationPipeline} which allows to feed the dataset from Huggingface directly\parencite{Transformers_Wolf}. This pipeline includes the tokenization process and the embedding layer before feeding it to our classifier. Our classifier has 6 layers, 12 attention heads and  hidden size of 768 that totals up to 82M parameters (RoBERTa has 125M parameters). The vocabulary size is 50265 including special tokens. The model also uses a technique called \emph{dropout} which is a regularization technique that drops some connections between layers based on a probability value~\parencite{Dropout_Nitish}. All model hyperparameters are defined in~\ref{tab:newsContentModelHyperparameters}.\\
+\textbf{Training.} Huggingface provides us with a \emph{TextClassificationPipeline} which allows to feed the dataset from Huggingface directly\parencite{Transformers_Wolf}. This pipeline includes the tokenization process and the embedding layer before feeding it to our classifier. Our news content classifier has 6 layers, 12 attention heads and  hidden size of 768 that totals up to 82M parameters (RoBERTa has 125M parameters). The vocabulary size is 50265 including special tokens. The model also uses a technique called \emph{dropout} which is a regularization technique that drops some connections between layers based on a probability value~\parencite{Dropout_Nitish}. All model hyperparameters are defined in~\ref{tab:newsContentModelHyperparameters}.\\
 \begin{table}
     \centering
     \begin{tabular}{|l|l|}
@@ -242,5 +242,39 @@ Note that maximum position embeddings parameter also considers document start an
 The model performs very well on the dataset. Only 4 samples out of 8117 are classified incorrectly in the test split of the dataset. We will closely work with those 4 samples when explaining our model and inspect the reasons behind this performance in the next section.\\
 We have laid out the foundations for the model we used, reported the characterstics, training details, and performance of the news content model in this section. Although seems powerful in this case, usually news content models are easily outdated as the structure of news changes rapidly and fake news fabricators can replicate the properties that can be seen in real news content~\parencite{HierarchicalPropagationNetworksForFND_Shu}. Thus, we consider a different approach which primarily considers social context features for FND.\\
 
-\section{DeepSHAP}
-\label{sec:DeepSHAP}
+\section{Explaining News Content Models}
+\label{sec:ExplainingNewsContentModels}
+Although there exist models that can detect fake news with high accuracy such as our model, the reasons behind
+this performance is seldom investigated. There could be a number of reasons from dataset characteristics to wrong
+model architecture. Just by looking at our model's performance on a single dataset, one should not trust the model's spectacular performance, instead look at the reasons behind this to understand why this is happening. Is model
+actually learning to distinguish between classes or is it learning some other thing that we do not want? In order to
+answer questions like these and more,~\cite{AUnifiedApproach_Lundberg} proposes a unified framework in which any model (except GNNs) can be explained.\\
+We start this section by describing how Shapley Additive exPlanation (SHAP) framework helps explain a model. After examining SHAP framework, we utilize it for our model and examine the reasons behind this performance by conducting several experiments.\\
+\subsection{SHAP Framework}
+\label{subsec:SHAPFramework}
+SHAP aims to explain a prediction of a single input instance $x$ by computing Shapley values from coalitional game
+theory. These values correspond to the contribution of each input feature to the prediction made for $x$~\parencite{InterpretableMachineLearning_Molnar}. Specifically, we are interested in SHAP's ability to capture local explanations
+for our news content model. Fortunately, SHAP provides explanation frameworks for a variety of models including DNNs. In order to handle DNNs, SHAP improves methods from DeepLIFT to produce DeepSHAP, however, DeepSHAP is not compatible with Transformers models. Thus, we use a model-agnostic explanation model provided in SHAP framework, namely the partition explainer. We begin with introducing Shapley values which are then converted to Owen values via feature coalitions. We will examine how Owen values and Shapley values are connected.\\
+As before, let us denote our news content classifier to be explained as $f$, and its input as $x$. We focus on local explanations built for a single prediction $\hat{y} = f(x)$ based on one input $x$. An explanation model $g$ employs simplified inputs $x'$ which are output of a mapping function $h_x(x') = x$ that maps $x$ to $x'$. Each $h_x(x')$ is defined individually for each $x$. If two simplified inputs are similar $x' \sim z'$ then local methods aim to guarantee the approximation $g(z') \approx f(h_x(z'))$~\parencite{AUnifiedApproach_Lundberg}.\\
+The general framework is built upon \emph{additive feature attribution methods}. These methods \emph{have an explanation model that is linear of binary variables}~\parencite{AUnifiedApproach_Lundberg}.\\
+\begin{center}
+    $g(z') = \phi_0 + \sum\limits_{i=1}^M \phi_i z_i'$
+\end{center}
+where $z' \in \{0, 1\}^M$, $M$ \emph{is the number of simplified input features, and} $\phi_i \in \mathbb{R}$~\parencite{AUnifiedApproach_Lundberg}. Additive feature attribution methods have three desired properties. The first, local accuracy states that \emph{the explanation model} $g(x')$ \emph{matches the original model} $f(x)$ \emph{when} $x = h_x(x')$~\parencite{AUnifiedApproach_Lundberg}. The second property is missingness and it states that the features not included in the input should have no impact~\parencite{AUnifiedApproach_Lundberg}. The last property, consistency describes that if a simplified feature $x_i' \in x'$ have a greater impact in model $f'$ than the model $f$, then the feature $x_i$ should be assigned at least the same or a higher value for its contribution~\parencite{AUnifiedApproach_Lundberg}. \\
+The computation of each $\phi_i$ involves a similar process to the calculation of classic Shapley regression values~\parencite{AnalysisOfRegressionInGameTheory_Lipovetsky}:
+\begin{center}
+    $\phi_i(f, x ) = \sum\limits_{z' \subseteq x'} \dfrac{|z'|! (M - |z'| - 1)!}{M!} [f_x(z') - f_x(z' \setminus i)]$
+\end{center}
+where $z' \setminus i$ implies $z_i' = 0$, $|z'|$ is the number of non-zero elements in $z'$, and $z' \subseteq x'$ denotes the set of vectors $z'$ whose non-zero elements are a subset of non-zero elements in $x'$~\parencite{AUnifiedApproach_Lundberg}.\\
+In the supplementary material of~\cite{AUnifiedApproach_Lundberg}, the authors define four axioms all of which Shapley values satisfy.
+\begin{enumerate}
+    \item \emph{Efficiency forces the model to correctly capture the original predicted value}~\parencite{AUnifiedApproach_Lundberg}
+    \item \emph{Symmetry states that if two features contribute equally to the model then their effects must be the same}~\parencite{AUnifiedApproach_Lundberg}.
+    \item \emph{Null effects} denotes that if a feature is missing in all subsets and this feature does not affect the outcome of the model, then this feature is ignored and its effect must be 0~\parencite{AUnifiedApproach_Lundberg}.
+    \item \emph{Linearity} states that if two models are written as a linear combination, then the sum of the effect of a feature in both models represent the effect of feature in the linear combination~\parencite{AUnifiedApproach_Lundberg}.
+\end{enumerate}
+Given a hierarchy of features that define feature coalitions, the partition explainer recursively computes Shapley values through them and these Shapley values result in Owen values~\parencite{OwenValues_Owen}. Owen values do not satisfy symmetry axiom at all times, but it is satisfied for tokens in the same coalition. Owen values are not the same as Shapley values, but if the coalition consists of the whole sentence or individual tokens, then they are the same as Shapley values. A study~\parencite{TheOwenAndShapleyValue_Casajus} also shows that Shapley values are the expected Owen values for all symmetric distributions on all partitions. Owen values will help us detect token groups (if any exist) that play a significant role in the prediction of a model. Moreover, Owen values are computationally very cheap which makes them more attractive.\\
+We have summarized the foundations of SHAP framework. As recommended in the source code documentation of SHAP\footnote{\url{https://github.com/slundberg/shap/}}, we use the partition explainer for our language model. Next, we will examine Owen values in action with our news content classifier.
+
+\subsection{Explaining News Content Classifier}
+\label{subsec:ExplainingNewsContentClassifier}

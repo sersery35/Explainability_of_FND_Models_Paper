@@ -15,24 +15,24 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Fake news}}}{43}{subfigure.5.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Real news}}}{43}{subfigure.5.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces UPFD Framework}}{51}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces UPFD dataset distribution by label and split}}{53}{figure.caption.16}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gossipcop}}}{53}{subfigure.2.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Politifact}}}{53}{subfigure.2.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces UPFD classifier model pipeline}}{54}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Echo chamber example from UPFD-Politifact.}}{59}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Echo chamber example explanation for root node}}{60}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Edge mask distribution of the subgraph provided for echo chamber example explanation.}}{62}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces A real news instance from UPFD-Politifact}}{64}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Explanation for the real news example from UPFD-Politifact}}{65}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Threshold methods for subgraph explanations of the real news example.}}{66}{figure.caption.26}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Median}}}{66}{subfigure.9.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mean}}}{66}{subfigure.9.2}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces A fake news example from UPFD-Gossipcop.}}{67}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces The perturbed version of the fake news example from UPFD-Gossipcop}}{68}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces t-SNE visualizations for GraphSAGE}}{69}{figure.caption.29}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gossipcop}}}{69}{subfigure.12.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Politifact}}}{69}{subfigure.12.2}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces UPFD Framework}}{53}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces UPFD dataset distribution by label and split}}{55}{figure.caption.16}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gossipcop}}}{55}{subfigure.2.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Politifact}}}{55}{subfigure.2.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces UPFD classifier model pipeline}}{56}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Echo chamber example from UPFD-Politifact.}}{61}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Echo chamber example explanation for root node}}{62}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Edge mask distribution of the subgraph provided for echo chamber example explanation.}}{64}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces A real news instance from UPFD-Politifact}}{66}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Explanation for the real news example from UPFD-Politifact}}{67}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Threshold methods for subgraph explanations of the real news example.}}{68}{figure.caption.26}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Median}}}{68}{subfigure.9.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mean}}}{68}{subfigure.9.2}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces A fake news example from UPFD-Gossipcop.}}{69}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces The perturbed version of the fake news example from UPFD-Gossipcop}}{70}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces t-SNE visualizations for GraphSAGE}}{71}{figure.caption.29}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gossipcop}}}{71}{subfigure.12.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Politifact}}}{71}{subfigure.12.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

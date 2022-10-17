@@ -2132,6 +2132,39 @@
       \field{pages}{212\bibrangedash 215}
       \range{pages}{4}
     \endentry
+    \entry{TheOwenAndShapleyValue_Casajus}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9d19418eb2aba12144d7aadf3191b50a}{%
+           family={Casajus},
+           familyi={C\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9d19418eb2aba12144d7aadf3191b50a}
+      \strng{fullhash}{9d19418eb2aba12144d7aadf3191b50a}
+      \strng{bibnamehash}{9d19418eb2aba12144d7aadf3191b50a}
+      \strng{authorbibnamehash}{9d19418eb2aba12144d7aadf3191b50a}
+      \strng{authornamehash}{9d19418eb2aba12144d7aadf3191b50a}
+      \strng{authorfullhash}{9d19418eb2aba12144d7aadf3191b50a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Game Theory Review (IGTR)}
+      \field{month}{12}
+      \field{title}{The shapley value, the owen value, and the veil of ignorance}
+      \field{volume}{11}
+      \field{year}{2009}
+      \field{pages}{453\bibrangedash 457}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1142/S0219198909002431
+      \endverb
+    \endentry
     \entry{CanWeOpenTheBlackBoxOfAI_Castelvecchi}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=dfd36356908a0aa24260ffef20f09b06}{%
@@ -5144,6 +5177,43 @@
       \field{year}{2015}
       \field{pages}{1}
       \range{pages}{1}
+    \endentry
+    \entry{Matplotlib_Hunter}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a27d092a3c70c59360ac990a48514314}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE COMPUTER SOC}%
+      }
+      \strng{namehash}{a27d092a3c70c59360ac990a48514314}
+      \strng{fullhash}{a27d092a3c70c59360ac990a48514314}
+      \strng{bibnamehash}{a27d092a3c70c59360ac990a48514314}
+      \strng{authorbibnamehash}{a27d092a3c70c59360ac990a48514314}
+      \strng{authornamehash}{a27d092a3c70c59360ac990a48514314}
+      \strng{authorfullhash}{a27d092a3c70c59360ac990a48514314}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Matplotlib is a 2D graphics package used for Python for application development, interactive scripting, and publication-quality image generation across user interfaces and operating systems.}
+      \field{journaltitle}{Computing in Science \& Engineering}
+      \field{number}{3}
+      \field{title}{Matplotlib: A 2D graphics environment}
+      \field{volume}{9}
+      \field{year}{2007}
+      \field{pages}{90\bibrangedash 95}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/MCSE.2007.55
+      \endverb
     \endentry
     \entry{AnIntroductionToStatisticalLearning_Gareth}{book}{}
       \name{author}{4}{}{%
@@ -8214,6 +8284,57 @@
       \verb{url}
       \verb https://doi.org/10.1007%2F978-3-030-43883-8_7
       \endverb
+    \endentry
+    \entry{OwenValues_Owen}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f4128819a3871a8a294df595d6e510f6}{%
+           family={Owen},
+           familyi={O\bibinitperiod},
+           given={Guilliermo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=7240179f422571e14b8e781f88da3357}{%
+           family={Henn},
+           familyi={H\bibinitperiod},
+           given={Rudolf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=469235b467d4ac5fd7bca36e443035ab}{%
+           family={Moeschlin},
+           familyi={M\bibinitperiod},
+           given={Otto},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{f4128819a3871a8a294df595d6e510f6}
+      \strng{fullhash}{f4128819a3871a8a294df595d6e510f6}
+      \strng{bibnamehash}{f4128819a3871a8a294df595d6e510f6}
+      \strng{authorbibnamehash}{f4128819a3871a8a294df595d6e510f6}
+      \strng{authornamehash}{f4128819a3871a8a294df595d6e510f6}
+      \strng{authorfullhash}{f4128819a3871a8a294df595d6e510f6}
+      \strng{editorbibnamehash}{27106d2405d50a0b8a4560de99004dd9}
+      \strng{editornamehash}{27106d2405d50a0b8a4560de99004dd9}
+      \strng{editorfullhash}{27106d2405d50a0b8a4560de99004dd9}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study here the problem of modifying the (Shapley) value of a characteristic function game so as to take into account the possibility that some players --- because of personal or political affinities --- may be more likely to act together than others. We shall use y[v] to denote the usual value of the game v.}
+      \field{booktitle}{Mathematical Economics and Game Theory}
+      \field{isbn}{978-3-642-45494-3}
+      \field{title}{Values of Games with a Priori Unions}
+      \field{year}{1977}
+      \field{pages}{76\bibrangedash 88}
+      \range{pages}{13}
     \endentry
     \entry{ClickbaitAndTabloidStrategies_Dolors}{article}{}
       \name{author}{1}{}{%
@@ -11327,7 +11448,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{5}
+      \field{month}{05}
       \field{number}{CS-R9526}
       \field{title}{Python tutorial}
       \field{type}{techreport}

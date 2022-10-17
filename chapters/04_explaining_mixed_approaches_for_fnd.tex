@@ -24,7 +24,7 @@
 
 % \subsection{Results}
 
-\chapter{Explaining Mixed Approaches for Fake News Detection}
+\chapter{Mixed Approaches for Fake News Detection}\label{chapter:MixedApproachesForFND}
 
 \section{Mixed Approaches}
 \label{sec:mixedApproaches}
@@ -89,10 +89,10 @@ a non-linear activation function. GraphSAGE employs three different aggregators:
 their inputs sequentially, they need a modification to work with unordered sets. Finally, pooling aggregator first independently feeds each neighbor's vector to a FCN, then apply a pooling operation on the output.\\
 The third, \emph{attention-based approaches}, utilizes the same attention logic introduced in~\ref{subsec:newsContentModels_TransformerArch} by following~\cite{NeuralMachineTranslationByJointlyLearning_Bahdanau}. A recent work Graph Attention Networks (GAT)~\parencite{GraphAttentionNetworks_Velickovic} proposes to integrate attention into the propagation step by computing the hidden state for node $v$ at layer $k$ as follows:
 \begin{center}
-    $h_v^{k} = \sigma(\sum_{u \in \mathcal{N}_v} a_{vu} W h_u^k)$ \\
+    $h_v^{k} = \sigma(\sum\limits_{u \in \mathcal{N}_v} a_{vu} W h_u^k)$ \\
 \end{center}
 \begin{center}
-    $\alpha_{vu} = \dfrac{exp(LeakyReLU(a^T[Wh_v || Wh_u]))}{\sum_{k \in \mathcal{N}_v}exp(LeakyReLU(a^T[W h_v || W h_k]))}$
+    $\alpha_{vu} = \dfrac{exp(LeakyReLU(a^T[Wh_v || Wh_u]))}{\sum\limits_{k \in \mathcal{N}_v}exp(LeakyReLU(a^T[W h_v || W h_k]))}$
 \end{center}
 with $W$ as the weight matrix, $a$ as the weight vector of feed forward network and the non-linear activation function LeakyReLU is defined as:
 \begin{center}
@@ -106,11 +106,11 @@ with $W$ as the weight matrix, $a$ as the weight vector of feed forward network 
 The authors in~\cite{GraphAttentionNetworks_Velickovic} also utilize Multi-Head Attention in order to stabilize the
 learning process of attention(also called self-attention or intra-attention)~\parencite{AttentionIsAllYouNeed_Vaswani}. Concretely, same as GraphSAGE defined $K$ aggregators, GAT defines $T$ independent attention heads to compute hidden states and then features of these hidden states are either concatenated,
 \begin{center}
-    $h_v^k = ||_{t=1}^T \sigma(\sum \alpha_{vu}^t W_t h_u^k)$
+    $h_v^k = ||_{t=1}^T \sigma(\sum\limits \alpha_{vu}^t W_t h_u^k)$
 \end{center}
 or averaged,
 \begin{center}
-    $h_v^k = \sigma(\frac{1}{T} \sum_{t=1}^T \sum_{u \in \mathcal{N}_v} \alpha_{vu}^t W_t h_u^k)$
+    $h_v^k = \sigma(\frac{1}{T} \sum\limits_{t=1}^T \sum\limits_{u \in \mathcal{N}_v} \alpha_{vu}^t W_t h_u^k)$
 \end{center}
 to obtain the output where $\alpha_{vu}^t$ represents the normalized attention values of the attention head $t$.\\
 The last convolutional spatial approaches cover general frameworks that aims to integrate multiple different models into one framework. A mixture model MoNet was proposed by~\cite{GeometricDeepLearningOnGraphsAndManifolds_Monti} which is a spatial framework for unifying models such as GCN~\cite{GCN_Kipf}, ~\cite{GeodesicCNNsOnRiemannManifolds_Masci}, DCNN~\cite{DCNN_Atwood} and many more in non-euclidean domain.\\
@@ -234,7 +234,7 @@ where $H(Y)$ is the marginal entropy of $Y$ and fixed for a trained GNN, and $H(
 \end{center}
 Finally, to estimate $\mathbb{E}_{\mathcal{G}}$, the authors employ mean-field variational approximation and decompose $\mathcal{G}$ into a multivariate Bernoulli distribution. This allows to estimate the expectation in terms of mean-field approximation, thus obtaining $A_S$ whose $(i, j)$-th element denotes the expectation of the existince of the edge $(v_i, v_j)$. The final objective is defined as~\parencite{GNNExplainer_Ying},
 \begin{center}
-    $\min_M - \sum_{c=1}^C \mathbb{1}[y = c] log (P_f (Y=y | \mathcal{G} = A_S \bigodot \sigma(M), X = X_S))$
+    $\min_M - \sum\limits_{c=1}^C \mathbb{1}[y = c] log (P_f (Y=y | \mathcal{G} = A_S \bigodot \sigma(M), X = X_S))$
 \end{center}
 where $M \in \mathbb{R}^{n \times n}$ is the mask to learn, $\bigodot$ is element-wise multiplication, and $\sigma$ is
 the mapping function of mask to values to interval $[0, 1]^{n \times n}$. For large graphs however, a threshold might be required to remove low values in the mask. We will propose two approaches to effectively
@@ -358,4 +358,4 @@ When the fed the perturbed sample to our model, the increase in prediction proba
 \end{figure}
 Clearly GraphSAGE is able to distinguish fake and real news instances better in Gossipcop dataset, but it fails to make this discirimination with Politifact dataset. This can be due to the low amounts of instances in the Politifact dataset.\\
 \textbf{Target Audience and XAI Goals for GNNExplainer.} It is quite clear that understanding the model's behavior locally with just a visualization is not sufficient for an end-user to understand why a particular news piece was predicted as real or fake. However, given enough resources, one can reverse engineer the process in the UPFD framework, which would allow for the analysis of node feature masks of news content and historical information embeddings. That would certainly increase the trustworthiness and informativeness of the model. We also suggest to employ interactive visualizations when working with GNNExplainer since the explanations can get very big. Explanations produced by GNNExplainer should be investigated by a data scientist who will simplify the explanation for a domain expert or an end-user. For our dataset, this simplification process can include aggregation of bidirectional edge mask values so that they can be represented as an undirected edge. Moreover, these undirected edges can be color-coded such that each color represents a value above a certain threshold which can be obtained using the methods we suggested. Also for GNNs with language models, the node feaures should be easily mappable to the textual content in such a way that we can create a variation of force plots provided by SHAP framework.\\
-To sum up, we have analyzed the explanations produced by GNNExplainer for our model which was trained on UPFD-Politifact dataset. We have observed some of the statistically significant features' existence in the explanations. We have also addressed shortcomings of GNNExplainer, suggested simple yet effective methods to reduce the complexity of an explanation. All experiments were conducted using Python 3.7~\parencite{Python_Rossum}, PyTorch 1.11.0~\parencite{PyTorch_Paszke} and PyTorch Geometric 2.0.4~\parencite{PyTorchGeometric_Fey}. All visualizations were obtained through the use of NetworkX 2.6.3~\parencite{NetworkX_Hagberg}.
+To sum up, we have analyzed the explanations produced by GNNExplainer for our model which was trained on UPFD-Politifact dataset. We have observed some of the statistically significant features' existence in the explanations. We have also addressed shortcomings of GNNExplainer, suggested simple yet effective methods to reduce the complexity of an explanation. All experiments were conducted using Python 3.7~\parencite{Python_Rossum}, PyTorch 1.11.0~\parencite{PyTorch_Paszke} and PyTorch Geometric 2.0.4~\parencite{PyTorchGeometric_Fey}. All visualizations were obtained through the use of NetworkX 2.6.3~\parencite{NetworkX_Hagberg} and Matplotlib 3.5.1~\parencite{Matplotlib_Hunter}. The detailed library usage and the implementation of all models are provided in our github repository~\footnote{\url{https://github.com/sersery35/Explainability_of_FND_Models/tree/main/GNNFakeNews}}.
