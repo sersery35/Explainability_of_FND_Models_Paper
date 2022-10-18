@@ -216,6 +216,8 @@ We analyze 500 most frequently occurring tokens in the dataset using a WordCloud
         \hline
         Layer normalization factor ($\epsilon$) & 1e-05                           \\
         \hline
+        Learning rate                           & 2e-05                           \\
+        \hline
         Maximum position embeddings             & 514                             \\
         \hline
         Number of attention heads               & 12                              \\
@@ -224,11 +226,13 @@ We analyze 500 most frequently occurring tokens in the dataset using a WordCloud
         \hline
         Vocabulary size                         & 50265                           \\
         \hline
+        Weight Decay                            & 0.01                            \\
+        \hline
     \end{tabular}
     \caption[Parameters of news content model]{Hyperparameters of news content model}
     \label{tab:newsContentModelHyperparameters}
 \end{table}
-Note that maximum position embeddings parameter also considers document start and end tokens when reporting its length. When feeding tokens $x^{tok}$ to the model, the start (<s>) and end (</s>) tokens are added by the model pipeline, so this leaves us with maximum sequence length of 512, i.e., $|x|=512$. Note that in Figure~\ref{fig:InputPreProcessPipeline} the length of $x$ is not 512 since the paddings are masked out before feeding the input $x$ to the model.   Model is trained for 3 epochs with a batch size of 16, Adam ($\beta_1=0.9$, $\beta_2=0.999$, $\epsilon=1e-08$) as the optimizer and a linear learning rate scheduler. The performance metrics for the model is provided in Table~\ref{tab:newsContentModelPerformanceMetrics}.\\
+Note that maximum position embeddings parameter also considers document start and end tokens when reporting its length. When feeding tokens $x^{tok}$ to the model, the start (<s>) and end (</s>) tokens are added by the model pipeline, so this leaves us with maximum sequence length of 512, i.e., $|x|=512$. Note that in Figure~\ref{fig:InputPreProcessPipeline} the length of $x$ is not 512 since the paddings are masked out before feeding the input $x$ to the model.   Model is trained for 3 epochs with a batch size of 16, Adam ($\beta_1=0.9$, $\beta_2=0.999$, $\epsilon=1e-08$) as the optimizer. The performance metrics for the model is provided in Table~\ref{tab:newsContentModelPerformanceMetrics}.\\
 \begin{table}
     \centering
     \begin{tabular}{c | c | c | c}
@@ -239,7 +243,7 @@ Note that maximum position embeddings parameter also considers document start an
     \caption[The performance metrics for news content model.]{The performance metrics for news content model.}
     \label{tab:newsContentModelPerformanceMetrics}
 \end{table}
-The model performs very well on the dataset. Only 4 samples out of 8117 are classified incorrectly in the test split of the dataset. We will closely work with those 4 samples when explaining our model and inspect the reasons behind this performance in the next section.\\
+The model performs very well on the dataset. Only 93 samples out of 8117 are classified incorrectly in the test split of the dataset. Out of that 93 samples, 51 of them are fake news instances and the rest are real news instances. \\
 We have laid out the foundations for the model we used, reported the characterstics, training details, and performance of the news content model in this section. Although seems powerful in this case, usually news content models are easily outdated as the structure of news changes rapidly and fake news fabricators can replicate the properties that can be seen in real news content~\parencite{HierarchicalPropagationNetworksForFND_Shu}. Thus, we consider a different approach which primarily considers social context features for FND.\\
 
 \section{Explaining News Content Models}
@@ -278,3 +282,72 @@ We have summarized the foundations of SHAP framework. As recommended in the sour
 
 \subsection{Explaining News Content Classifier}
 \label{subsec:ExplainingNewsContentClassifier}
+Having introduced the required concepts, we now utilize them to explain our model using some real and fake news instances from the dataset. We adopt the partition explainer in order to understand how our Transformer model works. We specifically try to find its shortcomings so that we can decide whether it is a good idea to use this FND in real cases.\\
+We took a fake news example from the train split of the dataset, and analyzed which tokens are deemed most important. The explanation provided by the partition explainer for our first fake news instance is illustrated in Fig.~\ref{fig:FakeNewsExample1_forceplot}. We can quickly observe that the base value is too high. In a normal setting, the base value should be around $0.5$ for a binary classifier. Apart from high base value, the model is actually capturing sensible features. For example, it can detect a non-formal narrative using words like "ride", "hood", "The genius protestors".  Interestingly, punctuations such as ".", "," and ". "were given a particularly high importance even though they do not contribute to the context of the news that much.\\
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.45]{FakeNewsExample1_forceplot.png}
+    \caption[The explanation provided by SHAP partition explainer for a fake news instance in our train split.]{The explanation provided by SHAP partition explainer for a fake news instance in our train split.}
+    \label{fig:FakeNewsExample1_forceplot}
+\end{figure}
+% \begin{figure}
+%     \centering
+%     \includegraphics[scale=0.33]{FakeNewsExample1_barplot.png}
+%     \caption[The barplot of the 10 highest Owen values and their tokens for the first fake news example.]{The barplot of the 10 highest Owen values and their tokens for the first fake news example. Since the news articles are long texts, we used a bar plot to visualize important tokens' Owen values.}
+%     \label{fig:FakeNewsExample1_barplot}
+% \end{figure}
+We explain one more fake news instance from train split to see if the model behaves the same for that instance as well. The example is illustrated in Fig~\ref{fig:FakeNewsExample2_forceplot}. We can quickly observe that the model was able to capture non-formal speech again. We further examine how the tokenizations and coalitions are constructed. We see that "not a U." and "S. citizen." are separate coalitions. This implies that the tokenizer evaluated "U." and "S." as separate tokens. One would expect "U.S." to be tokenized as one token, but the tokenizer failed to capture this. This might not be good for our model. In addition,  the base value is again too high.\\
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.45]{FakeNewsExample2_forceplot.png}
+    \caption[The explanation for the second fake news example.]{The explanation for the second fake news example. Observe that there are several coalitions between tokens such as "But on Friday he", "stopped telling The Big Lie" etc.}
+    \label{fig:FakeNewsExample2_forceplot}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.33]{FakeNewsExample2_barplot.png}
+    \caption[The bar plot for the Owen values of the tokens in the second fake news example.]{The bar plot for the Owen values of the tokens in the second fake news example.  Since the news articles are long texts, we used a bar plot to visualize important tokens' Owen values.}
+\end{figure}
+We need to investigate why we obtain such high base values. Thus, in order to understand what our model thinks of real news, we explain a real news instance from the train split. The example is shown in Fig.~\ref{fig:RealNewsExample1_forceplot}. We can easily see that the maximum share of Owen values go to three tokens: "(", "Reuters", ")". This suggests that our model has learned to distinguish news by source. In order verify this intuition, we run one more real news example through the partition explainer. The explanation for the second example is illustrated in Fig.~\ref{fig:RealNewsExample2_forceplot}.\\
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.45]{RealNewsExample1_forceplot.png}
+    \caption[The explanation for the first real news example.]{The explanation for the first real news example.}
+    \label{fig:RealNewsExample1_forceplot}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.45]{RealNewsExample2_forceplot.png}
+    \caption[The explanation for the second real news example.]{The explanation for the second real news example.}
+    \label{fig:RealNewsExample2_forceplot}
+\end{figure}
+For the second example, we observe a coalition of tokens "CA", "IRO", " ", "(", "Reuters", ")". This coalition is given the highest Owen value of 0.48. The distribution of Owen values among tokens is illustrated in Fig.~\ref{fig:RealNewsExample2_barplot}. We can see that each token in the coalition was assigned almost equal Owen values. In two real news examples, the base value is really low. Again, one would expect around 0.5 for a binary classification setting.
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.33]{RealNewsExample2_barplot.png}
+    \caption[The bar plot of the 10 highest Owen values and their tokens for the second real news example.]{The bar plot of the 10 highest Owen values and their tokens for the second real news example.}
+    \label{fig:RealNewsExample2_barplot}
+\end{figure}
+Recall from~\ref{subsec:newContentModel_DatasetAndModel}, we reported that around 95\% of real news instances contained the text "(Reuters)". And also we expressed our concerns about model basing most of its prediction on a couple tokens. Now consider that this model is deployed to detect fake news for a social platform. Once an adversarial realizes this weakness of the model, then they could simply append "(Reuters)" to the beginning of their fake news and simply evade the detection. For a concrete example, see Fig.~\ref{fig:FakeNewsExample1Perturbed_forceplot}.\\
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.45]{FakeNewsExample1Perturbed_forceplot.png}
+    \caption[The explanation for the perturbed first fake news instance.]{The explanation for the perturbed first fake news instance. This instance was predicted fake with more than 0.99 probability. We observe a very high base value as well. We see the negative effect of the token group "(Reuters)" on the force plot. Our intuition might be correct, however we might need a better alteration.}
+    \label{fig:FakeNewsExample1Perturbed_forceplot}
+\end{figure}
+Knowing that the token group "(Reuters)" is never at the beginning of a real news article, we adopt more sophisticated changes in order to discover any weaknesses of the model. We append a random string before "(Reuters)" and add the text " - " afterwards then append our fake news instance after this. This input sensitivity experiment shows that our intuition was right for this instance. The explanation for this perturbation example is in Fig.~\ref{fig:FakeNewsExample1BetterPerturbed_forceplot}.\\
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.45]{FakeNewsExample1BetterPerturbed_forceplot.png}
+    \caption[The explanation for the better perturbed first fake news instance.]{The explanation for the better perturbed first fake news instance. This instance was predicted real with over 0.99 probability. We can observe the dramatical probability change just by adding a couple words.}
+    \label{fig:FakeNewsExample1BetterPerturbed_forceplot}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.33]{FakeNewsExample1BetterPerturbed_barplot.png}
+    \caption[The bar plot for the Owen values of better perturbed first fake news instance.]{The bar plot for the Owen values of better perturbed first fake news instance. Even a non-sense text like "ASCBD" is assigned one of the highest importance score.}
+    \label{fig:FakeNewsExample1BetterPerturbed_barplot}
+\end{figure}
+Now we can see the positional encodings' and attention mechanism's effect here. "ASCBD" is not a word and it is tokenized as "ASC" and "BD" (can be seen in the x-axis of Fig.~\ref{fig:FakeNewsExample1BetterPerturbed_barplot}), with both tokens being assigned relatively large Owen values. Moreover, when the position of "(Reuters)" changes from initial to a later position, the model directly changes its mind. One more thing that comes to mind is the length of the text, thus, we also applied the same technique to the second fake news example whose feauture relevance scores are better distributed. We got the same result for the second fake news example as well. We also observed a similar behavior when explaining other training instances. We also tried using characters instead of character sequences, and removing the space between "(Reuters)" and the initial character, the result was the same. This strongly suggests the model bases its predictions based on the existence and position of the token group "(Reuters)".\\
+In order to see the model's success without the upper hand the existence of "(Reuters)", we trained our model with the same hyperparamters in Tablee~\ref{tab:newsContentModelHyperparameters}by removing that part from the dataset. The results were ...
+We have explained our news content model's
