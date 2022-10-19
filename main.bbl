@@ -1277,34 +1277,6 @@
       \field{pages}{215\bibrangedash 236}
       \range{pages}{22}
     \endentry
-    \entry{USPresidentialElection2016}{inbook}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=32e7d974428cd6e3778c8e9e8387aaa8}{%
-           family={Beckwith},
-           familyi={B\bibinitperiod},
-           given={David\bibnamedelima C},
-           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{32e7d974428cd6e3778c8e9e8387aaa8}
-      \strng{fullhash}{32e7d974428cd6e3778c8e9e8387aaa8}
-      \strng{bibnamehash}{32e7d974428cd6e3778c8e9e8387aaa8}
-      \strng{authorbibnamehash}{32e7d974428cd6e3778c8e9e8387aaa8}
-      \strng{authornamehash}{32e7d974428cd6e3778c8e9e8387aaa8}
-      \strng{authorfullhash}{32e7d974428cd6e3778c8e9e8387aaa8}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{United States Presidential Election of 2016, American presidential election held on November 8, 2016, in which Republican Donald Trump lost the popular vote to Democrat Hillary Clinton by more than 2.8 million votes but won 30 states and the decisive electoral college with 304 electoral votes to Clinton's 227 and thus became the 45th president of the United States. The tumultuous, abrasive 2016 campaign defied established political norms. Clinton's campaign featured superior organization and fund-raising---and almost every election-eve poll pointed to a comfortable victory for her---but Trump's anti-Washington appeal to white working-class voters outside major cities in pivotal manufacturing states}
-      \field{booktitle}{Encyclopedia Britannica}
-      \field{month}{10}
-      \field{title}{United States Presidential Election of 2016}
-      \field{year}{2021}
-    \endentry
     \entry{LearningLongTermDependenciesHard_Bengio}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=419350ebbeb4eba5351469f378dee007}{%
@@ -1481,80 +1453,6 @@
       \field{title}{Social Bots Distort the 2016 US Presidential Election Online Discussion}
       \field{volume}{21}
       \field{year}{2016}
-    \endentry
-    \entry{RumorDetectionBidirectionalGraphConvolutionalNetworks_Bian}{misc}{}
-      \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=a3af246e7a595527a4442004ad0a7406}{%
-           family={Bian},
-           familyi={B\bibinitperiod},
-           given={Tian},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=982285d81ee69b58c188c6e982277347}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Xi},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bc4a291289dd8cc0a090f4585626d4f6}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Tingyang},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fe645b7ce1ec4b48743cbe538410cc82}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Peilin},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0ee4909a832e993602aa62ad48918b29}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Wenbing},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f292ec47b3dca3814617cd5390916824}{%
-           family={Rong},
-           familyi={R\bibinitperiod},
-           given={Yu},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=10b0bc00e8e92345a8bc3f6c1e6bb625}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Junzhou},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{d697ba2e591d7581b21beced75feb98a}
-      \strng{fullhash}{9e40f7292b293910051bc3277d18fbea}
-      \strng{bibnamehash}{9e40f7292b293910051bc3277d18fbea}
-      \strng{authorbibnamehash}{9e40f7292b293910051bc3277d18fbea}
-      \strng{authornamehash}{d697ba2e591d7581b21beced75feb98a}
-      \strng{authorfullhash}{9e40f7292b293910051bc3277d18fbea}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Rumor Detection on Social Media with Bi-Directional Graph Convolutional Networks}
-      \field{year}{2020}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2001.06362
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2001.06362
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2001.06362
-      \endverb
-      \keyw{Social and Information Networks (cs.SI),Machine Learning (cs.LG),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
     \entry{LatentDirichletAllocation_Blei}{article}{}
       \name{author}{3}{}{%
@@ -10668,55 +10566,6 @@
       \verb http://jmlr.org/papers/v15/srivastava14a.html
       \endverb
     \endentry
-    \entry{TheGeneralInquirer_Stone}{book}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=9c87d7e8bf6aaefe32eed07534a9923c}{%
-           family={Stone},
-           familyi={S\bibinitperiod},
-           given={Philip},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bcb85661198fddce6478e40905cf31db}{%
-           family={Dunphy},
-           familyi={D\bibinitperiod},
-           given={Dexter},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cf140248ca169b21b46c547c87c74971}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={Marshall},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b2d8eaddff99c247bef0974abab88f94}{%
-           family={Ogilvie},
-           familyi={O\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b6449efc9b3e2f1e2c1cc1f2bfdc65bb}
-      \strng{fullhash}{77ca7a7eefe4c66cb8e5840845dccfa1}
-      \strng{bibnamehash}{77ca7a7eefe4c66cb8e5840845dccfa1}
-      \strng{authorbibnamehash}{77ca7a7eefe4c66cb8e5840845dccfa1}
-      \strng{authornamehash}{b6449efc9b3e2f1e2c1cc1f2bfdc65bb}
-      \strng{authorfullhash}{77ca7a7eefe4c66cb8e5840845dccfa1}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{American Educational Research Journal - AMER EDUC RES J}
-      \field{month}{01}
-      \field{title}{The General Inquirer: A Computer Approach to Content Analysis}
-      \field{volume}{4}
-      \field{year}{1966}
-      \verb{doi}
-      \verb 10.2307/1161774
-      \endverb
-    \endentry
     \entry{ExplainingPredictionModels_Strumbelj}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6902ad3351da5ca1fd2f9b8826c53339}{%
@@ -12799,55 +12648,6 @@
       \verb{url}
       \verb https://doi.org/10.1023/B:GRUP.0000011944.62889.6f
       \endverb
-    \endentry
-    \entry{SAFEFND_Zhou}{misc}{}
-      \name{author}{3}{}{%
-        {{un=1,uniquepart=given,hash=ddd6ceff96e70d0c817fc28c95d6b2c4}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={Xinyi},
-           giveni={X\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=2468bcbd176480ecc966ee69bdc45ab7}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={Jindi},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f27318b8327f5c3832e82f2e020a1d1f}{%
-           family={Zafarani},
-           familyi={Z\bibinitperiod},
-           given={Reza},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{84ce5cce537ed22c490af3ee9291a70b}
-      \strng{fullhash}{995db4e9e64dfaef44707a4a8f6b1f5f}
-      \strng{bibnamehash}{995db4e9e64dfaef44707a4a8f6b1f5f}
-      \strng{authorbibnamehash}{995db4e9e64dfaef44707a4a8f6b1f5f}
-      \strng{authornamehash}{84ce5cce537ed22c490af3ee9291a70b}
-      \strng{authorfullhash}{995db4e9e64dfaef44707a4a8f6b1f5f}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{SAFE: Similarity-Aware Multi-Modal Fake News Detection}
-      \field{year}{2020}
-      \verb{doi}
-      \verb 10.48550/ARXIV.2003.04981
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2003.04981
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2003.04981
-      \endverb
-      \keyw{Computation and Language (cs.CL),Computer Vision and Pattern Recognition (cs.CV),Machine Learning (cs.LG),Machine Learning (stat.ML),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
     \entry{xAIForDesigners_Zhu}{article}{}
       \name{author}{5}{}{%
