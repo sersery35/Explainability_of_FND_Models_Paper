@@ -1570,6 +1570,7 @@ INPUT ./data//FakeNewsDetectionModelsClassification.png
 INPUT ./data//FakeNewsDetectionModelsClassification.png
 INPUT ./data//FakeNewsDetectionModelsClassification.png
 INPUT ./data//FakeNewsDetectionModelsClassification.png
+INPUT ./data//FakeNewsDetectionModelsClassification.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
@@ -1594,12 +1595,12 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/fplmbb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/fplmbb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/fplmbb.tfm
-INPUT ./data//InputPreProcessPipeline.png
-INPUT ./data//InputPreProcessPipeline.png
-INPUT ./data//InputPreProcessPipeline.png
-INPUT ./data//InputPreProcessPipeline.png
-INPUT ./data//InputPreProcessPipeline.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplr9t.vf
+INPUT ./data//InputPreProcessPipeline.png
+INPUT ./data//InputPreProcessPipeline.png
+INPUT ./data//InputPreProcessPipeline.png
+INPUT ./data//InputPreProcessPipeline.png
+INPUT ./data//InputPreProcessPipeline.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7v.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm

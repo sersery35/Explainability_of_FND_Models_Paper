@@ -5167,40 +5167,6 @@
       \verb https://doi.org/10.1007/978-1-4614-7138-7
       \endverb
     \endentry
-    \entry{EvaluatingLearningAlgorithms_Japkowicz}{book}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=1aa06e66630f0d8aaa52b4b4af7dce1b}{%
-           family={Japkowicz},
-           familyi={J\bibinitperiod},
-           given={Nathalie},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f46f05383b48cad34cecab05089311fd}{%
-           family={Shah},
-           familyi={S\bibinitperiod},
-           given={Mohak},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{28218c5fb9dd68c1c1518dd2349100f9}
-      \strng{fullhash}{28218c5fb9dd68c1c1518dd2349100f9}
-      \strng{bibnamehash}{28218c5fb9dd68c1c1518dd2349100f9}
-      \strng{authorbibnamehash}{28218c5fb9dd68c1c1518dd2349100f9}
-      \strng{authornamehash}{28218c5fb9dd68c1c1518dd2349100f9}
-      \strng{authorfullhash}{28218c5fb9dd68c1c1518dd2349100f9}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Evaluating learning algorithms: a classification perspective}
-      \field{year}{2011}
-    \endentry
     \entry{NewsCredibilityEvaluationOnMicroblog_Jin}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=db409999f9a655a7317a7bc2fecb1144}{%
@@ -9966,42 +9932,27 @@
       \endverb
       \keyw{Computation and Language (cs.CL),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
-    \entry{GameTheory_Shapley}{inbook}{}
+    \entry{GameTheory_Shapley}{book}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=4288911b728f144877423bf3658d9281}{%
+        {{un=0,uniquepart=base,hash=aa2b96ffd25f090ad898c0022f7efa12}{%
            family={Shapley},
            familyi={S\bibinitperiod},
-           given={L.\bibnamedelimi S.},
+           given={Lloyd\bibnamedelima S.},
            giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
            givenun=0}}%
       }
-      \name{editor}{2}{}{%
-        {{hash=d579e556f552789813910d73af7813c8}{%
-           family={Kuhn},
-           familyi={K\bibinitperiod},
-           given={Harold\bibnamedelima William},
-           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=3847d5c6b048c65592bf261478c24560}{%
-           family={Tucker},
-           familyi={T\bibinitperiod},
-           given={Albert\bibnamedelima William},
-           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-      }
       \list{location}{1}{%
-        {Princeton}%
+        {Santa Monica, CA}%
       }
       \list{publisher}{1}{%
-        {Princeton University Press}%
+        {RAND Corporation}%
       }
-      \strng{namehash}{4288911b728f144877423bf3658d9281}
-      \strng{fullhash}{4288911b728f144877423bf3658d9281}
-      \strng{bibnamehash}{4288911b728f144877423bf3658d9281}
-      \strng{authorbibnamehash}{4288911b728f144877423bf3658d9281}
-      \strng{authornamehash}{4288911b728f144877423bf3658d9281}
-      \strng{authorfullhash}{4288911b728f144877423bf3658d9281}
-      \strng{editorbibnamehash}{e9182d4fe503b93fbff69d4508505a61}
-      \strng{editornamehash}{e9182d4fe503b93fbff69d4508505a61}
-      \strng{editorfullhash}{e9182d4fe503b93fbff69d4508505a61}
+      \strng{namehash}{aa2b96ffd25f090ad898c0022f7efa12}
+      \strng{fullhash}{aa2b96ffd25f090ad898c0022f7efa12}
+      \strng{bibnamehash}{aa2b96ffd25f090ad898c0022f7efa12}
+      \strng{authorbibnamehash}{aa2b96ffd25f090ad898c0022f7efa12}
+      \strng{authornamehash}{aa2b96ffd25f090ad898c0022f7efa12}
+      \strng{authorfullhash}{aa2b96ffd25f090ad898c0022f7efa12}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -10009,19 +9960,10 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Contributions to the Theory of Games (AM-28), Volume II}
-      \field{title}{17. A Value for n-Person Games}
-      \field{year}{2016}
-      \field{pages}{307\bibrangedash 318}
-      \range{pages}{12}
+      \field{title}{A Value for N-Person Games}
+      \field{year}{1952}
       \verb{doi}
-      \verb doi:10.1515/9781400881970-018
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1515/9781400881970-018
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1515/9781400881970-018
+      \verb 10.7249/P0295
       \endverb
     \endentry
     \entry{DeepLIFT_Shrikumar}{article}{}
