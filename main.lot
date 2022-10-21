@@ -6,10 +6,11 @@
 \contentsline {table}{\numberline {3.1}{\ignorespaces Notation}}{31}{table.caption.7}%
 \contentsline {table}{\numberline {3.2}{\ignorespaces Hyperparameters of the news content model.}}{43}{table.caption.13}%
 \contentsline {table}{\numberline {3.3}{\ignorespaces The performance metrics for news content model.}}{44}{table.caption.14}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces The performance metrics for the retrained news content model.}}{52}{table.caption.24}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Hyperparameters of UPFD classifier.}}{63}{table.caption.27}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces UPFD classifier performance metrics averaged over 10 runs.}}{63}{table.caption.28}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Model prediction probabilities for input perturbation experiment.}}{72}{table.caption.32}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Hyperparameters of UPFD classifier.}}{65}{table.caption.30}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces UPFD classifier performance metrics averaged over 10 runs.}}{65}{table.caption.31}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Model prediction probabilities for input perturbation experiment.}}{74}{table.caption.35}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

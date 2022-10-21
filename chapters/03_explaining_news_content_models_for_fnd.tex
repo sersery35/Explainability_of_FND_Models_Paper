@@ -8,7 +8,7 @@ This chapter examines a language model, then inspects the model using explanatio
 
 \section{News Content Models}
 \label{sec:newsContentModels}
-A great share of FND methods utilizes news content. Models that base their predictions solely on news content focus on the patterns in the text, especially words or word groups that frequently appear in other instances of the same class. As discussed in Section~\ref{sec:fakeNewsDetection}, there exist a variety of approaches available for news content models, however, due to unavailable or outdated datasets, we could not work with most news content models or datasets.
+A great share of FND methods utilizes news content. Models that base their predictions solely on news content focus on the patterns in the text, especially words or word groups that frequently appear in other instances of the same class. As discussed in Section~\ref{sec:fakeNewsDetection}, there exist a variety of approaches available for news content models. However, due to unavailable or outdated datasets, we could not work with most news content models or datasets.
 
 \subsection{Notation and Definitions}
 \label{subsec:newsContentModels_Definitions}
@@ -242,8 +242,7 @@ We have laid out the foundations for the model we used to understand our model's
 Although there exist models that can detect fake news with high accuracy such as our model, the reasons behind
 this performance is seldom investigated. There could be a number of reasons from dataset characteristics to wrong
 model architecture. Just by looking at our model's performance on a single dataset, one should not trust the model's spectacular performance, instead look at the reasons to understand why this is happening. Is model
-actually learning to distinguish between classes or is it learning some other thing that we do not want? In order to
-answer questions like these and more,~\cite{AUnifiedApproach_Lundberg} (\citeyear{AUnifiedApproach_Lundberg}) proposes a unified framework in which any model (except GNNs) can be explained.\\
+actually learning to distinguish between classes or is it learning some other thing that we do not want? The explanation of this model can also tell the model's type in terms of style-based FND approaches. Does our model capture features based on objectivity or deception? In order to answer questions like these and more,~\cite{AUnifiedApproach_Lundberg} (\citeyear{AUnifiedApproach_Lundberg}) proposes a unified framework in which any model (except GNNs) can be explained.\\
 We start this section by describing how Shapley Additive exPlanation (SHAP) framework helps explain a model. After examining SHAP framework, we utilize it for our model and examine the reasons behind its performance by conducting several experiments.\\
 \subsection{SHAP Framework}
 \label{subsec:ExplainingNewsContentModels_SHAPFramework}
@@ -279,7 +278,7 @@ Having introduced the required concepts, we now utilize them to explain our mode
 \begin{figure}
     \centering
     \includegraphics[scale=0.45]{FakeNewsExample1_forceplot.png}
-    \caption[The explanation provided by SHAP partition explainer for a fake news instance in our train split.]{The explanation provided by SHAP partition explainer for a fake news instance in our train split.}
+    \caption[The explanation provided by SHAP partition explainer for our first fake news example.]{The explanation provided by SHAP partition explainer for our first fake news example. Example obtained by randomly selecting from our train split.}
     \label{fig:FakeNewsExample1_forceplot}
 \end{figure}
 % \begin{figure}
@@ -342,8 +341,33 @@ Knowing that the token group "(Reuters)" is never at the beginning of a real new
     \label{fig:FakeNewsExample1BetterPerturbed_barplot}
 \end{figure}
 \textbf{The effect of model architecture.} Now we can see the positional encodings' and attention mechanism's effect here. "ASCBD" is not a word and it is tokenized as "ASC" and "BD" (can be seen in the x-axis of Fig.~\ref{fig:FakeNewsExample1BetterPerturbed_barplot}), with both tokens being assigned relatively large Owen values. Moreover, when the position of "(Reuters)" changes from initial to a later position, the model directly changes its mind. One more thing that comes to mind is the length of the text, thus, we also applied the same technique to the second fake news example whose feauture relevance scores are better distributed. We got the same result for the second fake news example as well. We also observed a similar behavior when explaining other training instances. We also tried using characters instead of character sequences, and removing the space between "(Reuters)" and the initial character, the result was the same. This strongly suggests the model bases its predictions based on the existence and position of the token group "(Reuters)".\\
-We also conducted experiments with unseen data, but the results suggested the same outcome: clean the dataset and train again. Thus, we did not share the results from our unseen data experiment, as the results were the same with the ones we shared. In order to see the model's success without the upper hand the existence of "(Reuters)", we need to train our model with the same hyperparameters in Table~\ref{tab:newsContentModelHyperparameters} and the dataset should be changed such that the source part from the real news instances are removed. Unfortunately, the the model can not be trained on a local computer, thus we opted to conduct this experiment for this model as a future work.\\
 If we also consider the characteristics of DistilRoBERTa, we can see that the knowledge distillation process should be employed after the model is trained so that it can be deployed easily. We recommend to train a RoBERTa model with the cleaned dataset, then adopt the distillation process. This way more knowledge can be retained in the model.\\
+We also conducted experiments with unseen data, but the results suggested the same outcome: clean the dataset and train again. Thus, we did not share the results from our unseen data experiment, as the results were the same with the ones we shared. In order to see the model's success without the upper hand the existence of "(Reuters)", we need to train our model with the same hyperparameters in Table~\ref{tab:newsContentModelHyperparameters}, and the dataset should be changed such that the source part from the real news instances are removed. \\
+Therefore, we train our model by eliminating the issue from the dataset. We report the performance of our model in Table~\ref{tab:newsContentModelRetrainedPerformanceMetrics}.
+\begin{table}
+    \centering
+    \begin{tabular}{c | c | c | c}
+        \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} & \textbf{F1 score} \\
+        \hline
+        98.92\%           & 99.14\%            & 98.84\%         & 98.99\%           \\
+    \end{tabular}
+    \caption[The performance metrics for the retrained news content model.]{The performance metrics for the retrained news content model.}
+    \label{tab:newsContentModelRetrainedPerformanceMetrics}
+\end{table}
+The performance stays the same, but what did our model learn this time? To comparatively illustrate this, we ran the same examples we have introduced again, and share the force plot of the second fake news example in Fig.~\ref{fig:FakeNewsExample2_Retrained_forceplot}. Now that we have a lower base value for fake news, we can observe patterns caught by model in more depth. First, the high Owen values for the coalitions of contractions with the missing apostrophe, such as "MSNBC s", "doctor s", "Let s", "there s", "O Donnell" and "isn t" is the first pattern we observe in this instance. Second, full stops still get a relatively high Owen value. Moreover, even though we decreased the base value of fake news, it is still high.
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.45]{FakeNewsExample2_Retrained_forceplot}
+    \caption[The explanation of the second fake news instance for the retrained model.]{The explanation of the second fake news instance for the retrained model. Observe the lower base value and better distribution of Owen values.}
+    \label{fig:FakeNewsExample2_Retrained_forceplot}
+\end{figure}
+To get the full understanding by comparing the explanation results, we also explain our second real news instance for our retrained model. The force plot of this explanation is shown in Fig.~\ref{fig:FakeNewsExample2_Retrained_forceplot}. We directly see the high base value, compared to Fig.~\ref{fig:RealNewsExample2_forceplot}, and also a better distribution of Owen values among the tokens and coalitions. The same detection for the lack of apostrophe is also captured in this explanation. Coalitions like "Israel s", "Trump s", "Abbas s", "President s", and "Egypt s" have a large negative Owen value. This suggests spelling mistakes such as leaving out the apostrophe is captured as informal by our model, even though these punctuations are removed in the tokenizer. There can be another reasons behind this behavior of the model, and can be uncovered by using explanation methods for other instances as well.
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.45]{RealNewsExample2_Retrained_forceplot}
+    \caption[The explanation of the first fake news instance for the retrained model.]{The explanation of the first fake news instance for the retrained model. Observe the lower base value and better distribution of Owen values.}
+    \label{fig:RealNewsExample2_Retrained_forceplot}
+\end{figure}
 We have seen that even though a model performs well this doesn't mean that this model has learned the task. Since our news content model tries to distinguish between fake and real news using the patterns provided in the dataset, it is crucial to have a dataset that will not create the bias as we observed. We used explanation techniques to uncover this issue with our model. We have seen the significance of adopting explanation methods to understand the behavior of our model. Thus, we have fulfilled \textbf{RO2} for news content models.\\
-Also to fulfill \textbf{RO3} for the partition explainer, we report the understandability of the explanations provided by partition explainer. Although we tried to explain long articles, the explanations were understandable, and the interactive behavior that allows to view Owen values within coalitions helped us understand the impact of each token individually. With the help of bar plots, we were able to see the importance distribution between the first 10 tokens. This allowed us to pinpoint the issue with the model even though it was performing very well. By utilizing simple visualization techniques, we were able to understand what the model has learned from the dataset.\\
+Also to fulfill \textbf{RO3} for the partition explainer, we report the understandability of the explanations provided by partition explainer. Although we tried to explain long articles, the explanations were understandable, and the interactive behavior that allows to view Owen values within coalitions helped us understand the impact of each token individually. With the help of bar plots, we were able to see the importance distribution between the first 10 tokens. This allowed us to pinpoint the issue with the model even though it was performing very well. By utilizing simple visualization techniques, we were able to understand what the model has learned from the dataset. We used Python 3.7~\parencite{Python_Rossum}, PyTorch 1.11.0~\parencite{PyTorch_Paszke}, Transformers 4.19.2~\parencite{Transformers_Wolf}, SHAP 0.40.0~\parencite{AUnifiedApproach_Lundberg}, and Matplotlib 3.5.1~\parencite{Matplotlib_Hunter} for our implementations, visualizations and experiments.\\
 News content is highly related with the veracity of the news, nonetheless, we might need more information to distinguish fake and real news. In the next chapter, we introduce mixed approaches for FND in which we utilize news content data as well as social context data. Having this fusion of information proves to be very effective as shown in~\cite{UPFD_Dataset_Shu}, models that use news content with social context are more successful than the models that utilize social context only.\\

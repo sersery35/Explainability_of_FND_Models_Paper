@@ -19,16 +19,16 @@
 \contentsline {section}{\numberline {3.2}Explaining News Content Models}{44}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}SHAP Framework}{45}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Explaining News Content Classifier}{46}{subsection.3.2.2}%
-\contentsline {chapter}{\numberline {4}Mixed Approaches for Fake News Detection}{54}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Mixed Approaches}{54}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Overview of Graphs}{54}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Graph Neural Networks}{56}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Dataset and Models}{60}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Explaining Graph Neural Networks}{65}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}GNNExplainer}{66}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Explaining UPFD Classifier}{67}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{80}{chapter.5}%
-\contentsline {chapter}{\nonumberline List of Figures}{81}{chapter*.39}%
-\contentsline {chapter}{\nonumberline List of Tables}{83}{chapter*.40}%
-\contentsline {chapter}{\nonumberline Bibliography}{84}{chapter*.41}%
+\contentsline {chapter}{\numberline {4}Mixed Approaches for Fake News Detection}{56}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Mixed Approaches}{56}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Overview of Graphs}{56}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Graph Neural Networks}{58}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Dataset and Models}{61}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Explaining Graph Neural Networks}{67}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}GNNExplainer}{67}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Explaining UPFD Classifier}{69}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{82}{chapter.5}%
+\contentsline {chapter}{\nonumberline List of Figures}{83}{chapter*.42}%
+\contentsline {chapter}{\nonumberline List of Tables}{85}{chapter*.43}%
+\contentsline {chapter}{\nonumberline Bibliography}{86}{chapter*.44}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1688,6 +1688,14 @@ INPUT ./data//FakeNewsExample1BetterPerturbed_barplot.png
 INPUT ./data//FakeNewsExample1BetterPerturbed_barplot.png
 INPUT ./data//FakeNewsExample1BetterPerturbed_barplot.png
 INPUT ./data//FakeNewsExample1BetterPerturbed_barplot.png
+INPUT ./data//FakeNewsExample2_Retrained_forceplot.png
+INPUT ./data//FakeNewsExample2_Retrained_forceplot.png
+INPUT ./data//FakeNewsExample2_Retrained_forceplot.png
+INPUT ./data//FakeNewsExample2_Retrained_forceplot.png
+INPUT ./data//RealNewsExample2_Retrained_forceplot.png
+INPUT ./data//RealNewsExample2_Retrained_forceplot.png
+INPUT ./data//RealNewsExample2_Retrained_forceplot.png
+INPUT ./data//RealNewsExample2_Retrained_forceplot.png
 INPUT ./chapters/04_explaining_mixed_approaches_for_fnd.tex
 INPUT chapters/04_explaining_mixed_approaches_for_fnd.tex
 INPUT ./chapters/04_explaining_mixed_approaches_for_fnd.tex

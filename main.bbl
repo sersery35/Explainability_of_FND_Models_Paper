@@ -6943,52 +6943,6 @@
       \verb https://doi.org/10.1515/text.1.1988.8.3.243
       \endverb
     \endentry
-    \entry{GeodesicCNNsOnRiemannManifolds_Masci}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=296aa51baf6b5dce74c13806342b5bbe}{%
-           family={Masci},
-           familyi={M\bibinitperiod},
-           given={Jonathan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b635105d5c572604739cdc9a9c13b5e9}{%
-           family={Boscaini},
-           familyi={B\bibinitperiod},
-           given={Davide},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8e2cf15e0e3f2b957c8a1532cd04184f}{%
-           family={Bronstein},
-           familyi={B\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b4945596e71bcffbc9d1b4af0d5e16f1}{%
-           family={Vandergheynst},
-           familyi={V\bibinitperiod},
-           given={Pierre},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b62dc068f5d914f9a2cc110e5e06ff5f}
-      \strng{fullhash}{2f8f0b2a3196a61d34064414725cdc38}
-      \strng{bibnamehash}{2f8f0b2a3196a61d34064414725cdc38}
-      \strng{authorbibnamehash}{2f8f0b2a3196a61d34064414725cdc38}
-      \strng{authornamehash}{b62dc068f5d914f9a2cc110e5e06ff5f}
-      \strng{authorfullhash}{2f8f0b2a3196a61d34064414725cdc38}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the IEEE international conference on computer vision workshops}
-      \field{title}{Geodesic convolutional neural networks on riemannian manifolds}
-      \field{year}{2015}
-      \field{pages}{37\bibrangedash 45}
-      \range{pages}{9}
-    \endentry
     \entry{BeingAccurateIsNotEnough_McNee}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=717fe79c6e213f5c8d636b6e8638ed35}{%
