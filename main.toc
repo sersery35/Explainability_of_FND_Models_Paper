@@ -28,7 +28,7 @@
 \contentsline {subsection}{\numberline {4.2.1}GNNExplainer}{67}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Explaining UPFD Classifier}{68}{subsection.4.2.2}%
 \contentsline {chapter}{\numberline {5}Conclusion}{79}{chapter.5}%
-\contentsline {chapter}{\nonumberline List of Figures}{80}{chapter*.42}%
-\contentsline {chapter}{\nonumberline List of Tables}{82}{chapter*.43}%
-\contentsline {chapter}{\nonumberline Bibliography}{83}{chapter*.44}%
+\contentsline {chapter}{\nonumberline List of Figures}{82}{chapter*.42}%
+\contentsline {chapter}{\nonumberline List of Tables}{84}{chapter*.43}%
+\contentsline {chapter}{\nonumberline Bibliography}{85}{chapter*.44}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

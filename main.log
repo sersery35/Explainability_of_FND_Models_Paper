@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.29)  22 OCT 2022 19:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.29)  22 OCT 2022 23:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1536,38 +1536,38 @@ chapter 5.
 ) [79
 
 
-]
+] [80] [81]
 Package tocbasic Info: character protrusion at lof deactivated on input line 54.
- (./main.lof [80
+ (./main.lof [82
 
 
 ])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [81]
+ [83]
 Package tocbasic Info: character protrusion at lot deactivated on input line 55.
  (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [82
+ [84
 
 
 ]
 chapter without number
-[83
+[85
 
 
-] [84] [85]
+] [86] [87]
 LaTeX Info: Symbol \textasciiacute not provided by
             font family pplx in TS1 encoding.
             Default family used instead on input line 57.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-) [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98]
+) [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100]
 No complaints by nag.
-[99] (./main.aux)
+[101] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1575,18 +1575,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52895 strings out of 480153
- 1227813 string characters out of 5892727
- 2387673 words of memory out of 5000000
- 68644 multiletter control sequences out of 15000+600000
+ 52898 strings out of 480153
+ 1227841 string characters out of 5892727
+ 2387708 words of memory out of 5000000
+ 68645 multiletter control sequences out of 15000+600000
  565668 words of font info for 574 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  115i,14n,109p,10685b,5223s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (106 pages, 4697930 bytes).
+Output written on main.pdf (108 pages, 4706935 bytes).
 PDF statistics:
- 2003 PDF objects out of 2073 (max. 8388607)
- 1797 compressed objects within 18 object streams
- 462 named destinations out of 1000 (max. 500000)
+ 2023 PDF objects out of 2073 (max. 8388607)
+ 1814 compressed objects within 19 object streams
+ 464 named destinations out of 1000 (max. 500000)
  119251 words of extra memory for PDF output out of 128383 (max. 10000000)
 
