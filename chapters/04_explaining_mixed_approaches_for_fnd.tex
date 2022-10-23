@@ -1,30 +1,7 @@
 % !TeX root = ../main.tex
 % Add the above to each chapter to make compiling the PDF easier in some editors.
 
-
-% \chapter{Explainability of Fake News Detection Models}\label{chapter:explainability_of_fnd_models}
-% AI is getting more and more integrated into our lives, helping us with from the simplest tasks like playing music with voice command to more complex tasks like driving a car in open traffic.
-% \section{Explainability of News Content Models}
-% \label{sec:explainabilityOfNewsContentModels}
-% \subsection{SHAP, DeepSHAP}
-
-% \subsection{SHAP in Action}
-
-% \subsection{Introducing Unseen Data}
-
-% \subsection{Results}
-
-% \section{Explainability of Social Context Models}
-
-% \subsection{GNNExplainer}
-
-% \subsection{GNNExplainer in Action}
-
-% \subsection{Introducing Unseen Data}
-
-% \subsection{Results}
-
-\chapter{Mixed Approaches for Fake News Detection}\label{chapter:MixedApproachesForFND}
+\chapter{Explainability of Mixed Approaches for Fake News Detection}\label{chapter:MixedApproachesForFND}
 
 \section{Mixed Approaches}
 \label{sec:mixedApproaches}
@@ -123,7 +100,7 @@ Our choice of a dataset, UPFD~\parencite{UPFD_Dataset_Shu}, utilizes the dataset
 \begin{figure}
     \centering
     \includegraphics[scale=0.33]{UPFDFramework.png}
-    \caption[UPFD Framework]{The framework of UPFD. Image obtained from~\parencite{UPFD_Dataset_Shu}}
+    \caption[UPFD Framework]{The framework of UPFD. Figure obtained from~\parencite{UPFD_Dataset_Shu}}
     \label{fig:UPFD_Framework}
 \end{figure}
 \textbf{Endogenous preference encoding} deals with users' historical posts and news content using the news content and social engagement data in FakeNewsNet. With social engagement data, the authors collect 200 historical tweets of each user who have retweeted the news in FakeNewsNet. Summing up to almost 20 million tweets, this collection procedure of historical tweets for each FakeNewsNet news instance is as follows~\parencite{UPFD_Dataset_Shu}:
@@ -245,7 +222,7 @@ explanation method is defined for node classification setting. However, when the
 to be extended. \citeauthor{GNNExplainer_Ying} (\citeyear{GNNExplainer_Ying}) suggest to unionize the adjacency matrices $A_S$ for all nodes in the graph to be explained. The aggregation of node embeddings, however, restricts the explanation to a subset where the resulting subgraph must be connected. Thus, the threshold for the edge mask is set to a very low value or zero. This allows for a larger connected subgraph as an explanation~\parencite{GNNExplainer_Ying}.\\
 
 
-\subsection{Explaining UPFD Classifier}
+\subsection{Explainability of UPFD Classifier}
 \label{subsec:ExplaniningGNNs_ExplainingUPFDClassifier}
 In Section~\ref{sec:mixedApproaches}, we have introduced our UPFD classifier, a GNN that uses GraphSAGE~\parencite{GraphSAGE_Hamilton} as the graph encoder, two FCNs and softmax for classification of news propagation trees. We now investigate the reasons behind the model's performance on the UPFD-Politifact dataset by employing GNNExplainer as our explainer. Note that this model was trained only on the UPFD-Politifact dataset, thus data in UPFD-Gossipcop is unseen to this model. The explanations we obtain for our classifier's performance on UPFD-Politifact dataset might provide us with useful information that enables us to improve the model.\\
 First, to clarify how the explanations should be interpreted, let us consider an example where we obtain a single explanation $(\mathcal{G}_S, X_S)$ for a graph (news propagation tree). We interpret the edge masks $M$ of $\mathcal{G}_S$ as the importance scores of edges between nodes. Therefore, an edge $(v_i, v_j)$ with a mask value $m_{ij}$ lower than a fixed $threshold$ will be dropped, effectively dropping the connected nodes $v_i$ and $v_j$ if $(v_j, v_i)$ does not exist or also have a smaller value than the mask value $m_{ji}$.\\

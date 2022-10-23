@@ -11,15 +11,15 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Units and layers of an FCN}}{35}{figure.caption.9}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces The Transformer Model Architecture}}{37}{figure.caption.10}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces News content dataset distribution by label and train/validation/test split}}{41}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces WordCloud visualiations for most frequently occurring 500 tokens in both classes.}}{43}{figure.caption.12}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Fake news}}}{43}{subfigure.5.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Real news}}}{43}{subfigure.5.2}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces The explanation provided by SHAP partition explainer for our first fake news example.}}{47}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces The explanation for the second fake news example.}}{48}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces WordCloud visualiations for most frequently occurring 500 tokens in both classes.}}{42}{figure.caption.12}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Fake news}}}{42}{subfigure.5.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Real news}}}{42}{subfigure.5.2}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The explanation provided by SHAP partition explainer for our first fake news example.}}{46}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces The explanation for the second fake news example.}}{47}{figure.caption.16}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces The bar plot for the Owen values of the tokens in the second fake news example.}}{48}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces The explanation for the first real news example.}}{49}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The explanation for the first real news example.}}{48}{figure.caption.18}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces The explanation for the second real news example.}}{49}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces The bar plot of the 10 highest Owen values and their tokens for the second real news example.}}{50}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces The bar plot of the 10 highest Owen values and their tokens for the second real news example.}}{49}{figure.caption.20}%
 \contentsline {figure}{\numberline {3.12}{\ignorespaces The explanation for the perturbed first fake news instance.}}{50}{figure.caption.21}%
 \contentsline {figure}{\numberline {3.13}{\ignorespaces The explanation for the better perturbed first fake news instance.}}{51}{figure.caption.22}%
 \contentsline {figure}{\numberline {3.14}{\ignorespaces The bar plot for the Owen values of better perturbed first fake news instance.}}{51}{figure.caption.23}%
