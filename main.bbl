@@ -4075,6 +4075,43 @@
       \verb https://ojs.aaai.org/index.php/aimagazine/article/view/2741
       \endverb
     \endentry
+    \entry{SequenceTransdutionWithRNNs_Graves}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dfca94b0427da7f9088af596e23b46c0}{%
+           family={Graves},
+           familyi={G\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dfca94b0427da7f9088af596e23b46c0}
+      \strng{fullhash}{dfca94b0427da7f9088af596e23b46c0}
+      \strng{bibnamehash}{dfca94b0427da7f9088af596e23b46c0}
+      \strng{authorbibnamehash}{dfca94b0427da7f9088af596e23b46c0}
+      \strng{authornamehash}{dfca94b0427da7f9088af596e23b46c0}
+      \strng{authorfullhash}{dfca94b0427da7f9088af596e23b46c0}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Sequence Transduction with Recurrent Neural Networks}
+      \field{volume}{abs/1211.3711}
+      \field{year}{2012}
+      \verb{eprint}
+      \verb 1211.3711
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1211.3711
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1211.3711
+      \endverb
+    \endentry
     \entry{ASurveyOfMethodsForExplainingBlackBoxModels_Guidotti}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=da8fc5161754b324b4ac06cdfcb9f51e}{%
