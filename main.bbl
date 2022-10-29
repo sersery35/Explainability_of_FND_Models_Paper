@@ -2917,6 +2917,25 @@
       \verb http://arxiv.org/abs/1810.04805
       \endverb
     \endentry
+    \entry{DiversityOfPerspectives_Twitter}{misc}{}
+      \list{publisher}{1}{%
+        {Twitter}%
+      }
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diversity of perspectives | Birdwatch Guide}
+      \field{title}{Diversity of perspectives}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://twitter.github.io/birdwatch/diversity-of-perspectives/
+      \endverb
+      \verb{url}
+      \verb https://twitter.github.io/birdwatch/diversity-of-perspectives/
+      \endverb
+    \endentry
     \entry{TowardsARigorousScienceML_Velez}{misc}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b01a5e92cd39a5551d74ab2393c7b9fd}{%
@@ -3439,6 +3458,25 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0004370205000366
       \endverb
       \keyw{Information Extraction,Pointwise mutual information,Unsupervised,Question answering}
+    \endentry
+    \entry{FactCheckRatings_Snopes}{misc}{}
+      \list{publisher}{1}{%
+        {Snopes}%
+      }
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fact Check Ratings | Snopes.com}
+      \field{title}{Fact check ratings}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.snopes.com/fact-check-ratings/
+      \endverb
+      \verb{url}
+      \verb https://www.snopes.com/fact-check-ratings/
+      \endverb
     \endentry
     \entry{TheRiseOfSocialBots_Ferrara}{article}{}
       \name{author}{5}{}{%
@@ -5005,6 +5043,42 @@
       \verb 10.1162/neco.1997.9.8.1735
       \endverb
     \endentry
+    \entry{ThePrincipleOfTruthOMeter_Holan}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a0397d97c6d3bfb763c4b0bbee21597f}{%
+           family={Holan},
+           familyi={H\bibinitperiod},
+           given={Angie\bibnamedelima Drobnic},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Polyner Institute}%
+      }
+      \strng{namehash}{a0397d97c6d3bfb763c4b0bbee21597f}
+      \strng{fullhash}{a0397d97c6d3bfb763c4b0bbee21597f}
+      \strng{bibnamehash}{a0397d97c6d3bfb763c4b0bbee21597f}
+      \strng{authorbibnamehash}{a0397d97c6d3bfb763c4b0bbee21597f}
+      \strng{authornamehash}{a0397d97c6d3bfb763c4b0bbee21597f}
+      \strng{authorfullhash}{a0397d97c6d3bfb763c4b0bbee21597f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Politifact}
+      \field{month}{12}
+      \field{title}{The Principles of the Truth-O-Meter: PolitiFact’s methodology for independent fact-checking}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-i/
+      \endverb
+      \verb{url}
+      \verb https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-i/
+      \endverb
+    \endentry
     \entry{SpaCy_Honnibal}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=31cf0cd70714219d39b46b0f8aae95f9}{%
@@ -5075,6 +5149,26 @@
       \field{year}{2015}
       \field{pages}{1}
       \range{pages}{1}
+    \endentry
+    \entry{MetaFactCheckingProgram_Meta}{misc}{}
+      \list{publisher}{1}{%
+        {Meta}%
+      }
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{How Meta's third-party fact-checking program works}
+      \field{month}{6}
+      \field{title}{How facebook's third-party fact-checking program works}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.facebook.com/formedia/blog/third-party-fact-checking-how-it-works
+      \endverb
+      \verb{url}
+      \verb https://www.facebook.com/formedia/blog/third-party-fact-checking-how-it-works
+      \endverb
     \endentry
     \entry{Matplotlib_Hunter}{article}{}
       \name{author}{1}{}{%
@@ -6199,80 +6293,6 @@
       \field{volume}{32}
       \field{year}{2018}
     \endentry
-    \entry{DetectingAdversarilaImageExamples_Bin}{article}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=b8c614392e8a78a44ca4763ed2f70c6a}{%
-           family={Liang},
-           familyi={L\bibinitperiod},
-           given={Bin},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=56d5b87678a6d8fb5273784386c289d3}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Hongcheng},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1092a8703f5d61ed9e66de71d2d29b15}{%
-           family={Su},
-           familyi={S\bibinitperiod},
-           given={Miaoqiang},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=015282b1e4698eae165ff30ca5c39597}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Xirong},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=70d70d9bb113e49bdb2f5de224a0f09e}{%
-           family={Shi},
-           familyi={S\bibinitperiod},
-           given={Wenchang},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=93a575777f636107b8f65a815802b18f}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Xiaofeng},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{2}{%
-        {Institute of Electrical}%
-        {Electronics Engineers ({IEEE})}%
-      }
-      \strng{namehash}{9f65cf29f61ae7ccb31aa5fe423a493e}
-      \strng{fullhash}{9e11b27a2d92404bf70a616384b1b5dd}
-      \strng{bibnamehash}{9e11b27a2d92404bf70a616384b1b5dd}
-      \strng{authorbibnamehash}{9e11b27a2d92404bf70a616384b1b5dd}
-      \strng{authornamehash}{9f65cf29f61ae7ccb31aa5fe423a493e}
-      \strng{authorfullhash}{9e11b27a2d92404bf70a616384b1b5dd}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{{IEEE} Transactions on Dependable and Secure Computing}
-      \field{month}{01}
-      \field{number}{1}
-      \field{title}{Detecting Adversarial Image Examples in Deep Neural Networks with Adaptive Noise Reduction}
-      \field{volume}{18}
-      \field{year}{2021}
-      \field{pages}{72\bibrangedash 85}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1109/tdsc.2018.2874243
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109%2Ftdsc.2018.2874243
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109%2Ftdsc.2018.2874243
-      \endverb
-    \endentry
     \entry{Superstition_Lindeman}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6b110d3e602d3d193620d6d6e9aea0e5}{%
@@ -7319,59 +7339,6 @@
       \verb{url}
       \verb https://christophm.github.io/interpretable-ml-book
       \endverb
-    \endentry
-    \entry{MethodsForInterpretingAndUnderstandingDNNs_Montavon}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=e0889b25b37f68a2d73747dc5dfcb8a0}{%
-           family={Montavon},
-           familyi={M\bibinitperiod},
-           given={Grégoire},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7f49b6382ab4ca917a2aa2249f875f79}{%
-           family={Samek},
-           familyi={S\bibinitperiod},
-           given={Wojciech},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9f1b6144a45b1967e989e74552e37ada}{%
-           family={Müller},
-           familyi={M\bibinitperiod},
-           given={Klaus-Robert},
-           giveni={K\bibinithyphendelim R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{0e9835294203df396bc6021a5d0308c5}
-      \strng{fullhash}{033c4de53c065bf497c87531cc4e9e31}
-      \strng{bibnamehash}{033c4de53c065bf497c87531cc4e9e31}
-      \strng{authorbibnamehash}{033c4de53c065bf497c87531cc4e9e31}
-      \strng{authornamehash}{0e9835294203df396bc6021a5d0308c5}
-      \strng{authorfullhash}{033c4de53c065bf497c87531cc4e9e31}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This paper provides an entry point to the problem of interpreting a deep neural network model and explaining its predictions. It is based on a tutorial given at ICASSP 2017. As a tutorial paper, the set of methods covered here is not exhaustive, but sufficiently representative to discuss a number of questions in interpretability, technical challenges, and possible applications. The second part of the tutorial focuses on the recently proposed layer-wise relevance propagation (LRP) technique, for which we provide theory, recommendations, and tricks, to make most efficient use of it on real data.}
-      \field{issn}{1051-2004}
-      \field{journaltitle}{Digital Signal Processing}
-      \field{title}{Methods for interpreting and understanding deep neural networks}
-      \field{volume}{73}
-      \field{year}{2018}
-      \field{pages}{1\bibrangedash 15}
-      \range{pages}{15}
-      \verb{doi}
-      \verb https://doi.org/10.1016/j.dsp.2017.10.011
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S1051200417302385
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S1051200417302385
-      \endverb
-      \keyw{Deep neural networks,Activation maximization,Sensitivity analysis,Taylor decomposition,Layer-wise relevance propagation}
     \endentry
     \entry{GeometricDeepLearningOnGraphsAndManifolds_Monti}{misc}{}
       \name{author}{6}{}{%
@@ -12129,62 +12096,6 @@
       \verb{url}
       \verb https://doi.org/10.3150%2F13-bejsp14
       \endverb
-    \endentry
-    \entry{AdversarialExamples_Yuan}{misc}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=cefe12b8e17312819a213a0091c046db}{%
-           family={Yuan},
-           familyi={Y\bibinitperiod},
-           given={Xiaoyong},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6e1c0c48781a197a0b2d79aa91644570}{%
-           family={He},
-           familyi={H\bibinitperiod},
-           given={Pan},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7073ad1ffaff73809b226c67fb4a102a}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Qile},
-           giveni={Q\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a6278bd27ac7d7873f7c9aa0363482b8}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Xiaolin},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{721385adf3c32f569daa469c895cabe7}
-      \strng{fullhash}{0c725b2897aea640cd296ce149643605}
-      \strng{bibnamehash}{0c725b2897aea640cd296ce149643605}
-      \strng{authorbibnamehash}{0c725b2897aea640cd296ce149643605}
-      \strng{authornamehash}{721385adf3c32f569daa469c895cabe7}
-      \strng{authorfullhash}{0c725b2897aea640cd296ce149643605}
-      \field{sortinit}{Y}
-      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Adversarial Examples: Attacks and Defenses for Deep Learning}
-      \field{year}{2017}
-      \verb{doi}
-      \verb 10.48550/ARXIV.1712.07107
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/1712.07107
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/1712.07107
-      \endverb
-      \keyw{Machine Learning (cs.LG),Cryptography and Security (cs.CR),Computer Vision and Pattern Recognition (cs.CV),Machine Learning (stat.ML),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
     \entry{BeyondSigmoids_Zang}{article}{}
       \name{author}{3}{}{%
