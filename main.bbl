@@ -1454,6 +1454,25 @@
       \field{volume}{21}
       \field{year}{2016}
     \endentry
+    \entry{BirdwatchOverview_Twitter}{misc}{}
+      \list{publisher}{1}{%
+        {Twitter}%
+      }
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Overview | Birdwatch Guide}
+      \field{title}{Birdwatch Guide}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://twitter.github.io/birdwatch/overview/
+      \endverb
+      \verb{url}
+      \verb https://twitter.github.io/birdwatch/overview/
+      \endverb
+    \endentry
     \entry{LatentDirichletAllocation_Blei}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=108998f0d44d4dce8ccb93e4d78cd5c6}{%
@@ -6729,6 +6748,56 @@
       \verb https://arxiv.org/abs/1705.07874
       \endverb
       \keyw{Artificial Intelligence (cs.AI),Machine Learning (cs.LG),Machine Learning (stat.ML),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{EffectiveApproachesToAttentionBased_Luong}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5fc2dc715fc35ea0dd825a5d84ac0e60}{%
+           family={Luong},
+           familyi={L\bibinitperiod},
+           given={Minh-Thang},
+           giveni={M\bibinithyphendelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7225c8adf8195ef056d44ae3f589af2}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Hieu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2214edb8305f7ccd7cdc310b3a8ae1b4}{%
+           family={Manning},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{f4f18818a4f95c0db9f8eaf89d6d6635}
+      \strng{fullhash}{04efcca29e42bdde7dee2684159e2f4b}
+      \strng{bibnamehash}{04efcca29e42bdde7dee2684159e2f4b}
+      \strng{authorbibnamehash}{04efcca29e42bdde7dee2684159e2f4b}
+      \strng{authornamehash}{f4f18818a4f95c0db9f8eaf89d6d6635}
+      \strng{authorfullhash}{04efcca29e42bdde7dee2684159e2f4b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Effective Approaches to Attention-based Neural Machine Translation}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1508.04025
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1508.04025
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1508.04025
+      \endverb
+      \keyw{Computation and Language (cs.CL),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
     \entry{DetectingRumorsFromMicroblogs_Ma}{article}{}
       \name{author}{7}{}{%
