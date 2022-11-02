@@ -27,8 +27,8 @@
 \contentsline {section}{\numberline {4.2}Explaining Graph Neural Networks}{66}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}GNNExplainer}{66}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Explainability of UPFD Classifier}{67}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{78}{chapter.5}%
-\contentsline {chapter}{\nonumberline List of Figures}{81}{chapter*.42}%
-\contentsline {chapter}{\nonumberline List of Tables}{83}{chapter*.43}%
-\contentsline {chapter}{\nonumberline Bibliography}{84}{chapter*.44}%
+\contentsline {chapter}{\numberline {5}Conclusion}{80}{chapter.5}%
+\contentsline {chapter}{\nonumberline List of Figures}{83}{chapter*.42}%
+\contentsline {chapter}{\nonumberline List of Tables}{85}{chapter*.43}%
+\contentsline {chapter}{\nonumberline Bibliography}{86}{chapter*.44}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

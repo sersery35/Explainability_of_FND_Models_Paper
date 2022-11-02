@@ -35,15 +35,15 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Echo chamber example explanation for root node}}{69}{figure.caption.33}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Edge mask distribution of the subgraph provided for echo chamber example explanation.}}{71}{figure.caption.34}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces A real news instance from UPFD-Politifact}}{73}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Explanation of the real news example from UPFD-Politifact}}{73}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Threshold methods for subgraph explanations of the real news example.}}{74}{figure.caption.38}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Median}}}{74}{subfigure.9.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mean}}}{74}{subfigure.9.2}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces A fake news example from UPFD-Gossipcop.}}{75}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces The perturbed version of the fake news example from UPFD-Gossipcop}}{76}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces t-SNE visualizations for GraphSAGE}}{77}{figure.caption.41}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gossipcop}}}{77}{subfigure.12.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Politifact}}}{77}{subfigure.12.2}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Explanation of the real news example from UPFD-Politifact}}{74}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Outputs of threshold methods for subgraph explanation of the real news example.}}{75}{figure.caption.38}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Median}}}{75}{subfigure.9.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mean}}}{75}{subfigure.9.2}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces A fake news example from UPFD-Gossipcop.}}{76}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces The perturbed version of the fake news example from UPFD-Gossipcop}}{77}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces t-SNE visualizations for GraphSAGE}}{78}{figure.caption.41}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gossipcop}}}{78}{subfigure.12.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Politifact}}}{78}{subfigure.12.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
