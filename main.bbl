@@ -10447,6 +10447,25 @@
       \verb http://arxiv.org/abs/1312.6034
       \endverb
     \endentry
+    \entry{ScikitTSNE_scikit}{misc}{}
+      \list{publisher}{1}{%
+        {scikit-learn}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{scikit}
+      \field{title}{Sklearn.manifold.TSNE}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html
+      \endverb
+      \verb{url}
+      \verb https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html
+      \endverb
+    \endentry
     \entry{SCAN_Smith2001}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2be5b7d52150e2ebfa8a06291b7e4da3}{%

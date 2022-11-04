@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Oct 29 15:17:39 2022
+# Make data base, printed on Fri Nov  4 17:03:26 2022
 
 # Variables
 
@@ -49,7 +49,7 @@ XDG_DATA_DIRS = /usr/share/plasma:/home/sersery/.local/share/flatpak/exports/sha
 # environment
 CONDA_PROMPT_MODIFIER = (base) 
 # environment
-VSCODE_CODE_CACHE_PATH = /home/sersery/.config/Code/CachedData/d045a5eda657f4d7b676dedbfa7aab8207f8a075
+VSCODE_CODE_CACHE_PATH = /home/sersery/.config/Code/CachedData/8fa188b2b301d36553cbc9ce1b0a146ccb93351f
 # environment
 XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
 # environment
@@ -77,7 +77,7 @@ PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-XXXXXX1QgEyv/agent.1512
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXtYdXGn/agent.1469
 # default
 .SHELLFLAGS := -c
 # environment
@@ -95,7 +95,7 @@ CONDA_SHLVL = 1
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 6695
+VSCODE_PID = 14711
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -103,7 +103,7 @@ XDG_SESSION_TYPE = x11
 # environment
 CONDA_PYTHON_EXE = /home/sersery/Applications/anaconda3/bin/python
 # environment
-SESSION_MANAGER = local/Asus-ROG:@/tmp/.ICE-unix/1765,unix/Asus-ROG:/tmp/.ICE-unix/1765
+SESSION_MANAGER = local/Asus-ROG:@/tmp/.ICE-unix/1729,unix/Asus-ROG:/tmp/.ICE-unix/1729
 # automatic
 *F = $(notdir $*)
 # environment
@@ -179,7 +179,7 @@ XDG_VTNR = 1
 # makefile
 .DEFAULT_GOAL := pdf
 # environment
-SYSTEMD_EXEC_PID = 1494
+SYSTEMD_EXEC_PID = 1451
 # environment
 DISPLAY = :0
 # environment
@@ -191,7 +191,7 @@ KDE_SESSION_UID = 1000
 # environment
 LC_MEASUREMENT = de_DE.UTF-8
 # environment
-SSH_AGENT_PID = 1581
+SSH_AGENT_PID = 1538
 # environment
 _ = /usr/share/code/code
 # environment
@@ -217,7 +217,7 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-c4f3266f-1.72.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-c4f3266f-1.73.0-main.sock
 # environment
 XDG_SESSION_ID = 3
 # environment
@@ -268,6 +268,7 @@ LC_IDENTIFICATION = de_DE.UTF-8
 pdf:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
+ 
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 6):
@@ -323,7 +324,6 @@ watch:
 #  File has not been updated.
 
 # files hash-table stats:
- 
 # Load=9/1024=1%, Rehash=0, Collisions=0/30=0%
 # VPATH Search Paths
 
@@ -337,6 +337,6 @@ watch:
 # strcache performance: lookups = 63 / hit rate = 30%
 # hash-table stats:
 # Load=44/8192=1%, Rehash=0, Collisions=0/63=0%
-# Finished Make data base on Sat Oct 29 15:17:39 2022
+# Finished Make data base on Fri Nov  4 17:03:26 2022
 
  
