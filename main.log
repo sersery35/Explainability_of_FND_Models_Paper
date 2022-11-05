@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.29)  4 NOV 2022 19:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.29)  5 NOV 2022 15:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1490,55 +1490,60 @@ File: ./data//EchoChamber1SubgraphEdgeMaskDistribution.png Graphic file (type pn
 <use ./data//EchoChamber1SubgraphEdgeMaskDistribution.png>
 Package pdftex.def Info: ./data//EchoChamber1SubgraphEdgeMaskDistribution.png  used on input line 256.
 (pdftex.def)             Requested size: 407.41618pt x 179.59364pt.
-<./data//POL_RealNewsExample1.png, id=1304, 686.565pt x 669.702pt>
+<./data//POL_RealNewsExample1.png, id=1305, 686.565pt x 669.702pt>
 File: ./data//POL_RealNewsExample1.png Graphic file (type png)
 <use ./data//POL_RealNewsExample1.png>
-Package pdftex.def Info: ./data//POL_RealNewsExample1.png  used on input line 283.
+Package pdftex.def Info: ./data//POL_RealNewsExample1.png  used on input line 284.
 (pdftex.def)             Requested size: 308.95139pt x 301.36311pt.
-<./data//POL_RealNewsExample1Explanation_no_threshold.png, id=1305, 463.0098pt x 450.9648pt>
+<./data//POL_RealNewsExample1Explanation_no_threshold.png, id=1306, 463.0098pt x 450.9648pt>
 File: ./data//POL_RealNewsExample1Explanation_no_threshold.png Graphic file (type png)
 <use ./data//POL_RealNewsExample1Explanation_no_threshold.png>
-Package pdftex.def Info: ./data//POL_RealNewsExample1Explanation_no_threshold.png  used on input line 289.
+Package pdftex.def Info: ./data//POL_RealNewsExample1Explanation_no_threshold.png  used on input line 290.
 (pdftex.def)             Requested size: 208.35248pt x 202.93228pt.
-<./data//TSNE_GraphSAGE_GOS.png, id=1310, 714.9912pt x 483.2454pt>
+<./data//TSNE_GraphSAGE_GOS.png, id=1311, 714.9912pt x 483.2454pt>
 File: ./data//TSNE_GraphSAGE_GOS.png Graphic file (type png)
 <use ./data//TSNE_GraphSAGE_GOS.png>
-Package pdftex.def Info: ./data//TSNE_GraphSAGE_GOS.png  used on input line 297.
+Package pdftex.def Info: ./data//TSNE_GraphSAGE_GOS.png  used on input line 298.
 (pdftex.def)             Requested size: 188.21371pt x 127.20406pt.
-<./data//TSNE_GraphSAGE_POL.png, id=1311, 714.9912pt x 483.2454pt>
+<./data//TSNE_GraphSAGE_POL.png, id=1312, 714.9912pt x 483.2454pt>
 File: ./data//TSNE_GraphSAGE_POL.png Graphic file (type png)
 <use ./data//TSNE_GraphSAGE_POL.png>
-Package pdftex.def Info: ./data//TSNE_GraphSAGE_POL.png  used on input line 299.
+Package pdftex.def Info: ./data//TSNE_GraphSAGE_POL.png  used on input line 300.
 (pdftex.def)             Requested size: 188.21371pt x 127.20406pt.
-<./data//POL_RealNewsExample2.png, id=1314, 686.565pt x 669.702pt>
+<./data//POL_RealNewsExample2.png, id=1315, 686.565pt x 669.702pt>
 File: ./data//POL_RealNewsExample2.png Graphic file (type png)
 <use ./data//POL_RealNewsExample2.png>
-Package pdftex.def Info: ./data//POL_RealNewsExample2.png  used on input line 307.
+Package pdftex.def Info: ./data//POL_RealNewsExample2.png  used on input line 308.
 (pdftex.def)             Requested size: 188.21371pt x 183.58104pt.
-<./data//POL_RealNewsExample2Explanation_no_threshold.png, id=1315, 463.0098pt x 450.9648pt>
+<./data//POL_RealNewsExample2Explanation_no_threshold.png, id=1316, 463.0098pt x 450.9648pt>
 File: ./data//POL_RealNewsExample2Explanation_no_threshold.png Graphic file (type png)
 <use ./data//POL_RealNewsExample2Explanation_no_threshold.png>
-Package pdftex.def Info: ./data//POL_RealNewsExample2Explanation_no_threshold.png  used on input line 309.
+Package pdftex.def Info: ./data//POL_RealNewsExample2Explanation_no_threshold.png  used on input line 310.
 (pdftex.def)             Requested size: 188.21371pt x 183.31409pt.
-<./data//POL_RealNewsExample2Explanation_with_threshold_median.png, id=1316, 463.0098pt x 450.9648pt>
+<./data//POL_RealNewsExample2Explanation_with_threshold_median.png, id=1317, 463.0098pt x 450.9648pt>
 File: ./data//POL_RealNewsExample2Explanation_with_threshold_median.png Graphic file (type png)
 <use ./data//POL_RealNewsExample2Explanation_with_threshold_median.png>
-Package pdftex.def Info: ./data//POL_RealNewsExample2Explanation_with_threshold_median.png  used on input line 311.
+Package pdftex.def Info: ./data//POL_RealNewsExample2Explanation_with_threshold_median.png  used on input line 312.
 (pdftex.def)             Requested size: 188.21371pt x 183.31409pt.
-<./data//POL_RealNewsExample2Explanation_with_threshold_mean.png, id=1317, 463.0098pt x 450.9648pt>
+
+Underfull \hbox (badness 2717) in paragraph at lines 312--312
+[][]|\T1/pplx/m/n/9 (+20) The ex-plain-ing sub-graph with me-dian
+ []
+
+<./data//POL_RealNewsExample2Explanation_with_threshold_mean.png, id=1318, 463.0098pt x 450.9648pt>
 File: ./data//POL_RealNewsExample2Explanation_with_threshold_mean.png Graphic file (type png)
 <use ./data//POL_RealNewsExample2Explanation_with_threshold_mean.png>
-Package pdftex.def Info: ./data//POL_RealNewsExample2Explanation_with_threshold_mean.png  used on input line 313.
+Package pdftex.def Info: ./data//POL_RealNewsExample2Explanation_with_threshold_mean.png  used on input line 314.
 (pdftex.def)             Requested size: 188.21371pt x 183.31409pt.
-<./data//GOS_FakeNewsExample1.png, id=1318, 686.565pt x 669.702pt>
+<./data//GOS_FakeNewsExample1.png, id=1319, 686.565pt x 669.702pt>
 File: ./data//GOS_FakeNewsExample1.png Graphic file (type png)
 <use ./data//GOS_FakeNewsExample1.png>
-Package pdftex.def Info: ./data//GOS_FakeNewsExample1.png  used on input line 321.
+Package pdftex.def Info: ./data//GOS_FakeNewsExample1.png  used on input line 322.
 (pdftex.def)             Requested size: 308.95139pt x 301.36311pt.
-<./data//GOS_FakeNewsExample1Perturbed.png, id=1321, 686.565pt x 669.702pt>
+<./data//GOS_FakeNewsExample1Perturbed.png, id=1322, 686.565pt x 669.702pt>
 File: ./data//GOS_FakeNewsExample1Perturbed.png Graphic file (type png)
 <use ./data//GOS_FakeNewsExample1Perturbed.png>
-Package pdftex.def Info: ./data//GOS_FakeNewsExample1Perturbed.png  used on input line 328.
+Package pdftex.def Info: ./data//GOS_FakeNewsExample1Perturbed.png  used on input line 329.
 (pdftex.def)             Requested size: 308.95139pt x 301.36311pt.
 ) (./chapters/05_conclusion.tex [67] [68] [69 <./data//EchoChamberExample1.png (PNG copy)>] [70 <./data//EchoChamberExample1Explanation_no_threshold.png (PNG copy)>] [71] [72 <./data//EchoChamber1SubgraphEdgeMaskDistribution.png (PNG copy)>] [73] [74 <./data//POL_RealNewsExample1.png (PNG copy)>] [75 <./data//POL_RealNewsExample1Explanation_no_threshold.png (PNG copy)> <./data//TSNE_GraphSAGE_GOS.png (PNG copy)> <./data//TSNE_GraphSAGE_POL.png (PNG copy)>] [76] [77 <./data//POL_RealNewsExample2.png (PNG copy)> <./data//POL_RealNewsExample2Explanation_no_threshold.png (PNG copy)> <./data//POL_RealNewsExample2Explanation_with_threshold_median.png (PNG copy)> <./data//POL_RealNewsExample2Explanation_with_threshold_mean.png (PNG copy)>] [78 <./data//GOS_FakeNewsExample1.png (PNG copy)>] [79 <./data//GOS_FakeNewsExample1Perturbed.png (PNG copy)>] [80]
 chapter 5.
@@ -1550,7 +1555,12 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 54.
  (./main.lof [84
 
 
-])
+]
+Overfull \hbox (5.61206pt too wide) in paragraph at lines 48--48
+ [][] [][]\T1/pplx/m/n/10.95 (-20) The per-turbed ver-sion of the fake news ex-am-ple from the UPFD-Gossipcop 
+ []
+
+)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -1584,18 +1594,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52943 strings out of 480153
- 1230107 string characters out of 5892727
- 2392554 words of memory out of 5000000
+ 52939 strings out of 480153
+ 1230072 string characters out of 5892727
+ 2393642 words of memory out of 5000000
  68692 multiletter control sequences out of 15000+600000
- 565211 words of font info for 568 fonts, out of 8000000 for 9000
+ 564988 words of font info for 565 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  115i,14n,109p,10685b,5223s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (110 pages, 4950900 bytes).
+Output written on main.pdf (110 pages, 4951153 bytes).
 PDF statistics:
- 2038 PDF objects out of 2073 (max. 8388607)
- 1825 compressed objects within 19 object streams
+ 2040 PDF objects out of 2073 (max. 8388607)
+ 1827 compressed objects within 19 object streams
  465 named destinations out of 1000 (max. 500000)
  119261 words of extra memory for PDF output out of 128383 (max. 10000000)
 

@@ -90,7 +90,7 @@ Neural networks are very powerful models. They can train millions of parameters 
 \begin{figure}
     \centering
     \includegraphics[scale=0.43]{NN_LayerRepresentation}
-    \caption[Units and layers of an FCN]{Units and layers of an FCN. For brevity, arrows and weights are only drawn for $a_2^{(l+1)}$}
+    \caption[Units and layers of an FCN.]{Units and layers of an FCN. For brevity, arrows and weights are only drawn for $a_2^{(l+1)}$.}
     \label{fig:NN_LayerRepresentation}
 \end{figure}
 For classification problems, we adopt a layer called \emph{Softmax}~\parencite{Softmax_Bridle} that outputs the predicted scores $f(x)_y$ for each class $y$ by normalizing outputs $Z_y(x)$ from the previous layer.\\
@@ -112,7 +112,7 @@ Contrary to CNNs, Transformers fix the number of operations by averaging attenti
 \begin{figure}
     \centering
     \includegraphics{TransformerArchitecture.png}
-    \caption[The Transformer Model Architecture]{The Transformer Model Architecture (N=6). Figure obtained from~\parencite{AttentionIsAllYouNeed_Vaswani}}
+    \caption[The Transformer Model Architecture.]{The Transformer Model Architecture (N=6). Figure obtained from~\parencite{AttentionIsAllYouNeed_Vaswani}.}
     \label{fig:transformerArchitecture}
 \end{figure}
 Initially suggested in the decoder of the model proposed by~\citeauthor{NeuralMachineTranslationByJointlyLearning_Bahdanau} (\citeyear{NeuralMachineTranslationByJointlyLearning_Bahdanau}), an attention mechanism works similarly to human attention; it learns to put more importance on some words that convey the relevant information about the sentence. The attention mechanism that ~\citeauthor{NeuralMachineTranslationByJointlyLearning_Bahdanau} (\citeyear{NeuralMachineTranslationByJointlyLearning_Bahdanau}) use is called the \emph{additive attention}. Inspired by additive attention,~\citeauthor{EffectiveApproachesToAttentionBased_Luong} (\citeyear{EffectiveApproachesToAttentionBased_Luong}) proposed a different approach called \emph{dot-product attention}, a form of which is also used in Transformer architecture.\\
@@ -180,7 +180,7 @@ The model we employed from Huggingface used a dataset curated from different sou
 \begin{figure}
     \centering
     \includegraphics[scale=0.5]{DatasetDistrByLabelAndSplit.png}
-    \caption[News content dataset distribution by label and train/validation/test split]{News content dataset distribution by label and train/validation/test split}
+    \caption[News content dataset distribution by label and train/validation/test split.]{News content dataset distribution by label and train/validation/test split.}
     \label{fig:DatasetDistributionByLabelAndSplit}
 \end{figure}
 We analyze 500 most frequently occurring tokens in the dataset using a WordCloud~\parencite{WordCloud_Oesper} visualization for all samples of real and fake news separately in Fig~\ref{fig:WordCloudVisualizations}. From the visualization, we can observe that samples from both datasets contain the words "new", "state", "President", "Republican". In fact, 500 most frequent tokens from fake news samples and real news samples share 63\% of tokens. Furthermore, we observe that one of the most frequent token is "Reuters" in real news instances. In fact, 95.93\% of real news samples contain the token coalition "(Reuters)". It is crucial to note that the idea of analyzing the frequency of keywords was initially formed once we started explaining the news content classifier. We will share how we draw this insight in the following section.\\
