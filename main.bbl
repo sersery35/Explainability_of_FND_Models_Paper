@@ -10494,6 +10494,42 @@
       \field{title}{Reading between the lines: An evauluation of the Scientific Content Analysis Techniques (SCAN)}
       \field{year}{2001}
     \endentry
+    \entry{TheLongAndBrutalHistoryOfFakeNews_Soll}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=57837574f7ce88ffd0be49698bff3567}{%
+           family={Soll},
+           familyi={S\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Politico LLC}%
+      }
+      \strng{namehash}{57837574f7ce88ffd0be49698bff3567}
+      \strng{fullhash}{57837574f7ce88ffd0be49698bff3567}
+      \strng{bibnamehash}{57837574f7ce88ffd0be49698bff3567}
+      \strng{authorbibnamehash}{57837574f7ce88ffd0be49698bff3567}
+      \strng{authornamehash}{57837574f7ce88ffd0be49698bff3567}
+      \strng{authorfullhash}{57837574f7ce88ffd0be49698bff3567}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{POLITICO Magazine}
+      \field{month}{12}
+      \field{title}{The long and brutal history of fake news}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.politico.com/magazine/story/2016/12/fake-news-history-long-violent-214535/
+      \endverb
+      \verb{url}
+      \verb https://www.politico.com/magazine/story/2016/12/fake-news-history-long-violent-214535/
+      \endverb
+    \endentry
     \entry{Dropout_Nitish}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=6a147afa4569ce6cf23c0436e65d8486}{%
