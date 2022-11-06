@@ -1606,12 +1606,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
+INPUT ./data//NN_LayerRepresentation.png
+INPUT ./data//NN_LayerRepresentation.png
+INPUT ./data//NN_LayerRepresentation.png
+INPUT ./data//NN_LayerRepresentation.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT ./data//NN_LayerRepresentation.png
-INPUT ./data//NN_LayerRepresentation.png
-INPUT ./data//NN_LayerRepresentation.png
-INPUT ./data//NN_LayerRepresentation.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
