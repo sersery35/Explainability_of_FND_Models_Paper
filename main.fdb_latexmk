@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1667836885 "main.bcf" "main.bbl" "main" 1667858583
+["biber main"] 1667836885 "main.bcf" "main.bbl" "main" 1667860029
   "bibliography.bib" 1667657688 215601 537585cccad33b89bf5ce736f8160a65 ""
-  "main.bcf" 1667858583 181759 42ce4b21d841b934aef3b2e856418cde "pdflatex"
+  "main.bcf" 1667860029 181759 42ce4b21d841b934aef3b2e856418cde "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1667858575 "/home/sersery/Desktop/TUM Informatik/SS22/Thesis/Explainability_of_FND_Models_Paper/main.tex" "main.pdf" "main" 1667858583
+["pdflatex"] 1667860021 "/home/sersery/Desktop/TUM Informatik/SS22/Thesis/Explainability_of_FND_Models_Paper/main.tex" "main.pdf" "main" 1667860029
   "/etc/texmf/web2c/texmf.cnf" 1655053981 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk" 1662909110 24004 7e55c9cc08470722cdebc16d9a656bd1 ""
   "/home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk" 1665244043 12644 fc38afdfdfc39ae78acbf6a73722221f ""
@@ -302,7 +302,7 @@
   "chapters/01_introduction.tex" 1667758607 9334 edcb986f8cd5a1156d06215b0fc73165 ""
   "chapters/02_background.tex" 1667758447 80827 2312e2575005a6b45b06e1c45733179f ""
   "chapters/03_explaining_news_content_models_for_fnd.tex" 1667771626 58060 1535c79d689d3e6b29e9acc85d09414e ""
-  "chapters/04_explaining_mixed_approaches_for_fnd.tex" 1667858575 64733 f15e75485ded081464ae1a4f560203ba ""
+  "chapters/04_explaining_mixed_approaches_for_fnd.tex" 1667860021 64733 a8fd574a51c2c6f53a9790419d4a662b ""
   "chapters/05_conclusion.tex" 1667844430 9577 1e446cce25b097fadf8baf04fbfae612 ""
   "data//DatasetDistrByLabelAndSplit.png" 1667082399 30483 ce171a84fc9470a91ed4f2e5530f2de4 ""
   "data//DatasetFakeFrequentTokensWordCloud.png" 1667082412 483153 cf661d68537b0340e51fdc7e376585e7 ""
@@ -344,14 +344,14 @@
   "data//UPFDFramework.png" 1665676277 303129 8bae01a241f4c6614c31a1bd993c6238 ""
   "logos/tum_informatik_logo.png" 1661117282 2392 9631a800cbf9eb290c3e6b8572dcfe99 ""
   "logos/tum_logo.png" 1661116739 983 e4de5acf8f680e2280990a8f2a83a215 ""
-  "main.aux" 1667858583 129165 e3d47876fb41c2b03f379f854b365723 "pdflatex"
+  "main.aux" 1667860029 129165 e3d47876fb41c2b03f379f854b365723 "pdflatex"
   "main.bbl" 1667836887 571233 e5fbab944921e18d060f93984509bcce "biber main"
-  "main.lof" 1667858583 5831 56ec8d68e3498b251b2fe51748567a63 "pdflatex"
-  "main.lot" 1667858583 1134 a95cdea4683b3dfcaf23d2c1f0c1e4ca "pdflatex"
-  "main.out" 1667858576 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1667858583 2493 b8fd82d5ce4d5bd82e9810b0d290a573 "pdflatex"
+  "main.lof" 1667860029 5831 56ec8d68e3498b251b2fe51748567a63 "pdflatex"
+  "main.lot" 1667860029 1134 a95cdea4683b3dfcaf23d2c1f0c1e4ca "pdflatex"
+  "main.out" 1667860022 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1667860029 2493 b8fd82d5ce4d5bd82e9810b0d290a573 "pdflatex"
   "main.tex" 1665699694 1975 159bd808197559720f9792e25571b5cc ""
-  "main.toc" 1667858583 2978 fc52aff3d4d75d55c19aa8001c7c72bb "pdflatex"
+  "main.toc" 1667860029 2978 fc52aff3d4d75d55c19aa8001c7c72bb "pdflatex"
   "pages/abstract.tex" 1667753947 2290 0a86a55cfa0eefc9cbdc58d3f82c1942 ""
   "pages/acknowledgments.tex" 1661010993 214 2aab6aaae2367df7751a31108caef437 ""
   "pages/cover.tex" 1661010993 904 264d137cd37b69231b54df6d091411a5 ""

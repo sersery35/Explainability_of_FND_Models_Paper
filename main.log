@@ -1486,4 +1486,126 @@ File: ./data//EchoChamberExample1Explanation_no_threshold.png Graphic file (type
 Package pdftex.def Info: ./data//EchoChamberExample1Explanation_no_threshold.png  used on input line 236.
 (pdftex.def)             Requested size: 208.35248pt x 202.93228pt.
 <./data//EchoChamber1SubgraphEdgeMaskDistribution.png, id=1290, 1164.0288pt x 513.117pt>
-File: ./data//EchoChamber1SubgraphEdgeMaskDistribution.png
+File: ./data//EchoChamber1SubgraphEdgeMaskDistribution.png Graphic file (type png)
+<use ./data//EchoChamber1SubgraphEdgeMaskDistribution.png>
+Package pdftex.def Info: ./data//EchoChamber1SubgraphEdgeMaskDistribution.png  used on input line 253.
+(pdftex.def)             Requested size: 407.41618pt x 179.59364pt.
+<./data//POL_RealNewsExample1.png, id=1301, 686.565pt x 669.702pt>
+File: ./data//POL_RealNewsExample1.png Graphic file (type png)
+<use ./data//POL_RealNewsExample1.png>
+Package pdftex.def Info: ./data//POL_RealNewsExample1.png  used on input line 281.
+(pdftex.def)             Requested size: 308.95139pt x 301.36311pt.
+<./data//POL_RealNewsExample1Explanation_no_threshold.png, id=1302, 463.0098pt x 450.9648pt>
+File: ./data//POL_RealNewsExample1Explanation_no_threshold.png Graphic file (type png)
+<use ./data//POL_RealNewsExample1Explanation_no_threshold.png>
+Package pdftex.def Info: ./data//POL_RealNewsExample1Explanation_no_threshold.png  used on input line 287.
+(pdftex.def)             Requested size: 208.35248pt x 202.93228pt.
+<./data//TSNE_GraphSAGE_GOS.png, id=1307, 714.9912pt x 483.2454pt>
+File: ./data//TSNE_GraphSAGE_GOS.png Graphic file (type png)
+<use ./data//TSNE_GraphSAGE_GOS.png>
+Package pdftex.def Info: ./data//TSNE_GraphSAGE_GOS.png  used on input line 295.
+(pdftex.def)             Requested size: 188.21371pt x 127.20406pt.
+<./data//TSNE_GraphSAGE_POL.png, id=1308, 714.9912pt x 483.2454pt>
+File: ./data//TSNE_GraphSAGE_POL.png Graphic file (type png)
+<use ./data//TSNE_GraphSAGE_POL.png>
+Package pdftex.def Info: ./data//TSNE_GraphSAGE_POL.png  used on input line 297.
+(pdftex.def)             Requested size: 188.21371pt x 127.20406pt.
+<./data//POL_RealNewsExample2.png, id=1311, 686.565pt x 669.702pt>
+File: ./data//POL_RealNewsExample2.png Graphic file (type png)
+<use ./data//POL_RealNewsExample2.png>
+Package pdftex.def Info: ./data//POL_RealNewsExample2.png  used on input line 305.
+(pdftex.def)             Requested size: 188.21371pt x 183.58104pt.
+<./data//POL_RealNewsExample2Explanation_no_threshold.png, id=1312, 463.0098pt x 450.9648pt>
+File: ./data//POL_RealNewsExample2Explanation_no_threshold.png Graphic file (type png)
+<use ./data//POL_RealNewsExample2Explanation_no_threshold.png>
+Package pdftex.def Info: ./data//POL_RealNewsExample2Explanation_no_threshold.png  used on input line 307.
+(pdftex.def)             Requested size: 188.21371pt x 183.31409pt.
+<./data//POL_RealNewsExample2Explanation_with_threshold_median.png, id=1313, 463.0098pt x 450.9648pt>
+File: ./data//POL_RealNewsExample2Explanation_with_threshold_median.png Graphic file (type png)
+<use ./data//POL_RealNewsExample2Explanation_with_threshold_median.png>
+Package pdftex.def Info: ./data//POL_RealNewsExample2Explanation_with_threshold_median.png  used on input line 309.
+(pdftex.def)             Requested size: 188.21371pt x 183.31409pt.
+
+Underfull \hbox (badness 2717) in paragraph at lines 309--309
+[][]|\T1/pplx/m/n/9 (+20) The ex-plain-ing sub-graph with me-dian
+ []
+
+<./data//POL_RealNewsExample2Explanation_with_threshold_mean.png, id=1314, 463.0098pt x 450.9648pt>
+File: ./data//POL_RealNewsExample2Explanation_with_threshold_mean.png Graphic file (type png)
+<use ./data//POL_RealNewsExample2Explanation_with_threshold_mean.png>
+Package pdftex.def Info: ./data//POL_RealNewsExample2Explanation_with_threshold_mean.png  used on input line 311.
+(pdftex.def)             Requested size: 188.21371pt x 183.31409pt.
+<./data//GOS_FakeNewsExample1.png, id=1315, 686.565pt x 669.702pt>
+File: ./data//GOS_FakeNewsExample1.png Graphic file (type png)
+<use ./data//GOS_FakeNewsExample1.png>
+Package pdftex.def Info: ./data//GOS_FakeNewsExample1.png  used on input line 319.
+(pdftex.def)             Requested size: 308.95139pt x 301.36311pt.
+<./data//GOS_FakeNewsExample1Perturbed.png, id=1318, 686.565pt x 669.702pt>
+File: ./data//GOS_FakeNewsExample1Perturbed.png Graphic file (type png)
+<use ./data//GOS_FakeNewsExample1Perturbed.png>
+Package pdftex.def Info: ./data//GOS_FakeNewsExample1Perturbed.png  used on input line 326.
+(pdftex.def)             Requested size: 308.95139pt x 301.36311pt.
+) (./chapters/05_conclusion.tex [67] [68] [69 <./data//EchoChamberExample1.png (PNG copy)>] [70 <./data//EchoChamberExample1Explanation_no_threshold.png (PNG copy)>] [71] [72 <./data//EchoChamber1SubgraphEdgeMaskDistribution.png (PNG copy)>] [73] [74 <./data//POL_RealNewsExample1.png (PNG copy)>] [75 <./data//POL_RealNewsExample1Explanation_no_threshold.png (PNG copy)> <./data//TSNE_GraphSAGE_GOS.png (PNG copy)> <./data//TSNE_GraphSAGE_POL.png (PNG copy)>] [76] [77 <./data//POL_RealNewsExample2.png (PNG copy)> <./data//POL_RealNewsExample2Explanation_no_threshold.png (PNG copy)> <./data//POL_RealNewsExample2Explanation_with_threshold_median.png (PNG copy)> <./data//POL_RealNewsExample2Explanation_with_threshold_mean.png (PNG copy)>] [78 <./data//GOS_FakeNewsExample1.png (PNG copy)>] [79 <./data//GOS_FakeNewsExample1Perturbed.png (PNG copy)>] [80]
+chapter 5.
+[81
+
+
+]) [82] [83]
+Package tocbasic Info: character protrusion at lof deactivated on input line 54.
+ (./main.lof [84
+
+
+]
+Overfull \hbox (5.61206pt too wide) in paragraph at lines 48--48
+ [][] [][]\T1/pplx/m/n/10.95 (-20) The per-turbed ver-sion of the fake news ex-am-ple from the UPFD-Gossipcop 
+ []
+
+)
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+ [85]
+Package tocbasic Info: character protrusion at lot deactivated on input line 55.
+ (./main.lot)
+\tf@lot=\write8
+\openout8 = `main.lot'.
+
+ [86
+
+
+]
+chapter without number
+[87
+
+
+] [88] [89]
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family pplx in TS1 encoding.
+            Default family used instead on input line 57.
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+) [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102]
+No complaints by nag.
+[103] (./main.aux)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 52948 strings out of 480153
+ 1230503 string characters out of 5892727
+ 2395096 words of memory out of 5000000
+ 68696 multiletter control sequences out of 15000+600000
+ 565011 words of font info for 568 fonts, out of 8000000 for 9000
+ 38 hyphenation exceptions out of 8191
+ 115i,14n,109p,10685b,5223s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (110 pages, 4951500 bytes).
+PDF statistics:
+ 2036 PDF objects out of 2073 (max. 8388607)
+ 1823 compressed objects within 19 object streams
+ 465 named destinations out of 1000 (max. 500000)
+ 119261 words of extra memory for PDF output out of 128383 (max. 10000000)
+
