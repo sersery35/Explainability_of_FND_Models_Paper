@@ -1524,10 +1524,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/fplmb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplb9e.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/fplmb.tfm
-INPUT ./data//MarketReactionToFakeTweet.jpg
-INPUT ./data//MarketReactionToFakeTweet.jpg
-INPUT ./data//MarketReactionToFakeTweet.jpg
-INPUT ./data//MarketReactionToFakeTweet.jpg
+INPUT ./data//MarketReactionToFakeTweet.png
+INPUT ./data//MarketReactionToFakeTweet.png
+INPUT ./data//MarketReactionToFakeTweet.png
+INPUT ./data//MarketReactionToFakeTweet.png
+INPUT ./data//MarketReactionToFakeTweet.png
 INPUT ./data//TotalFacebookEngagementsForTop20ElectionStories.png
 INPUT ./data//TotalFacebookEngagementsForTop20ElectionStories.png
 INPUT ./data//TotalFacebookEngagementsForTop20ElectionStories.png

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.29)  7 NOV 2022 23:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.29)  10 NOV 2022 00:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1276,17 +1276,17 @@ Package pdftex.def Info: ./data//FN_vs_FND_Publications.png  used on input line 
 
 
 ] [5 <./data//FN_vs_FND_Publications.png (PNG copy)>]
-<./data//MarketReactionToFakeTweet.jpg, id=217, 747.52pt x 1043.17pt>
-File: ./data//MarketReactionToFakeTweet.jpg Graphic file (type jpg)
-<use ./data//MarketReactionToFakeTweet.jpg>
-Package pdftex.def Info: ./data//MarketReactionToFakeTweet.jpg  used on input line 46.
-(pdftex.def)             Requested size: 149.50134pt x 208.6303pt.
+<./data//MarketReactionToFakeTweet.png, id=217, 481.8pt x 672.5125pt>
+File: ./data//MarketReactionToFakeTweet.png Graphic file (type png)
+<use ./data//MarketReactionToFakeTweet.png>
+Package pdftex.def Info: ./data//MarketReactionToFakeTweet.png  used on input line 46.
+(pdftex.def)             Requested size: 158.99448pt x 221.92981pt.
 <./data//TotalFacebookEngagementsForTop20ElectionStories.png, id=226, 556.32843pt x 449.42906pt>
 File: ./data//TotalFacebookEngagementsForTop20ElectionStories.png Graphic file (type png)
 <use ./data//TotalFacebookEngagementsForTop20ElectionStories.png>
 Package pdftex.def Info: ./data//TotalFacebookEngagementsForTop20ElectionStories.png  used on input line 54.
 (pdftex.def)             Requested size: 222.52742pt x 179.76843pt.
- [6] [7 <./data//MarketReactionToFakeTweet.jpg>] [8 <./data//TotalFacebookEngagementsForTop20ElectionStories.png (PNG copy)>]
+ [6] [7 <./data//MarketReactionToFakeTweet.png>] [8 <./data//TotalFacebookEngagementsForTop20ElectionStories.png (PNG copy)>]
 LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 83.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplx.fd
 File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
@@ -1594,15 +1594,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52948 strings out of 480153
- 1230503 string characters out of 5892727
- 2395096 words of memory out of 5000000
- 68696 multiletter control sequences out of 15000+600000
+ 52942 strings out of 480153
+ 1230322 string characters out of 5892727
+ 2395101 words of memory out of 5000000
+ 68690 multiletter control sequences out of 15000+600000
  565011 words of font info for 568 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  115i,14n,109p,10685b,5223s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (110 pages, 4951500 bytes).
+Output written on main.pdf (110 pages, 5023850 bytes).
 PDF statistics:
  2036 PDF objects out of 2073 (max. 8388607)
  1823 compressed objects within 19 object streams
