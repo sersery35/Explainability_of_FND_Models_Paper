@@ -1,32 +1,34 @@
 \begin{titlepage}
   \centering
 
-  \IfFileExists{logos/tum_logo.png}{%
-    \includegraphics[height=20mm]{logos/tum_logo.png}
+  \IfFileExists{logos/tum_logo_transparent.png}{%
+    \includegraphics[height=20mm]{logos/tum_logo_transparent.png}
   }{%
     \vspace*{20mm}
   }
 
-  \vspace{5mm}
-  {\huge\MakeUppercase{\getFaculty{}}}\\
+  \vspace{10mm}
+  \begin{spacing}{1.5}
+    {\huge\MakeUppercase{\getFaculty{}}}
+  \end{spacing}
 
   \vspace{5mm}
   {\large\MakeUppercase{\getUniversity{}}}\\
 
-  \vspace{20mm}
+  \vspace{15mm}
   {\Large \getDoctype{}}
 
-  \vspace{15mm}
+  \vspace{10mm}
   {\huge\bfseries \getTitle{} \par}
 
   \vspace{10mm}
   {\huge\bfseries \foreignlanguage{german}{\getTitleGer{}} \par}
 
-  \vspace{15mm}
+  \vspace{10mm}
   \begin{tabular}{l l}
-    Author:          & \getAuthor{} \\
-    Supervisor:      & \getSupervisor{} \\
-    Advisor:         & \getAdvisor{} \\
+    Author:          & \getAuthor{}         \\
+    Supervisor:      & \getSupervisor{}     \\
+    Advisor:         & \getAdvisor{}        \\
     Submission Date: & \getSubmissionDate{} \\
   \end{tabular}
 

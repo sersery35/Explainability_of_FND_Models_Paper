@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.29)  10 NOV 2022 00:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.29)  10 NOV 2022 02:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1003,6 +1003,12 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@lotdepth=\count483
 \sf@top=\skip100
 \sf@bottom=\skip101
+) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+Package scrhack Info: loading setspace hack on input line 34.
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/setspace.hak
+File: setspace.hak 2021/11/13 v3.35 KOMA-Script scrhack part (hacking package setspace)
 )
 \c@definition=\count484
 \c@remark=\count485
@@ -1128,7 +1134,9 @@ LaTeX Info: Redefining \microtypecontext on input line 26.
 Package microtype Info: Applying patch `item' on input line 26.
 Package microtype Info: Applying patch `toc' on input line 26.
 Package microtype Info: Applying patch `eqnum' on input line 26.
-Package microtype Info: Applying patch `footnote' on input line 26.
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 26.
+
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1180,42 +1188,42 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 Package nag Info: Command \hc@caption not defined, skipping amendment on input line 26.
 Package nag Info: Command \topcaption not defined, skipping amendment on input line 26.
  (./pages/cover.tex
-<logos/tum_logo.png, id=7, 79.64449pt x 44.24693pt>
-File: logos/tum_logo.png Graphic file (type png)
-<use logos/tum_logo.png>
-Package pdftex.def Info: logos/tum_logo.png  used on input line 16.
-(pdftex.def)             Requested size: 102.4307pt x 56.9055pt.
-<logos/tum_informatik_logo.png, id=9, 60.47081pt x 64.89551pt>
+<logos/tum_logo_transparent.png, id=7, 1885.30435pt x 940.29555pt>
+File: logos/tum_logo_transparent.png Graphic file (type png)
+<use logos/tum_logo_transparent.png>
+Package pdftex.def Info: logos/tum_logo_transparent.png  used on input line 16.
+(pdftex.def)             Requested size: 114.09146pt x 56.9055pt.
+<logos/tum_informatik_logo.png, id=9, 1204.5pt x 1204.5pt>
 File: logos/tum_informatik_logo.png Graphic file (type png)
 <use logos/tum_informatik_logo.png>
-Package pdftex.def Info: logos/tum_informatik_logo.png  used on input line 36.
-(pdftex.def)             Requested size: 53.02621pt x 56.9055pt.
+Package pdftex.def Info: logos/tum_informatik_logo.png  used on input line 38.
+(pdftex.def)             Requested size: 56.90189pt x 56.9055pt.
  [1
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logos/tum_logo.png> <./logos/tum_informatik_logo.png>]) (./pages/title.tex
-File: logos/tum_logo.png Graphic file (type png)
-<use logos/tum_logo.png>
-Package pdftex.def Info: logos/tum_logo.png  used on input line 8.
-(pdftex.def)             Requested size: 102.4307pt x 56.9055pt.
-LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 26.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logos/tum_logo_transparent.png> <./logos/tum_informatik_logo.png>]) (./pages/title.tex
+File: logos/tum_logo_transparent.png Graphic file (type png)
+<use logos/tum_logo_transparent.png>
+Package pdftex.def Info: logos/tum_logo_transparent.png  used on input line 8.
+(pdftex.def)             Requested size: 114.09146pt x 56.9055pt.
+LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 28.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 26.
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 28.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 26.
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 28.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 26.
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 28.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 26.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 28.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
@@ -1225,8 +1233,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 File: logos/tum_informatik_logo.png Graphic file (type png)
 <use logos/tum_informatik_logo.png>
-Package pdftex.def Info: logos/tum_informatik_logo.png  used on input line 36.
-(pdftex.def)             Requested size: 53.02621pt x 56.9055pt.
+Package pdftex.def Info: logos/tum_informatik_logo.png  used on input line 38.
+(pdftex.def)             Requested size: 56.90189pt x 56.9055pt.
  [1
 
 
@@ -1554,14 +1562,14 @@ File: ./data//GOS_FakeNewsExample1Perturbed.png Graphic file (type png)
 <use ./data//GOS_FakeNewsExample1Perturbed.png>
 Package pdftex.def Info: ./data//GOS_FakeNewsExample1Perturbed.png  used on input line 326.
 (pdftex.def)             Requested size: 308.95139pt x 301.36311pt.
-) (./chapters/05_conclusion.tex [67] [68] [69 <./data//EchoChamberExample1.png (PNG copy)>] [70 <./data//EchoChamberExample1Explanation_no_threshold.png (PNG copy)>] [71] [72 <./data//EchoChamber1SubgraphEdgeMaskDistribution.png (PNG copy)>] [73] [74 <./data//POL_RealNewsExample1.png (PNG copy)>] [75 <./data//POL_RealNewsExample1Explanation_no_threshold.png (PNG copy)> <./data//TSNE_GraphSAGE_GOS.png (PNG copy)> <./data//TSNE_GraphSAGE_POL.png (PNG copy)>] [76] [77 <./data//POL_RealNewsExample2.png (PNG copy)> <./data//POL_RealNewsExample2Explanation_no_threshold.png (PNG copy)> <./data//POL_RealNewsExample2Explanation_with_threshold_median.png (PNG copy)> <./data//POL_RealNewsExample2Explanation_with_threshold_mean.png (PNG copy)>] [78 <./data//GOS_FakeNewsExample1.png (PNG copy)>] [79 <./data//GOS_FakeNewsExample1Perturbed.png (PNG copy)>] [80]
+) (./chapters/05_conclusion.tex [67] [68] [69 <./data//EchoChamberExample1.png (PNG copy)>] [70 <./data//EchoChamberExample1Explanation_no_threshold.png (PNG copy)>] [71] [72 <./data//EchoChamber1SubgraphEdgeMaskDistribution.png (PNG copy)>] [73 <./data//POL_RealNewsExample1.png (PNG copy)>] [74 <./data//POL_RealNewsExample1Explanation_no_threshold.png (PNG copy)>] [75 <./data//TSNE_GraphSAGE_GOS.png (PNG copy)> <./data//TSNE_GraphSAGE_POL.png (PNG copy)>] [76 <./data//POL_RealNewsExample2.png (PNG copy)> <./data//POL_RealNewsExample2Explanation_no_threshold.png (PNG copy)> <./data//POL_RealNewsExample2Explanation_with_threshold_median.png (PNG copy)> <./data//POL_RealNewsExample2Explanation_with_threshold_mean.png (PNG copy)>] [77 <./data//GOS_FakeNewsExample1.png (PNG copy)>] [78 <./data//GOS_FakeNewsExample1Perturbed.png (PNG copy)>] [79]
 chapter 5.
-[81
+[80
 
 
-]) [82] [83]
+]) [81] [82]
 Package tocbasic Info: character protrusion at lof deactivated on input line 55.
- (./main.lof [84
+ (./main.lof [83
 
 
 ]
@@ -1573,29 +1581,29 @@ Overfull \hbox (5.61206pt too wide) in paragraph at lines 48--48
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [85]
+ [84]
 Package tocbasic Info: character protrusion at lot deactivated on input line 56.
  (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [86
+ [85
 
 
 ]
 chapter without number
-[87
+[86
 
 
-] [88] [89]
+] [87] [88]
 LaTeX Info: Symbol \textasciiacute not provided by
             font family pplx in TS1 encoding.
             Default family used instead on input line 58.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-) [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102]
+) [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101]
 No complaints by nag.
-[103] (./main.aux)
+[102] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1603,18 +1611,40 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52936 strings out of 480153
- 1230228 string characters out of 5892727
- 2395149 words of memory out of 5000000
- 68686 multiletter control sequences out of 15000+600000
+ 52982 strings out of 480153
+ 1231464 string characters out of 5892727
+ 2395459 words of memory out of 5000000
+ 68727 multiletter control sequences out of 15000+600000
  565011 words of font info for 568 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  115i,14n,109p,10685b,5223s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
+
  </home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (110 pages, 5023948 bytes).
+Output written on main.pdf (109 pages, 5080811 bytes).
 PDF statistics:
- 2036 PDF objects out of 2073 (max. 8388607)
- 1823 compressed objects within 19 object streams
- 465 named destinations out of 1000 (max. 500000)
+ 2032 PDF objects out of 2073 (max. 8388607)
+ 1820 compressed objects within 19 object streams
+ 464 named destinations out of 1000 (max. 500000)
  119261 words of extra memory for PDF output out of 128383 (max. 10000000)
 
