@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.29)  10 NOV 2022 00:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.29)  10 NOV 2022 00:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1010,38 +1010,38 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-LaTeX Font Info:    Trying to load font information for T1+pplx on input line 25.
+LaTeX Font Info:    Trying to load font information for T1+pplx on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplx.fd
 File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 Package nag Info: Attempting subfig hack.
 Package nag Info: OK, equivalent to subfig 1.3, redefining \sf@@@subfloat.
-Package nag Info: pgf.sty is broken: disabling dollar check on input line 25.
-Package nag Info: Command \RaggedLeft not defined, skipping amendment on input line 25.
-Package nag Info: Command \RaggedRight not defined, skipping amendment on input line 25.
-Package scrbase Info: activating american \contentsname on input line 25.
-Package scrbase Info: activating american \listfigurename on input line 25.
-Package scrbase Info: activating american \listtablename on input line 25.
+Package nag Info: pgf.sty is broken: disabling dollar check on input line 26.
+Package nag Info: Command \RaggedLeft not defined, skipping amendment on input line 26.
+Package nag Info: Command \RaggedRight not defined, skipping amendment on input line 26.
+Package scrbase Info: activating american \contentsname on input line 26.
+Package scrbase Info: activating american \listfigurename on input line 26.
+Package scrbase Info: activating american \listtablename on input line 26.
 Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
 Package biblatex Info: ... file 'american-apa.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
@@ -1098,8 +1098,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 25.
-Package biblatex Info: Reference segment=0 on input line 25.
+Package biblatex Info: Reference section=0 on input line 26.
+Package biblatex Info: Reference segment=0 on input line 26.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count487
@@ -1120,22 +1120,22 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@lstlisting=\count493
-Package scrhack Info: undefining \float@addtolists on input line 25.
+Package scrhack Info: undefining \float@addtolists on input line 26.
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-LaTeX Info: Redefining \microtypecontext on input line 25.
-Package microtype Info: Applying patch `item' on input line 25.
-Package microtype Info: Applying patch `toc' on input line 25.
-Package microtype Info: Applying patch `eqnum' on input line 25.
-Package microtype Info: Applying patch `footnote' on input line 25.
+LaTeX Info: Redefining \microtypecontext on input line 26.
+Package microtype Info: Applying patch `item' on input line 26.
+Package microtype Info: Applying patch `toc' on input line 26.
+Package microtype Info: Applying patch `eqnum' on input line 26.
+Package microtype Info: Applying patch `footnote' on input line 26.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 25.
+LaTeX Info: Redefining \showhyphens on input line 26.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1146,7 +1146,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1156,9 +1156,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count494
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1170,21 +1170,31 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 25.
+(scrbook)           before \begin{document} on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count495
 ))
-Package nag Info: Command \hc@caption not defined, skipping amendment on input line 25.
-Package nag Info: Command \topcaption not defined, skipping amendment on input line 25.
- (./pages/cover.tex [1
+Package nag Info: Command \hc@caption not defined, skipping amendment on input line 26.
+Package nag Info: Command \topcaption not defined, skipping amendment on input line 26.
+ (./pages/cover.tex
+<logos/tum_logo.png, id=7, 79.64449pt x 44.24693pt>
+File: logos/tum_logo.png Graphic file (type png)
+<use logos/tum_logo.png>
+Package pdftex.def Info: logos/tum_logo.png  used on input line 16.
+(pdftex.def)             Requested size: 102.4307pt x 56.9055pt.
+<logos/tum_informatik_logo.png, id=9, 60.47081pt x 64.89551pt>
+File: logos/tum_informatik_logo.png Graphic file (type png)
+<use logos/tum_informatik_logo.png>
+Package pdftex.def Info: logos/tum_informatik_logo.png  used on input line 36.
+(pdftex.def)             Requested size: 53.02621pt x 56.9055pt.
+ [1
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./pages/title.tex
-<logos/tum_logo.png, id=14, 79.64449pt x 44.24693pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logos/tum_logo.png> <./logos/tum_informatik_logo.png>]) (./pages/title.tex
 File: logos/tum_logo.png Graphic file (type png)
 <use logos/tum_logo.png>
 Package pdftex.def Info: logos/tum_logo.png  used on input line 8.
@@ -1213,7 +1223,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<logos/tum_informatik_logo.png, id=16, 60.47081pt x 64.89551pt>
 File: logos/tum_informatik_logo.png Graphic file (type png)
 <use logos/tum_informatik_logo.png>
 Package pdftex.def Info: logos/tum_informatik_logo.png  used on input line 36.
@@ -1222,7 +1231,7 @@ Package pdftex.def Info: logos/tum_informatik_logo.png  used on input line 36.
 
 
 
- <./logos/tum_logo.png> <./logos/tum_informatik_logo.png>]) (./pages/disclaimer.tex [2]) (./pages/acknowledgments.tex [3
+]) (./pages/disclaimer.tex [2]) (./pages/acknowledgments.tex [3
 
 
 ]) (./pages/abstract.tex
@@ -1233,7 +1242,7 @@ chapter without number
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 39.
+Package tocbasic Info: character protrusion at toc deactivated on input line 40.
  (./main.toc [5
 
 
@@ -1244,7 +1253,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 39.
 \openout6 = `main.toc'.
 
 LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/pplx/m/it' tried instead on input line 42.
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 43.
  [6] (./chapters/01_introduction.tex
 chapter 1.
 [1
@@ -1551,7 +1560,7 @@ chapter 5.
 
 
 ]) [82] [83]
-Package tocbasic Info: character protrusion at lof deactivated on input line 54.
+Package tocbasic Info: character protrusion at lof deactivated on input line 55.
  (./main.lof [84
 
 
@@ -1565,7 +1574,7 @@ Overfull \hbox (5.61206pt too wide) in paragraph at lines 48--48
 \openout7 = `main.lof'.
 
  [85]
-Package tocbasic Info: character protrusion at lot deactivated on input line 55.
+Package tocbasic Info: character protrusion at lot deactivated on input line 56.
  (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
@@ -1581,7 +1590,7 @@ chapter without number
 ] [88] [89]
 LaTeX Info: Symbol \textasciiacute not provided by
             font family pplx in TS1 encoding.
-            Default family used instead on input line 57.
+            Default family used instead on input line 58.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 ) [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102]
@@ -1594,15 +1603,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52942 strings out of 480153
- 1230322 string characters out of 5892727
- 2395101 words of memory out of 5000000
- 68690 multiletter control sequences out of 15000+600000
+ 52936 strings out of 480153
+ 1230228 string characters out of 5892727
+ 2395149 words of memory out of 5000000
+ 68686 multiletter control sequences out of 15000+600000
  565011 words of font info for 568 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  115i,14n,109p,10685b,5223s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/sersery/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (110 pages, 5023850 bytes).
+Output written on main.pdf (110 pages, 5023948 bytes).
 PDF statistics:
  2036 PDF objects out of 2073 (max. 8388607)
  1823 compressed objects within 19 object streams
