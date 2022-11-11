@@ -1,0 +1,34 @@
+\babel@toc {american}{}\relax 
+\contentsline {chapter}{Acknowledgments}{iii}{Doc-Start}%
+\contentsline {chapter}{\nonumberline Abstract}{v}{chapter*.1}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Background and Related Work}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Fake News Detection}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Fake News}{4}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Foundations of Fake News Detection}{7}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Characterization of Fake News Detection}{11}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Explainable Artificial Intelligence}{17}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Foundations of Explainable Artificial Intelligence}{17}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}What Makes A Good Explanation}{20}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Overview of Techniques in Explainable Artificial Intelligence}{23}{subsection.2.2.3}%
+\contentsline {chapter}{\numberline {3}Explainability of News Content Models for Fake News Detection}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}News Content Models}{27}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Notation and Definitions}{27}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Transformer Architecture}{32}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Dataset and Model}{35}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Explaining News Content Models}{39}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}The SHAP Framework}{40}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Explainability of the News Content Classifier}{41}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Explainability of Mixed Approaches for Fake News Detection}{51}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Mixed Approaches}{51}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Overview of Graphs}{51}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Graph Neural Networks}{53}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Dataset and Model}{56}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Explaining Graph Neural Networks}{61}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}GNNExplainer}{61}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Explainability of the UPFD Classifier}{62}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{75}{chapter.5}%
+\contentsline {chapter}{\nonumberline List of Figures}{79}{chapter*.42}%
+\contentsline {chapter}{\nonumberline List of Tables}{81}{chapter*.43}%
+\contentsline {chapter}{\nonumberline Bibliography}{83}{chapter*.44}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
