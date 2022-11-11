@@ -2,50 +2,50 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Fake news and fake news detection publications by year.}}{5}{figure.caption.3}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Market reaction to the fake tweet.}}{7}{figure.caption.4}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Total Facebook engagements for top 20 election stories.}}{8}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Characterization of fake news detection models.}}{13}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Fake news and fake news detection publications by year.}}{4}{figure.caption.3}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Market reaction to the fake tweet.}}{6}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Total Facebook engagements for top 20 election stories.}}{6}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Characterization of fake news detection models.}}{11}{figure.caption.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces The tokenization pipeline for a textual input.}}{33}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Units and layers of an FCN.}}{35}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The Transformer model architecture.}}{37}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces News content dataset distribution by label and train/validation/test split.}}{41}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces WordCloud visualiations for most frequently occurring 500 tokens in both classes.}}{42}{figure.caption.12}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Fake news}}}{42}{subfigure.5.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Real news}}}{42}{subfigure.5.2}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces The explanation provided by SHAP partition explainer for our first fake news example.}}{46}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces The explanation for the second fake news example.}}{47}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces The bar plot for the Owen values of the tokens in the second fake news example.}}{47}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces The explanation for the first real news example.}}{48}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces The explanation for the second real news example.}}{48}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces The bar plot of the 10 highest Owen values and their tokens for the second real news example.}}{49}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces The explanation for the perturbed first fake news instance.}}{49}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces The explanation for the better perturbed first fake news instance.}}{50}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces The bar plot for the Owen values of better perturbed first fake news instance.}}{50}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces The explanation of the second fake news instance for the retrained model.}}{52}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces The explanation of the first fake news instance for the retrained model.}}{53}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The tokenization pipeline for a textual input.}}{30}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Units and layers of an FCN.}}{31}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The Transformer model architecture.}}{34}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces News content dataset distribution by label and train/validation/test split.}}{37}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces WordCloud visualiations for most frequently occurring 500 tokens in both classes.}}{38}{figure.caption.12}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Fake news}}}{38}{subfigure.5.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Real news}}}{38}{subfigure.5.2}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The explanation provided by SHAP partition explainer for our first fake news example.}}{42}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces The explanation for the second fake news example.}}{42}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces The bar plot for the Owen values of the tokens in the second fake news example.}}{43}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The explanation for the first real news example.}}{43}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces The explanation for the second real news example.}}{44}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces The bar plot of the 10 highest Owen values and their tokens for the second real news example.}}{44}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces The explanation for the perturbed first fake news instance.}}{45}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces The explanation for the better perturbed first fake news instance.}}{45}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces The bar plot for the Owen values of better perturbed first fake news instance.}}{46}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces The explanation of the second fake news instance for the retrained model.}}{47}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces The explanation of the first fake news instance for the retrained model.}}{48}{figure.caption.26}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces UPFD Framework.}}{61}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces UPFD dataset distribution by label and split.}}{62}{figure.caption.28}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {UPFD-Gossipcop}}}{62}{subfigure.2.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {UPFD-Politifact}}}{62}{subfigure.2.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces The UPFD classifier model pipeline.}}{63}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Echo chamber example from the UPFD-Politifact dataset.}}{69}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Echo chamber example explanation for root node.}}{70}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Edge mask distribution of the subgraph provided for echo chamber example explanation.}}{72}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces A real news instance from UPFD-Politifact.}}{73}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Explanation of the real news example from UPFD-Politifact}}{74}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces t-SNE visualizations for GraphSAGE.}}{75}{figure.caption.38}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {UPFD-Gossipcop}}}{75}{subfigure.9.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {UPFD-Politifact}}}{75}{subfigure.9.2}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Outputs of threshold methods for the explaining subgraph of the second real news example from UPFD-Politifact.}}{76}{figure.caption.39}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Second real news instance from UPFD-Politifact.}}}{76}{subfigure.10.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The explaining subgraph provided for the second real news instance.}}}{76}{subfigure.10.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The explaining subgraph with median method applied.}}}{76}{subfigure.10.3}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {The explaining subgraph with mean method applied.}}}{76}{subfigure.10.4}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces A fake news example from UPFD-Gossipcop.}}{77}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces The perturbed version of the fake news example from the UPFD-Gossipcop dataset.}}{78}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces UPFD Framework.}}{56}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces UPFD dataset distribution by label and split.}}{58}{figure.caption.28}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {UPFD-Gossipcop}}}{58}{subfigure.2.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {UPFD-Politifact}}}{58}{subfigure.2.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The UPFD classifier model pipeline.}}{59}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Echo chamber example from the UPFD-Politifact dataset.}}{63}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Echo chamber example explanation for root node.}}{64}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Edge mask distribution of the subgraph provided for echo chamber example explanation.}}{66}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces A real news instance from UPFD-Politifact.}}{68}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Explanation of the real news example from UPFD-Politifact}}{68}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces t-SNE visualizations for GraphSAGE.}}{69}{figure.caption.38}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {UPFD-Gossipcop}}}{69}{subfigure.9.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {UPFD-Politifact}}}{69}{subfigure.9.2}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Outputs of threshold methods for the explaining subgraph of the second real news example from UPFD-Politifact.}}{70}{figure.caption.39}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Second real news instance from UPFD-Politifact.}}}{70}{subfigure.10.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The explaining subgraph provided for the second real news instance.}}}{70}{subfigure.10.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The explaining subgraph with median method applied.}}}{70}{subfigure.10.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {The explaining subgraph with mean method applied.}}}{70}{subfigure.10.4}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces A fake news example from UPFD-Gossipcop.}}{71}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces The perturbed version of the fake news example from the UPFD-Gossipcop dataset.}}{72}{figure.caption.41}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

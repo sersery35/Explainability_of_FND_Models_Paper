@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Nov  4 17:03:26 2022
+# Make data base, printed on Fri Nov 11 14:13:54 2022
 
 # Variables
 
@@ -77,7 +75,7 @@ PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-XXXXXXtYdXGn/agent.1469
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXfdHMQe/agent.1497
 # default
 .SHELLFLAGS := -c
 # environment
@@ -95,7 +93,7 @@ CONDA_SHLVL = 1
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 14711
+VSCODE_PID = 4458
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -103,7 +101,7 @@ XDG_SESSION_TYPE = x11
 # environment
 CONDA_PYTHON_EXE = /home/sersery/Applications/anaconda3/bin/python
 # environment
-SESSION_MANAGER = local/Asus-ROG:@/tmp/.ICE-unix/1729,unix/Asus-ROG:/tmp/.ICE-unix/1729
+SESSION_MANAGER = local/Asus-ROG:@/tmp/.ICE-unix/1757,unix/Asus-ROG:/tmp/.ICE-unix/1757
 # automatic
 *F = $(notdir $*)
 # environment
@@ -179,7 +177,7 @@ XDG_VTNR = 1
 # makefile
 .DEFAULT_GOAL := pdf
 # environment
-SYSTEMD_EXEC_PID = 1451
+SYSTEMD_EXEC_PID = 1479
 # environment
 DISPLAY = :0
 # environment
@@ -191,7 +189,7 @@ KDE_SESSION_UID = 1000
 # environment
 LC_MEASUREMENT = de_DE.UTF-8
 # environment
-SSH_AGENT_PID = 1538
+SSH_AGENT_PID = 1566
 # environment
 _ = /usr/share/code/code
 # environment
@@ -255,9 +253,9 @@ LC_IDENTIFICATION = de_DE.UTF-8
 
 # Directories
 
-# . (device 66312, inode 20578831): 34 files, no impossibilities.
+# . (device 66312, inode 20578831): 33 files, no impossibilities.
 
-# 34 files, no impossibilities in 1 directories.
+# 33 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -268,7 +266,6 @@ LC_IDENTIFICATION = de_DE.UTF-8
 pdf:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
- 
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 6):
@@ -280,6 +277,9 @@ Makefile:
 #  Last modified 2022-08-20 17:56:33.379573387
 #  File has been updated.
 #  Successfully updated.
+
+ 
+make: *** No rule to make target 'all'.  Stop.
 
 clean:
 #  Phony target (prerequisite of .PHONY).
@@ -331,12 +331,12 @@ watch:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 44 / storage = 406 B / avg = 9 B
-# current buf: size = 8162 B / used = 406 B / count = 44 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 43 / storage = 395 B / avg = 9 B
+# current buf: size = 8162 B / used = 395 B / count = 43 / avg = 9 B
 
-# strcache performance: lookups = 63 / hit rate = 30%
+# strcache performance: lookups = 62 / hit rate = 30%
 # hash-table stats:
-# Load=44/8192=1%, Rehash=0, Collisions=0/63=0%
-# Finished Make data base on Fri Nov  4 17:03:26 2022
+# Load=43/8192=1%, Rehash=0, Collisions=0/62=0%
+# Finished Make data base on Fri Nov 11 14:13:54 2022
 
  
